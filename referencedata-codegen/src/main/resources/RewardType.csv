@@ -1,9 +1,0 @@
-"RewardType"
-"key","code","name","note","rewardTypeCategory",
-"4","Cashback","Cashback","Cash that is paid to the member as a reward","null",
-"7","NoReward","No Reward","No Reward","null",
-"2","Points","Points","Loyalty program points such as Vitality points. The points can translate into some type of reward for the member.","null",
-"5","RewardOpportunity","Reward Opportunity","The opportunity to receive a reward","null",
-"6","Selection","Reward Selection","The ability to select a reward from a list of rewards","null",
-"3","Token","Token","A token is a type of reward that can be exchanged for some other reward","null",
-"1","Voucher","Voucher","A voucher that may be exchanged for the goods or services specified by the voucher","null",

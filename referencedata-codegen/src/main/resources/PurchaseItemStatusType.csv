@@ -1,4 +1,0 @@
-"PurchaseItemStatusType"
-"key","code","name","note",
-"1","Fulfilled","Fulfilled","The purchase item has been supplied an paid for by the member",
-"2","Returned","Returned","The purchase item has been returned to the partner by the member",

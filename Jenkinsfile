@@ -1,3 +1,0 @@
-node("android") {
-    androidReleasePipeline()
-}

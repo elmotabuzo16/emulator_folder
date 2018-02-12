@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <!--This will be the placeholder for strings on debug screens only-->
-    <string name="first_time_preferences" translatable="false">First-time preferences</string> <!-- Temporary -->
-</resources>

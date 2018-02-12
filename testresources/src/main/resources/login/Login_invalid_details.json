@@ -1,9 +1,0 @@
-{
-  "errors": [
-    {
-      "code": "",
-      "context": "Integration_Platform_Services_V1_Micro_Service",
-      "message": "Authentication failed for someone@somewhere.com@carbon.super"
-    }
-  ]
-}

@@ -1,7 +1,0 @@
-"AwardedRewardReferenceType"
-"key","code","name","note",
-"3","EventId","Event Id","Number or code that uniquely identifies an event",
-"2","GoalTrackerId","Goal Tracker Id","Number or code that uniquely identifies a goal tracker",
-"5","PartnerRewardCode","Partner Reward Code","The reward code that is supplied by the partner when the reward is created in their system and will be used when redeeming the reward",
-"4","PartnerSysRewardID","Partner System Reward ID","The reward ID supplied by the partner when the reward is issued. This is an internal id that is used by the partner to identify the reward in their system and is not presented to the member",
-"1","VoucherNumber","Voucher Number","Number or code that uniquely identifies a voucher",

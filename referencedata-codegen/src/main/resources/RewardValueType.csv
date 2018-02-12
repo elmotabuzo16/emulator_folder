@@ -1,5 +1,0 @@
-"RewardValueType"
-"key","code","name","note",
-"1","Monetary","Monetary","A monetary value such as Rands or Dollars",
-"2","Percentage","Percentage","Percentage discount value",
-"3","SpecificItem","Specific Item","A specific item such as a cup of coffee",

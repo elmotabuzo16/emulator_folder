@@ -1,5 +1,0 @@
-"RewardOption"
-"key","code","name","note",
-"2","Choice","Choice","The reward is a choice that the member may select",
-"1","Predetermined","Predetermined","The reward is predetermined",
-"3","Probabilistic","Probabilistic","The reward is a probabilistic reward where the reward is assigned to the member based on some probability.",

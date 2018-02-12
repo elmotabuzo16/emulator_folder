@@ -1,5 +1,0 @@
-package com.vitalityactive.va.activerewards.participatingpartners;
-
-public class CachedParticipatingPartnerDetailActivity extends BaseCachedParticipatingPartnerDetailActivity {
-
-}

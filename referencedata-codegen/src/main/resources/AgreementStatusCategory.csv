@@ -1,9 +1,0 @@
-"AgreementStatusCategory"
-"key","code","name","note",
-"6","AGREEMENT","Agreement","The agreement lifecycle status category",
-"7","BENEFIT","Benefit","Benefit",
-"1"," CONTRACT"," Contract"," Contract",
-"5"," ENGAGEMENT"," Engagement"," Engagement",
-"2"," MEMBER_LIABILITY"," Member Liability"," Member Liability",
-"4"," REWARD"," Reward"," Reward",
-"3"," VITALITY_LIABILITY"," Vitality Liability"," Vitality Liability",

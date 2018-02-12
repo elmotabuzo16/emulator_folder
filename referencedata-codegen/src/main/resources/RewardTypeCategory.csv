@@ -1,7 +1,0 @@
-"RewardTypeCategory"
-"key","code","name","note",
-"4","AccrualItem","Accrual item","Reward is a item that accrues towards another reward",
-"1","FinancialTransaction","Physical financial transaction","Reward is a physical financial transaction such as a cashback",
-"5","Provisional","Provisional Reward","Reward with the possibility to be changed later",
-"3","Recognition","Recognition","Reward is a form of recognition such as a badge that is displayed in the mobile app",
-"2","VirtualTransaction","Virtual financial transaction","Reward is a virtual financial transaction such as Vitality points,loyalty program points or miles",

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">@color/sumitomoRed</color>
-    <color name="colorPrimaryDark">@color/sumitomoDarkRed</color>
-    <color name="colorAccent">@color/sumitomoRed</color>
-
-    <color name="sumitomoRed">#c50018</color>
-    <color name="sumitomoDarkRed">#9E0013</color>
-</resources>

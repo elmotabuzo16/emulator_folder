@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<searchable xmlns:android="http://schemas.android.com/apk/res/android"
-    android:hint="@string/help_view_searchbar_placeholder_263"
-    android:label="@string/help_button_title_141"
-    android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"/>
