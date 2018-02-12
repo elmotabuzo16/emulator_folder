@@ -1,0 +1,4 @@
+package com.vitalityactive.va.nonsmokersdeclaration.onboarding;
+
+public class NonSmokersDeclarationLearnMoreActivity extends BaseNonSmokersDeclarationLearnMoreActivity {
+}

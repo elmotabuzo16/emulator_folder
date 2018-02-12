@@ -1,0 +1,7 @@
+"PartyPhysicalAddressRolePurposeType"
+"key","code","name","note",
+"1","Billing Address","Billing Address","Billing Address",
+"3","Delivery Address","Delivery Address","Delivery Address",
+"2","Marketing Address","Marketing Address","Marketing Address",
+"5","MarketingInfo","Marketing Information","Marketing Information",
+"4","ProductDelivery","Product Delivery","Product Delivery",

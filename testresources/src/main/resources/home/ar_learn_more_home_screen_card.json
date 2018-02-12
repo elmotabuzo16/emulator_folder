@@ -1,0 +1,113 @@
+{
+  "currentStatus": {
+    "highestVitalityStatusCode": "Platinum",
+    "highestVitalityStatusKey": 4,
+    "highestVitalityStatusName": "Platinum",
+    "lowestVitalityStatusCode": "Bronze",
+    "lowestVitalityStatusKey": 1,
+    "lowestVitalityStatusName": "Bronze",
+    "nextVitalityStatusCode": "Silver",
+    "nextVitalityStatusKey": 2,
+    "nextVitalityStatusName": "Silver",
+    "overallVitalityStatusCode": "Bronze",
+    "overallVitalityStatusKey": 1,
+    "overallVitalityStatusName": "Bronze",
+    "pointsStatusCode": "Bronze",
+    "pointsStatusKey": 1,
+    "pointsStatusName": "Bronze",
+    "pointsToMaintainStatus": 0,
+    "totalPoints": 0
+  },
+  "daysLeftInMembershipPeriod": {
+    "daysRemaining": 360
+  },
+  "pointsToNextStatuses": [
+    {
+      "pointsNeeded": 0,
+      "sortOrder": 1,
+      "statusCode": "Bronze",
+      "statusKey": 1,
+      "statusName": "Bronze",
+      "statusPoints": 0
+    },
+    {
+      "pointsNeeded": 5000,
+      "sortOrder": 2,
+      "statusCode": "Silver",
+      "statusKey": 2,
+      "statusName": "Silver",
+      "statusPoints": 5000
+    },
+    {
+      "pointsNeeded": 10000,
+      "sortOrder": 3,
+      "statusCode": "Gold",
+      "statusKey": 3,
+      "statusName": "Gold",
+      "statusPoints": 10000
+    },
+    {
+      "pointsNeeded": 15000,
+      "sortOrder": 4,
+      "statusCode": "Platinum",
+      "statusKey": 4,
+      "statusName": "Platinum",
+      "statusPoints": 15000
+    }
+  ],
+  "sections": [
+    {
+      "cards": [],
+      "priorityFlag": true,
+      "typeCode": "KnowYourHealth",
+      "typeKey": 1,
+      "typeName": "Know Your Health"
+    },
+    {
+      "cards": [],
+      "priorityFlag": false,
+      "typeCode": "ImproveYourHealth",
+      "typeKey": 2,
+      "typeName": "Improve Your Health"
+    },
+    {
+      "cards": [
+        {
+          "cardItems": [],
+          "cardMetadatas": [
+            {
+              "typeCode": "PotentialPoints",
+              "typeKey": 1,
+              "typeName": "Potential Points",
+              "value": "0"
+            },
+            {
+              "typeCode": "EarnedPoints",
+              "typeKey": 3,
+              "typeName": "Earned Points",
+              "value": "0"
+            }
+          ],
+          "amountCompleted": 0,
+          "priority": 1,
+          "statusTypeCode": "NotStarted",
+          "statusTypeKey": 1,
+          "statusTypeName": "Not Started",
+          "total": 0,
+          "typeCode": "Reward/s",
+          "typeKey": 10,
+          "typeName": "Reward/s",
+          "unitTypeCode": "EarnedExpiring",
+          "unitTypeKey": 3,
+          "unitTypeName": "Earned Expiring",
+          "validFrom": "2017-11-10",
+          "validTo": "9999-12-31"
+        }
+      ],
+      "priorityFlag": false,
+      "typeCode": "GetRewarded",
+      "typeKey": 3,
+      "typeName": "Get Rewarded"
+    }
+  ]
+}

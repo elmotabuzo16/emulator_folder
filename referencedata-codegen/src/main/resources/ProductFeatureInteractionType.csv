@@ -1,0 +1,6 @@
+"ProductFeatureInteractionType"
+"key","code","name","note",
+"3","AssociatedTo","AssociatedTo","AssociatedTo",
+"1","ConsistsOf","ConsistsOf","ConsistsOf",
+"2","Includes","Includes","Includes",
+"4","LinkedTo","LinkedTo","LinkedTo",

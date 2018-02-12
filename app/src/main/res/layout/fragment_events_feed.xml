@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_events_feed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vitalityactive.va.eventsfeed.views.fragments.EventsFeedFragment">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/events_feed_tabs"
+        style="@style/Widget.VitalityActive.TabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabMaxWidth="0dp"
+        app:tabMode="scrollable" />
+
+    <TextView
+        android:id="@+id/events_feed_sticky_year_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/events_feed_tabs"
+        android:layout_marginBottom="9dp"
+        android:layout_marginStart="23dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"
+        android:textSize="12sp" />
+
+    <include
+        android:id="@+id/loading_indicator"
+        layout="@layout/loading_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/events_feed_tabs"
+        android:visibility="gone" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/events_feed_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/events_feed_tabs" />
+
+</RelativeLayout>

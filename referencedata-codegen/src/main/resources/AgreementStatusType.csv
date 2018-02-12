@@ -1,0 +1,8 @@
+"AgreementStatusType"
+"key","code","name","note",
+"1"," ACTIVE"," Active"," Active",
+"2"," CANCEL"," Cancel"," Cancel",
+"4"," REINSTATE"," Reinstate"," Reinstate",
+"6"," SUSPENDED"," Suspended"," Suspended",
+"3"," SYNC_CANCEL"," Sync Cancel"," Sync Cancel",
+"5"," SYNC_REINSTATE"," Sync Reinstate"," Sync Reinstate",

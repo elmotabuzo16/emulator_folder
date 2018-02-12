@@ -1,0 +1,423 @@
+{
+  "questionnaireSetTypeKey": 1,
+  "questionnaireSetTypeCode": "VHR",
+  "questionnaireSetTypeName": "Vitality Health Review",
+  "totalPotentialPoints": 10,
+  "totalEarnedPoints": 10,
+  "totalQuestionnaires": 3,
+  "totalQuestionnaireCompleted": 3,
+  "questionnaireSetCompleted": true,
+  "questionnaire": [
+    {
+      "typeKey": 1,
+      "typeCode": "LifestyleHabits",
+      "typeName": "Lifestyle Habits",
+      "sortOrderIndex": 3,
+      "completedOn": "2017-04-11",
+      "completionFlag": true,
+      "questionnaireSections": [
+        {
+          "questions": [
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Textbox",
+                "typeKey": 1,
+                "typeName": "Textbox"
+              },
+              "questionTypeCode": "FreeText",
+              "questionTypeKey": 3,
+              "questionTypeName": "Free Text",
+              "sortOrderIndex": 22,
+              "text": "Other condition",
+              "typeCode": "OtherMedical",
+              "typeKey": 192,
+              "visibilityTagName": "191;==;True;Boolean"
+            },
+            {
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Asthma",
+                  "value": "Asthma"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Cancer",
+                  "value": "Cancer"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Chronic Obstructive Pulmonary Disease",
+                  "value": "Chronic Obstructive Pulmonary Disease"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Diabetes",
+                  "value": "Diabetes"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Heart Disease",
+                  "value": "Heart Disease"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "High Blood Pressure",
+                  "value": "High Blood Pressure"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "High Cholesterol",
+                  "value": "High Cholesterol"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Osteoporosis",
+                  "value": "Osteoporosis"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Stroke",
+                  "value": "Stroke"
+                }
+              ],
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeName": "Mobile",
+                "typeCode": "Checkbox",
+                "typeKey": 2,
+                "typeName": "Checkbox",
+                "channelTypeKey": 1
+              },
+              "questionTypeCode": "MultipleSelect",
+              "questionTypeKey": 10,
+              "questionTypeName": "Multiple Select",
+              "text": "Has anyone in your family* ever been diagnosed by a doctor or prescribed medication for any of the following medical conditions?",
+              "sortOrderIndex": 1,
+              "typeCode": "FamilyMedicalCond",
+              "typeKey": 66
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Toggle",
+                "typeKey": 7,
+                "typeName": "Toggle"
+              },
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 5.0,
+              "text": "Arthritis",
+              "textNote": "Arthritis is inflammation of one or more of the joints.  ",
+              "typeCode": "ArthritisQuestion",
+              "typeKey": 10,
+              "validValues": [
+                {
+                  "name": "True",
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "value": "True"
+                },
+                {
+                  "name": "False",
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "value": "False"
+                }
+              ]
+            }
+          ],
+          "typeKey": 18,
+          "typeCode": "YourWellbeing",
+          "isVisible": true,
+          "visibilityTagName": "",
+          "typeName": "Your Wellbeing",
+          "sortOrderIndex": 1
+        },
+        {
+          "questions": [
+            {
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "GenderMale",
+                  "value": "Male"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "GenderFemale",
+                  "value": "Female"
+                }
+              ],
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeName": "Mobile",
+                "typeCode": "RadioButton",
+                "typeKey": 3,
+                "typeName": "Radio Button",
+                "channelTypeKey": 1
+              },
+              "length": 10,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "text": "Select your gender",
+              "sortOrderIndex": 2,
+              "typeCode": "Gender",
+              "typeKey": 4
+            }
+          ],
+          "typeKey": 15,
+          "typeCode": "EatingHabits",
+          "isVisible": true,
+          "visibilityTagName": "",
+          "typeName": "Your Eating Habits",
+          "sortOrderIndex": 2
+        },
+        {
+          "questions": [
+            {
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "LowerLimit",
+                      "typeKey": 3,
+                      "typeName": "Lower Limit"
+                    }
+                  ],
+                  "unitOfMeasure": {
+                    "value": "100145"
+                  },
+                  "name": "0",
+                  "value": "0"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "UpperLimit",
+                      "typeKey": 4,
+                      "typeName": "Upper Limit"
+                    }
+                  ],
+                  "unitOfMeasure": {
+                    "value": "100145"
+                  },
+                  "name": "25",
+                  "value": "25"
+                }
+              ],
+              "unitOfMeasures": [
+                {
+                  "value": "100145"
+                }
+              ],
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeName": "Mobile",
+                "typeCode": "Textbox",
+                "typeKey": 1,
+                "typeName": "Textbox",
+                "channelTypeKey": 1
+              },
+              "questionTypeCode": "NumberRange",
+              "questionTypeKey": 1,
+              "questionTypeName": "Number Range",
+              "text": "What is your HbA1C Reading?",
+              "sortOrderIndex": 7,
+              "typeCode": "HbA1cDYK",
+              "typeKey": 77,
+              "visibilityTagName": "76;==;PositiveResponse;Name"
+            },
+            {
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "LowerLimit",
+                      "typeKey": 3,
+                      "typeName": "Lower Limit"
+                    }
+                  ],
+                  "unitOfMeasure": {
+                    "value": "100111"
+                  },
+                  "name": "0",
+                  "value": "0"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "UpperLimit",
+                      "typeKey": 4,
+                      "typeName": "Upper Limit"
+                    }
+                  ],
+                  "unitOfMeasure": {
+                    "value": "100111"
+                  },
+                  "name": "25",
+                  "value": "25"
+                }
+              ],
+              "unitOfMeasures": [
+                {
+                  "value": "100111"
+                },
+                {
+                  "value": "100105"
+                }
+              ],
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeName": "Mobile",
+                "typeCode": "Textbox",
+                "typeKey": 1,
+                "typeName": "Textbox",
+                "channelTypeKey": 1
+              },
+              "questionTypeCode": "NumberRange",
+              "questionTypeKey": 1,
+              "questionTypeName": "Number Range",
+              "text": "What is your HbA1C Reading?",
+              "sortOrderIndex": 8,
+              "typeCode": "dummy-key",
+              "typeKey": 78,
+              "visibilityTagName": ""
+            },
+            {
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "PositiveResponse",
+                  "value": "Yes"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "NegativeResponse",
+                  "value": "No"
+                }
+              ],
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeName": "Mobile",
+                "typeCode": "YesNo",
+                "typeKey": 8,
+                "typeName": "YesNo",
+                "channelTypeKey": 1
+              },
+              "length": 10,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "text": "Do you know your exact HbA1c level?",
+              "sortOrderIndex": 8,
+              "typeCode": "HbA1cQuestion",
+              "typeKey": 76
+            }
+          ],
+          "typeKey": 67,
+          "typeCode": "GeneralHealth",
+          "isVisible": true,
+          "visibilityTagName": "",
+          "typeName": "Your General Health",
+          "sortOrderIndex": 3
+        }
+      ]
+    }
+  ]
+}

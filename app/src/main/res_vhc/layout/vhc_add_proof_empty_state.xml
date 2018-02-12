@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/vhc_camera_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/active_reward"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/vhc_add_proof_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vhc_camera_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/proof.add_proof_empty_title_164"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="@dimen/onboarding_subheading_text_size"/>
+
+    <TextView
+        android:id="@+id/vhc_add_proof_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vhc_add_proof_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/proof.add_proof_empty_message_165" />
+
+    <Button
+        android:id="@+id/vhc_add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vhc_add_proof_description"
+        android:minWidth="120dp"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onVHCAddProofTapped"
+        android:text="@string/proof.add_button_166"
+        android:textSize="@dimen/onboarding_subtitle_text_size"
+        android:theme="@style/VHCOnboardingButton" />
+
+</RelativeLayout>

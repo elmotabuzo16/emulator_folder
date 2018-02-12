@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vhr_question_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:includeFontPadding="false"
+            android:textAppearance="@style/MaterialLightSubheadMedium"
+            tools:text="Select the medical conditions that your family has been diagnosed or prescribed medication for by a doctor." />
+
+        <TextView
+            android:id="@+id/vhr_question_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="24dp"
+            android:textAppearance="@style/MaterialLightBody2"
+            android:textSize="16sp"
+            tools:text="This is a description that is unlikely to occur in the wild." />
+
+        <LinearLayout
+            android:id="@+id/vhr_question_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/divider"
+                layout="@layout/horizontal_rule"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/activity_horizontal_margin" />
+
+            <TextView
+                android:id="@+id/vhr_question_footer_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="13dp"
+                android:textAppearance="@style/MaterialDarkCaption"
+                android:textColor="@color/light_disabled_38"
+                tools:text="Family is biological father, mother, brother or sister." />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

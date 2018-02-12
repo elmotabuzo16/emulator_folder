@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name="com.vitalityactive.va.login.basic.BasicLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.vitalityactive.va.register.view.ActivateActivity"
+            android:parentActivityName="com.vitalityactive.va.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.vitalityactive.va.login.callback.LoginCallbackActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="oauth"
+                    android:pathPrefix="/redirect"
+                    android:scheme="com.vitalityactive.essentials" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vitalityactive.va.userpreferences.learnmore.ShareVitalityStatusActivity"
+            android:parentActivityName="com.vitalityactive.va.userpreferences.PrivacyStatementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

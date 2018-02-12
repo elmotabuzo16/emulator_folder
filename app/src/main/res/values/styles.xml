@@ -1,11 +1,616 @@
 <resources>
 
-    <style name="AppTheme" parent="AppTheme.Base"/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
-    <style name="MyButton" parent="Widget.AppCompat.Button">
-        <item name="android:background">@drawable/button</item>
-        <item name="android:textSize">@dimen/button_text_size</item>
-        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+        <item name="android:textColorTertiaryInverse">@android:color/white</item>
+
+        <item name="colorControlNormal">#1e000000</item>
+
+        <item name="actionMenuTextColor">@android:color/white</item>
     </style>
 
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/light_secondary_54</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- Theme without transition animations -->
+    <style name="NoAnimTheme" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="AppTheme.OnboardingTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.ImproveYourHealth">
+        <item name="colorPrimary">@color/waterBlue</item>
+        <item name="colorPrimaryDark">@color/eastern_blue</item>
+        <item name="colorAccent">@color/waterBlue</item>
+    </style>
+
+    <style name="AppTheme.ImproveYourHealth.BehindStatusBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.KnowYourHealth">
+        <item name="colorPrimary">@color/jungle_green</item>
+        <item name="colorPrimaryDark">@color/jungle_green_dark</item>
+        <item name="colorAccent">@color/jungle_green</item>
+    </style>
+
+    <style name="AppTheme.KnowYourHealth.datePicker"
+        parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/jungle_green</item>
+    </style>
+
+    <style name="AppTheme.Rewards">
+        <item name="colorPrimary">@color/salmon_pink</item>
+        <item name="colorPrimaryDark">@color/salmon_pink_dark</item>
+        <item name="colorAccent">@color/salmon_pink</item>
+    </style>
+
+    <style name="AppTheme.MyHealth" parent="AppTheme">
+        <item name="android:listDivider">@drawable/myhealth_divider</item>
+    </style>
+
+    <style name="AppTheme.KnowYourHealth.BehindStatusBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.KnowYourHealth.add_proof">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionMode</item>
+    </style>
+
+    <style name="AppTheme.VitalityStatus">
+        <item name="android:buttonStyle">@style/AppTheme.VitalityStatus.Button</item>
+    </style>
+
+    <style name="AppTheme.VitalityStatus.Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/my_health_onboarding_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:maxHeight">36dp</item>
+        <item name="android:width">120dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ActionMode" parent="Widget.AppCompat.Light.ActionMode.Inverse">
+        <item name="background">@color/jungle_green</item>
+        <item name="titleTextStyle">@style/ActionbarWhiteText</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="ActionbarWhiteText" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.VitalityActive.AutoCompleteTextView.SearchView" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="autoCompleteTextViewStyle">
+            @style/Widget.VitalityActive.AutoCompleteTextView.SearchView
+        </item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="LoginButton">
+        <!-- Fixes button colour being gray instead of Vitality orange on API-19 devices -->
+        <item name="colorButtonNormal">@color/login_button_color</item>
+        <item name="android:textColor">@color/login_button_text_color</item>
+    </style>
+
+    <style name="DefaultButton" parent="Widget.AppCompat.Button">
+        <item name="android:minWidth">96dp</item>
+        <item name="android:textSize">14sp</item>
+        <!--
+        <item name="android:textColor">?android:attr/colorAccent</item>
+
+        todo: this is causing a failure when the tests are run from the command line:
+        android.content.res.Resources$NotFoundException: Resource is not a ColorStateList (color or path): TypedValue{t=0x2/d=0x1010435 a=2}
+         -->
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="DefaultButtonColored" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:minWidth">96dp</item>
+    </style>
+
+    <style name="OnboardingButton">
+        <item name="colorButtonNormal">@android:color/white</item>
+    </style>
+
+    <style name="LinkButton">
+        <item name="android:background">@color/waterBlue</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SelectVoucherButton">
+        <item name="android:background">@color/waterBlue</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="LinkButtonInverted">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/waterBlue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LinkButtonInvertedRed" parent="LinkButtonInverted">
+        <item name="android:textColor">@color/crimson_red</item>
+    </style>
+
+    <style name="LinkButtonInvertedGreen" parent="LinkButtonInverted">
+        <item name="android:textColor">@color/jungle_green</item>
+    </style>
+
+    <style name="VHCOnboardingButton">
+        <item name="colorButtonNormal">@color/jungle_green</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="VHCSubmitButton">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">@color/jungle_green</item>
+    </style>
+
+    <style name="DeviceLinkButton">
+        <item name="colorButtonNormal">@color/waterBlue</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="VHRGreenButtonWithWhiteText">
+        <item name="colorButtonNormal">@color/jungle_green</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="VHRButtonWithGrayText">
+        <item name="android:textColor">@color/secondary_54</item>
+    </style>
+
+    <style name="BaseToolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Toolbar" parent="BaseToolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="ToolbarNoElevation" parent="BaseToolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.VitalityActive.Base.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="tabIndicatorColor">@color/tab_indicator</item>
+        <item name="tabIndicatorHeight">@dimen/tab_indicator_height</item>
+        <item name="tabSelectedTextColor">@color/tab_text_selected</item>
+        <item name="tabTextColor">@color/tab_text</item>
+        <item name="android:minHeight">@dimen/tab_bar_height</item>
+    </style>
+
+    <style name="Widget.VitalityActive.TabLayout" parent="Widget.VitalityActive.Base.TabLayout">
+
+    </style>
+
+    <style name="LinearProgress">
+        <item name="colorAccent">@color/waterBlue</item>
+    </style>
+
+    <style name="LoadingIndicator" />
+
+    <style name="ProgressDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+
+    </style>
+    <!--<item name="colorAccent">@android:color/white</item>-->
+    <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+
+    <style name="MaterialDisplay3">
+        <item name="android:textSize">56sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/water_blue</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="MaterialLightHeadlineH1">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="MaterialLightSubheadH3">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialLightHeadline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialDarkHeadline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialLightTitleH2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialLightTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialDarkTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialDarkSubheadSecondary">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#b2ffffff</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialLightSubheadSecondary">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#8a000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialLightSubheadSecondaryBlack">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialLightSubheadDisabled">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_disabled_38</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialLightSubhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialLightSubheadMedium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#de000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialDarkSubhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialDarkSubheadDisabled">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#7fffffff</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MaterialLightBody2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+
+    <style name="MaterialLightBody2Secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondary_54</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+
+    <style name="MaterialDarkBody2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+
+    <style name="MaterialDarkBody2Secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#b2ffffff</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+
+    <style name="MaterialLightBody2SectionHeaders">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_disabled_38</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+
+    <style name="MaterialLightBody1Secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#8a000000</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="MaterialLightBody1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="MaterialDarkBody1Secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#b2ffffff</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="MaterialDarkBody1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="MaterialLightBody1Disabled">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_disabled_38</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="MaterialDarkBody1Disabled">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#7fffffff</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="MaterialLightCaptionSecondary">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#89000000</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="MaterialLightCaptionDisabled">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#61000000</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="MaterialLightCaption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="MaterialDarkCaption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="MaterialDarkCaptionSecondary">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#b2ffffff</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="OverflowCounterStyle">
+        <item name="android:textColor">#d50000</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="VitalityAgeLearnMoreButton">
+        <item name="android:textColor">@color/learnMore</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">118dp</item>
+        <item name="android:minHeight">36dp</item>
+    </style>
+
+    <style name="VitalityAgeLightHeader">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="VitalityAgeStatus">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="VitalityAgeValue">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+    </style>
+
+    <style name="VitalityAgeNarration">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <style name="AppTheme.VitalityAge">
+        <item name="colorPrimary">@color/jungle_green</item>
+        <item name="colorPrimaryDark">@color/jungle_green_dark</item>
+        <item name="colorAccent">@color/jungle_green</item>
+    </style>
+
+    <style name="MyHealthOnboardingHeader">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">#de000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MyHealthOnboardingButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">118dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="MyHealthMoreResultsButton">
+        <item name="android:textColor">@color/vitality_orange</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">122dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="ButtonGreen" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/jungle_green</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyHealthAttributeTipFeedback">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#ddf34358</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <color name="learnMore">#006580</color>
+
+    <style name="MyHealthFeedbackAttributeTipTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="MyHealthFeedbackAttributeTipValue">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#8a000000</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="MyHealthFeedbackAttributeMoreTips">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/vitality_orange</item>
+        <item name="android:lineSpacingExtra">0.04sp</item>
+    </style>
+
+    <style name="MyTextInputLayoutErrorText" parent="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/crimson_red</item>
+    </style>
 </resources>

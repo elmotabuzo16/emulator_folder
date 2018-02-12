@@ -1,0 +1,10 @@
+{
+  "errors": [
+    {
+      "code": 500,
+      "context": "string",
+      "message": "Internal Server Error",
+      "type": "string"
+    }
+  ]
+}

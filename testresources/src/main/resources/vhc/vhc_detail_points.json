@@ -1,0 +1,490 @@
+{
+  "eventType" : [
+    {
+      "totalEarnedPoints" : 9250,
+      "totalPotentialPoints" : 10000,
+      "categoryCode" : "VHC",
+      "typeCode" : "TotCholesterol",
+      "reasonKey" : 207,
+      "reasonCode" :  "Maximum points",
+      "reasonName" : "You earned the maximum points available for this activity",
+      "event" : [
+        {
+          "healthAttributeReadings" : [
+            {
+              "healthAttributeFeedbacks" : [
+                {
+                  "feedbackTypeTypeCode" : "Conclusion",
+                  "feedbackTypeKey" : 11,
+                  "feedbackTypeName" : "Your Total Cholesterol is above the recommended range, improve your eating habits and eat less sugar",
+                  "feedbackTypeTypeKey" : 1,
+                  "feedbackTypeCode" : "TotalCholesterolHigh",
+                  "feedbackTypeTypeName" : "Conclusion"
+                }
+              ],
+              "healthAttributeTypeKey" : 4,
+              "measuredOn" : "2017-07-02",
+              "healthAttributeTypeCode" : "TotalCholesterol",
+              "healthAttributeTypeName" : "TotalCholesterol",
+              "value" : "12.0",
+              "unitOfMeasure" : "100118"
+            }
+          ],
+          "eventMetaDataType" : [
+            {
+              "code" : "Value",
+              "unitOfMeasure" : "100118",
+              "key" : 166,
+              "value" : "12.0",
+              "name" : "Value"
+            }
+          ],
+          "pointsEntries" : [
+            {
+              "id" : 15381266,
+              "categoryName" : "Screening",
+              "typeCode" : "TotCholesterol",
+              "potentialValue" : 750,
+              "statusTypeKey" : 2,
+              "reason" : [
+                {
+                  "categoryCode" : "Conditions",
+                  "categoryKey" : 1,
+                  "reasonKey" : 200,
+                  "reasonName" : "You earned the maximum points available for this activity",
+                  "reasonCode" : "Maximum points",
+                  "categoryName" : "Conditions"
+                }
+              ],
+              "statusTypeName" : "Calculated",
+              "categoryCode" : "Screening",
+              "earnedValue" : 750,
+              "statusTypeCode" : "Calculated",
+              "categoryKey" : 6,
+              "typeKey" : 8,
+              "typeName" : "Total Cholesterol"
+            },
+            {
+              "id" : 15381267,
+              "categoryName" : "Screening",
+              "typeCode" : "CholesterolHR",
+              "potentialValue" : 0,
+              "statusTypeKey" : 2,
+              "reason" : [
+                {
+                  "categoryCode" : "Conditions",
+                  "categoryKey" : 1,
+                  "reasonKey" : 200,
+                  "reasonName" : "You earned the maximum points available for this activity",
+                  "reasonCode" : "Maximum points",
+                  "categoryName" : "Conditions"
+                }
+              ],
+              "statusTypeName" : "Calculated",
+              "categoryCode" : "Screening",
+              "earnedValue" : 0,
+              "statusTypeCode" : "Calculated",
+              "categoryKey" : 6,
+              "typeKey" : 9,
+              "typeName" : "Cholesterol HR"
+            }
+          ],
+          "eventId" : 19665631,
+          "eventSource" : {
+            "eventSourceCode" : "MobileApp",
+            "eventSourceKey" : 1
+          },
+          "eventDateTime" : "2017-08-02T00:00:00.000000000+02:00[Africa\/Johannesburg]"
+        }
+      ],
+      "typeKey" : 94,
+      "typeName" : "TotCholesterol",
+      "categoryKey" : 22,
+      "healthAttribute" : [
+        {
+          "healthAttributeTypeValidValueses" : [
+            {
+              "typeTypeCode" : "Decimal Range",
+              "unitofMeasure" : "100113",
+              "maxValue" : "20",
+              "upperLimit" : "5.2",
+              "minValue" : "0",
+              "lowerLimit" : "2.0",
+              "typeTypeKey" : 5,
+              "typeTypeName" : "Decimal Range"
+            },
+            {
+              "maxValue" : "773.3952",
+              "typeTypeName" : "Decimal Range",
+              "typeTypeCode" : "Decimal Range",
+              "typeTypeKey" : 5,
+              "minValue" : "0",
+              "unitofMeasure" : "100118"
+            }
+          ],
+          "typeName" : "TotalCholesterol",
+          "typekey" : 4,
+          "typeCode" : "TotalCholesterol"
+        }
+      ],
+      "categoryName" : "VHC"
+    },
+    {
+      "totalEarnedPoints" : 0,
+      "totalPotentialPoints" : 0,
+      "categoryCode" : "VHC",
+      "typeCode" : "TriGlycCholesterol",
+      "event" : [
+        {
+          "healthAttributeReadings" : [
+            {
+              "healthAttributeFeedbacks" : [
+
+              ],
+              "healthAttributeTypeKey" : 7,
+              "measuredOn" : "2017-07-02",
+              "healthAttributeTypeCode" : "Triglycerides",
+              "healthAttributeTypeName" : "Triglycerides",
+              "value" : "0.02258100937111889",
+              "unitOfMeasure" : "100119"
+            }
+          ],
+          "eventMetaDataType" : [
+            {
+              "code" : "Value",
+              "unitOfMeasure" : "100121",
+              "key" : 166,
+              "value" : "2.0",
+              "name" : "Value"
+            }
+          ],
+          "pointsEntries" : [
+
+          ],
+          "eventId" : 19665634,
+          "eventSource" : {
+            "eventSourceCode" : "MobileApp",
+            "eventSourceKey" : 1
+          },
+          "eventDateTime" : "2017-08-02T00:00:00.000000000+02:00[Africa\/Johannesburg]"
+        }
+      ],
+      "typeKey" : 97,
+      "typeName" : "TriGlycCholesterol",
+      "categoryKey" : 22,
+      "healthAttribute" : [
+        {
+          "healthAttributeTypeValidValueses" : [
+            {
+              "maxValue" : "442.8698",
+              "typeTypeName" : "Decimal Range",
+              "typeTypeCode" : "Decimal Range",
+              "typeTypeKey" : 5,
+              "minValue" : "0",
+              "unitofMeasure" : "100119"
+            },
+            {
+              "maxValue" : "5",
+              "typeTypeName" : "Decimal Range",
+              "typeTypeCode" : "Decimal Range",
+              "typeTypeKey" : 5,
+              "minValue" : "0",
+              "unitofMeasure" : "100121"
+            }
+          ],
+          "typeName" : "Triglycerides",
+          "typekey" : 7,
+          "typeCode" : "Triglycerides"
+        }
+      ],
+      "categoryName" : "VHC"
+    },
+    {
+      "totalEarnedPoints" : 0,
+      "totalPotentialPoints" : 0,
+      "categoryCode" : "VHC",
+      "typeCode" : "HDLCholesterol",
+      "event" : [
+        {
+          "healthAttributeReadings" : [
+            {
+              "healthAttributeFeedbacks" : [
+
+              ],
+              "healthAttributeTypeKey" : 6,
+              "measuredOn" : "2017-07-02",
+              "healthAttributeTypeCode" : "HDLCholesterol",
+              "healthAttributeTypeName" : "HDLCholesterol",
+              "value" : "0.3103180760279286",
+              "unitOfMeasure" : "100126"
+            }
+          ],
+          "eventMetaDataType" : [
+            {
+              "code" : "Value",
+              "unitOfMeasure" : "100124",
+              "key" : 166,
+              "value" : "12.0",
+              "name" : "Value"
+            }
+          ],
+          "pointsEntries" : [
+
+          ],
+          "eventId" : 19665633,
+          "eventSource" : {
+            "eventSourceCode" : "MobileApp",
+            "eventSourceKey" : 1
+          },
+          "eventDateTime" : "2017-08-02T00:00:00.000000000+02:00[Africa\/Johannesburg]"
+        }
+      ],
+      "typeKey" : 95,
+      "typeName" : "HDLCholesterol",
+      "categoryKey" : 22,
+      "healthAttribute" : [
+        {
+          "healthAttributeTypeValidValueses" : [
+            {
+              "maxValue" : "386.6976",
+              "typeTypeName" : "Decimal Range",
+              "typeTypeCode" : "Decimal Range",
+              "typeTypeKey" : 5,
+              "minValue" : "0",
+              "unitofMeasure" : "100124"
+            },
+            {
+              "maxValue" : "10",
+              "typeTypeName" : "Decimal Range",
+              "typeTypeCode" : "Decimal Range",
+              "typeTypeKey" : 5,
+              "minValue" : "0",
+              "unitofMeasure" : "100126"
+            }
+          ],
+          "typeName" : "HDLCholesterol",
+          "typekey" : 6,
+          "typeCode" : "HDLCholesterol"
+        }
+      ],
+      "categoryName" : "VHC"
+    },
+    {
+      "totalEarnedPoints" : 750,
+      "totalPotentialPoints" : 0,
+      "categoryCode" : "VHC",
+      "typeCode" : "LDLCholestrol",
+      "event" : [
+        {
+          "healthAttributeReadings" : [
+            {
+              "healthAttributeFeedbacks" : [
+
+              ],
+              "healthAttributeTypeKey" : 5,
+              "measuredOn" : "2017-07-02",
+              "healthAttributeTypeCode" : "LDLCholesterol",
+              "healthAttributeTypeName" : "LDLCholesterol",
+              "value" : "5.0",
+              "unitOfMeasure" : "100113"
+            }
+          ],
+          "eventMetaDataType" : [
+            {
+              "code" : "Value",
+              "unitOfMeasure" : "100113",
+              "key" : 166,
+              "value" : "5.0",
+              "name" : "Value"
+            }
+          ],
+          "pointsEntries" : [
+
+          ],
+          "eventId" : 19665632,
+          "eventSource" : {
+            "eventSourceCode" : "MobileApp",
+            "eventSourceKey" : 1
+          },
+          "eventDateTime" : "2017-08-02T00:00:00.000000000+02:00[Africa\/Johannesburg]"
+        }
+      ],
+      "typeKey" : 96,
+      "typeName" : "LDLCholestrol",
+      "categoryKey" : 22,
+      "healthAttribute" : [
+        {
+          "healthAttributeTypeValidValueses" : [
+            {
+              "maxValue" : "10",
+              "typeTypeName" : "Decimal Range",
+              "typeTypeCode" : "Decimal Range",
+              "typeTypeKey" : 5,
+              "minValue" : "0",
+              "unitofMeasure" : "100113"
+            },
+            {
+              "maxValue" : "386.6976",
+              "typeTypeName" : "Decimal Range",
+              "typeTypeCode" : "Decimal Range",
+              "typeTypeKey" : 5,
+              "minValue" : "0",
+              "unitofMeasure" : "100125"
+            }
+          ],
+          "typeName" : "LDLCholesterol",
+          "typekey" : 5,
+          "typeCode" : "LDLCholesterol"
+        }
+      ],
+      "categoryName" : "VHC"
+    },
+    {
+      "totalEarnedPoints" : 500,
+      "totalPotentialPoints" : 1000,
+      "reasonKey": 207,
+      "categoryCode" : "VHC",
+      "typeCode" : "WaistCircum",
+      "event" : [
+        {
+          "healthAttributeReadings" : [
+            {
+              "healthAttributeFeedbacks" : [
+                {
+                  "feedbackTypeTypeCode" : "Conclusion",
+                  "feedbackTypeKey" : 13,
+                  "feedbackTypeName" : "Your Waist Circumference is above the recommended range, improve your physical activities",
+                  "feedbackTypeTypeKey" : 1,
+                  "feedbackTypeCode" : "WaistCircumAbove",
+                  "feedbackTypeTypeName" : "Conclusion"
+                }
+              ],
+              "healthAttributeTypeKey" : 1,
+              "measuredOn" : "2017-07-02",
+              "healthAttributeTypeCode" : "WaistCircumference",
+              "healthAttributeTypeName" : "Waist Circumference",
+              "value" : "114.3",
+              "unitOfMeasure" : "100111"
+            }
+          ],
+          "eventMetaDataType" : [
+            {
+              "code" : "Value",
+              "unitOfMeasure" : "100105",
+              "key" : 166,
+              "value" : "45.0",
+              "name" : "Value"
+            }
+          ],
+          "pointsEntries" : [
+
+          ],
+          "eventId" : 19665638,
+          "eventSource" : {
+            "eventSourceCode" : "MobileApp",
+            "eventSourceKey" : 1
+          },
+          "eventDateTime" : "2017-08-02T00:00:00.000000000+02:00[Africa\/Johannesburg]"
+        }
+      ],
+      "typeKey" : 89,
+      "typeName" : "WaistCircum",
+      "categoryKey" : 22,
+      "healthAttribute" : [
+        {
+          "healthAttributeTypeValidValueses" : [
+            {
+              "typeTypeName" : "Number Range",
+              "typeTypeCode" : "Number Range",
+              "typeTypeKey" : 2,
+              "minValue" : "11.8",
+              "unitofMeasure" : "100105"
+            },
+            {
+              "typeTypeName" : "Number Range",
+              "typeTypeCode" : "Number Range",
+              "typeTypeKey" : 2,
+              "minValue" : "30",
+              "unitofMeasure" : "100111"
+            }
+          ],
+          "typeName" : "Waist Circumference",
+          "typekey" : 1,
+          "typeCode" : "WaistCircumference"
+        }
+      ],
+      "categoryName" : "VHC"
+    },
+    {
+      "totalEarnedPoints" : 0,
+      "totalPotentialPoints" : 1000,
+      "reasonName": "Response reason",
+      "categoryCode" : "VHC",
+      "typeCode" : "HeightCaptured",
+      "event" : [
+        {
+          "healthAttributeReadings" : [
+            {
+              "healthAttributeFeedbacks" : [
+
+              ],
+              "healthAttributeTypeKey" : 12,
+              "measuredOn" : "2017-07-02",
+              "healthAttributeTypeCode" : "Height",
+              "healthAttributeTypeName" : "Height",
+              "value" : "1.89",
+              "unitOfMeasure" : "100103"
+            }
+          ],
+          "eventMetaDataType" : [
+            {
+              "code" : "Value",
+              "unitOfMeasure" : "100103",
+              "key" : 166,
+              "value" : "1.89",
+              "name" : "Value"
+            }
+          ],
+          "pointsEntries" : [
+
+          ],
+          "eventId" : 19665630,
+          "eventSource" : {
+            "eventSourceCode" : "MobileApp",
+            "eventSourceKey" : 1
+          },
+          "eventDateTime" : "2017-08-02T00:00:00.000000000+02:00[Africa\/Johannesburg]"
+        }
+      ],
+      "typeKey" : 87,
+      "typeName" : "HeightCaptured",
+      "categoryKey" : 22,
+      "healthAttribute" : [
+        {
+          "healthAttributeTypeValidValueses" : [
+            {
+              "maxValue" : "9.833333",
+              "typeTypeName" : "Decimal Range",
+              "typeTypeCode" : "Decimal Range",
+              "typeTypeKey" : 5,
+              "minValue" : "2.583333",
+              "unitofMeasure" : "100117"
+            },
+            {
+              "maxValue" : "3",
+              "typeTypeName" : "Decimal Range",
+              "typeTypeCode" : "Decimal Range",
+              "typeTypeKey" : 5,
+              "minValue" : "0.79",
+              "unitofMeasure" : "100103"
+            }
+          ],
+          "typeName" : "Height",
+          "typekey" : 12,
+          "typeCode" : "Height"
+        }
+      ],
+      "categoryName" : "VHC"
+    }
+  ]
+}

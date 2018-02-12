@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/loadable_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/MaterialLightHeadlineH1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:layout_marginTop="24dp"
+                android:text="@string/AR.Rewards.confirm_reward_title_690" />
+
+            <include
+                android:id="@+id/voucher_details"
+                layout="@layout/active_rewards_voucher_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title" />
+
+            <TextView
+                android:id="@+id/register_account_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/voucher_details"
+                android:layout_marginBottom="60dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="10dp"
+                style="@style/MaterialLightBody1Secondary"
+                android:gravity="center_horizontal"
+                tools:text="Make sure that the correct Starbucks Reward™ Email is provided to receive your free drink. Need an account? Register account" />
+
+            <ImageView
+                android:id="@+id/email_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register_account_message"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/login_email_icon_content_description"
+                android:paddingBottom="12dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="0dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/email_inactive" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register_account_message"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@id/email_icon">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="@string/AR.partners.starbucks_reward_email_hint_1061"
+                    android:inputType="textEmailAddress"
+                    android:textSize="@dimen/onboarding_subtitle_text_size" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                style="@style/MaterialLightCaptionSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email_layout"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:text="@string/AR.partners.starbucks_reward_footnote_1062" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/loginBackgroundDisabled"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_bar_forward_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:onClick="handleConfirmButtonTapped"
+            android:text="@string/confirm_title_button_182" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp"
+    app:cardCornerRadius="@dimen/feedback_tips_summary_card_border"
+    >
+
+    <View
+        android:id="@+id/item_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/myhealth_tips_list_item_divider" />
+
+    <include layout="@layout/myhealth_vitalityage_tip_card_content"
+        android:id="@+id/more_results_attribute_layout"/>
+
+
+</LinearLayout>

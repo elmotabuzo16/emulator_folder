@@ -1,0 +1,308 @@
+{
+  "application": {
+    "configurationVersion": {
+      "effectiveTo": "9999-01-01",
+      "applicationFeatures": [
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "lifeRayContentId",
+              "value": "vhc-privacy-policy"
+            }
+          ],
+          "typeKey": 8,
+          "name": "VHC data sharing consent content",
+          "toggle": true,
+          "typeCode": "VHCDSConsentContent"
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "gradientColor1",
+              "value": "ff4848"
+            },
+            {
+              "name": "gradientColor2",
+              "value": "ff4848"
+            },
+            {
+              "name": "liferayGroupId",
+              "value": "34799"
+            },
+            {
+              "name": "defaultLanguage",
+              "value": "en"
+            },
+            {
+              "name": "globalTintColor",
+              "value": "ff6e00"
+            }
+          ],
+          "typeKey": 1,
+          "name": "Insurer Configuration",
+          "toggle": true,
+          "typeCode": "InsConfig"
+        },
+        {
+          "applicationFeatureParameters": [],
+          "typeKey": 3,
+          "name": "Non-smoker's Declaration Journey",
+          "toggle": true,
+          "typeCode": "NonsmokersDclJrny"
+        },
+        {
+          "applicationFeatureParameters": [],
+          "typeKey": 10,
+          "name": "Vitality Health Review Journey",
+          "toggle": true,
+          "typeCode": "vhrJrny"
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "lifeRayContentId",
+              "value": "vitality-non-smokers"
+            }
+          ],
+          "typeKey": 4,
+          "name": "Non-smoker's Declaration Content",
+          "toggle": true,
+          "typeCode": "NonsmokersDclrtnCont"
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "en",
+              "value": "non_smokers_declaration_en.json"
+            },
+            {
+              "name": "ja",
+              "value": "non_smokers_declaration_ja.json"
+            }
+          ],
+          "typeKey": 6,
+          "name": "Non-smoker's Declaration Resource Files",
+          "toggle": true,
+          "typeCode": "NonsmokersDclResFils"
+        },
+        {
+          "applicationFeatureParameters": [],
+          "typeKey": 7,
+          "name": "Vitality Health Check Journey",
+          "toggle": true,
+          "typeCode": "vhcJrny"
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "en",
+              "value": "vhc_en.json"
+            },
+            {
+              "name": "ja",
+              "value": "vhc_ja.json"
+            }
+          ],
+          "typeKey": 9,
+          "name": "Vitality Health Check Resource Files",
+          "toggle": true,
+          "typeCode": "vhcResFiles"
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "en",
+              "value": "vhr_en.json"
+            },
+            {
+              "name": "ja",
+              "value": "vhr_ja.json"
+            }
+          ],
+          "typeKey": 12,
+          "name": "Vitality Health Review Resource Files",
+          "toggle": true,
+          "typeCode": "vhrResFiles"
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "lifeRayContentId",
+              "value": "non-smokers-privacy-policy"
+            }
+          ],
+          "typeKey": 5,
+          "name": "Non-smoker's Declaration Data Sharing Consent Content",
+          "toggle": true,
+          "typeCode": "NonsmokersDSConsCont"
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "lifeRayContentId",
+              "value": "terms-and-conditions"
+            }
+          ],
+          "typeKey": 2,
+          "name": "Login terms and conditions content",
+          "toggle": true,
+          "typeCode": "TsAndCsContent"
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "lifeRayContentId",
+              "value": "vhr-privacy-policy"
+            }
+          ],
+          "typeKey": 11,
+          "name": "VHR data sharing consent content",
+          "toggle": true,
+          "typeCode": "VHRDSConsentContent"
+        }
+      ],
+      "releaseVersion": "1.0",
+      "effectiveFrom": "2012-12-18"
+    },
+    "typeKey": 1,
+    "name": "VitalityActive",
+    "typeCode": "VitalityActive"
+  },
+  "partyDetails": {
+    "webAddresses": [],
+    "emailAddresses": [],
+    "references": [],
+    "generalPreferences": [
+      {
+        "effectiveTo": "2019-12-12",
+        "typeKey": 1,
+        "value": "true",
+        "effectiveFrom": "2016-01-01",
+        "typeCode": "EmailCommPref"
+      }
+    ],
+    "person": {
+      "middleNames": "test",
+      "genderTypeKey": 1,
+      "titleTypeCode": "MR",
+      "bornOn": "1995-01-01",
+      "titleTypeKey": 1,
+      "genderTypeCode": "MALE",
+      "givenName": "Shawn",
+      "familyName": "Daniel",
+      "preferredName": "Vita",
+      "suffix": "-a"
+    },
+    "tenantId": 2,
+    "telephoneNumbers": [],
+    "physicalAddresses": [],
+    "accessToken": "cd4d6885-cd49-34b7-a39b-41c6ef157726",
+    "partyId": 1874150
+  },
+  "userInstructions": [],
+  "vitalityMembership": [
+    {
+      "renewalPeriod": [
+        {
+          "effectiveTo": "9999-12-31",
+          "period": 12,
+          "unit": "2",
+          "effectiveFrom": "2016-01-01"
+        }
+      ],
+      "memberReferences": [],
+      "parties": [
+        {
+          "effectiveTo": "9999-12-31",
+          "typeKey": 2,
+          "typeName": "Main Member",
+          "id": 1874150,
+          "effectiveFrom": "2016-01-01",
+          "typeCode": "MAINMEMBER"
+        }
+      ],
+      "stateCategory": [
+        {
+          "typeKey": 1,
+          "typeName": "Contract",
+          "state": [
+            {
+              "effectiveTo": "9999-12-31",
+              "statusTypeName": "Active",
+              "statusTypeKey": 1,
+              "statusTypeCode": "ACTIVE",
+              "effectiveFrom": "2016-01-01"
+            }
+          ],
+          "typeCode": "CONTRACT"
+        }
+      ],
+      "membershipProducts": [
+        {
+          "effectiveTo": "9999-12-31",
+          "typeKey": 3,
+          "productFeatureApplicabilities": [
+            {
+              "effectiveTo": "9999-12-31",
+              "featureLinks": [
+                {
+                  "typeKey": 3,
+                  "typeName": "Points category link to feature",
+                  "linkedKey": 5,
+                  "typeCode": "PointsCategory"
+                }
+              ],
+              "typeKey": 72,
+              "typeName": "Assessments Points Category",
+              "effectiveFrom": "2017-01-01",
+              "typeCode": "AssessmentsPoints",
+              "featureTypeKey": 19
+            },
+            {
+              "effectiveTo": "9999-12-31",
+              "featureLinks": [
+                {
+                  "typeKey": 3,
+                  "typeName": "Points category link to feature",
+                  "linkedKey": 3,
+                  "typeCode": "PointsCategory"
+                }
+              ],
+              "typeKey": 73,
+              "typeName": "Fitness Points Category",
+              "effectiveFrom": "2017-01-01",
+              "typeCode": "Fitness",
+              "featureTypeKey": 19
+            },
+            {
+              "effectiveTo": "9999-12-31",
+              "featureLinks": [
+                {
+                  "typeKey": 3,
+                  "typeName": "Points category link to feature",
+                  "linkedKey": 6,
+                  "typeCode": "PointsCategory"
+                }
+              ],
+              "typeKey": 75,
+              "typeName": "Screening Points Category",
+              "effectiveFrom": "2017-01-01",
+              "typeCode": "Screening",
+              "featureTypeKey": 19
+            }
+          ],
+          "productAttributes": [],
+          "typeName": "Vitality Active V1",
+          "productAssociations": [],
+          "effectiveFrom": "2016-01-01",
+          "typeCode": "VITALITYACTIVEV1"
+        }
+      ],
+      "id": 3143750,
+      "currentVitalityMembershipPeriod": {
+        "effectiveTo": "2017-12-31",
+        "effectiveFrom": "2017-01-01"
+      }
+    }
+  ]
+}

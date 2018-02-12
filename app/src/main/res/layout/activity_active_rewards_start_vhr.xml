@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activerewards.onboarding.ActiveRewardsVhrStartActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/AR.get_started.vitality_health_review_icon_content_description_763"
+        android:src="@drawable/vhr_120" />
+
+    <TextView
+        style="@style/MaterialLightTitleH2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/AR.get_started_vhr_title_769"
+        android:textAlignment="center" />
+
+    <TextView
+        style="@style/MaterialLightBody1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/AR.get_started_vhr_description_770"
+        android:textAlignment="center" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_start_vhr"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="152dp"
+        android:onClick="onStartVhrClicked"
+        android:text="@string/AR.get_started_complete_vhr_button_title_772" />
+
+</LinearLayout>

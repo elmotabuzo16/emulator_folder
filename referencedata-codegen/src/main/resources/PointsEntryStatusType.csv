@@ -1,0 +1,5 @@
+"PointsEntryStatusType"
+"key","code","name",
+"2","CALCULATED_STATUS","Calculated Points",
+"1","CREATED_STATUS","Calculated Points",
+"3","REVERSED_STATUS","Reversed Points",

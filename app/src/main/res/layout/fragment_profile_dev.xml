@@ -1,0 +1,171 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/active_rewards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AR.Landing.home_view_title_710" />
+
+        <Button
+            android:id="@+id/first_time_preferences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_time_preferences" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/vhc_onboarding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VHC Onboarding"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/vhc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_card.card_title_125" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/vhr_button_onboarding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VHR Onboarding"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/vhr_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vhr_button_title" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/non_smokers_declaration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_card.card_title_96" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_wellness_devices_onboarding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WDA onboarding" />
+
+            <Button
+                android:id="@+id/btn_wellness_devices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/WDA.onboarding.heading_416" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_vna_onboarding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VNA onboarding"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btn_vna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vna_button_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_partner_journey_rewards"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Partner journey (rewards)"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btn_partner_journey_wellness"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Partner journey (wellness)"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btn_partner_journey_health"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Partner journey (health)"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_vitality_status_onboarding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vitality Status Onboarding"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btn_vitality_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vitality Status"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/clear_and_logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear preferences and Log out"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Settings.logout_title_908" />
+    </LinearLayout>
+</ScrollView>

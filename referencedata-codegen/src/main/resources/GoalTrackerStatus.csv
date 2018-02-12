@@ -1,0 +1,10 @@
+"GoalTrackerStatus"
+"key","code","name","note",
+"1","Achieved","Achieved","Achieved",
+"3","Cancelled","Cancelled","Cancelled",
+"7","InProgress","In Progress Goal tracker","In Progress Goal tracker",
+"4","ManualCancellation","Manually Cancelled Goal Tracker","Manually Cancelled Goal Tracker",
+"6","ManuallyAchieved","Manually Achieved Goal Tracker","Manually Achieved Goal Tracker",
+"2","Not Achieved","Not Achieved","Not Achieved",
+"8","Pending","Pending Goal tracker","Pending Goal tracker",
+"5","SystemCancellation","System Cancelled Goal Tracker","System Cancelled Goal Tracker",

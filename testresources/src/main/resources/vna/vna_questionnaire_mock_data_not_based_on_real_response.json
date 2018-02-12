@@ -1,0 +1,408 @@
+{
+  "NOTE": "this is mock data, not based on a real response",
+  "questionnaire": [
+    {
+      "questionnaireSections": [
+        {
+          "questions": [
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Textbox",
+                "typeKey": 1,
+                "typeName": "Textbox"
+              },
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "LowerLimit",
+                      "typeKey": 3,
+                      "typeName": "Lower Limit"
+                    }
+                  ],
+                  "name": "0",
+                  "value": "0"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "UpperLimit",
+                      "typeKey": 4,
+                      "typeName": "Upper Limit"
+                    }
+                  ],
+                  "name": "24",
+                  "value": "24"
+                }
+              ],
+              "length": 10,
+              "questionTypeCode": "NumberRange",
+              "questionTypeKey": 1,
+              "questionTypeName": "Number Range",
+              "sortOrderIndex": 1.0,
+              "text": "On average, how many hours of each day do you eat?",
+              "typeCode": "AvgHoursEatDay",
+              "typeKey": 112321
+            }
+          ],
+          "isVisible": true,
+          "sortOrderIndex": 1.0,
+          "typeCode": "EatingPatterns",
+          "typeKey": 171,
+          "typeName": "Your Eating Patterns",
+          "visibilityTagName": ""
+        }
+      ],
+      "completedOn": "",
+      "completionFlag": false,
+      "sortOrderIndex": 1.0,
+      "textDescription": "2 min",
+      "typeCode": "EatingHabits",
+      "typeKey": 30,
+      "typeName": "Eating Habits"
+    },
+    {
+      "questionnaireSections": [
+        {
+          "questions": [
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Textbox",
+                "typeKey": 1,
+                "typeName": "Textbox"
+              },
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "LowerLimit",
+                      "typeKey": 3,
+                      "typeName": "Lower Limit"
+                    }
+                  ],
+                  "name": "0",
+                  "value": "0"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "UpperLimit",
+                      "typeKey": 4,
+                      "typeName": "Upper Limit"
+                    }
+                  ],
+                  "name": "20",
+                  "value": "20"
+                }
+              ],
+              "length": 10,
+              "questionTypeCode": "NumberRange",
+              "questionTypeKey": 1,
+              "questionTypeName": "Number Range",
+              "sortOrderIndex": 2.0,
+              "text": "How many servings of fruit do you eat?",
+              "textDescription": "One s erving size is equal to 100 g of fruit (such as a medium-sized tomato, a handful of cherry tomatoes, one apple, two apricots).",
+              "typeCode": "FruitConsumption",
+              "typeKey": 100
+            }
+          ],
+          "isVisible": true,
+          "sortOrderIndex": 1.0,
+          "typeCode": "Overall",
+          "typeKey": 3,
+          "typeName": "Fruit",
+          "visibilityTagName": ""
+        },
+        {
+          "questions": [
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Textbox",
+                "typeKey": 1,
+                "typeName": "Textbox"
+              },
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "LowerLimit",
+                      "typeKey": 3,
+                      "typeName": "Lower Limit"
+                    }
+                  ],
+                  "name": "0",
+                  "value": "0"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "UpperLimit",
+                      "typeKey": 4,
+                      "typeName": "Upper Limit"
+                    }
+                  ],
+                  "name": "20",
+                  "value": "20"
+                }
+              ],
+              "length": 10,
+              "questionTypeCode": "NumberRange",
+              "questionTypeKey": 1,
+              "questionTypeName": "Number Range",
+              "sortOrderIndex": 1.0,
+              "text": "How many servings of vegetables do you eat?",
+              "textDescription": "One serving size is equal to 100 g of raw or cooked vegetables (such as spinach, artichoke, beans, cabbage).",
+              "typeCode": "VegetableConsumption",
+              "typeKey": 99
+            }
+          ],
+          "isVisible": true,
+          "sortOrderIndex": 3.0,
+          "typeCode": "FamilyMedicalHistory",
+          "typeKey": 5,
+          "typeName": "Vegtables",
+          "visibilityTagName": ""
+        },
+        {
+          "questions": [
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "RadioButton",
+                "typeKey": 3,
+                "typeName": "Radio Button"
+              },
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Never",
+                  "value": "Never"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Rarely",
+                  "value": "Rarely"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Occasionally",
+                  "value": "Occasionally"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Usually",
+                  "value": "Usually"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Frequently",
+                  "value": "Frequently"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Always",
+                  "value": "Always"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "I do not eat meat or fish",
+                  "value": "I do not eat meat or fish"
+                }
+              ],
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 7.0,
+              "text": "You eat lean meats (such as skinless chicken, turkey, fish and lean red meats) instead of higher fat meats (such as lamb chops, sausage, and steak with visible fat).",
+              "typeCode": "LeanMeats",
+              "typeKey": 105
+            }
+          ],
+          "isVisible": true,
+          "sortOrderIndex": 4.0,
+          "typeCode": "KeyMeasurements",
+          "typeKey": 6,
+          "typeName": "Meat",
+          "visibilityTagName": ""
+        },
+        {
+          "questions": [
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "RadioButton",
+                "typeKey": 3,
+                "typeName": "Radio Button"
+              },
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Never",
+                  "value": "Never"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Rarely",
+                  "value": "Rarely"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Occasionally",
+                  "value": "Occasionally"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Usually",
+                  "value": "Usually"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Frequently",
+                  "value": "Frequently"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Always",
+                  "value": "Always"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "I do not eat or drink dairy products",
+                  "value": "I do not eat or drink dairy products"
+                }
+              ],
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 8.0,
+              "text": "You eat or drink low-fat or skimmed dairy products (such as milk as a drink or in cereal, and low-fat or fat free yogurt) instead of full-fat dairy products:",
+              "typeCode": "LowFatDairy",
+              "typeKey": 106
+            }
+          ],
+          "isVisible": true,
+          "sortOrderIndex": 2.0,
+          "textNote": "",
+          "typeCode": "MedicalHistory",
+          "typeKey": 4,
+          "typeName": "Dairy",
+          "visibilityTagName": ""
+        }
+      ],
+      "completedOn": "",
+      "completionFlag": false,
+      "sortOrderIndex": 1.0,
+      "textDescription": "28 min",
+      "typeCode": "GeneralHealth",
+      "typeKey": 12,
+      "typeName": "Food consumption"
+    }
+  ],
+  "questionnaireSetCompleted": true,
+  "questionnaireSetTypeCode": "VNA",
+  "questionnaireSetTypeKey": 2,
+  "questionnaireSetTypeName": "Vitality Nutrition Assessment",
+  "totalEarnedPoints": 2000,
+  "totalPotentialPoints": 8239,
+  "setTextDescription": "Mock VNA questionnaire set",
+  "setTextNote": "MOCK VNA footer",
+  "totalQuestionnaireCompleted": 0,
+  "totalQuestionnaires": 2
+}

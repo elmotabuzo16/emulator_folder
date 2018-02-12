@@ -1,0 +1,980 @@
+{
+  "sections": [
+    {
+      "attributes": [
+        {
+          "event": {
+            "eventMetaDatas": [],
+            "applicableTo": 20669474,
+            "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+            "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+            "eventId": 25808186,
+            "eventSourceTypeCode": "MobileApp",
+            "eventSourceTypeKey": 1,
+            "eventSourceTypeName": "MobileApp",
+            "reportedBy": 20669474,
+            "typeCode": "LifestyleComp",
+            "typeKey": 140,
+            "typeName": "Completion of the Lifestyle Section of the VHR"
+          },
+          "healthAttributeFeedbacks": [
+            {
+              "feedbackTips": [],
+              "feedbackTypeCode": "VAgeAbove",
+              "feedbackTypeKey": 36,
+              "feedbackTypeName": "Too High",
+              "feedbackTypeTypeCode": "Observation",
+              "feedbackTypeTypeKey": 3,
+              "feedbackTypeTypeName": "Feedback that is giving an observation"
+            }
+          ],
+          "healthAttributeMetadatas": [
+            {
+              "typeKey": 2,
+              "value": "15"
+            }
+          ],
+          "recommendations": [],
+          "attributeTypeCode": "VitalityAge",
+          "attributeTypeKey": 25,
+          "attributeTypeName": "Vitality Age",
+          "measuredOn": "2017-12-06",
+          "sortOrder": 1,
+          "value": "42.14806672645436"
+        }
+      ],
+      "sections": [
+        {
+          "attributes": [
+            {
+              "event": {
+                "eventMetaDatas": [],
+                "applicableTo": 20669474,
+                "dateLogged": "2017-12-06T07:04:03.982000000Z[UTC]",
+                "effectiveDateTime": "2017-12-06T07:04:03.261000000Z[UTC]",
+                "eventId": 25808179,
+                "eventSourceTypeCode": "MobileApp",
+                "eventSourceTypeKey": 1,
+                "eventSourceTypeName": "MobileApp",
+                "reportedBy": 20669474,
+                "typeCode": "GnrlHealthComp",
+                "typeKey": 138,
+                "typeName": "Completion of the Genereal Health Section of the VHR"
+              },
+              "healthAttributeFeedbacks": [
+                {
+                  "feedbackTips": [
+                    {
+                      "note": "Excessive fat around the stomach area increases your risk of heart disease, amongst others.",
+                      "typeCode": "WaistCircumfReduce",
+                      "typeKey": 11,
+                      "typeName": "Lose the belly!"
+                    }
+                  ],
+                  "feedbackTypeCode": "WCircumAbove",
+                  "feedbackTypeKey": 46,
+                  "feedbackTypeName": "Too High",
+                  "feedbackTypeTypeCode": "Observation",
+                  "feedbackTypeTypeKey": 3,
+                  "feedbackTypeTypeName": "Feedback that is giving an observation",
+                  "whyIsThisImportant": "Waist circumference reflects body fatness and fat around the stomach area increases one’s risk of disease.   Try to work towards reaching and maintaining a healthy waist circumference. Excessive fat around the stomach area is linked to an increased risk for numerous lifestyle related medical conditions. But remember that waist circumference is only one of the many aspects that determine your overall risk for disease."
+                }
+              ],
+              "healthAttributeMetadatas": [
+                {
+                  "measurementUnitId": 100111,
+                  "typeCode": "SourceValue",
+                  "typeKey": 166,
+                  "typeName": "Source Value",
+                  "value": "100"
+                }
+              ],
+              "recommendations": [
+                {
+                  "friendlyValue": "a waist circumference less than 90 CM",
+                  "unitOfMeasureId": 100111,
+                  "value": "90"
+                }
+              ],
+              "attributeTypeCode": "WaistCircumference",
+              "attributeTypeKey": 1,
+              "attributeTypeName": "Waist Circumference",
+              "friendlyValue": "100 {{unitOfMeasureId}}",
+              "measuredOn": "2017-12-06",
+              "sortOrder": 1,
+              "unitofMeasure": "100111",
+              "value": "100"
+            }
+          ],
+          "sections": [
+            {
+              "attributes": [
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:06:28.013000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:06:27.065000000Z[UTC]",
+                    "eventId": 25808185,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "SocialHabitsComp",
+                    "typeKey": 139,
+                    "typeName": "Completion of the Social Habits Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Keep active and take care of excessive stress. ",
+                          "typeCode": "MoveReduceStress",
+                          "typeKey": 28,
+                          "typeName": "Get Moving"
+                        }
+                      ],
+                      "feedbackTypeCode": "SmokingAbove",
+                      "feedbackTypeKey": 57,
+                      "feedbackTypeName": "Too Much",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Smoking increases one’s risk of developing a wide range of diseases."
+                    }
+                  ],
+                  "healthAttributeMetadatas": [],
+                  "recommendations": [],
+                  "attributeTypeCode": "TobaccoUse",
+                  "attributeTypeKey": 48,
+                  "attributeTypeName": "Tobacco Use",
+                  "friendlyValue": "",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 1,
+                  "value": "POSITIVERESPONSE"
+                },
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+                    "eventId": 25808186,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "LifestyleComp",
+                    "typeKey": 140,
+                    "typeName": "Completion of the Lifestyle Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Adding too much fat whilst cooking increases the energy content of your meals which can lead to weight gain.",
+                          "typeCode": "LimitFatCook",
+                          "typeKey": 143,
+                          "typeName": "Fry using limited amounts of fat"
+                        },
+                        {
+                          "note": "Keep active and take care of excessive fat. ",
+                          "typeCode": "MoveReduceStress",
+                          "typeKey": 128,
+                          "typeName": "Get Moving"
+                        }
+                      ],
+                      "feedbackTypeCode": "HighFatCookAbove",
+                      "feedbackTypeKey": 76,
+                      "feedbackTypeName": "Too Frequent",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Adding fat to foods and eating fatty foods regularly contributes to a high-fat diet and a high calorie intake which poses certain health risks. "
+                    }
+                  ],
+                  "healthAttributeMetadatas": [],
+                  "recommendations": [
+                    {
+                      "friendlyValue": "RARELY prepare meals using higher fat cooking methods.",
+                      "unitOfMeasureId": -1,
+                      "value": "RARELY"
+                    }
+                  ],
+                  "attributeTypeCode": "HighFatCookMethods",
+                  "attributeTypeKey": 50,
+                  "attributeTypeName": "Cooking Methods",
+                  "friendlyValue": "You OCCASIONALLY prepare meals using higher fat cooking methods.",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 2,
+                  "value": "OCCASIONALLY"
+                },
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:04:03.982000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:04:03.261000000Z[UTC]",
+                    "eventId": 25808179,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "GnrlHealthComp",
+                    "typeKey": 138,
+                    "typeName": "Completion of the Genereal Health Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [],
+                      "feedbackTypeCode": "FGlucoseOutRange",
+                      "feedbackTypeKey": 21,
+                      "feedbackTypeName": "A healthy fasting glucose range is less than  126 mg/dl",
+                      "feedbackTypeTypeCode": "Conclusion",
+                      "feedbackTypeTypeKey": 1,
+                      "feedbackTypeTypeName": "Feedback that is giving a conclusion",
+                      "whyIsThisImportant": ""
+                    }
+                  ],
+                  "healthAttributeMetadatas": [
+                    {
+                      "measurementUnitId": 100120,
+                      "typeCode": "SourceValue",
+                      "typeKey": 166,
+                      "typeName": "Source Value",
+                      "value": "267"
+                    }
+                  ],
+                  "recommendations": [],
+                  "attributeTypeCode": "FastingGlucose",
+                  "attributeTypeKey": 8,
+                  "attributeTypeName": "Blood glucose",
+                  "friendlyValue": "14.833333333333334 MMOL/L",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 3,
+                  "unitofMeasure": "100122",
+                  "value": "14.833333333333334"
+                }
+              ],
+              "sections": [],
+              "sortOrder": 1,
+              "typeCode": "VAgeFocusImprovement",
+              "typeKey": 8,
+              "typeName": "Focus on improving these first"
+            },
+            {
+              "attributes": [
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+                    "eventId": 25808186,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "LifestyleComp",
+                    "typeKey": 140,
+                    "typeName": "Completion of the Lifestyle Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Gradually cut back on your salt.",
+                          "typeCode": "SodiumReduce",
+                          "typeKey": 69,
+                          "typeName": "Reduce Sodium"
+                        },
+                        {
+                          "note": "Reading food labels is important. An ingredient list will not specify sodium alone but rather \"salt\" or ingredients containing sodium such as \"monosodium glutamate\", \"sodium nitrite\" or soya sauce.  ",
+                          "typeCode": "FoodLabelRead",
+                          "typeKey": 147,
+                          "typeName": "Read food labels"
+                        }
+                      ],
+                      "feedbackTypeCode": "AddedSaltAbove",
+                      "feedbackTypeKey": 81,
+                      "feedbackTypeName": "Too Much",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "A diet high in sodium can contribute to high blood pressure."
+                    }
+                  ],
+                  "healthAttributeMetadatas": [],
+                  "recommendations": [
+                    {
+                      "friendlyValue": "PINCH or less of added salt",
+                      "value": "PINCH"
+                    }
+                  ],
+                  "attributeTypeCode": "AddedSaltConsum",
+                  "attributeTypeKey": 52,
+                  "attributeTypeName": "Added Salt",
+                  "friendlyValue": "A HALF_A_TEASPOON of added salt",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 1,
+                  "value": "HALF_A_TEASPOON"
+                },
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+                    "eventId": 25808186,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "LifestyleComp",
+                    "typeKey": 140,
+                    "typeName": "Completion of the Lifestyle Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Water is the no kilojoule option",
+                          "typeCode": "SugaryDrinks",
+                          "typeKey": 73,
+                          "typeName": "Drink water instead"
+                        },
+                        {
+                          "note": "Water is the no kilojoule option",
+                          "typeCode": "SugaryDrinksSoft",
+                          "typeKey": 74,
+                          "typeName": "Drink water instead"
+                        },
+                        {
+                          "note": "Water is the no kilojoule option",
+                          "typeCode": "SugaryDrinksReduce",
+                          "typeKey": 75,
+                          "typeName": "Drink water instead"
+                        },
+                        {
+                          "note": "Water is the no kilojoule option",
+                          "typeCode": "SugaryDrinkLabel",
+                          "typeKey": 76,
+                          "typeName": "Drink water instead"
+                        }
+                      ],
+                      "feedbackTypeCode": "SugaryDrinksAbove",
+                      "feedbackTypeKey": 85,
+                      "feedbackTypeName": "Too High",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "One sugary drink can contain as much as ten teaspoons of sugar and no valuable nutrients. Drinking sugar sweetened drinks and eating sugary foods can dramatically increase your energy (calorie) intake, causing weight gain and obesity. Obesity is a leading risk factor for diabetes, cardiovascular disease and some cancers."
+                    }
+                  ],
+                  "healthAttributeMetadatas": [],
+                  "recommendations": [
+                    {
+                      "friendlyValue": "NO_SUGARY_DRINKS sugary beverages or sweetened cups of tea or coffee",
+                      "value": "NO_SUGARY_DRINKS"
+                    }
+                  ],
+                  "attributeTypeCode": "SugaryDrinksConsum",
+                  "attributeTypeKey": 54,
+                  "attributeTypeName": "Sugary Drinks",
+                  "friendlyValue": "27 sugar containing beverages a week",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 2,
+                  "value": "27"
+                },
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+                    "eventId": 25808186,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "LifestyleComp",
+                    "typeKey": 140,
+                    "typeName": "Completion of the Lifestyle Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Choose products with no trans fat. Avoid foods high in artificial trans fat.",
+                          "typeCode": "TransFatReduce",
+                          "typeKey": 78,
+                          "typeName": "Trans form your diet"
+                        }
+                      ],
+                      "feedbackTypeCode": "HighFatConsumAbove",
+                      "feedbackTypeKey": 87,
+                      "feedbackTypeName": "Too High",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Trans fats increase LDL \"bad\" cholesterol, lower HDL \"good\" cholesterol and increase your risk of developing heart disease."
+                    }
+                  ],
+                  "healthAttributeMetadatas": [
+                    {
+                      "typeCode": "SourceValue",
+                      "typeKey": 166,
+                      "typeName": "Source Value",
+                      "value": "3"
+                    }
+                  ],
+                  "recommendations": [
+                    {
+                      "friendlyValue": " 2 or less servings of cakes, deep fried foods or potato chips a week",
+                      "unitOfMeasureId": -1,
+                      "value": "2"
+                    }
+                  ],
+                  "attributeTypeCode": "HighFatConsum",
+                  "attributeTypeKey": 55,
+                  "attributeTypeName": "Trans Fats",
+                  "friendlyValue": "21 servings of cakes, deep fried foods or potato chips a week",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 3,
+                  "value": "21"
+                },
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+                    "eventId": 25808186,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "LifestyleComp",
+                    "typeKey": 140,
+                    "typeName": "Completion of the Lifestyle Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Dairy products are high in calcium and low in sodium (salt).",
+                          "typeCode": "DairyCalPot",
+                          "typeKey": 87,
+                          "typeName": "Very dairy"
+                        },
+                        {
+                          "note": "Dairy products contain important nutrients such as calcium and B-vitamins which benefit health.",
+                          "typeCode": "DairyNoEat",
+                          "typeKey": 88,
+                          "typeName": "Very dairy"
+                        }
+                      ],
+                      "feedbackTypeCode": "LwFatBelow",
+                      "feedbackTypeKey": 96,
+                      "feedbackTypeName": "Too Little",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Keep up your intake of fat free milk and plain yoghurt – you’re not only limiting the fat in your diet but getting all the necessary calcium for your bones and potassium for a healthy blood pressure."
+                    }
+                  ],
+                  "healthAttributeMetadatas": [],
+                  "recommendations": [
+                    {
+                      "friendlyValue": "",
+                      "value": "USUALLY"
+                    }
+                  ],
+                  "attributeTypeCode": "LwFatDairyConsum",
+                  "attributeTypeKey": 59,
+                  "attributeTypeName": "Low Fat Dairy",
+                  "friendlyValue": "",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 4,
+                  "value": "RARELY"
+                },
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+                    "eventId": 25808186,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "LifestyleComp",
+                    "typeKey": 140,
+                    "typeName": "Completion of the Lifestyle Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Make half the grains in your diet whole grains.",
+                          "typeCode": "WholeGrainsDiet",
+                          "typeKey": 90,
+                          "typeName": "Grain of truth"
+                        }
+                      ],
+                      "feedbackTypeCode": "WholegrainBelow",
+                      "feedbackTypeKey": 98,
+                      "feedbackTypeName": "Too Low",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Wholegrains contain valuable fibre, which can help to lower cholesterol, reduce heart disease risk, and stabilise blood sugar levels, another reason to include three servings a day."
+                    }
+                  ],
+                  "healthAttributeMetadatas": [],
+                  "recommendations": [
+                    {
+                      "friendlyValue": "  servings a day",
+                      "fromValue": "3",
+                      "toValue": "4",
+                      "unitOfMeasureId": -1
+                    }
+                  ],
+                  "attributeTypeCode": "WholegrainConsum",
+                  "attributeTypeKey": 60,
+                  "attributeTypeName": "Wholegrains",
+                  "friendlyValue": "2 servings a day",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 5,
+                  "value": "2"
+                }
+              ],
+              "sections": [],
+              "sortOrder": 2,
+              "typeCode": "VAgeMoreImprovements",
+              "typeKey": 9,
+              "typeName": "Have a go at these improvements"
+            }
+          ],
+          "sortOrder": 1,
+          "typeCode": "VAgeResultBad",
+          "typeKey": 4,
+          "typeName": "What you need to improve"
+        },
+        {
+          "attributes": [
+            {
+              "event": {
+                "eventMetaDatas": [
+                  {
+                    "type": 166,
+                    "value": "23.148148148148145"
+                  }
+                ],
+                "applicableTo": 20669474,
+                "dateLogged": "2017-12-06T07:05:04.488000000Z[UTC]",
+                "effectiveDateTime": "2017-12-06T07:05:00.820000000Z[Z]",
+                "eventId": 25808181,
+                "eventSourceTypeCode": "MobileApp",
+                "eventSourceTypeKey": 1,
+                "eventSourceTypeName": "MobileApp",
+                "reportedBy": 20669474,
+                "typeCode": "BMI",
+                "typeKey": 99,
+                "typeName": "BMI"
+              },
+              "healthAttributeFeedbacks": [
+                {
+                  "feedbackTips": [],
+                  "feedbackTypeCode": "BMIHealthy",
+                  "feedbackTypeKey": 2,
+                  "feedbackTypeName": "Congratulations",
+                  "feedbackTypeTypeCode": "Observation",
+                  "feedbackTypeTypeKey": 3,
+                  "feedbackTypeTypeName": "Feedback that is giving an observation",
+                  "whyIsThisImportant": "Your BMI is a measure of your height in relation to your weight and determines if one is a healthy weight or not. Being underweight or overweight increases one’s risk for developing a range of other health conditions.  Continue to maintain your BMI between 18.5 and 24.9.   You’ll decrease your risk of many lifestyle-related medical conditions. To maintain a healthy weight pay attention to what you eat, and get and stay active! Remember BMI may not be accurate for pregnant women or people with larger muscle density, for example bodybuilders."
+                },
+                {
+                  "feedbackTips": [
+                    {
+                      "note": "To maintain a  healthy weight pay attention to what you eat",
+                      "typeCode": "WeightMaintain",
+                      "typeKey": 101,
+                      "typeName": "Try to maintain a healthy weight"
+                    },
+                    {
+                      "note": "Keep active and get regular exercise.",
+                      "typeCode": "ExerciseDaily",
+                      "typeKey": 102,
+                      "typeName": "Get Moving"
+                    }
+                  ],
+                  "feedbackTypeCode": "BMIStatusHealthy",
+                  "feedbackTypeKey": 43,
+                  "feedbackTypeName": "Looking Good",
+                  "feedbackTypeTypeCode": "Observation",
+                  "feedbackTypeTypeKey": 3,
+                  "feedbackTypeTypeName": "Feedback that is giving an observation",
+                  "whyIsThisImportant": "Your BMI is a measure of your height in relation to your weight and determines if one is a healthy weight or not. Being underweight or overweight increases one’s risk for developing a range of other health conditions.  Continue to maintain your BMI between 18.5 and 24.9.   You’ll decrease your risk of many lifestyle-related medical conditions. To maintain a healthy weight pay attention to what you eat, and get and stay active! Remember BMI may not be accurate for pregnant women or people with larger muscle density, for example bodybuilders."
+                }
+              ],
+              "healthAttributeMetadatas": [],
+              "recommendations": [
+                {
+                  "friendlyValue": "a BMI more than or equal to 18.5 but a BMI less than 25",
+                  "fromValue": "18.5",
+                  "toValue": "25",
+                  "unitOfMeasureId": 100164
+                }
+              ],
+              "attributeTypeCode": "BMI",
+              "attributeTypeKey": 37,
+              "attributeTypeName": "Body Mass Index",
+              "friendlyValue": "23.148148148148145",
+              "measuredOn": "2017-12-06",
+              "sortOrder": 1,
+              "unitofMeasure": "100164",
+              "value": "23.148148148148145"
+            }
+          ],
+          "sections": [
+            {
+              "attributes": [
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:06:28.013000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:06:27.065000000Z[UTC]",
+                    "eventId": 25808185,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "SocialHabitsComp",
+                    "typeKey": 139,
+                    "typeName": "Completion of the Social Habits Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Have a glass of water and alternate.",
+                          "typeCode": "AlcoholHydrate",
+                          "typeKey": 96,
+                          "typeName": "Stay hydrated"
+                        },
+                        {
+                          "note": "Set a limit and budget",
+                          "typeCode": "DrinkSetLimit",
+                          "typeKey": 97,
+                          "typeName": "Make a plan"
+                        },
+                        {
+                          "note": "Literally drink a little less",
+                          "typeCode": "DrinkMakeSmallSize",
+                          "typeKey": 98,
+                          "typeName": "Make it a smaller one"
+                        }
+                      ],
+                      "feedbackTypeCode": "AlcoholHealthy",
+                      "feedbackTypeKey": 40,
+                      "feedbackTypeName": "Looking Good",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Too much alcohol can cause accidents, memory loss, tremors and possibly liver disease. It is important to drink only in moderation or to even abstain from drinking alcohol for your overall health.  Maintain your moderate intake of alcohol for a healthy lifestyle.  \nRemember that a standard alcoholic drink contains10 grams of alcohol, and this can be estimated to be:\n-1 can of beer (340ml)\n-1 small glass of red or white wine (120ml)\n-1 small glass of sherry (50ml)\n-1 metric tot of spirits (25ml)\n-1 small glass of liqueur (25ml)"
+                    },
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Have a glass of water and alternate.",
+                          "typeCode": "AlcoholHydrate",
+                          "typeKey": 96,
+                          "typeName": "Stay hydrated"
+                        },
+                        {
+                          "note": "Set a limit and budget",
+                          "typeCode": "DrinkSetLimit",
+                          "typeKey": 97,
+                          "typeName": "Make a plan"
+                        },
+                        {
+                          "note": "Literally drink a little less",
+                          "typeCode": "DrinkMakeSmallSize",
+                          "typeKey": 98,
+                          "typeName": "Make it a smaller one"
+                        }
+                      ],
+                      "feedbackTypeCode": "AlcoholHealthy",
+                      "feedbackTypeKey": 40,
+                      "feedbackTypeName": "Looking Good",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Too much alcohol can cause accidents, memory loss, tremors and possibly liver disease. It is important to drink only in moderation or to even abstain from drinking alcohol for your overall health.  Maintain your moderate intake of alcohol for a healthy lifestyle.  \nRemember that a standard alcoholic drink contains10 grams of alcohol, and this can be estimated to be:\n-1 can of beer (340ml)\n-1 small glass of red or white wine (120ml)\n-1 small glass of sherry (50ml)\n-1 metric tot of spirits (25ml)\n-1 small glass of liqueur (25ml)"
+                    }
+                  ],
+                  "healthAttributeMetadatas": [],
+                  "recommendations": [
+                    {
+                      "friendlyValue": "2 standard drinks a day or less",
+                      "unitOfMeasureId": -1,
+                      "value": "2"
+                    }
+                  ],
+                  "attributeTypeCode": "AlcoholDrinksPerDay",
+                  "attributeTypeKey": 44,
+                  "attributeTypeName": "Alcohol Use",
+                  "friendlyValue": "1.0 drinks a day",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 1,
+                  "value": "1.0"
+                },
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+                    "eventId": 25808186,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "LifestyleComp",
+                    "typeKey": 140,
+                    "typeName": "Completion of the Lifestyle Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Buy fresh fruit in season - they will be cheaper and tastier.",
+                          "typeCode": "FruitSeasonMaintain",
+                          "typeKey": 154,
+                          "typeName": "Seasonal fruit"
+                        },
+                        {
+                          "note": "Focus on variety by including different types and colours",
+                          "typeCode": "EatfruitMaintain",
+                          "typeKey": 155,
+                          "typeName": "Keep variety"
+                        }
+                      ],
+                      "feedbackTypeCode": "FruitConsumHealthy",
+                      "feedbackTypeKey": 88,
+                      "feedbackTypeName": "Looking Good",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Including fruit in your diet can help you benefit from the array of positive effects."
+                    }
+                  ],
+                  "healthAttributeMetadatas": [
+                    {
+                      "typeCode": "SourceValue",
+                      "typeKey": 166,
+                      "typeName": "Source Value",
+                      "value": "5"
+                    }
+                  ],
+                  "recommendations": [
+                    {
+                      "friendlyValue": " servings a day",
+                      "fromValue": "2",
+                      "toValue": "4",
+                      "unitOfMeasureId": -1
+                    }
+                  ],
+                  "attributeTypeCode": "DailyFruitConsum",
+                  "attributeTypeKey": 56,
+                  "attributeTypeName": "Daily Fruit",
+                  "friendlyValue": "5 servings a day",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 2,
+                  "value": "5"
+                },
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+                    "eventId": 25808186,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "LifestyleComp",
+                    "typeKey": 140,
+                    "typeName": "Completion of the Lifestyle Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Vegetables and legumes are an important source of many nutrients to tackle many lifestyle-related medical conditions.",
+                          "typeCode": "EatVegMaintain",
+                          "typeKey": 157,
+                          "typeName": "Fight back with veggies"
+                        }
+                      ],
+                      "feedbackTypeCode": "VegConsumHealthy",
+                      "feedbackTypeKey": 90,
+                      "feedbackTypeName": "Looking Good",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Eating plenty of a variety of vegetables can help you benefit from the array of positive effect"
+                    }
+                  ],
+                  "healthAttributeMetadatas": [
+                    {
+                      "typeCode": "SourceValue",
+                      "typeKey": 166,
+                      "typeName": "Source Value",
+                      "value": "11"
+                    }
+                  ],
+                  "recommendations": [
+                    {
+                      "friendlyValue": " 3 or more servings a day",
+                      "unitOfMeasureId": -1,
+                      "value": "3"
+                    }
+                  ],
+                  "attributeTypeCode": "DailyVegConsum",
+                  "attributeTypeKey": 57,
+                  "attributeTypeName": "Daily Vegetables",
+                  "friendlyValue": "11 servings a day",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 3,
+                  "value": "11"
+                }
+              ],
+              "sections": [],
+              "sortOrder": 1,
+              "typeCode": "VAgeAreasDoingWell",
+              "typeKey": 10,
+              "typeName": "You are doing well in these areas.  Keep it up!"
+            },
+            {
+              "attributes": [
+                {
+                  "event": {
+                    "eventMetaDatas": [],
+                    "applicableTo": 20669474,
+                    "dateLogged": "2017-12-06T07:07:01.494000000Z[UTC]",
+                    "effectiveDateTime": "2017-12-06T07:07:00.820000000Z[UTC]",
+                    "eventId": 25808186,
+                    "eventSourceTypeCode": "MobileApp",
+                    "eventSourceTypeKey": 1,
+                    "eventSourceTypeName": "MobileApp",
+                    "reportedBy": 20669474,
+                    "typeCode": "LifestyleComp",
+                    "typeKey": 140,
+                    "typeName": "Completion of the Lifestyle Section of the VHR"
+                  },
+                  "healthAttributeFeedbacks": [
+                    {
+                      "feedbackTips": [
+                        {
+                          "note": "Choose lean meat over fatty cuts.",
+                          "typeCode": "RedMeatHealthy",
+                          "typeKey": 159,
+                          "typeName": "Lean this way"
+                        }
+                      ],
+                      "feedbackTypeCode": "LeanMeatHealthy",
+                      "feedbackTypeKey": 92,
+                      "feedbackTypeName": "Looking Good",
+                      "feedbackTypeTypeCode": "Observation",
+                      "feedbackTypeTypeKey": 3,
+                      "feedbackTypeTypeName": "Feedback that is giving an observation",
+                      "whyIsThisImportant": "Fatty cuts of meat, and high-fat processed meats contribute more fat, energy and sometimes salt to your diet than lean or low-fat meats do. Try to eat lean cuts of meat and leaner cold meats."
+                    }
+                  ],
+                  "healthAttributeMetadatas": [],
+                  "recommendations": [
+                    {
+                      "friendlyValue": "",
+                      "value": "USUALLY"
+                    }
+                  ],
+                  "attributeTypeCode": "LeanMeatConsum",
+                  "attributeTypeKey": 58,
+                  "attributeTypeName": "Lean Meats",
+                  "friendlyValue": "",
+                  "measuredOn": "2017-12-06",
+                  "sortOrder": 1,
+                  "value": "ALWAYS"
+                }
+              ],
+              "sections": [],
+              "sortOrder": 2,
+              "typeCode": "VAgeMoreDoingWell",
+              "typeKey": 11,
+              "typeName": "Good going! Here’s some more"
+            }
+          ],
+          "sortOrder": 2,
+          "typeCode": "VAgeResultGood",
+          "typeKey": 5,
+          "typeName": "What you are doing well"
+        },
+        {
+          "attributes": [
+            {
+              "healthAttributeFeedbacks": [],
+              "healthAttributeMetadatas": [],
+              "recommendations": [],
+              "attributeTypeCode": "LipidRatio",
+              "attributeTypeKey": 41,
+              "attributeTypeName": "Lipid Ratio",
+              "sortOrder": 1
+            }
+          ],
+          "sections": [
+            {
+              "attributes": [
+                {
+                  "healthAttributeFeedbacks": [],
+                  "healthAttributeMetadatas": [],
+                  "recommendations": [],
+                  "attributeTypeCode": "SaltyFoodConsm",
+                  "attributeTypeKey": 53,
+                  "attributeTypeName": "Salty Foods",
+                  "friendlyValue": " eat salty foods",
+                  "sortOrder": 1
+                }
+              ],
+              "sections": [],
+              "sortOrder": 1,
+              "typeCode": "VAgeNeedToKnow",
+              "typeKey": 12,
+              "typeName": "We still need to know these things about you"
+            },
+            {
+              "attributes": [],
+              "sections": [],
+              "sortOrder": 2,
+              "typeCode": "VAgeMoreNeedToKnow",
+              "typeKey": 13,
+              "typeName": "Have a look at these too"
+            }
+          ],
+          "sortOrder": 3,
+          "typeCode": "VAgeResultUnknown",
+          "typeKey": 6,
+          "typeName": "What you have not provided"
+        }
+      ],
+      "sortOrder": 1,
+      "typeCode": "VAgeSection",
+      "typeKey": 1,
+      "typeName": "VitalityAge"
+    }
+  ]
+}

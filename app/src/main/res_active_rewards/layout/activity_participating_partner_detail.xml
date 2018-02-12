@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/root_coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_participating_partner_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.vitalityactive.va.activerewards.participatingpartners.ParticipatingPartnerDetailActivity">
+
+            <include layout="@layout/toolbar" />
+
+            <include layout="@layout/in_content_loading_indicator"
+                android:visibility="gone"/>
+
+            <ScrollView
+                android:id="@+id/partner_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/partner_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginTop="32dp"
+                        android:contentDescription="@string/AR.rewards.partner_logo_content_description_761"
+                        tools:src="@drawable/vue_200_x_150" />
+
+                    <TextView
+                        android:id="@+id/partner_name"
+                        style="@style/MaterialLightHeadlineH1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"
+                        android:gravity="center_horizontal"
+                        tools:text="Vue" />
+
+                    <TextView
+                        android:id="@+id/partner_description"
+                        style="@style/MaterialLightBody1Secondary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/activity_vertical_margin"
+                        android:layout_marginStart="@dimen/activity_vertical_margin"
+                        tools:text="Vue Entertainment (Vue) is a leader in the premium entertainment cinema sector in the UK."
+                        tools:visibility="visible" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

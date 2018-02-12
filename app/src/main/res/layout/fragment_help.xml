@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_help_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context="com.vitalityactive.va.help.ContentHelpActivity">
+        <TextView
+            android:id="@+id/txtSuggestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help.solutions_title_9999"
+            android:padding="@dimen/activity_vertical_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/helpRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:listDivider="@drawable/help_divider"
+                android:orientation="vertical"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager">
+            </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+

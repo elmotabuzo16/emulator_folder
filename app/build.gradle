@@ -1,75 +1,564 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+apply plugin: 'realm-android'
+apply plugin: 'jacoco'
+apply plugin: 'io.fabric'
+
+import groovy.json.JsonSlurper
+
+def EAGLE_API_MANAGER_HOST = "eagle.discsrv.co.za";
+def EAGLE_API_MANAGER_BASE_URL = createBaseURL("http", EAGLE_API_MANAGER_HOST, "", "");
+def API_MANAGER_SCHEME = "https";
+def DEV_API_MANAGER_HOST = "dev.vitalityservicing.com";
+def TEST_API_MANAGER_HOST = "test.vitalityservicing.com";
+def QA_API_MANAGER_HOST = "qa.vitalityservicing.com";
+def PROD_API_MANAGER_HOST = "vitalityservicing.com";
+def API_MANAGER_VERSION = "v1/";
+def API_MANAGER_BASE_PATH = "api/";
+def DEV_API_MANAGER_BASE_URL = createBaseURL(API_MANAGER_SCHEME, DEV_API_MANAGER_HOST, API_MANAGER_VERSION, API_MANAGER_BASE_PATH);
+def TEST_API_MANAGER_BASE_URL = createBaseURL(API_MANAGER_SCHEME, TEST_API_MANAGER_HOST, API_MANAGER_VERSION, API_MANAGER_BASE_PATH);
+def QA_API_MANAGER_BASE_URL = createBaseURL(API_MANAGER_SCHEME, QA_API_MANAGER_HOST, API_MANAGER_VERSION, API_MANAGER_BASE_PATH);
+def PROD_API_MANAGER_BASE_URL = createBaseURL(API_MANAGER_SCHEME, PROD_API_MANAGER_HOST, API_MANAGER_VERSION, API_MANAGER_BASE_PATH);
+def BUILD_SETTINGS_PATH = 'buildSettings.json'
+
+def buildSettings = null;
+def getBuildSettings = {
+    if (buildSettings == null) {
+        if (file(BUILD_SETTINGS_PATH).exists()) {
+            buildSettings = new JsonSlurper().parseText(file(BUILD_SETTINGS_PATH).getText('UTF-8'))
+            println buildSettings;
+        } else {
+            buildSettings = new JsonSlurper().parseText("{}")
+            println "no ${BUILD_SETTINGS_PATH} file found, empty build settings"
+        }
+    }
+    return buildSettings;
+}
+
+// Versioning done right
+// https://medium.com/@maxirosson/versioning-android-apps-d6ec171cfd82
+ext.versionName = project.hasProperty("versionName") ? versionName : generateVersionName()
+
+def generateVersionCode() {
+    return minSdkVersion * 10000000 + versionMajor * 10000 + versionMinor * 100 + versionPatch
+}
+
+def generateVersionName() {
+    String versionName = "${versionMajor}.${versionMinor}.${versionPatch}"
+
+    // if (versionClassifier) {
+    //     versionName += "-" + versionClassifier
+    // }
+
+    if (buildNumber) {
+        versionName += "." + buildNumber
+    }
+
+    return versionName;
+}
+
+task printVersions {
+    doLast {
+        println "versionName is " + project.ext.versionName
+        println "versionCode is " + generateVersionCode()
+        new File("$rootDir/fastlane").mkdirs()
+        new File("$rootDir/fastlane/versionName.txt").text = "${generateVersionName()}"
+        new File("$rootDir/fastlane/versionCode.txt").text = "${generateVersionCode()}"
+    }
+}
+/**
+ * http://robertomurray.co.uk/blog/2013/gradle-android-inject-version-code-from-command-line-parameter/
+ *
+ * Get the version code number from command line param
+ *
+ * @return int If the param -P versionCode is present then return its int value else defaultVersionCode
+ */
+// def getVersionCode = { ->
+//     def code = project.hasProperty('versionCode') ? versionCode.toInteger() : defaultVersionCode
+//     println "versionCode is set to $code"
+//     return code
+// }
+
+def getGherkinTagsFromCommandLineArguments = { ->
+    def tags = project.hasProperty('gherkinTags') ? gherkinTags.toString() : ""
+    println "command line gherkin tags: $tags"
+    return tags
+}
+
+static def createBaseURL(scheme, host, version, path) {
+    return scheme + "://" + host + "/" + version + path;
+}
+
+def getBaseURL = { defaultBaseURL ->
+    def env = System.getenv('BASE_URL')
+    if (env != null && !env.isEmpty()) {
+        println "Using baseURL ${env} defined from env var BASE_URL";
+        return env;
+    }
+    env = System.getenv('bamboo_BASE_URL')
+    if (env != null && !env.isEmpty()) {
+        println "Using baseURL ${env} defined from env var bamboo_BASE_URL";
+        return env;
+    }
+
+    def json = getBuildSettings();
+    if (json.baseURL == null) {
+        return defaultBaseURL
+    }
+    println "Using baseURL ${json.baseURL} (defined in ${BUILD_SETTINGS_PATH})";
+    return json.baseURL
+}
+
+def getUkeTestLoginUrl = { defaultUrl ->
+    def settings = getBuildSettings()
+    if (settings.uke != null && settings.uke.useWireMockLogin) {
+        def url = settings.baseURL + "uke/login"
+        println "UKE: Using login url ${url} derived from baseURL (uke.useWireMockLogin is set ${BUILD_SETTINGS_PATH})";
+        return url;
+    }
+
+    println "UKE: Using default test login url ${defaultUrl} (set uke.useWireMockLogin in ${BUILD_SETTINGS_PATH})";
+    return defaultUrl;
+}
+
+def getGherkinTagsToRun = { ->
+    def tags = getGherkinTagsFromCommandLineArguments()
+    if (tags == null || tags == "") {
+        tags = getBuildSettings().gherkinTags
+    }
+    if (tags != null && tags != "") {
+        println "Will only test Gherkin tests with tag '${tags}' (defined in the -PgherkinTags command line argument or ${BUILD_SETTINGS_PATH})";
+    }
+    return tags
+}
+
+def shouldUseMockServerForGherkinTests = { ->
+    def useMockServer = getBuildSettings().useMockServerInGherkin == 1
+    if (useMockServer) {
+        println "Will use mock server in Gherkin tests (set in ${BUILD_SETTINGS_PATH})";
+    } else {
+        println "Will use the normal server in Gherkin tests (set 'useMockServerInGherkin' to 1 in ${BUILD_SETTINGS_PATH})";
+    }
+    return useMockServer;
+}
+
+def getGherkinDryRun = { ->
+    def dryRun = getBuildSettings().gherkinDryRun == 1;
+    if (project.hasProperty('gherkinDryRun')) {
+        dryRun = true;
+        println "gherkinDryRun command line argument set";
+    }
+    if (dryRun) {
+        println "Will perform Gherkin dry run only (set in ${BUILD_SETTINGS_PATH})";
+    }
+    return dryRun;
+}
+
+def getRunGherkinTestsOnly = { ->
+    def gherkinOnly = getBuildSettings().gherkinTestsOnly == 1;
+    if (gherkinOnly) {
+        println "Will run Gherkin tests only (set in ${BUILD_SETTINGS_PATH})";
+    }
+    return gherkinOnly;
+}
+
+def getTraceEnabled = { ->
+    def isSet = getBuildSettings().traceEnabled == 1;
+    if (isSet) {
+        println "traceEnabled is set, dev debug builds might be a bit slower (set in ${BUILD_SETTINGS_PATH})";
+    }
+    return isSet;
+}
+
+def getAndroidTestsFilter = { ->
+    def filter = project.hasProperty('androidTestsFilter') ? androidTestsFilter.toString() : ''
+    if (filter == '') {
+        return '';
+    }
+    return "com.vitalityactive.va.testutilities.annotations.${filter}";
+}
+
+/** https://plus.google.com/+JakeWharton/posts/6f5TcVPRZij */
+// def versionMajor = 1
+// def versionMinor = 0
+// def versionPatch = 0
+
+def appId = "com.vitalityactive.va"
+
+// Java Code Coverage with Sonarqube only for vitalityActive flavor
+// By john.bryan.j.sazon@accenture.com
+// Reference: https://overflow.buffer.com/2017/01/16/android-test-sonarqube/
+
+// This variable will be used to identify where the instrumentation file is located
+// The instrumentation file is used to generate coverage report for Android UI Test
+// The file path will be passed to SonarQube sonar.jacoco.itReportPath
+// Reference: https://docs.sonarqube.org/display/PLUG/Code+Coverage+by+Integration+Tests+for+Java+Project
+
+
+def instrumentationFileName = ""
+def buildFlavor = project.hasProperty("buildFlavor") ? buildFlavor : "VitalityActive"
+def buildFlavorLowerCase = buildFlavor[0].toLowerCase() + buildFlavor.substring(1)
+def jacocoBuildType = project.hasProperty("jacocoBuildType") ? jacocoBuildType : "Debug"
+def jacocoBuildTypeLowerCase = jacocoBuildType[0].toLowerCase() + jacocoBuildType.substring(1)
+def jacocoDependentTask = "test${buildFlavor}${jacocoBuildType}UnitTest"
+
+task createJacocoTestReports(type: JacocoReport) {
+    group = "Reporting"
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+    // Exclude unnecessary classes found in ${buildDir}/intermediates/classes/dev/debug
+    def fileFilter = ['**/R.class',
+                      '**/R$*.class',
+                      '**/BuildConfig.*',
+                      '**/*$ViewInjector*.*',
+                      '**/*$ViewBinder*.*',
+                      '**/*$MembersInjector*.*',
+                      '**/Manifest*.*',
+                      '**/*Test*.*',
+                      'android/**/*.*',
+                      'io/**/*.*']
+    def debugTree = fileTree(dir: "${buildDir}/intermediates/classes/${buildFlavorLowerCase}/${jacocoBuildTypeLowerCase}", excludes: fileFilter)
+
+    def mainSrc = "${project.projectDir}/src/main/java"
+
+    sourceDirectories = files([mainSrc])
+    classDirectories = files([debugTree])
+
+    executionData = files("${project.buildDir}/jacoco/${jacocoDependentTask}.exec")
+    def files = fileTree("${buildDir}/outputs/code-coverage/connected/flavors/${buildFlavorLowerCase}/").filter {
+        it.isFile()
+    }.files.name
+    instrumentationFileName = "${buildDir}/outputs/code-coverage/connected/flavors/${buildFlavorLowerCase}/" + files[0];
+}
+
+sonarqube {
+    properties {
+        property "sonar.java.source", "1.8"
+        property "sonar.android.lint.report", "build/outputs/lint-results.xml"
+        property "sonar.java.binaries", "build/intermediates/classes/${buildFlavorLowerCase}/${jacocoBuildTypeLowerCase}"
+        property "sonar.jacoco.reportPath", "build/jacoco/${jacocoDependentTask}.exec"
+        property "sonar.jacoco.itReportPath", instrumentationFileName
+    }
+}
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
-
+    testOptions {
+        unitTests.all {
+            jacoco {
+                includeNoLocationClasses = true
+            }
+            // temporary
+            setIgnoreFailures(true)
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    dataBinding {
+        enabled true
+    }
+    flavorDimensions "client"
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
     defaultConfig {
-        applicationId "com.simplemobiletools.calculator"
-        minSdkVersion 16
-        targetSdkVersion 27
-        versionCode 17
-        versionName "3.1.1"
-        setProperty("archivesBaseName", "calculator")
+        applicationId appId
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        multiDexEnabled true
+        versionCode generateVersionCode()
+        versionName project.ext.versionName
+        testInstrumentationRunner "com.vitalityactive.va.MockJUnitAndCucumberRunner"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        buildConfigField "java.lang.String", "DEV_BASE_HOSTNAME", "\"${DEV_API_MANAGER_HOST}\""
+        buildConfigField "java.lang.String", "TEST_BASE_HOSTNAME", "\"${TEST_API_MANAGER_HOST}\""
+        buildConfigField "java.lang.String", "QA_BASE_HOSTNAME", "\"${QA_API_MANAGER_HOST}\""
+
+        buildConfigField "java.lang.String", "DEV_CERT_PIN", "\"sha256/980Ionqp3wkYtN9SZVgMzuWQzJta1nfxNPwTem1X0uc=\""
+        buildConfigField "java.lang.String", "TEST_CERT_PIN", "\"sha256/980Ionqp3wkYtN9SZVgMzuWQzJta1nfxNPwTem1X0uc=\""
+        buildConfigField "java.lang.String", "QA_CERT_PIN", "\"sha256/980Ionqp3wkYtN9SZVgMzuWQzJta1nfxNPwTem1X0uc=\""
+
+        buildConfigField "java.lang.String", "DEV_BASE_URL", "\"${getBaseURL(DEV_API_MANAGER_BASE_URL)}\""
+        buildConfigField "java.lang.String", "TEST_BASE_URL", "\"${getBaseURL(TEST_API_MANAGER_BASE_URL)}\""
+        buildConfigField "java.lang.String", "QA_BASE_URL", "\"${getBaseURL(QA_API_MANAGER_BASE_URL)}\""
+        buildConfigField "java.lang.String", "QA_FF_BASE_URL", "\"${getBaseURL(QA_API_MANAGER_BASE_URL)}\""
+        buildConfigField "java.lang.String", "PROD_BASE_URL", "\"${getBaseURL(PROD_API_MANAGER_BASE_URL)}\""
+        buildConfigField "java.lang.String", "QA_CA_BASE_URL", "\"${getBaseURL(QA_API_MANAGER_BASE_URL)}\""
+        buildConfigField "java.lang.String", "DEV_BASIC_AUTH_TOKEN", "\"bkQ4cElmMmZndm5WN0kzcU9MTGVpY3BDaFhZYTpCX3djVzNIVDZ5UTA5emdKSDVOa2tOMmtsOTRh\""
+        buildConfigField "java.lang.String", "TEST_BASIC_AUTH_TOKEN", "\"WDVlODVDQ3RQTVFpOWpRZ2p4TERSTkxXSjV3YTpQSVZieHkyanRiOFMwRDc1NHJMa0FXWjR2aTBh\""
+        buildConfigField "java.lang.String", "QA_BASIC_AUTH_TOKEN", "\"WDVlODVDQ3RQTVFpOWpRZ2p4TERSTkxXSjV3YTpQSVZieHkyanRiOFMwRDc1NHJMa0FXWjR2aTBh\""
+        buildConfigField "java.lang.String", "QA_FF_BASIC_AUTH_TOKEN", "\"WDVlODVDQ3RQTVFpOWpRZ2p4TERSTkxXSjV3YTpQSVZieHkyanRiOFMwRDc1NHJMa0FXWjR2aTBh\""
+        buildConfigField "java.lang.String", "PROD_BASIC_AUTH_TOKEN", "\"WDVlODVDQ3RQTVFpOWpRZ2p4TERSTkxXSjV3YTpQSVZieHkyanRiOFMwRDc1NHJMa0FXWjR2aTBh\""
+        buildConfigField "java.lang.String", "QA_CA_BASIC_AUTH_TOKEN", "\"WDVlODVDQ3RQTVFpOWpRZ2p4TERSTkxXSjV3YTpQSVZieHkyanRiOFMwRDc1NHJMa0FXWjR2aTBh\""
+
+        buildConfigField "java.lang.String", "DEV_BASE_URL", "\"${getBaseURL(DEV_API_MANAGER_BASE_URL)}\""
+
+        buildConfigField "java.lang.String", "CA_TEST_BASE_URL", "\"${getBaseURL(TEST_API_MANAGER_BASE_URL)}\""
+        buildConfigField "java.lang.String", "CA_TEST_BASIC_AUTH_TOKEN", "\"WDVlODVDQ3RQTVFpOWpRZ2p4TERSTkxXSjV3YTpQSVZieHkyanRiOFMwRDc1NHJMa0FXWjR2aTBh\""
+
+        buildConfigField "java.lang.String", "GHERKIN_TAGS", "\"${getGherkinTagsToRun()}\""
+        buildConfigField "boolean", "GHERKIN_USE_MOCK_SERVER", "${shouldUseMockServerForGherkinTests()}"
+        buildConfigField "boolean", "GHERKIN_DRY_RUN", "${getGherkinDryRun()}"
+        buildConfigField "boolean", "GHERKIN_TESTS_ONLY", "${getRunGherkinTestsOnly()}"
+        buildConfigField "boolean", "TRACE_ENABLED", "${getTraceEnabled()}"
+        buildConfigField "boolean", "FINGERPRINT_ENABLED", "true"
+        buildConfigField "java.lang.String", "APP_CONFIG_IDENTIFIER", "\"VitalityActive\""
+        buildConfigField "java.lang.String", "EAGLE_CA_BASE_URL", "\"${getBaseURL(EAGLE_API_MANAGER_BASE_URL)}\""
+        buildConfigField "java.lang.String", "EAGLE_CA_BASIC_AUTH_TOKEN", "\"WDVlODVDQ3RQTVFpOWpRZ2p4TERSTkxXSjV3YTpQSVZieHkyanRiOFMwRDc1NHJMa0FXWjR2aTBh\""
+        buildConfigField "java.lang.String", "MOCK_APP_ID", "\"com.aia.vitality.ph\""
+        buildConfigField "java.lang.String", "AUTH_BEARER_KEY_NAME", "\"Bearer \""
+
+        buildConfigField "boolean", "SHOW_HELP", "true"
+        buildConfigField "boolean", "SHOW_PUSH_NOTIFICATIONS", "true"
+        buildConfigField "boolean", "ENABLE_ENVIRONMENT_SWITCH", "true"
+
+        manifestPlaceholders = [pushwooshAppId: "FA9CF-A897F", fcm_sender_id: "587137796278"]
     }
 
-    signingConfigs {
-        release
-    }
 
     buildTypes {
-        debug {
-	        applicationIdSuffix ".debug"
-        }
         release {
             minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
+        }
+        prod {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            buildConfigField "boolean", "ENABLE_ENVIRONMENT_SWITCH", "false"
+        }
+    }
+    productFlavors {
+        vitalityActive {
+            applicationId appId
+            dimension "client"
+        }
+        sumitomo {
+            applicationId "com.vitalityactive.sumitomo"
+            dimension "client"
+
+            buildConfigField "java.lang.String", "TEST_BASIC_AUTH_TOKEN", "\"eW1qQ3JPcklvOTBSUXlLOVhVMU9DdU9kN1FrYTpFSWIwTGF5WDJvZXVBUmFHdHQ1V1Z6cEd5bEVh\""
+            buildConfigField "java.lang.String", "QA_BASIC_AUTH_TOKEN", "\"R3VacWo1SExUMmFwUVB3Y1BhZTBLYVRQVjdjYTo3UFJrYTREaXVCZ3JLUTdoRmR2OWZidFpyOWth\""
+            buildConfigField "java.lang.String", "PROD_BASIC_AUTH_TOKEN", "\"eW1qQ3JPcklvOTBSUXlLOVhVMU9DdU9kN1FrYTpFSWIwTGF5WDJvZXVBUmFHdHQ1V1Z6cEd5bEVh\""
+            buildConfigField "java.lang.String", "TEST_BASE_URL", "\"${getBaseURL(createBaseURL(API_MANAGER_SCHEME, "m.test.vitality.sumitomolife.co.jp", "", API_MANAGER_BASE_PATH))}\""
+            buildConfigField "java.lang.String", "QA_BASE_URL", "\"${getBaseURL(createBaseURL(API_MANAGER_SCHEME, "m.qa.vitality.sumitomolife.co.jp", "", API_MANAGER_BASE_PATH))}\""
+            buildConfigField "java.lang.String", "PROD_BASE_URL", "\"${getBaseURL(createBaseURL(API_MANAGER_SCHEME, "m.test.vitality.sumitomolife.co.jp", "", API_MANAGER_BASE_PATH))}\""
+            buildConfigField "java.lang.String", "APP_CONFIG_IDENTIFIER", "\"Sumitomo\""
+        }
+        ukessentials {
+            applicationId "com.vitalityactive.ukessentials"
+            dimension "client"
+
+            buildConfigField "java.lang.String", "TEST_LOGIN_URL", "\"${getUkeTestLoginUrl('https://account.nuffieldhealth.com/nuffielddev3.onmicrosoft.com/oauth2/v2.0/authorize?client_id=3dc572c8-ebaa-4933-893e-b456fab97a55&response_type=id_token&redirect_uri=com.vitalityactive.essentials://oauth/redirect&response_mode=query&scope=openid&p=b2c_1a_nuffv2_signinorsignuploa1')}\""
+            buildConfigField "java.lang.String", "QA_LOGIN_URL", "\"${getUkeTestLoginUrl('https://account.nuffieldhealth.com/nufuat.onmicrosoft.com/oauth2/v2.0/authorize?client_id=7d6c0ce1-f0b4-4ed8-b572-ac26e6e77e1f&response_type=id_token&redirect_uri=com.vitalityactive.essentials://oauth/redirect&response_mode=query&scope=openid&p=b2c_1a_nuffv2_signinorsignuploa1')}\""
+            buildConfigField "java.lang.String", "QA_FF_LOGIN_URL", "\"${getUkeTestLoginUrl('https://account.nuffieldhealth.com/nufuat.onmicrosoft.com/oauth2/v2.0/authorize?client_id=7d6c0ce1-f0b4-4ed8-b572-ac26e6e77e1f&response_type=id_token&redirect_uri=com.vitalityactive.essentials://oauth/redirect&response_mode=query&scope=openid&p=b2c_1a_nuffv2_signinorsignuploa1')}\""
+            buildConfigField "java.lang.String", "PROD_LOGIN_URL", "\"https://account.nuffieldhealth.com/mynuffield.onmicrosoft.com/oauth2/v2.0/authorize?client_id=7626533b-90fc-4f08-8b85-dc4a5df57ceb&response_type=id_token&redirect_uri=com.vitalityactive.essentials://oauth/redirect&response_mode=query&scope=openid&p=b2c_1a_nuffv2_signinorsignuploa1\""
+
+            buildConfigField "java.lang.String", "UKE_INITIAL_WEB_LOGIN_ENUM_ID", "\"QA_FF\""
+
+            buildConfigField "java.lang.String", "TEST_BASIC_AUTH_TOKEN", "\"Rmw3X3NvcG5RcGZNQnkxcjdURllHSkZyMnBvYTpfb2ZTaGxiWk5OZmJIdFhtYmFMVTdPOUY3R01h\""
+            buildConfigField "java.lang.String", "TEST_BASE_URL", "\"${getBaseURL(createBaseURL(API_MANAGER_SCHEME, "test.vitalityservicing.com/uke", "", API_MANAGER_BASE_PATH))}\""
+
+            buildConfigField "java.lang.String", "QA_BASIC_AUTH_TOKEN", "\"QWJCRUJxQkI5SWcxbExGVFdhZ2ZmemJqN2Z3YTpmWkhHQmZPbk15SW1FTU5zX2VUdDVqczFjVThh\""
+            buildConfigField "java.lang.String", "QA_BASE_URL", "\"${getBaseURL(createBaseURL(API_MANAGER_SCHEME, "qa.uke.vitalityservicing.com", "", API_MANAGER_BASE_PATH))}\""
+
+            buildConfigField "java.lang.String", "QA_FF_BASIC_AUTH_TOKEN", "\"bnlSWG9nWFJfWjdCY2Z2YWtwa2pyNnVzSWtJYTp6RHZPQllWZzJvc0poZ1hLc0tGNW1YRmpMX3Nh\""
+            buildConfigField "java.lang.String", "QA_FF_BASE_URL", "\"${getBaseURL(createBaseURL(API_MANAGER_SCHEME, "ukvitality.qa.vitalityservicing.com", "", API_MANAGER_BASE_PATH))}\""
+
+            buildConfigField "java.lang.String", "PROD_BASIC_AUTH_TOKEN", "\"eG9WSFZPMHFqOXNFSGZWanM4RHBfZllSRDV3YTpYSnRUd2toZU1fR0xSRjlncU5DYkFkdDRwV1Vh\""
+            buildConfigField "java.lang.String", "PROD_BASE_URL", "\"${getBaseURL(createBaseURL(API_MANAGER_SCHEME, "M.healthy-workplace.com", "", API_MANAGER_BASE_PATH))}\""
+
+            buildConfigField "java.lang.String", "APP_CONFIG_IDENTIFIER", "\"UKEssentials\""
+
+            buildConfigField "boolean", "SHOW_HELP", "false"
+
+            resConfigs "en"
+        }
+        igi {
+            applicationId "com.vitalityactive.igi"
+            dimension "client"
+
+            buildConfigField "java.lang.String", "TEST_BASIC_AUTH_TOKEN", "\"WDVlODVDQ3RQTVFpOWpRZ2p4TERSTkxXSjV3YTpQSVZieHkyanRiOFMwRDc1NHJMa0FXWjR2aTBh\""
+            buildConfigField "java.lang.String", "QA_BASIC_AUTH_TOKEN", "\"cFoxaDBPT0pwV2JzNm9pdWExaWZFelZaTHBrYTplN1ZpMTNDOHhmRlJSeFpJNTk3bkJLWkxVejBh\""
+            buildConfigField "java.lang.String", "PROD_BASIC_AUTH_TOKEN", "\"MFNmR1VsdDFMRUZZM0RtQlZwUUliUFJodGRFYTphRGFHQmxJelh3UmxNZjU5WnpPV2lPVURtUWNh\""
+            buildConfigField "java.lang.String", "TEST_BASE_URL", "\"${getBaseURL(TEST_API_MANAGER_BASE_URL)}\""
+            buildConfigField "java.lang.String", "QA_BASE_URL", "\"${getBaseURL(createBaseURL(API_MANAGER_SCHEME, "ukvitality.qa.vitalityservicing.com", "", API_MANAGER_BASE_PATH))}\""
+            buildConfigField "java.lang.String", "PROD_BASE_URL", "\"${getBaseURL(createBaseURL(API_MANAGER_SCHEME, "m.igilife.vitalityactive.com", "", API_MANAGER_BASE_PATH))}\""
+            buildConfigField "java.lang.String", "APP_CONFIG_IDENTIFIER", "\"IGIVitality\""
+
+            resConfigs "en"
+        }
+        dev {
+//          applicationIdSuffix ".dev"
+            dimension "client"
+            signingConfig signingConfigs.debug
+            testInstrumentationRunner "com.vitalityactive.va.MockJUnitRunner"
+
+            def filter = getAndroidTestsFilter();
+            if (filter == '') {
+                println "not adding any annotation filter for androidTest (androidTestsFilter not set)"
+            } else {
+                println "filtering androidTests by annotation: ${filter}"
+                testInstrumentationRunnerArgument 'annotation', filter
+            }
+        }
+    }
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res',
+                    'src/main/res_active_rewards',
+                    'src/main/res_non_smokers',
+                    'src/main/res_vhc',
+                    'src/main/res_vhr',
+                    'src/main/res_vna',
+                    'src/main/res_vs',
+                    'src/main/res_snv',
+                    'src/main/res_points_monitor',
+                    'src/main/res_partnerjourney',
+                    'src/main/res_mwb'
+            ]
+        }
+        dev {
+            java.srcDirs = ['src/vitalityActive/java']
         }
     }
 
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
+    task launchDevDebug(type: Exec) {
+        commandLine android.adbExe, 'shell', 'am', 'start', '-n', 'com.vitalityactive.va.dev/com.vitalityactive.va.launch.LaunchActivity'
     }
 
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
+    tasks.withType(Test) {
+        testLogging {
+            events "passed", "failed"
+        }
+    }
+}
+
+allprojects {
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
     }
 }
 
 dependencies {
-    implementation 'com.simplemobiletools:commons:3.8.1'
-    implementation 'me.grantland:autofittextview:0.2.1'
 
-    testImplementation 'junit:junit:4.12'
-    testImplementation 'org.robolectric:robolectric:3.5.1'
+    //Support Libraries
+    implementation "com.android.support:design:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:support-v4:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:cardview-v7:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:customtabs:$rootProject.supportLibraryVersion"
+    implementation 'com.android.support:multidex:1.0.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation "com.android.support:exifinterface:$rootProject.supportLibraryVersion"
 
-    androidTestImplementation 'com.android.support:support-annotations:27.0.2'
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
-    androidTestImplementation 'com.android.support.test:rules:1.0.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation "com.google.code.gson:gson:$rootProject.gsonVersion"
+    implementation "com.google.dagger:dagger:$rootProject.daggerVersion"
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$rootProject.okHttpVersion"
+    implementation "com.squareup.okhttp3:okhttp:$rootProject.okHttpVersion"
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.0.5'
+    implementation("com.github.bumptech.glide:okhttp3-integration:$rootProject.glideVersion") {
+        exclude group: 'glide-parent'
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+        exclude group: 'com.squareup.okio', module: 'okio'
+    }
+    implementation("com.github.bumptech.glide:glide:$rootProject.glideVersion") {
+        exclude group: 'com.android.support'
+    }
+    implementation('me.relex:circleindicator:1.2.2@aar') {
+        exclude group: 'com.android.support'
+    }
+    implementation('com.github.barteksc:android-pdf-viewer:2.8.2') {
+        exclude group: 'com.android.support'
+    }
+    implementation("com.theartofdev.edmodo:android-image-cropper:$rootProject.imageCropperVersion") {
+        exclude group: 'com.android.support'
+    }
+    implementation('com.drewnoakes:metadata-extractor:2.11.0') {
+        exclude group: 'com.android.support'
+    }
+    implementation("com.google.firebase:firebase-core:$rootProject.firebaseVersion") {
+        exclude group: 'com.android.support'
+    }
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.0@aar') {
+        transitive = true
+    }
+    implementation "com.google.android.gms:play-services-tagmanager:$rootProject.firebaseVersion"
+    implementation('com.journeyapps:zxing-android-embedded:3.5.0@aar') {
+        exclude group: 'com.android.support'
+    }
+    implementation 'com.google.zxing:core:3.3.0'
+    implementation("com.google.firebase:firebase-messaging:$rootProject.firebaseVersion") {
+        exclude group: 'com.android.support'
+    }
+    implementation('com.pushwoosh:pushwoosh:5.5.0') {
+        exclude group: 'com.android.support'
+    }
+    implementation('com.pushwoosh:pushwoosh-badge:5.0.2') {
+        exclude group: 'com.android.support'
+    }
+
+    implementation 'com.github.ajalt.reprint:core:3.2.1@aar'
+    // required: supports marshmallow devices
+    implementation 'com.github.ajalt.reprint:reprint_spass:3.2.1@aar'
+    // optional: support for pre-marshmallow Samsung devices
+
+    annotationProcessor "com.github.bumptech.glide:compiler:$rootProject.glideVersion"
+    annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
+
+
+    testImplementation project(':testresources')
+    testImplementation "com.squareup.okhttp3:mockwebserver:$rootProject.okHttpVersion"
+    testImplementation("com.squareup.retrofit2:retrofit-mock:$rootProject.retrofitVersion", {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+        exclude group: 'com.squareup.okio', module: 'okio'
+    })
+    testImplementation "junit:junit:$rootProject.junitVersion"
+    testImplementation "org.mockito:mockito-core:$rootProject.mockitoVersion"
+    testImplementation "pl.pragmatists:JUnitParams:$rootProject.JUnitParamsVersion"
+
+    androidTestImplementation("com.android.support.test.espresso:espresso-contrib:$rootProject.espressoVersion", {
+        exclude group: 'com.android.support'
+    })
+    androidTestImplementation "com.squareup.okhttp3:mockwebserver:$rootProject.okHttpVersion"
+    androidTestImplementation("com.squareup.retrofit2:retrofit-mock:$rootProject.retrofitVersion", {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+        exclude group: 'com.squareup.okio', module: 'okio'
+    })
+    androidTestImplementation project(':testresources')
+    androidTestImplementation("info.cukes:cucumber-android:$rootProject.cucumberVersion") {
+        exclude module: 'cucumber-jvm-deps'
+    }
+    androidTestImplementation("info.cukes:cucumber-picocontainer:$rootProject.cucumberVersion") {
+        exclude module: 'cucumber-jvm-deps'
+    }
+
+    androidTestImplementation "pl.pragmatists:JUnitParams:$rootProject.JUnitParamsVersion"
+    androidTestImplementation 'info.cukes:cucumber-jvm-deps:1.0.5'
+    androidTestImplementation 'com.jraska:falcon:1.0.4'
 }
 
-Properties props = new Properties()
-def propFile = new File('signing.properties')
-if (propFile.canRead()) {
-    props.load(new FileInputStream(propFile))
+apply plugin: 'com.google.gms.google-services'
 
-    if (props != null && props.containsKey('STORE_FILE') && props.containsKey('KEY_ALIAS') && props.containsKey('PASSWORD')) {
-        android.signingConfigs.release.storeFile = file(props['STORE_FILE'])
-        android.signingConfigs.release.storePassword = props['PASSWORD']
-        android.signingConfigs.release.keyAlias = props['KEY_ALIAS']
-        android.signingConfigs.release.keyPassword = props['PASSWORD']
-    } else {
-        println 'signing.properties found but some entries are missing'
-        android.buildTypes.release.signingConfig = null
+// Remove google services plugin in dev builds for now since we don't have an entry for it in google-services.json
+android.applicationVariants.all { variant ->
+    if (variant.name.contains("dev")) {
+        project.tasks.each { t ->
+            if (t.name.contains("GoogleServices")) {
+                variant.getVariantData().resourceGenTask.getTaskDependencies().values.remove(t);
+            }
+        }
     }
-} else {
-    println 'signing.properties not found'
-    android.buildTypes.release.signingConfig = null
+
+    //UKE - Add Prod switching link variant
+    if (variant.name.contains("ukessentials") && variant.buildType.name.contains("prod")) {
+        println "Switching the value of UKE_INITIAL_WEB_LOGIN_ENUM_ID to Prod"
+        variant.buildConfigField "java.lang.String", "UKE_INITIAL_WEB_LOGIN_ENUM_ID", "\"PROD\""
+    }
+
 }

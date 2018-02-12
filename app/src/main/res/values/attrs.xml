@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleGoalProgressView">
+        <attr name="barWidth" format="dimension"/>
+        <attr name="barColorStart" format="integer"/>
+        <attr name="barColorEnd" format="integer"/>
+        <attr name="rimColor" format="color"/>
+        <attr name="rimColorAfterComplete" format="color"/>
+        <attr name="fillColor" format="color"/>
+        <attr name="goalMaxValue" format="dimension"/>
+        <attr name="goalCompleteDrawable" format="reference"/>
+        <attr name="progress" format="integer"/>
+    </declare-styleable>
+
+</resources>

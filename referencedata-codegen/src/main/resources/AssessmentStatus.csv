@@ -1,0 +1,7 @@
+"AssessmentStatus"
+"key","code","name","note",
+"4","Assessed","Assessed","Assessed",
+"5","Completed","Completed","Completed",
+"2","InProgress","In Progress","In Progress",
+"1","New","New","New",
+"3","Submitted","Submitted","Submitted",

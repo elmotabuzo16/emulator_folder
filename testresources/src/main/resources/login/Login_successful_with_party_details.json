@@ -1,0 +1,355 @@
+{
+  "application": {
+    "configurationVersion": {
+      "effectiveTo": "9999-01-01",
+      "applicationFeatures": [{
+        "applicationFeatureParameters": [{
+          "name": "lifeRayContentId",
+          "value": "vhc-privacy-policy"
+        }],
+        "typeKey": 8,
+        "name": "VHC data sharing consent content",
+        "toggle": true,
+        "typeCode": "VHCDSConsentContent"
+      },
+        {
+          "applicationFeatureParameters": [{
+            "name": "lifeRayContentId",
+            "value": "wellness-devices-privacy-policy"
+          }],
+          "typeKey": 15,
+          "name": "WDA data sharing consent content",
+          "toggle": true,
+          "typeCode": "WDADSConsentContent"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "gradientColor1",
+            "value": "ffffff"
+          },
+            {
+              "name": "gradientColor2",
+              "value": "ffffff"
+            },
+            {
+              "name": "liferayGroupId",
+              "value": "34799"
+            },
+            {
+              "name": "defaultLanguage",
+              "value": "en"
+            },
+            {
+              "name": "globalTintColor",
+              "value": "ff6e00"
+            }],
+          "typeKey": 1,
+          "name": "Insurer Configuration",
+          "toggle": true,
+          "typeCode": "InsConfig"
+        },
+        {
+          "applicationFeatureParameters": [],
+          "typeKey": 3,
+          "name": "Non-smoker's Declaration Journey",
+          "toggle": true,
+          "typeCode": "NonsmokersDclJrny"
+        },
+        {
+          "applicationFeatureParameters": [],
+          "typeKey": 10,
+          "name": "Vitality Health Review Journey",
+          "toggle": true,
+          "typeCode": "vhrJrny"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "lifeRayContentId",
+            "value": "vitality-non-smokers"
+          }],
+          "typeKey": 4,
+          "name": "Non-smoker's Declaration Content",
+          "toggle": true,
+          "typeCode": "NonsmokersDclrtnCont"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "en",
+            "value": "non_smokers_declaration_en.json"
+          },
+            {
+              "name": "ja",
+              "value": "non_smokers_declaration_ja.json"
+            }],
+          "typeKey": 6,
+          "name": "Non-smoker's Declaration Resource Files",
+          "toggle": true,
+          "typeCode": "NonsmokersDclResFils"
+        },
+        {
+          "applicationFeatureParameters": [],
+          "typeKey": 7,
+          "name": "Vitality Health Check Journey",
+          "toggle": true,
+          "typeCode": "vhcJrny"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "en",
+            "value": "vhc_en.json"
+          },
+            {
+              "name": "ja",
+              "value": "vhc_ja.json"
+            }],
+          "typeKey": 9,
+          "name": "Vitality Health Check Resource Files",
+          "toggle": true,
+          "typeCode": "vhcResFiles"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "en",
+            "value": "vhr_en.json"
+          },
+            {
+              "name": "ja",
+              "value": "vhr_ja.json"
+            }],
+          "typeKey": 12,
+          "name": "Vitality Health Review Resource Files",
+          "toggle": true,
+          "typeCode": "vhrResFiles"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "lifeRayContentId",
+            "value": "preferences-privacy-policy"
+          }],
+          "typeKey": 14,
+          "name": "Preferences Privacy Policy",
+          "toggle": true,
+          "typeCode": "PrefsPrivPolicy"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "lifeRayContentId",
+            "value": "non-smokers-privacy-policy"
+          }],
+          "typeKey": 5,
+          "name": "Non-smoker's Declaration Data Sharing Consent Content",
+          "toggle": true,
+          "typeCode": "NonsmokersDSConsCont"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "lifeRayContentId",
+            "value": "terms-and-conditions"
+          }],
+          "typeKey": 2,
+          "name": "Login terms and conditions content",
+          "toggle": true,
+          "typeCode": "TsAndCsContent"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "lifeRayContentId",
+            "value": "vhr-privacy-policy"
+          }],
+          "typeKey": 11,
+          "name": "VHR data sharing consent content",
+          "toggle": true,
+          "typeCode": "VHRDSConsentContent"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "filename",
+            "value": "wda_activity_mapping.json"
+          }],
+          "typeKey": 16,
+          "name": "Wellness devices apps activity mapping",
+          "toggle": true,
+          "typeCode": "WDAActivityMapping"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "filename",
+            "value": "example.pdf"
+          }],
+          "typeKey": 17,
+          "name": "VHC Healthcare benefit guide",
+          "toggle": true,
+          "typeCode": "VHCHealthcareBenefit"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "lifeRayContentId",
+            "value": "vhr-disclaimer"
+          }],
+          "typeKey": 18,
+          "name": "VHR Disclaimer Content",
+          "toggle": true,
+          "typeCode": "VHRDisclaimerContent"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "lifeRayContentId",
+            "value": "wda-about-apple-health-app"
+          }],
+          "typeKey": 20,
+          "name": "Apple Health App About Content",
+          "toggle": true,
+          "typeCode": "AppleHealthAbtContnt"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "lifeRayContentId",
+            "value": "ar-privacy-policy"
+          }],
+          "typeKey": 19,
+          "name": "AR Medically Fit Agr Content",
+          "toggle": true,
+          "typeCode": "ARMedFitAgrContent"
+        },
+        {
+          "applicationFeatureParameters": [{
+            "name": "filename",
+            "value": "example.pdf"
+          }],
+          "typeKey": 21,
+          "name": "AR benefit guide",
+          "toggle": true,
+          "typeCode": "ARBenefitGuide"
+        }],
+      "releaseVersion": "1.0",
+      "effectiveFro m": "2012-12-18"
+    },
+    "typeKey": 1,
+    "name": "VitalityActive",
+    "typeCode": "VitalityActive"
+  },
+  "partyDetails": {
+    "webAddresses": [],
+    "emailAddresses": [{
+      "id": 3011076,
+      "value": "samcooper@gmail.com",
+      "contactRoles": [{
+        "effectiveTo": "9999-12-31",
+        "typeKey": 1,
+        "roleId": 2993073,
+        "typeName": "Home eMail Address",
+        "contactPurposes": [{
+          "typeKey": 1,
+          "typeName": "VitalityNotifications",
+          "typeCode": "VitalityNotification"
+        }],
+        "effectiveFrom": "2017-01-01",
+        "typeCode": "HomeeMailAddress"
+      }]
+    }],
+    "references": [],
+    "generalPreferences": [{
+      "effectiveTo": "9999-03-03",
+      "typeKey": 1,
+      "typeName": "Email Communication Preference",
+      "value": "false",
+      "effectiveFrom": "2017-08-02",
+      "typeCode": "EmailCommPref"
+    },
+      {
+        "effectiveTo": "2017-07-31",
+        "typeKey": 1,
+        "typeName": "Email Communication Preference",
+        "value": "false",
+        "effectiveFrom": "2017-07-31",
+        "typeCode": "EmailCommPref"
+      },
+      {
+        "effectiveTo": "2017-07-30",
+        "typeKey": 1,
+        "typeName": "Email Communication Preference",
+        "value": "true",
+        "effectiveFrom": "2017-03-03",
+        "typeCode": "EmailCommPref"
+      },
+      {
+        "effectiveTo": "2017-08-01",
+        "typeKey": 1,
+        "typeName": "Email Communication Preference",
+        "value": "true",
+        "effectiveFrom": "2017-08-01",
+        "typeCode": "EmailCommPref"
+      }],
+    "person": {
+      "titleTypeName": "Master",
+      "genderTypeKey": 1,
+      "titleTypeCode": "Master",
+      "bornOn": "2017-01-09",
+      "titleTypeKey": 1,
+      "genderTypeName": "MALE",
+      "genderTypeCode": "MALE",
+      "givenName": "Sam",
+      "familyName": "Cooper",
+      "preferredName": "Sam",
+      "suffix": "PhD"
+    },
+    "tenantId": 2,
+    "telephoneNumbers": [
+      {
+        "effectiveTo": "9999-11-21",
+        "extension": 2468,
+        "contactNumber": "345 4912",
+        "contactRoles": [
+          {
+            "availabilityFrom": "2016-11-12",
+            "availabilityTo": "9999-12-31",
+            "rolePurposeType": 96634,
+            "roleType": 57844
+          }
+        ],
+        "countryDialCode": "+27",
+        "effectiveFrom": "2016-11-21",
+        "areaDialCode": 12
+      }
+    ],
+    "physicalAddresses": [],
+    "accessToken": "b99ac429-767f-3b14-9b2f-c906287b63fc",
+    "partyId": 100002
+  },
+  "userInstructions": [],
+  "vitalityMembership": [{
+    "memberReferences": [],
+    "renewalPeriods": [{
+      "effectiveTo": "2018-07-19",
+      "period": 12,
+      "unit": "2",
+      "effectiveFrom": "2006-07-19"
+    }],
+    "parties": [{
+      "effectiveTo": "2017-12-31",
+      "typeKey": 2,
+      "typeName": "Member",
+      "id": 100002,
+      "effectiveFrom": "2017-01-01",
+      "typeCode": "MEMBER"
+    }],
+    "stateCategory": [{
+      "typeKey": 1,
+      "typeName": "Contract",
+      "state": [{
+        "effectiveTo": "2018-07-19",
+        "statusTypeName": "Active",
+        "statusTypeKey": 1,
+        "statusTypeCode": "ACTIVE",
+        "effectiveFrom": "2006-07-19"
+      }],
+      "typeCode": "CONTRACT"
+    }],
+    "membershipProducts": [],
+    "id": 100001,
+    "currentVitalityMembershipPeriod": {
+      "effectiveTo": "2018-07-18",
+      "effectiveFrom": "2017-07-19"
+    }
+  }]
+}

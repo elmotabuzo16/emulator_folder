@@ -1,0 +1,24 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="va_topmargin">24dp</dimen>
+    <dimen name="vitality_age_placeholder">24sp</dimen>
+    <dimen name="vitality_age_rightmargin">214dp</dimen>
+    <dimen name="vitality_age_narrative_bottom_margin">52dp</dimen>
+    <dimen name="vitality_age_profile_leftmargin">64dp</dimen>
+    <dimen name="vitality_age_profile_narrative_margin">16dp</dimen>
+    <dimen name="vitality_age_profile_rightmargin">54dp</dimen>
+    <dimen name="vitalityage_learnmore_button_bottom_margin">24dp</dimen>
+    <dimen name="va_value_bottom_margin">16dp</dimen>
+    <dimen name="vitality_age_value_layout">131dp</dimen>
+    <dimen name="vitality_age_bg_image_size">160dp</dimen>
+    <dimen name="vitality_age_profile_ic_size">24dp</dimen>
+    <dimen name="vitality_age_profile_topmargin">24dp</dimen>
+    <dimen name="vitality_age_activity_bottom_margin">36dp</dimen>
+    <dimen name="vitality_age_header_padding">0dp</dimen>
+    <dimen name="myhealth_vitalityage_round_corner">4dp</dimen>
+    <dimen name="myhealth_horizontal_margin">5dp</dimen>
+    <dimen name="myhealth_onboarding_top_margin">32dp</dimen>
+</resources>

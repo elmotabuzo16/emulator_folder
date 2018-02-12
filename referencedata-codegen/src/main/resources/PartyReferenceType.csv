@@ -1,0 +1,13 @@
+"PartyReferenceType"
+"key","code","name","note",
+"7","Branch","Branch","Branch",
+"2","CarrierUID","CarrierUniqueIdentity","CarrierUniqueIdentity",
+"8","CustomerNumber","Customer Number","Customer Number",
+"10","EntityNumber","Vitality Entity Number","The entity number associated with this party on the Legacy Vitality System",
+"1","NationalID","NationalIdentityNumber","NationalIdentityNumber",
+"3","PartnerIdentifier","PartnerIdentifier","Partner Identifer that uniquely identifies a partner",
+"6","PartnerMembership","PartnerMembership","PartnerMembership",
+"4","Party","Party","Party",
+"9","PolicyNumber","Policy Number","Policy Number",
+"5","VitalityMembership","Vitality Membership","Vitality Membership",
+"11","VitalityNumber","Vitality Number","Vitality Number",

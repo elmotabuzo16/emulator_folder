@@ -1,0 +1,43 @@
+{
+  "healthAttributeReading": [
+    {
+      "getHealthAttributeEvent": {
+        "eventDate": "2017-09-04T16:48:32.361000000-04:00[America/New_York]",
+        "eventId": 22493219,
+        "typeCode": "DocumentUploads",
+        "typeKey": 48,
+        "typeName": "DocumentUploads"
+      },
+      "attributeTypeCode": "VitalityAge",
+      "attributeTypeKey": 25,
+      "measuredOn": "2017-09-04T20:57:12.448000000Z[Z]",
+      "value": "46.92589409161492"
+    },
+    {
+      "getHealthAttributeEvent": {
+        "eventDate": "2017-09-04T16:40:48.503000000Z[UTC]",
+        "eventId": 22469816,
+        "typeCode": "LifestyleComp",
+        "typeKey": 140,
+        "typeName": "Completion of the Lifestyle Section of the VHR"
+      },
+      "attributeTypeCode": "VitalityAge",
+      "attributeTypeKey": 25,
+      "measuredOn": "2017-09-04T16:40:51.927000000Z[Z]",
+      "value": "46.05364670327593"
+    },
+    {
+      "getHealthAttributeEvent": {
+        "eventDate": "2017-09-04T15:51:54.085000000Z[UTC]",
+        "eventId": 22469688,
+        "typeCode": "GnrlHealthComp",
+        "typeKey": 138,
+        "typeName": "Completion of the Genereal Health Section of the VHR"
+      },
+      "attributeTypeCode": "VitalityAge",
+      "attributeTypeKey": 25,
+      "measuredOn": "2017-09-04T15:52:05.920000000Z[Z]",
+      "value": "45.518290172014716"
+    }
+  ]
+}

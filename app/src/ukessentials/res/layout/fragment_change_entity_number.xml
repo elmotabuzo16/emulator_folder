@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_touch_target_size"
+            android:paddingBottom="@dimen/activity_horizontal_margin_small"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin_small">
+
+            <ImageView
+                android:id="@+id/new_entity_number_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/login_email_icon_content_description"
+                android:paddingEnd="16dp"
+                android:paddingStart="0dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/card_inactive" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/new_entity_number_layout"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/new_entity_number_icon"
+                android:gravity="center_vertical">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/new_entity_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="@string/UKE.activate.entity_number_358"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/onboarding_subtitle_text_size" />
+            </android.support.design.widget.TextInputLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="0dp"
+            android:paddingStart="@dimen/activity_horizontal_margin">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin_small"
+                android:background="@color/button_bar_gray"
+                android:paddingEnd="0dp"
+                android:paddingStart="@dimen/activity_horizontal_margin" />
+
+            <TextView
+                style="@style/MaterialLightCaptionDisabled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:lines="8"
+                android:maxLines="10"
+                android:singleLine="false"
+                android:text="@string/UKE.activate.entity_number_footer_360" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,166 @@
+{
+	"awardedRewards": [
+		{
+			"awardedRewardReferences": [],
+			"awardedRewardStatuses": [
+				{
+					"code": "Allocated",
+					"effectiveOn": "2017-11-28",
+					"key": 2,
+					"name": "Allocated",
+					"partyId": 7000041075
+				}
+			],
+			"reward": {
+				"categoryCode": "Gamification",
+				"categoryKey": 5,
+				"categoryName": "Gamification",
+				"id": 299991,
+				"key": 1,
+				"name": "WheelSpin",
+				"optionTypeCode": "Probabilistic",
+				"optionTypeKey": 3,
+				"optionTypeName": "Probabilistic",
+				"providedByPartyId": 7000006759,
+				"typeCategoryCode": "VirtualTransaction",
+				"typeCategoryKey": 2,
+				"typeCategoryName": "Virtual financial transaction",
+				"typeCode": "RewardOpportunity",
+				"typeKey": 5,
+				"typeName": "Reward Opportunity"
+			},
+			"rewardSelectionType": {
+				"rewardSelections": [
+					{
+						"reward": {
+							"categoryCode": "FoodAndBeverages",
+							"categoryKey": 2,
+							"categoryName": "Food And Beverages",
+							"id": 299992,
+							"key": 2,
+							"name": "Starbucks Voucher",
+							"optionTypeCode": "Predetermined",
+							"optionTypeKey": 1,
+							"optionTypeName": "Predetermined",
+							"providedByPartyId": 7000006763,
+							"typeCategoryCode": "FinancialTransaction",
+							"typeCategoryKey": 1,
+							"typeCategoryName": "Physical financial transaction",
+							"typeCode": "Voucher",
+							"typeKey": 1,
+							"typeName": "Voucher"
+						},
+						"rewardValueItemDescription": "Handcrafted Drink",
+						"rewardValueLinkId": 2600002,
+						"rewardValueQuantity": 1,
+						"rewardValueTypeCode": "SpecificItem",
+						"rewardValueTypeKey": 3,
+						"rewardValueTypeName": "Specific Item",
+						"sortOrder": 4
+					},
+					{
+						"reward": {
+							"categoryCode": "Entertainment",
+							"categoryKey": 1,
+							"categoryName": "Entertainment",
+							"id": 2600003,
+							"key": 8,
+							"name": "Cineworld or Vue",
+							"optionTypeCode": "Predetermined",
+							"optionTypeKey": 1,
+							"optionTypeName": "Predetermined",
+							"providedByPartyId": 7000006759,
+							"typeCategoryCode": "FinancialTransaction",
+							"typeCategoryKey": 1,
+							"typeCategoryName": "Physical financial transaction",
+							"typeCode": "Voucher",
+							"typeKey": 1,
+							"typeName": "Voucher"
+						},
+						"rewardValueItemDescription": "Cinema Ticket",
+						"rewardValueLinkId": 2600003,
+						"rewardValueQuantity": 1,
+						"rewardValueTypeCode": "SpecificItem",
+						"rewardValueTypeKey": 3,
+						"rewardValueTypeName": "Specific Item",
+						"sortOrder": 3
+					},
+					{
+						"reward": {
+							"categoryCode": "Entertainment",
+							"categoryKey": 1,
+							"categoryName": "Entertainment",
+							"id": 2600003,
+							"key": 8,
+							"name": "Cineworld or Vue",
+							"optionTypeCode": "Predetermined",
+							"optionTypeKey": 1,
+							"optionTypeName": "Predetermined",
+							"providedByPartyId": 7000006759,
+							"typeCategoryCode": "FinancialTransaction",
+							"typeCategoryKey": 1,
+							"typeCategoryName": "Physical financial transaction",
+							"typeCode": "Voucher",
+							"typeKey": 1,
+							"typeName": "Voucher"
+						},
+						"rewardValueItemDescription": "Cinema Ticket",
+						"rewardValueLinkId": 2600004,
+						"rewardValueQuantity": 2,
+						"rewardValueTypeCode": "SpecificItem",
+						"rewardValueTypeKey": 3,
+						"rewardValueTypeName": "Specific Item",
+						"sortOrder": 1
+					},
+					{
+						"reward": {
+							"categoryCode": "Gamification",
+							"categoryKey": 5,
+							"categoryName": "Gamification",
+							"id": 2600006,
+							"key": 11,
+							"name": "No Win",
+							"optionTypeCode": "Predetermined",
+							"optionTypeKey": 1,
+							"optionTypeName": "Predetermined",
+							"providedByPartyId": 7000006759,
+							"typeCategoryCode": "Provisional",
+							"typeCategoryKey": 5,
+							"typeCategoryName": "Provisional",
+							"typeCode": "NoReward",
+							"typeKey": 7,
+							"typeName": "No Reward"
+						},
+						"rewardValueItemDescription": "No Reward",
+						"rewardValueLinkId": 2600009,
+						"rewardValueQuantity": 0,
+						"rewardValueTypeCode": "SpecificItem",
+						"rewardValueTypeKey": 3,
+						"rewardValueTypeName": "Specific Item",
+						"sortOrder": 2
+					}
+				],
+				"code": "WheelSpin",
+				"key": 1,
+				"name": "WheelSpin"
+			},
+			"rewardValue": {
+				"itemDescription": "Spin",
+				"linkId": 2600001,
+				"quantity": 1,
+				"typeCode": "SpecificItem",
+				"typeKey": 3,
+				"typeName": "Specific Item"
+			},
+			"agreementPartyId": 33747440,
+			"awardedOn": "2017-11-28",
+			"effectiveFrom": "2017-11-28",
+			"effectiveTo": "2018-12-16",
+			"eventId": 17913956,
+			"id": 300406,
+			"partyId": 7000041075,
+			"rewardProviderPartyId": 7000006759,
+			"outcomeRewardValueLinkId": 2600003
+		}
+	]
+}

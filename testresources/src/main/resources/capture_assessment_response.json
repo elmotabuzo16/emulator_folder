@@ -1,0 +1,26 @@
+{
+  "assessmentOuts":[
+    {
+      "eventId":22519307,
+      "id":508683
+    }
+  ],
+  "healthAttributeMetadatas":[
+    {
+      "healthAttributeFeedbacks":[
+        {
+          "feedbackTypeCode":"VAgeAbove",
+          "feedbackTypeKey":36,
+          "feedbackTypeName":"Too High",
+          "feedbackTypeTypeCode":"Observation",
+          "feedbackTypeTypeKey":3,
+          "feedbackTypeTypeName":"Feedback that is giving an observation"
+        }
+      ],
+      "typeCode":"VitalityAge",
+      "typeKey":25,
+      "typeName":"VitalityAge",
+      "value":"28.588172176175306"
+    }
+  ]
+}

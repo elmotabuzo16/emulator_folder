@@ -1,0 +1,4 @@
+"PurchasePartyRoleType"
+"key","code","name","note",
+"1","Purchaser","Purchaser"," The party that purchases the product or service",
+"2","Supplier","Supplier","The party that supplies the product or service",

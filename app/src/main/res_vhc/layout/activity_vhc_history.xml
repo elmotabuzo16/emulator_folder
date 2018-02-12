@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vhchistory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vitalityactive.va.vhc.VHCHistoryActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/vhc_no_history_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="@string/history.empty_state_title_250"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/history.empty_state_message_251"
+        android:layout_below="@id/vhc_no_history_title"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

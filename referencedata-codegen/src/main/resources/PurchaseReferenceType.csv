@@ -1,0 +1,5 @@
+"PurchaseReferenceType"
+"key","code","name","note",
+"2","InvoiceRef","InvoiceRef","The unique invoice reference number",
+"1","OrderNumber ","Order Number","The partners number that uniquely identifies the order",
+"3","PartnerTransRef","PartnerTransRef","The unique partner transaction number",

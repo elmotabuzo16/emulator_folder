@@ -1,0 +1,11 @@
+"Questionnaire"
+"key","code","feedbackTemplate","name","note","questionnaireStatus",
+"5","DailyMeals","null","Daily Meals","Daily Meals","null",
+"6","FoodChoices","null","Food Choices","Food Choices","null",
+"1","GeneralHealth","null","General Health","General Health","null",
+"4","LifestyleChoices","null","Lifestyle Choices","Lifestyle Choices","null",
+"3","LifestyleHabits","null","Lifestyle Habits","Lifestyle Habits","null",
+"8","PsychAssessment","null","Psychological Assessment","Psychological Assessment","null",
+"9","SocialAssessment","null","Social Assessment","Social Assessment","null",
+"2","SocialHabits","null","Social Habits","Social Habits","null",
+"7","StressorAssessment","null","Stressor Assessment","Stressor Assessment","null",

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:id="@+id/weekly_target_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/active_rewards_landing_header_will_start" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.vitalityactive.va.activerewards.CircleGoalProgressView
+                android:id="@+id/circleGoalProgressView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="46.5dp"
+                android:layout_marginTop="34dp"
+                android:minHeight="300dp"
+                custom:barColorStart="@color/circle_progress_blue"
+                custom:barColorEnd="@color/water_blue"
+                custom:barWidth="22dp"
+                custom:rimColor="@color/progress_rim_gray" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:id="@+id/points_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textAppearance="@style/MaterialDisplay3"
+                    tools:text="Test" />
+
+                <TextView
+                    android:id="@+id/points_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="24sp"
+                    android:textAppearance="@style/MaterialLightSubheadDisabled"
+                    tools:text="of 300 points" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <include layout="@layout/horizontal_rule" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingEnd="0dp"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            tools:listitem="@layout/active_rewards_activity_item" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

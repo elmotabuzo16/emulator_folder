@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/home_card_height">
+
+    <ImageView
+        android:id="@+id/small_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:src="@drawable/activerewards"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/small_logo"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_small"
+        android:layout_toEndOf="@+id/small_logo"
+        android:text="@string/AR.Landing.home_view_title_710"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/small_logo"
+        android:layout_below="@+id/heading">
+
+        <RelativeLayout
+            android:id="@+id/layout_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <com.vitalityactive.va.activerewards.CircleGoalProgressView
+                android:id="@+id/large_logo"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerVertical="true"
+                custom:barColorEnd="@color/water_blue"
+                custom:barColorStart="@color/circle_progress_blue"
+                custom:barWidth="8dp"
+                custom:rimColor="@color/progress_rim_gray" />
+
+            <TextView
+                android:id="@+id/points_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textAppearance="@style/MaterialLightHeadline"
+                android:textColor="@color/water_blue"
+                tools:text="300" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_toEndOf="@+id/layout_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/score_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/lm_line_spacing_value"
+                android:text="@string/AR.home_card.in_progress_title_773"
+                android:textAppearance="@style/MaterialLightTitleH2" />
+
+            <TextView
+                android:id="@+id/score_week_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/AR.home_card.in_progress_dates_774"
+                android:textAppearance="@style/MaterialLightBody1Secondary" />
+
+            <TextView
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/AR.home.view_goal_button_title_765"
+                android:textAllCaps="true"
+                android:textAppearance="@style/MaterialLightBody2"
+                android:textColor="@color/water_blue" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

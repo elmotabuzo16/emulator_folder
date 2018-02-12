@@ -1,0 +1,10 @@
+{
+  "getPartyResponse": {
+    "party": {
+      "generalPreferences" : [{
+        "typeKey": 3,
+        "value": "test@mail.com"
+      }]
+    }
+  }
+}

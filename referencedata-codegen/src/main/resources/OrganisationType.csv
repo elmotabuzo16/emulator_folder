@@ -1,0 +1,6 @@
+"OrganisationType"
+"key","code","name","note","organisationTypeCategory",
+"1","Carrier","Carrier","Carrier","null",
+"2","Closed Corporation","Closed Corporation","Closed Corporation","null",
+"4","Club","Club","Club","null",
+"3","Limited Company","Limited Company","Limited Company","null",

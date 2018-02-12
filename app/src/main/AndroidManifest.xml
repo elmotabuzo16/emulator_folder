@@ -1,75 +1,738 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.simplemobiletools.calculator"
-    android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vitalityactive.va">
 
-    <uses-permission
-        android:name="android.permission.USE_FINGERPRINT"
-        tools:node="remove"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
 
     <application
-        android:name=".App"
-        android:allowBackup="true"
+        android:name=".VitalityActiveApplication"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_launcher_name"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data android:name="com.pushwoosh.appid" android:value="${pushwooshAppId}"/>
+        <meta-data android:name="com.pushwoosh.senderid" android:value="${fcm_sender_id}"/>
+
+        <meta-data
+            android:name="com.pushwoosh.notification_service_extension"
+            android:value="com.vitalityactive.va.pushnotification.AppNotificationServiceExtension"/>
+        <meta-data
+            android:name="com.pushwoosh.notification_factory"
+            android:value="com.vitalityactive.va.pushnotification.AppNotificationFactory" />
+
+        <!-- General -->
 
         <activity
-            android:name=".activities.SplashActivity"
+            android:name=".launch.LaunchActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".activities.MainActivity"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name=".activities.WidgetConfigureActivity"
+            android:name=".login.LoginActivity"
+            android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:theme="@style/MyWidgetConfigTheme">
+            android:theme="@style/AppTheme.OnboardingTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".userpreferences.FirstTimeUserPreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userpreferences.PrivacyStatementActivity"
+            android:parentActivityName=".userpreferences.FirstTimeUserPreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".register.view.RegisterActivity"
+            android:parentActivityName=".login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".forgotpassword.ForgotPasswordActivity"
+            android:parentActivityName=".login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".termsandconditions.TermsAndConditionsActivity"
+            android:parentActivityName=".login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splashscreen.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoAnimTheme" />
+        <activity
+            android:name=".search.SearchResultsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".activities.SettingsActivity"
-            android:label="@string/settings"
-            android:parentActivityName=".activities.MainActivity"/>
-
-        <activity
-            android:name="com.simplemobiletools.commons.activities.AboutActivity"
-            android:label="@string/about"
-            android:parentActivityName=".activities.MainActivity"/>
-
-        <activity
-            android:name="com.simplemobiletools.commons.activities.LicenseActivity"
-            android:label="@string/third_party_licences"
-            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity"/>
-
-        <activity
-            android:name="com.simplemobiletools.commons.activities.CustomizationActivity"
-            android:label="@string/customize_colors"
-            android:parentActivityName=".activities.SettingsActivity"/>
-
-        <receiver
-            android:name=".helpers.MyWidgetProvider"
-            android:icon="@drawable/img_widget_preview">
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
 
             <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/widget_info"/>
-        </receiver>
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <!-- Active Rewards -->
+
+        <activity
+            android:name=".activerewards.onboarding.ActiveRewardsOnboardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.termsandconditions.ActiveRewardsMedicallyFitAgreementActivity"
+            android:parentActivityName=".activerewards.onboarding.ActiveRewardsOnboardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.ActiveRewardsActivatedActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth.BehindStatusBar" />
+        <activity
+            android:name=".activerewards.landing.ActiveRewardsLandingActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.ActiveRewardsLearnMoreActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activerewards.landing.ActiveRewardsLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.RewardsListActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName=".activerewards.landing.ActiveRewardsLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity android:name=".BaseActivity" />
+        <activity
+            android:name=".activerewards.eventdetail.ActiveRewardsEventDetailActivity"
+            android:parentActivityName=".activerewards.landing.ActiveRewardsLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.participatingpartners.ActiveRewardsParticipatingPartnersActivity"
+            android:parentActivityName=".activerewards.ActiveRewardsLearnMoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.history.GoalHistoryActivity"
+            android:parentActivityName=".activerewards.landing.ActiveRewardsLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.history.detailedscreen.HistoryWeekDetailsActivity"
+            android:parentActivityName=".activerewards.history.GoalHistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.help.ActiveRewardsHelpActivity"
+            android:label="@string/help_button_title_141"
+            android:parentActivityName=".activerewards.landing.ActiveRewardsLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth">
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".search.SearchResultsActivity" />
+        </activity>
+        <activity
+            android:name=".activerewards.participatingpartners.CachedParticipatingPartnerDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.participatingpartners.ParticipatingPartnerDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.WheelSpinActivity"
+            android:parentActivityName=".activerewards.rewards.RewardsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.StarbucksPartnerRegistrationActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activerewards.rewards.RewardsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.onboarding.ActiveRewardsVhrStartActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.RewardVoucherActivity"
+            android:parentActivityName=".activerewards.rewards.RewardsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.StarbucksDataSharingConsentActivity"
+            android:parentActivityName=".activerewards.rewards.StarbucksPartnerRegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.CinemaRewardSelectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.CinemaRewardConfirmationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.CentralAssetWheelSpinConfirmationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.ChooseRewardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".activerewards.rewards.ActiveRewardsDataSharingConsentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+
+        <!-- Non-smoker's Declaration -->
+
+        <activity
+            android:name=".nonsmokersdeclaration.onboarding.NonSmokersDeclarationOnboardingActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".nonsmokersdeclaration.NonSmokersDeclareActivity"
+            android:parentActivityName=".nonsmokersdeclaration.onboarding.NonSmokersDeclarationOnboardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".nonsmokersdeclaration.NonSmokersPrivacyPolicyActivity"
+            android:parentActivityName=".nonsmokersdeclaration.NonSmokersDeclareActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".nonsmokersdeclaration.NonSmokersAssessmentCompleteActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth.BehindStatusBar" />
+        <activity
+            android:name=".nonsmokersdeclaration.onboarding.NonSmokersDeclarationLearnMoreActivity"
+            android:parentActivityName=".nonsmokersdeclaration.onboarding.NonSmokersDeclarationOnboardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+
+        <!-- VHC -->
+
+        <activity
+            android:name=".vhc.VHCOnboardingActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.landing.VHCLandingActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.detail.HealthAttributeDetailActivity"
+            android:parentActivityName=".vhc.landing.VHCLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.captureresults.VHCCaptureResultsActivity"
+            android:parentActivityName=".vhc.landing.VHCLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".vhc.VHCHistoryActivity"
+            android:parentActivityName=".vhc.landing.VHCLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.learnmore.VHCLearnMoreActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".vhc.landing.VHCLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.learnmore.VHCLearnMoreItemDetailActivity"
+            android:parentActivityName=".vhc.learnmore.VHCLearnMoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.VHCHelpActivity"
+            android:parentActivityName=".vhc.landing.VHCLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.PDFActivity"
+            android:parentActivityName=".vhc.landing.VHCLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.VHCParticipatingPartnersActivity"
+            android:parentActivityName=".vhc.learnmore.VHCLearnMoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.addproof.VHCAddProofActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".vhc.captureresults.VHCCaptureResultsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth.add_proof" />
+        <activity
+            android:name=".vhc.VHCSummaryActivity"
+            android:parentActivityName=".vhc.addproof.VHCAddProofActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.VHCPrivacyPolicyActivity"
+            android:parentActivityName=".vhc.VHCSummaryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhc.VHCMeasurementsConfirmedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth.BehindStatusBar" />
+        <activity
+            android:name=".vhc.addproof.VHCProofItemDetailActivity"
+            android:parentActivityName=".vhc.addproof.VHCAddProofActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+
+        <!-- Points Monitor -->
+        <activity
+            android:name=".pointsmonitor.PointsMonitorEntryDetailActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- VHR -->
+        <activity
+            android:name=".vhr.VHROnBoardingActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhr.VHRLearnMoreActivity"
+            android:parentActivityName=".vhr.VHROnBoardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhr.landing.VHRLandingActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhr.questions.VHRQuestionnaireActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".vhr.landing.VHRLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vhr.VHRPrivacyPolicyActivity"
+            android:parentActivityName=".vhr.questions.VHRQuestionnaireActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vna.VNAPrivacyPolicyActivity"
+            android:parentActivityName=".vna.VNAQuestionnaireActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vna.help.VNAHelpActivity"
+            android:theme="@style/AppTheme.KnowYourHealth"
+            android:screenOrientation="portrait"  />
+        <activity
+            android:name=".vhr.questions.VHRQuestionnaireCompletedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth.BehindStatusBar" />
+        <activity
+            android:name=".vhr.disclaimer.VHRDisclaimerActivity"
+            android:parentActivityName=".vhr.VHRLearnMoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+
+        <!-- Wellness Devices -->
+        <activity
+            android:name=".wellnessdevices.onboarding.WellnessDevicesOnboardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".wellnessdevices.landing.WellnessDevicesLandingActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".wellnessdevices.WellnessDevicesLearnMoreActivity"
+            android:parentActivityName=".wellnessdevices.landing.WellnessDevicesLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".wellnessdevices.linking.WellnessDevicesDetailsActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".wellnessdevices.landing.WellnessDevicesLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".wellnessdevices.linking.web.WellnessDevicesWebActivity"
+            android:parentActivityName=".wellnessdevices.linking.WellnessDevicesDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".wellnessdevices.pointsmonitor.WellnessDevicesPointsActivity"
+            android:parentActivityName=".wellnessdevices.linking.WellnessDevicesDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".wellnessdevices.linking.privacypolicy.WellnessDevicesPrivacyPolicyActivity"
+            android:noHistory="true"
+            android:parentActivityName=".wellnessdevices.linking.WellnessDevicesDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".wellnessdevices.informative.WellnessDevicesInfoActivity"
+            android:parentActivityName=".wellnessdevices.linking.WellnessDevicesDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".wellnessdevices.SimpleBrowserActivity"
+            android:parentActivityName=".wellnessdevices.linking.WellnessDevicesDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+
+        <!-- VNA -->
+        <activity
+            android:name=".vna.onboarding.VNAOnboardingActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vna.landing.VNALandingActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vna.VNALearnMoreActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".vna.landing.VNALandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vna.VNAQuestionnaireActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".vna.landing.VNALandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vna.disclaimer.VNADisclaimerActivity"
+            android:parentActivityName=".vna.VNALearnMoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".vna.VNAQuestionnaireCompletedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth.BehindStatusBar" />
+
+        <!-- SNV -->
+        <activity
+            android:name=".snv.SNVOnboardingActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+
+        <!-- vitalityage / myhealth -->
+        <activity
+            android:name=".myhealth.vitalityage.VitalityAgeActivity"
+            android:noHistory="true"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityAge" />
+        <activity
+            android:name=".myhealth.onboarding.MyHealthOnboardingActivity"
+            android:noHistory="true"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MyHealth" />
+        <activity
+            android:name=".myhealth.vitalityageprofile.MyHealthVitalityAgeProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MyHealth" />
+        <activity
+            android:name=".myhealth.learnmore.VitalityAgeLearnMoreActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MyHealth" />
+        <activity
+            android:name=".myhealth.disclaimer.MyHealthDisclaimerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MyHealth" />
+        <activity
+            android:name=".myhealth.moretips.MyHealthMoreTipsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MyHealth" />
+        <activity
+            android:name=".myhealth.tipdetail.MyHealthTipDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MyHealth" />
+        <activity
+            android:name=".myhealth.vitalityageprofile.MyHealthTipsMoreResultsActivity"
+            android:parentActivityName=".myhealth.vitalityageprofile.MyHealthVitalityAgeProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MyHealth" />
+        <activity
+            android:name=".myhealth.healthattributes.MyHealthAttributeDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MyHealth" />
+        <activity
+            android:name=".vitalitystatus.landing.VitalityStatusLandingActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityStatus" />
+        <activity
+            android:name=".vitalitystatus.detail.VitalityStatusLevelDetailActivity"
+            android:parentActivityName=".vitalitystatus.landing.VitalityStatusLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityStatus" />
+        <activity
+            android:name=".vitalitystatus.detail.StatusMyRewardsDetailActivity"
+            android:parentActivityName=".vitalitystatus.landing.VitalityStatusLandingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityStatus" />
+        <activity
+            android:name=".vitalitystatus.VitalityStatusLearnMoreActivity"
+            android:parentActivityName=".vitalitystatus.detail.VitalityStatusLevelDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityStatus" />
+        <activity
+            android:name=".vitalitystatus.earningpoints.VitalityStatusDetailsActivity"
+            android:parentActivityName=".vitalitystatus.detail.VitalityStatusLevelDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityStatus" />
+        <activity
+            android:name=".vitalitystatus.earningpoints.StatusPointsActivity"
+            android:parentActivityName=".vitalitystatus.earningpoints.VitalityStatusDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityStatus" />
+        <activity
+            android:name=".vitalitystatus.PointsEarningMetricDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityStatus" />
+        <activity
+            android:name=".vitalitystatus.VitalityStatusLevelIncreasedActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityStatus" />
+        <activity
+            android:name=".vitalitystatus.onboarding.VitalityStatusOnboarding"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.VitalityStatus" />
+
+        <!-- uke partner journey -->
+        <activity
+            android:name=".partnerjourney.PartnerListActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".partnerjourney.PartnerDetailsActivity"
+            android:parentActivityName=".partnerjourney.PartnerListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+        <activity
+            android:name=".partnerjourney.PartnerTermsAndConditionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+
+        <!-- profile personal details -->
+        <activity
+            android:name=".profile.PersonalDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".membershippass.MembershipPassActivity"
+            android:label="@string/settings_landing_membership_pass_title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".membershippass.VitalityNumberActivity"
+            android:label="@string/Settings.membership_vitality_number_title_966"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".membershippass.MembershipPassHelpActivity"
+            android:label="@string/help_button_141"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".help.ContentHelpActivity"
+            android:label="@string/profile_help_title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".userpreferences.CommunicationPreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userpreferences.PrivacyPreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".termsandconditions.TermAndConditionsWithoutAgreeButtonBarActivity"
+            android:parentActivityName=".login.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- profile events feed -->
+        <activity
+            android:name=".eventsfeed.views.EventsFeedActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- settings: Change Password -->
+        <activity
+            android:name=".settings.SettingChangePasswordActivity"
+            android:noHistory="true"
+            android:parentActivityName=".userpreferences.SecurityPreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.PasswordChangedActivity"
+            android:noHistory="true"
+            android:parentActivityName=".userpreferences.SecurityPreferencesActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- feedback -->
+        <activity
+            android:name=".feedback.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profile.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".snv.learnmore.ScreeningsLearnMoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.learnmore.ScreeningsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+
+        <!-- Screening And Vaccination -->
+        <activity
+            android:name=".snv.learnmore.SnvListDescriptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.partners.SnvParticipatingPartnersActivity"
+            android:parentActivityName=".snv.onboarding.ScreeningsAndVaccinationsOnboardingActivity" />
+        <activity
+            android:name=".snv.partners.SnvParticipatingPartnersDetailActivity"
+            android:parentActivityName=".snv.partners.SnvParticipatingPartnersActivity" />
+        <activity
+            android:name=".snv.onboarding.ScreeningsAndVaccinationsOnboardingActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.onboarding.healthactions.HealthActionsActivity"
+            android:parentActivityName=".snv.onboarding.ScreeningsAndVaccinationsOnboardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.confirmandsubmit.view.ConfirmAndSubmitActivity"
+            android:parentActivityName=".snv.onboarding.healthactions.HealthActionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.confirmandsubmit.view.SNVAddProofActivity"
+            android:parentActivityName=".snv.confirmandsubmit.view.ConfirmAndSubmitActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.confirmandsubmit.view.SNVProofItemDetailActivity"
+            android:parentActivityName=".snv.confirmandsubmit.view.SNVAddProofActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.confirmandsubmit.view.SNVSummaryActivity"
+            android:parentActivityName=".snv.confirmandsubmit.view.SNVProofItemDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.confirmandsubmit.view.SNVPrivacyPolicyActivity"
+            android:parentActivityName=".snv.confirmandsubmit.view.SNVSummaryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.confirmandsubmit.view.SNVDataConfirmedActivity"
+            android:parentActivityName=".snv.confirmandsubmit.view.SNVSummaryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.history.views.SNVHistoryActivity"
+            android:parentActivityName=".snv.onboarding.ScreeningsAndVaccinationsOnboardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.history.views.SNVHistoryDetailActivity"
+            android:parentActivityName=".snv.history.views.SNVHistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+        <activity
+            android:name=".snv.onboarding.ScreeningsAndVaccinationsHelp"
+            android:theme="@style/AppTheme.KnowYourHealth"
+            android:screenOrientation="portrait"  />
+        <activity
+            android:name=".userpreferences.SecurityPreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".mwb.MWBOnBoardingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mwb.landing.MWBLandingActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+
+        <!--android:parentActivityName=".vhc.landing.MWBLandingActivity"-->
+        <activity
+            android:name=".mwb.learnmore.MWBLearnMoreActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.KnowYourHealth" />
+
+        <activity android:name=".mwb.onboarding.MWBOnBoardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ImproveYourHealth" />
+
     </application>
+
 </manifest>

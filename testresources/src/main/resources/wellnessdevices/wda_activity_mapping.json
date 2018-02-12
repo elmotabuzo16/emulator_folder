@@ -1,0 +1,82 @@
+{
+  "_comment_" : [
+    "Reference Data: PointsEntryTypeRef unknown = -1, heartRate = 4, energyExpended = 5 (calories burned, active calories has no pooints entry type supported),  speed = 6, distance = 7, steps = 10, BMI = 11",
+   "Activities mapped from 0.1.1 Configuration / Product - Vitality Product Configuration document page 19 and VDP get devices response"
+  ],
+  "MiBand": [
+  ],
+  "Kiqplan": [
+  ],
+  "Strava": [
+    10
+  ],
+  "Jawbone UP": [
+    10
+  ],
+  "Misfit Wearables": [
+    10
+  ],
+  "RunKeeper": [
+    5,
+    6
+  ],
+  "Fitbit": [
+    4,
+    10
+  ],
+  "Withings": [
+    10
+  ],
+  "Suunto": [
+    4
+  ],
+  "Adidas": [
+    4,
+    5,
+    6,
+    10
+  ],
+  "Moves": [
+    10
+  ],
+  "PolarFlow": [
+    4,
+    10
+  ],
+  "Polar Device": [
+    4,
+    10
+  ],
+  "Garmin Device": [
+    4,
+    10
+  ],
+  "GarminConnect": [
+    4,
+    10
+  ],
+  "iHealthLabs": [
+    4,
+    5,
+    6,
+    10
+  ],
+  "iHealth Device": [
+    4,
+    5,
+    6,
+    10
+  ],
+  "Samsung S Health": [
+    4,
+    10
+  ],
+  "TomTom": [
+    4,
+    10
+  ],
+  "Apple Health App": [
+    4,
+    10
+  ]
+}

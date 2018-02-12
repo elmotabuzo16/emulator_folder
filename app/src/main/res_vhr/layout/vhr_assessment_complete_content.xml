@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/onboarding_title_text_size"
+            android:textStyle="bold"
+            tools:text="Some text that is the title"
+            tools:textColor="" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/onboarding_subtitle_text_size"
+            tools:text="Some text that is the subtitle and is very long so we can see if it wraps correctly."
+            tools:textColor="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/assessment_got_it_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:onClick="onGotItTapped"
+            android:text="@string/great_button_title_120"
+            android:textColor="@color/jungle_green"
+            android:textSize="@dimen/onboarding_subtitle_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

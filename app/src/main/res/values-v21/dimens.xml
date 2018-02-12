@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_container_height">3dp</dimen>
+    <dimen name="progress_bar_height">10dp</dimen>
+    <dimen name="progress_bar_margin_top">-3dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+</resources>

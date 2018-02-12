@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "content": {
+      "Programme": {
+        "programId": 1234
+      },
+      "reason": "Successfully activated programme",
+      "success": true
+    }
+  }
+}

@@ -1,0 +1,4 @@
+"UtilisationLimitValueType"
+"key","code","name","note",
+"1","Amount","Amount","The Value Limit Type is a Monetary Amount",
+"2","Count","Count","The Value Limit Type is a Count",

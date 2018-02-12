@@ -1,0 +1,29 @@
+phraseapp:
+  access_token: 5156e7cf92c7cc65f632c2fe2b2863cf475c797edafbc82677bf593510dc4bd4
+  project_id: 7bac006e34467c8480d71aae1e5afa20
+  file_format: xml
+  pull:
+    targets:
+
+#Translations
+
+    #Sumitomo_English
+    - file: ./app/src/sumitomo/res/values/strings_phraseapp.xml
+      params:
+          locale_id: 0146225dd11e6f806ef73d61515b27a7
+          encoding: "UTF-8"
+          include_empty_translations: true
+          fallback_locale_id: "Base"
+          format_options:
+            convert_placeholder: true
+            escape_linebreaks: true
+    #Sumitomo_Japanese_Japan
+    - file: ./app/src/sumitomo/res/values-ja/strings_phraseapp.xml
+      params:
+          locale_id: 8bfd4818ca6d4dc97547a7ced6570bfa
+          encoding: "UTF-8"
+          include_empty_translations: true
+          fallback_locale_id: "Base"
+          format_options:
+            convert_placeholder: true
+            escape_linebreaks: true

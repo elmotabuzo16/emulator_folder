@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/vhc_margin_health_item_top_bottom"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/vhc_properties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/vhc_primary_measurement_item_field_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:hint="primary"
+                tools:ignore="HardcodedText">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/vhc_primary_measurement_item_field_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:inputType="numberDecimal"
+                    android:maxLength="8"
+                    android:textSize="@dimen/onboarding_subtitle_text_size" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/vhc_measurement_unit_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vhc_primary_measurement_item_field_layout"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/vhc_measurement_unit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vhc_primary_measurement_item_field_layout"
+                android:layout_marginTop="24dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/light_primary_87"
+                android:textSize="16sp"
+                tools:ignore="RelativeOverlap"
+                tools:text="mm" />
+
+        </RelativeLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/vhc_secondary_measurement_item_field_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="secondary"
+            tools:ignore="HardcodedText">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/vhc_secondary_measurement_item_field_text"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:inputType="numberDecimal"
+                android:maxLength="8"
+                android:textSize="@dimen/onboarding_subtitle_text_size" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin_tiny"
+            android:layout_marginStart="@dimen/activity_horizontal_margin_tiny"
+            android:textAppearance="@style/MaterialLightCaptionSecondary"
+            tools:text="subtitle" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/vhc_field_with_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/vhc_field_with_dialog_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin_tiny"
+            android:layout_marginStart="@dimen/activity_horizontal_margin_tiny"
+            android:layout_marginTop="20dp"
+            android:text="@string/capture_results.none_message_337"
+            android:textAppearance="@style/MaterialLightSubheadDisabled" />
+
+        <TextView
+            android:id="@+id/vhc_field_with_dialog_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vhc_field_with_dialog_text"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin_tiny"
+            android:layout_marginStart="@dimen/activity_horizontal_margin_tiny"
+            android:textAppearance="@style/MaterialLightBody1Secondary"
+            tools:text="Positive" />
+
+        <View
+            android:id="@+id/vhc_field_with_dialog_spinner"
+            style="@style/Widget.AppCompat.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_alignBottom="@id/vhc_field_with_dialog_subtitle"
+            android:layout_marginTop="20dp"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <include
+            layout="@layout/horizontal_rule"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/vhc_field_with_dialog_spinner"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/vhc_measurement_item_date_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin_tiny"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_tiny"
+        android:layout_marginTop="20dp"
+        android:text="@string/capture_results.date_tested_144"
+        android:textColor="@color/light_primary_38"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/vhc_date_tested"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_tiny"
+        android:text="Wed, 29 Mar 2017"
+        android:textAppearance="@style/MaterialLightSubhead"
+        tools:ignore="HardcodedText" />
+
+    <include
+        layout="@layout/horizontal_rule"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

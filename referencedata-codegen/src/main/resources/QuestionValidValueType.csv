@@ -1,0 +1,8 @@
+"QuestionValidValueType"
+"key","code","name","note",
+"6","Boolean","Boolean","Boolean",
+"3","LowerLimit","Lower Limit","Lower Limit",
+"5","Text","Text","Text",
+"4","UpperLimit","Upper Limit","Upper Limit",
+"1","ValueMaximum","Value Maximum","Value Maximum",
+"2","ValueMinimum","Value Minimum","Value Minimum",

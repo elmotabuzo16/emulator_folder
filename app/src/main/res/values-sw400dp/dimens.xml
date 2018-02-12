@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="onboarding_title_text_size">30sp</dimen>
+    <dimen name="onboarding_subtitle_text_size">16sp</dimen>
+    <dimen name="onboarding_title_width">350dp</dimen>
+    <dimen name="onboarding_title_margin">48dp</dimen>
+    <dimen name="onboarding_button_margin_top">96dp</dimen>
+    <dimen name="onboarding_button_margin_bottom">16dp</dimen>
+    <dimen name="onboarding_icon_margin_bottom">24dp</dimen>
+    <dimen name="onboarding_grid_column_spacing">48dp</dimen>
+    <dimen name="onboarding_icon_margin_top">4dp</dimen>
+    <dimen name="onboarding_link_margin_top">48dp</dimen>
+
+
+    <dimen name="va_topmargin">36dp</dimen>
+    <dimen name="vitality_age_placeholder">24sp</dimen>
+    <dimen name="vitality_age_questiontext">16sp</dimen>
+    <dimen name="vitality_age_narration">16sp</dimen>
+    <dimen name="vitality_age_rightmargin">81dp</dimen>
+    <dimen name="vitality_age_narrative_bottom_margin">52dp</dimen>
+    <dimen name="vitality_age_profile_ic_width">45dp</dimen>
+    <dimen name="vitality_age_profile_ic_height">45dp</dimen>
+    <dimen name="vitality_age_profile_leftmargin">24dp</dimen>
+    <dimen name="vitality_age_profile_narrative_margin">16dp</dimen>
+    <dimen name="vitality_age_profile_rightmargin">24dp</dimen>
+    <dimen name="vitality_age_pending">12sp</dimen>
+    <dimen name="vitality_age_value">112sp</dimen>
+    <dimen name="vitalityage_learnmore_button_bottom_margin">36dp</dimen>
+    <dimen name="vitality_age_header_spacer">15dp</dimen>
+    <dimen name="viality_age_bg_margin">60dp</dimen>
+    <dimen name="vitality_age_icon_margin_bottom">16dp</dimen>
+    <dimen name="vitality_age_icon_margin_top">40dp</dimen>
+    <dimen name="va_value_bottom_margin">24dp</dimen>
+    <dimen name="vitality_age_value_layout">131dp</dimen>
+    <dimen name="vitality_age_bg_image_size">160dp</dimen>
+
+    <dimen name="vitality_age_profile_topmargin">24dp</dimen>
+
+    <dimen name="vitality_age_activity_bottom_margin">36dp</dimen>
+    <dimen name="vitality_age_header_padding">0dp</dimen>
+    <dimen name="myhealth_vitalityage_round_corner">4dp</dimen>
+    <dimen name="myhealth_horizontal_margin">5dp</dimen>
+    <dimen name="myhealth_onboarding_title_margin">48dp</dimen>
+    <dimen name="my_health_onboarding_button_margin_top">144dp</dimen>
+    <dimen name="my_health_onboarding_button_margin_bottom">72dp</dimen>
+    <dimen name="my_health_onboarding_icon_margin">24dp</dimen>
+    <dimen name="my_health_onboarding_icon_column_spacing">32dp</dimen>
+    <dimen name="my_health_onboarding_title_margin">32dp</dimen>
+    <dimen name="my_health_onboarding_link_margin_top">24dp</dimen>
+    <dimen name="vitality_age_learnmore_top">36dp</dimen>
+    <dimen name="vitality_age_profile_padding">87dp</dimen>
+    <dimen name="vitality_age_myhealth_lower_margin">24dp</dimen>
+    <dimen name="vitality_age_myhealth_top_margin">36dp</dimen>
+    <dimen name="vitality_age_subheader">12dp</dimen>
+    <dimen name="vitality_age_placeholder_top_margin">32dp</dimen>
+    <dimen name="vitality_age_placeholder_bottom_margin">66dp</dimen>
+    <dimen name="myhealth_divider">15dp</dimen>
+    <dimen name="vitality_age_status_icon">36dp</dimen>
+
+
+</resources>

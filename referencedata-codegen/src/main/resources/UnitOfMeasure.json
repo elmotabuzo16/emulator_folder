@@ -1,0 +1,389 @@
+[
+  {
+    "id": 100121,
+    "uuid": "1FDBF18BAA2D4D01A145A21BA772CE65",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Triglyceride Millimoles Per Litre",
+    "quantityId": 100088,
+    "symbol": "MMOL/L"
+  },
+  {
+    "id": 100117,
+    "uuid": "213D672C015448A3A1D7C609756373F4",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "FootInch",
+    "quantityId": 100092,
+    "symbol": "F.INCH"
+  },
+  {
+    "id": 100129,
+    "uuid": "2BB330E2D8674A99A59ADC6FD031A893",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "systolic millimeter of mercury",
+    "quantityId": 100087,
+    "symbol": "mmHg"
+  },
+  {
+    "id": 100119,
+    "uuid": "398E3FC020184DB8B19AD785D40EA701",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Triglyceride Milligrams Per Deci Litre",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 100127,
+    "uuid": "41C153B804F549F3A14D4FCDFB8A4482",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Random Glucose Millimoles Per Litre",
+    "quantityId": 100088,
+    "symbol": "MMOL/L"
+  },
+  {
+    "id": 100101,
+    "uuid": "456AC4748C4E47BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Gram",
+    "quantityId": 100076,
+    "symbol": "G"
+  },
+  {
+    "id": 100102,
+    "uuid": "456AC4748C4F47BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Kilogram",
+    "quantityId": 100077,
+    "symbol": "KG"
+  },
+  {
+    "id": 100103,
+    "uuid": "456AC4748C5047BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Meter",
+    "quantityId": 100078,
+    "symbol": "M"
+  },
+  {
+    "id": 100104,
+    "uuid": "456AC4748C5147BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Kilometer",
+    "quantityId": 100079,
+    "symbol": "KM"
+  },
+  {
+    "id": 100105,
+    "uuid": "456AC4748C5247BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Inch",
+    "quantityId": 100080,
+    "symbol": "INCH"
+  },
+  {
+    "id": 100106,
+    "uuid": "456AC4748C5347BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Foot",
+    "quantityId": 100081,
+    "symbol": "F"
+  },
+  {
+    "id": 100107,
+    "uuid": "456AC4748C5447BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Mile",
+    "quantityId": 100082,
+    "symbol": "MI"
+  },
+  {
+    "id": 100108,
+    "uuid": "456AC4748C5547BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Ounce",
+    "quantityId": 100083,
+    "symbol": "OZ"
+  },
+  {
+    "id": 100109,
+    "uuid": "456AC4748C5647BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Pound",
+    "quantityId": 100084,
+    "symbol": "LB"
+  },
+  {
+    "id": 100110,
+    "uuid": "456AC4748C5747BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Ton",
+    "quantityId": 100085,
+    "symbol": "T"
+  },
+  {
+    "id": 100111,
+    "uuid": "456AC4748C5847BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Centimeter",
+    "quantityId": 100086,
+    "symbol": "CM"
+  },
+  {
+    "id": 100112,
+    "uuid": "456AC4748C5947BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Millimeter Of Mercury",
+    "quantityId": 100087,
+    "symbol": "mmHg"
+  },
+  {
+    "id": 100113,
+    "uuid": "456AC4748C5A47BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Millimoles Per Litre",
+    "quantityId": 100088,
+    "symbol": "MMOL/L"
+  },
+  {
+    "id": 100114,
+    "uuid": "456AC4748C5B47BAE0530100007F478C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Percentage",
+    "quantityId": 100089,
+    "symbol": "%"
+  },
+  {
+    "id": 100164,
+    "uuid": "501C84FAF3AD105DE0530100007FAE65",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "BMI",
+    "quantityId": 100114,
+    "symbol": "kg/m²"
+  },
+  {
+    "id": 101500,
+    "uuid": "55C35E4BFF1354E4E0530100007FE518",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Second",
+    "quantityId": null,
+    "symbol": "s"
+  },
+  {
+    "id": 101501,
+    "uuid": "55C35E4BFF1454E4E0530100007FE518",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Kilometers Per Hour",
+    "quantityId": null,
+    "symbol": "KM/H"
+  },
+  {
+    "id": 100126,
+    "uuid": "5891AA7840AB4352953D3FFE293F0F12",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "HDLCholestrol Millimoles Per Litre",
+    "quantityId": 100088,
+    "symbol": "MMOL/L"
+  },
+  {
+    "id": 100116,
+    "uuid": "5B0D4A79F1CD469A872DE88330CE0B2F",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Stone",
+    "quantityId": 100090,
+    "symbol": "st"
+  },
+  {
+    "id": 100120,
+    "uuid": "69A860DAD3474A189F6CC615E0278F37",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Fasting Glucose Milligrams Per Deci Litre",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 100125,
+    "uuid": "7376C09487DC46E5A7980B7E448FD3DF",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "LDLCholestrol Millimoles Per Litre",
+    "quantityId": 100088,
+    "symbol": "MMOL/L"
+  },
+  {
+    "id": 100118,
+    "uuid": "8C57BD346A1B466496637AF72DCAE5C4",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "TotalCholestrol Milligrams Per Deci Litre",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 100122,
+    "uuid": "9D5FE8BCA7B54A0E9811BC39EDE21F5C",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Fasting Glucose Millimoles Per Litre",
+    "quantityId": 100088,
+    "symbol": "MMOL/L"
+  },
+  {
+    "id": 100115,
+    "uuid": "9E4468CADF7D4A78BC7729EF3E63DD2A",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Systolic Kilo Pascal",
+    "quantityId": 100094,
+    "symbol": "kPa"
+  },
+  {
+    "id": 100128,
+    "uuid": "BEA6F9E8200944B3BA506082EEBC028F",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Random Glucose Milligrams Per Deci Litre",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 100124,
+    "uuid": "BFABF1B91A65430F8BD0A4071732E903",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "HDLCholestrol Milligrams Per Deci Litre",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 100123,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "LDLCholestrol Milligrams Per Deci Litre",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101502,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Per day",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101503,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Per week",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101504,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Minutes",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101505,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Hours",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101506,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Days",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101507,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "StonePound",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101508,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "KILOCALORIESPERHOUR",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101509,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "KILOCALORIES",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101510,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "METERSPERSECOND",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101511,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "MINUTESPERKILOMETER",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  },
+  {
+    "id": 101512,
+    "uuid": "C0E68947E3924C4496F57CE738CC268E",
+    "tenant": 2,
+    "measurementSystemKey": null,
+    "name": "Beats Per Minute",
+    "quantityId": 100091,
+    "symbol": "mg/dL"
+  }
+]

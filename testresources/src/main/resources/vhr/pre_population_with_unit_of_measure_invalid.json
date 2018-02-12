@@ -1,0 +1,168 @@
+{
+  "questionnaireSetTypeKey": 1,
+  "questionnaireSetTypeCode": "VHR",
+  "questionnaireSetTypeName": "Vitality Health Review",
+  "totalPotentialPoints": 10,
+  "totalEarnedPoints": 10,
+  "totalQuestionnaires": 3,
+  "totalQuestionnaireCompleted": 3,
+  "questionnaireSetCompleted": true,
+  "questionnaire": [
+    {
+      "typeKey": 1,
+      "typeCode": "LifestyleHabits",
+      "typeName": "Lifestyle Habits",
+      "sortOrderIndex": 3,
+      "completedOn": "2017-04-11",
+      "completionFlag": true,
+      "questionnaireSections": [
+        {
+          "questions": [
+            {
+              "populationValues": [
+                {
+                  "fromValue": "75000",
+                  "unitOfMeasure": "100101",
+                  "valueType": "6"
+                }
+              ],
+              "questionDecorator": {
+                "unitOfMeasures": [
+                  {
+                    "value": "100102"
+                  },
+                  {
+                    "value": "100109"
+                  }
+                ],
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Textbox",
+                "typeKey": 1,
+                "typeName": "Textbox"
+              },
+              "unitOfMeasures": [
+                {
+                  "value": "100102"
+                },
+                {
+                  "value": "100109"
+                }
+              ],
+              "validValues": [
+                {
+                  "unitOfMeasure": {
+                    "value": "100102"
+                  },
+                  "validValueTypes": [
+                    {
+                      "typeCode": "LowerLimit",
+                      "typeKey": 3,
+                      "typeName": "Lower Limit"
+                    }
+                  ],
+                  "name": "2",
+                  "value": "2"
+                },
+                {
+                  "unitOfMeasure": {
+                    "value": "100109"
+                  },
+                  "validValueTypes": [
+                    {
+                      "typeCode": "LowerLimit",
+                      "typeKey": 3,
+                      "typeName": "Lower Limit"
+                    }
+                  ],
+                  "name": "4.41",
+                  "value": "4.41"
+                }
+              ],
+              "length": 10,
+              "questionTypeCode": "DecimalRange",
+              "questionTypeKey": 6,
+              "questionTypeName": "Decimal Range",
+              "sortOrderIndex": 2.0,
+              "text": "How much do you weigh?",
+              "typeCode": "Weight",
+              "typeKey": 688
+            },
+            {
+              "populationValues": [
+                {
+                  "fromValue": "180",
+                  "unitOfMeasure": "100111",
+                  "valueType": "6"
+                }
+              ],
+              "questionDecorator": {
+                "unitOfMeasures": [
+                  {
+                    "value": "100103"
+                  }
+                ],
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Textbox",
+                "typeKey": 1,
+                "typeName": "Textbox"
+              },
+              "unitOfMeasures": [
+                {
+                  "value": "100103"
+                }
+              ],
+              "validValues": [
+                {
+                  "unitOfMeasure": {
+                    "value": "100103"
+                  },
+                  "validValueTypes": [
+                    {
+                      "typeCode": "LowerLimit",
+                      "typeKey": 3,
+                      "typeName": "Lower Limit"
+                    }
+                  ],
+                  "name": "0.79",
+                  "value": "0.79"
+                },
+                {
+                  "unitOfMeasure": {
+                    "value": "100103"
+                  },
+                  "validValueTypes": [
+                    {
+                      "typeCode": "UpperLimit",
+                      "typeKey": 4,
+                      "typeName": "Upper Limit"
+                    }
+                  ],
+                  "name": "3",
+                  "value": "3"
+                }
+              ],
+              "length": 25,
+              "questionTypeCode": "DecimalRange",
+              "questionTypeKey": 6,
+              "questionTypeName": "Decimal Range",
+              "sortOrderIndex": 1.0,
+              "text": "What is your height? ",
+              "typeCode": "Height",
+              "typeKey": 67
+            }
+          ],
+          "typeKey": 15,
+          "typeCode": "EatingHabits",
+          "isVisible": true,
+          "visibilityTagName": "",
+          "typeName": "Your Eating Habits",
+          "sortOrderIndex": 2
+        }
+      ]
+    }
+  ]
+}

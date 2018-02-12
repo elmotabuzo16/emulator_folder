@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/ar_padding_medium">
+
+    <ImageView
+        android:id="@+id/iv_ar_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/ar_padding_medium"
+        android:layout_marginEnd="@dimen/ar_padding_medium"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/learn_more_icon_content_description" />
+
+    <TextView
+        android:id="@+id/tv_ar_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ar_padding_medium"
+        android:layout_marginStart="@dimen/ar_padding_medium"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/iv_ar_icon"
+        android:textAppearance="@style/MaterialLightSubheadMedium"/>
+
+    <TextView
+        android:id="@+id/tv_ar_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBaseline="@+id/tv_ar_status"
+        android:textAppearance="@style/MaterialLightCaptionSecondary" />
+
+    <TextView
+        android:id="@+id/tv_ar_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ar_padding_tiny"
+        android:layout_alignStart="@id/tv_ar_status"
+        android:layout_below="@id/tv_ar_status"
+        android:textAppearance="@style/MaterialLightBody1Secondary" />
+
+    <TextView
+        android:id="@+id/tv_ar_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/tv_ar_status"
+        android:layout_below="@id/tv_ar_points"
+        android:layout_marginBottom="@dimen/ar_padding_small"
+        android:layout_marginTop="@dimen/ar_padding_medium"
+        android:text="@string/AR.goal_history.not_achieved_message_846"
+        android:textAppearance="@style/MaterialLightSubhead"
+        android:visibility="gone" />
+
+</RelativeLayout>

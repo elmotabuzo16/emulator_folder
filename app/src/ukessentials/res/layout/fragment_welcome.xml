@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/onboarding_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/login_logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/onboarding_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/onboarding_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/onboarding_text_to_button_margin"
+            android:text="@string/welcome_text_title_366"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/light_primary_87"
+            android:textSize="@dimen/onboarding_title_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/onboarding_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/onboarding_title"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/onboarding_title_margin"
+            android:layout_marginRight="@dimen/onboarding_title_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/welcome.message_text_367"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/secondary_54"
+            android:textSize="@dimen/onboarding_subtitle_text_size" />
+
+        <Button
+            android:id="@+id/get_started_button"
+            style="@style/DefaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/onboarding_description"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="@dimen/lm_item_padding_start"
+            android:paddingEnd="@dimen/lm_item_padding_start"
+            android:layout_marginTop="@dimen/onboarding_text_to_button_margin"
+            android:theme="@style/WelcomeButton"
+            android:textColor="@android:color/white"
+            android:text="@string/get_started_button_title_103" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/dev_uke_login"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="debug build"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/basic_login"
+                android:text="basic login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/web_breakout"
+                android:text="Web login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/switch_url"
+                android:text="switch url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

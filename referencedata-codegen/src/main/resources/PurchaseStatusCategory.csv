@@ -1,0 +1,3 @@
+"PurchaseStatusCategory"
+"key","code","name","note",
+"1","Order ","Order","Purchase status category relating to the order status of the purchase",

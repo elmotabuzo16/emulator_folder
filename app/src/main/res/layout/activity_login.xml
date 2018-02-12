@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onboarding_know_your_health"
+    tools:context="com.vitalityactive.va.launch.LaunchActivity">
+
+    <include layout="@layout/onboarding_circles" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/login_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/login_onboarding_skip_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:onClick="handleSkipButtonTapped"
+            android:text="@string/skip_button_title_11"
+            android:textColor="@android:color/white" />
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/login_onboarding_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

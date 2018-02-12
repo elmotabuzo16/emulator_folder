@@ -1,0 +1,6 @@
+"StatusCategory"
+"key","code","name","note",
+"2","CarryoverStatus","Carryover Status","Carryover Status",
+"4","OverallStatus","Overall Status","Overall Status",
+"3","OverrideStatus","Manual Override Status","Manual Override Status",
+"1","PointsStatus","Points Status","Points Status",

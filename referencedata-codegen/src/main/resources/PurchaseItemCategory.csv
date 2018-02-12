@@ -1,0 +1,4 @@
+"PurchaseItemCategory"
+"key","code","name","note",
+"1","Healthy","Healthy Food Item","Indicates the category for the healthy food item purchased",
+"2","Unhealthy","Unhealthy Food Item","Indicates the category for the unhealthy food item purchased",

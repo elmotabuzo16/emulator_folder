@@ -1,0 +1,452 @@
+{
+  "warnings": [
+    {
+      "code": "4007",
+      "message": "The user does not exist."
+    },
+    {
+      "code": "14301",
+      "message": "user not linked to Polar via GDL"
+    },
+    {
+      "code": "14302",
+      "message": "user not linked to Validic via GDL"
+    },
+    {
+      "code": "14303",
+      "message": "user not linked to iHealth via GDL"
+    },
+    {
+      "code": "14306",
+      "message": "user not linked to Xiaomi via GDL"
+    },
+    {
+      "code": "14305",
+      "message": "user not linked to Garmin via GDL"
+    }
+  ],
+  "errors": [],
+  "markets": [
+    {
+      "partner": {
+        "partnerSystem": "Xiaomi",
+        "device": "MiBand",
+        "partnerLink": {
+          "url": "https://account.xiaomi.com/oauth2/authorize?client_id=&response_type=code&scope=&state=state&_locale=en&redirect_uri=https://test.vitalityservicing.com/vdp/api/vdp-api/1/devices/tenant/2/partnerSystem/{partnerSystem}/response%3Fsuccess={success}%26reason={reason}%26gdlUserId={gdlUserId}%26entityNumber={entityNumber}?tenantId=2",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "http://www.logo.com/Xiaomi",
+        "partnerDescription": "Direct Linking to Xiaomi"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "iHealth",
+        "device": "iHealth Device",
+        "partnerLink": {
+          "url": "https://api.ihealthlabs.com:8443/OpenApiV2/OAuthv2/userauthorization/?client_id=&APIName=OpenApiActivity OpenApiBG OpenApiBP OpenApiSleep OpenApiSpO2 OpenApiSport OpenApiUserInfo OpenApiWeight&redirect_uri=https://test.vitalityservicing.com/vdp/api/vdp-api/1/devices/tenant/2/partnerSystem/{partnerSystem}/response%3Fsuccess={success}%26reason={reason}%26gdlUserId={gdlUserId}%26entityNumber={entityNumber}&response_type=code",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "http://www.logo.com/iHealth",
+        "partnerDescription": "Direct Linking to iHealth"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "Strava",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/strava?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/strava?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Example Strava Description"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "Fitbit",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/fitbit?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/fitbit?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Example Fitbit Description"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "Jawbone UP",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/jawbone_up?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/jawbone_up?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Example Jawbone UP Description"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "Moves",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/movesapp?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/movesapp?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Example Moves Description"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "RunKeeper",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/healthgraph?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/healthgraph?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Example RunKeeper Description"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "Withings",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/withings?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/withings?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Example Withings Description"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "Misfit Wearables",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/misfit?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/misfit?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Example Misfit Wearables Description"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "Suunto",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/authorize/suunto?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/suunto?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Example of Suunto Description"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "Adidas",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/adidas?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/adidas?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "miCoach is your personal coach"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "TomTom",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/tomtom?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/tomtom?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Get the most out of your GPS sport watch by pairing it with MySports mobile app."
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "Kiqplan",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/kiqplan?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/kiqplan?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Kiqplan mobile app."
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "GarminConnect",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/garmin_connect?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/garmin_connect?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Garmin via Validic."
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "iHealthLabs",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/ihealth?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/ihealth?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "iHealth via Validic"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "PolarFlow",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/polar?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/polar?user_token={USER_ACCESS_TOKEN}&format_redirect=json&redirect_uri={URI}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "CANNOT SYNC UNLINKED PARTNER",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "Polar via Validic"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Polar",
+        "device": "Polar Device",
+        "partnerLink": {
+          "url": "https://test.vitalityservicing.com/deviceapi/Device/User",
+          "method": "POST"
+        },
+        "partnerDelink": {
+          "url": "https://test.vitalityservicing.com/deviceapi/Device/User",
+          "method": "DELETE"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "http://www.logo.com",
+        "partnerDescription": "Polar Link"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Garmin",
+        "device": "Garmin Device",
+        "partnerLink": {
+          "url": "http://connecttest.garmin.com/oauthConfirm?oauth_token=4d2a7f7c-17cc-4dd0-bc31-ad0c951266b3&oauth_callback=https://test.vitalityservicing.com/vdp/api/vdp-api/1/devices/tenant/2/partnerSystem/{partnerSystem}/response%3Fsuccess={success}%26reason={reason}%26gdlUserId={gdlUserId}%26entityNumber={entityNumber}?request_token_secret=edYYSYaSDbYWAp7eCxw4PHRSDL2BNmpxhC3%26tenantId=2",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced"
+      },
+      "assets": {
+        "partnerLogoUrl": "http://www.logo.com/Garmin",
+        "partnerDescription": "Direct Linking to Garmin"
+      }
+    }
+  ]
+}

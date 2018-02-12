@@ -1,0 +1,9 @@
+"ProcessInstructionType"
+"key","code","name","note",
+"3","ARAmazonDS","Show Active Rewards Amazon Data Sharing consent","Show Active Rewards Amazon Data Sharing consent",
+"5","ARCineworldDS","Show Active Rewards Cineworld Data Sharing consent","Show Active Rewards Cineworld Data Sharing consent",
+"2","ARStarbucksDS","Show Active Rewards Starbucks Data Sharing consent","Show Active Rewards Starbucks Data Sharing consent",
+"7","ARVueDS","Show Active Rewards Cineworld Data Sharing consent","Show Active Rewards Cineworld Data Sharing consent",
+"4","ARZapposDS","Show Active Rewards Zappos Data Sharing consent","Show Active Rewards Zappos Data Sharing consent",
+"1","LOGIN_T_AND_C","LOGIN_TERMS_AND_CONDITIONS","null",
+"6","ScreenAndVaccDS","Screenings and vaccinations Data Sharing consent","Show screenings and vaccinations Data Sharing consent",

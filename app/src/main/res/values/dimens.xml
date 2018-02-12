@@ -1,7 +1,221 @@
 <resources>
-    <dimen name="min_widget_width">250dp</dimen>
-    <dimen name="min_widget_height">250dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_small">8dp</dimen>
+    <dimen name="activity_horizontal_margin_tiny">4dp</dimen>
+    <dimen name="activity_vertical_margin_small">8dp</dimen>
+    <dimen name="activity_vertical_margin_tiny">4dp</dimen>
+    <dimen name="default_touch_target_size">48dp</dimen>
 
-    <dimen name="button_text_size">28sp</dimen>
-    <dimen name="display_text_size">40sp</dimen>
+    <!-- Profile -->
+    <dimen name="profile_image_size">80dp</dimen>
+    <dimen name="profile_icon_size">24dp</dimen>
+    <dimen name="profile_icon_column_spacing">32dp</dimen>
+    <dimen name="email_icon_column_spacing">16dp</dimen>
+    <dimen name="profile_link_margin_top">24dp</dimen>
+    <dimen name="profile_link_padding_top_bottom">12dp</dimen>
+
+    <!-- Settings -->
+    <dimen name="settings_icon_padding">32dp</dimen>
+
+    <!--Common components-->
+    <!--Learn more list item-->
+    <dimen name="lm_item_padding_start">16dp</dimen>
+    <dimen name="lm_item_padding_end">16dp</dimen>
+    <dimen name="lm_header_margin_top">24dp</dimen>
+    <dimen name="lm_item_margin_bottom">32dp</dimen>
+    <dimen name="lm_item_column_spacing">16dp</dimen>
+    <dimen name="lm_item_row_spacing">16dp</dimen>
+    <dimen name="lm_item_icon_top_margin">4dp</dimen>
+    <dimen name="lm_line_spacing_value">8sp</dimen>
+
+    <!--Cards-->
+    <dimen name="card_vertical_extra_small">4dp</dimen>
+    <dimen name="card_vertical_small">8dp</dimen>
+    <dimen name="card_horizontal_margin_medium">16dp</dimen>
+    <dimen name="card_vertical_margin_medium">16dp</dimen>
+    <dimen name="card_vertical_margin_big">24dp</dimen>
+    <dimen name="card_vertical_margin_huge">32dp</dimen>
+    <dimen name="card_title_subtitle_spacing">16dp</dimen>
+    <dimen name="card_spacing">10dp</dimen>
+    <dimen name="card_large_icon_size">80dp</dimen>
+
+    <!--Buttons-->
+    <dimen name="min_button_width">152dp</dimen>
+    <dimen name="link_button_padding">8dp</dimen>
+    <dimen name="onboarding_button_side_padding_to_text">16dp</dimen>
+    <dimen name="onboarding_text_to_button_margin">48dp</dimen>
+
+    <dimen name="active_rewards_menu_item_height">56dp</dimen>
+    <dimen name="active_rewards_menu_item_text_margin">24dp</dimen>
+    <dimen name="active_rewards_item_vertical_margin">10dp</dimen>
+
+    <dimen name="onboarding_title_text_size">24sp</dimen>
+    <dimen name="onboarding_subheading_text_size">16sp</dimen>
+    <dimen name="onboarding_subtitle_text_size">14sp</dimen>
+    <dimen name="onboarding_subheading_text_margin">4dp</dimen>
+    <dimen name="onboarding_title_width">263dp</dimen>
+    <dimen name="onboarding_title_margin">32dp</dimen>
+    <dimen name="onboarding_button_margin_top">40dp</dimen>
+    <dimen name="onboarding_button_margin_bottom">8dp</dimen>
+    <dimen name="onboarding_icon_margin_bottom">16dp</dimen>
+    <dimen name="onboarding_icon_margin_top">4dp</dimen>
+    <dimen name="onboarding_grid_column_spacing">32dp</dimen>
+    <dimen name="onboarding_text_margin_bottom">24dp</dimen>
+    <dimen name="progress_container_height">5dp</dimen>
+    <dimen name="progress_bar_height">12dp</dimen>
+    <dimen name="progress_bar_margin_top">-3dp</dimen>
+    <dimen name="onboarding_link_margin_top">24dp</dimen>
+    <dimen name="tab_indicator_height">4dp</dimen>
+    <dimen name="tab_bar_height">35dp</dimen>
+
+    <dimen name="rewards_got_it_trophy_margin_top">40dp</dimen>
+    <dimen name="rewards_got_it_subheading_margin_sides">48dp</dimen>
+    <dimen name="rewards_got_it_spinner_margin_top">32dp</dimen>
+    <dimen name="rewards_spinner_margin">16dp</dimen>
+    <dimen name="rewards_instruction_margin_huge">32dp</dimen>
+
+    <dimen name="home_card_height">160dp</dimen>
+    <dimen name="home_card_image_bottom_margin_after_padding">20dp</dimen>
+    <dimen name="home_screen_score_elevation">4dp</dimen>
+    <dimen name="home_card_radius">2dp</dimen>
+    <dimen name="home_card_get_started_top_margin">4dp</dimen>
+
+    <dimen name="rewards_home_card_center_title_margin">72dp</dimen>
+    <dimen name="item_divider_inset">72dp</dimen>
+    <dimen name="points_monitor_sticky_year_title_change_distance">16dp</dimen>
+
+    <dimen name="user_preference_large_margin">32dp</dimen>
+    <dimen name="user_preference_medium_margin">16dp</dimen>
+    <dimen name="user_preference_item_description_text_size">16sp</dimen>
+    <dimen name="vhc_large_margin">56dp</dimen>
+    <dimen name="vhc_margin_health_item_top_bottom">24dp</dimen>
+    <dimen name="vhc_capture_measurement_item_image">24dp</dimen>
+    <dimen name="button_bar_height">48dp</dimen>
+    <dimen name="vhr_question_text_top_margin">24dp</dimen>
+    <dimen name="vhr_question_text_side_margins">16dp</dimen>
+    <dimen name="vhr_question_detail_margin_to_text">8dp</dimen>
+    <dimen name="vhr_question_input_height">48dp</dimen>
+    <dimen name="vhr_question_value_margin_to_details">16dp</dimen>
+    <dimen name="vhr_question_explanation_margin_to_divider">13dp</dimen>
+    <dimen name="vhr_question_short_bottom_margin">13dp</dimen>
+    <dimen name="vhr_yes_no_height">66dp</dimen>
+    <dimen name="vhr_option_margin">40dp</dimen>
+    <dimen name="vhr_cards_margins">10dp</dimen>
+
+    <!--Wellness Devices Linking-->
+    <dimen name="wd_measurement_item_vertical_padding">8dp</dimen>
+    <dimen name="last_sync_date_top_margin">4dp</dimen>
+
+    <!--Wellness Devices Points-->
+    <dimen name="wd_points_range_padding_extra_small">4dp</dimen>
+    <dimen name="wd_points_range_padding_medium">16dp</dimen>
+    <dimen name="wd_points_range_text_spacing">8dp</dimen>
+
+    <!-- Wellness devices health services -->
+    <dimen name="wellness_health_service_item_height">88dp</dimen>
+
+    <!--Get Started-->
+    <dimen name="get_started_title_top_margin">24dp</dimen>
+    <dimen name="get_started_title_bottom_margin">8dp</dimen>
+    <dimen name="get_started_button_top_margin">32dp</dimen>
+    <dimen name="get_started_horizontal_padding">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="va_topmargin">24dp</dimen>
+    <dimen name="vitality_age_placeholder">24sp</dimen>
+    <dimen name="vitality_age_questiontext">16sp</dimen>
+    <dimen name="vitality_age_narration">14sp</dimen>
+    <dimen name="vitality_age_rightmargin">54dp</dimen>
+    <dimen name="vitality_age_narrative_bottom_margin">52dp</dimen>
+    <dimen name="vitality_age_profile_topmargin">16dp</dimen>
+    <dimen name="vitality_age_profile_leftmargin">16dp</dimen>
+    <dimen name="vitality_age_profile_narrative_margin">8dp</dimen>
+    <dimen name="vitality_age_profile_rightmargin">16dp</dimen>
+    <dimen name="vitality_age_pending">8sp</dimen>
+    <dimen name="vitalityage_learnmore_button_bottom_margin">24dp</dimen>
+    <dimen name="vitality_age_activity_bottom_margin">32dp</dimen>
+    <dimen name="toolbar_height">80dp</dimen>
+    <dimen name="viality_age_bg_margin">60dp</dimen>
+    <dimen name="vitality_age_icon_margin_bottom">16dp</dimen>
+    <dimen name="vitality_age_icon_margin_top">40dp</dimen>
+    <dimen name="vitality_age_subheader">8dp</dimen>
+    <dimen name="vitality_age_status_icon">24dp</dimen>
+    <dimen name="va_value_bottom_margin">16dp</dimen>
+    <dimen name="vitality_age_placeholder_width">176dp</dimen>
+    <dimen name="vitality_age_placeholder_top_margin">24dp</dimen>
+    <dimen name="vitality_age_button_vertical_padding">10dp</dimen>
+    <dimen name="vitality_age_button_horizontal_padding">16dp</dimen>
+    <dimen name="myhealth_vitalityage_round_corner">4dp</dimen>
+    <dimen name="myhealth_card_height">300dp</dimen>
+    <dimen name="myhealth_horizontal_margin">5dp</dimen>
+    <dimen name="vitality_age_bg_image_size">160dp</dimen>
+    <dimen name="vitality_age_profile_ic_size">24dp</dimen>
+    <dimen name="vitality_age_value">112sp</dimen>
+    <dimen name="vitality_age_value_layout">131dp</dimen>
+    <dimen name="vitality_age_profile_padding">58dp</dimen>
+    <dimen name="vitality_age_card_margin">10dp</dimen>
+    <dimen name="vitality_age_status_icon_margin">8dp</dimen>
+    <dimen name="vitality_age_myhealth_top_margin">24dp</dimen>
+    <dimen name="vitality_age_myhealth_lower_margin">16dp</dimen>
+    <dimen name="vitality_age_placeholder_bottom_margin">44dp</dimen>
+    <dimen name="vhr_question_checkbox_top_margin">12dp</dimen>
+
+    <!--AR History-->
+    <dimen name="ar_padding_tiny">4dp</dimen>
+    <dimen name="ar_padding_small">8dp</dimen>
+    <dimen name="ar_padding_regular">12dp</dimen>
+    <dimen name="ar_padding_medium">16dp</dimen>
+
+    <dimen name="vitality_age_header_padding">0dp</dimen>
+    <dimen name="vitality_age_corner_radius">2dp</dimen>
+    <dimen name="vitality_age_value_height">131dp</dimen>
+    <dimen name="myhealth_onboarding_top_margin">32dp</dimen>
+    <dimen name="myhealth_onboarding_title_margin">48dp</dimen>
+    <dimen name="my_health_onboarding_button_margin_top">144dp</dimen>
+    <dimen name="my_health_onboarding_button_margin_bottom">72dp</dimen>
+    <dimen name="my_health_onboarding_icon_margin">24dp</dimen>
+    <dimen name="my_health_onboarding_icon_column_spacing">32dp</dimen>
+    <dimen name="my_health_onboarding_title_margin">32dp</dimen>
+    <dimen name="my_health_onboarding_subheading_text_margin">4dp</dimen>
+    <dimen name="my_health_onboarding_link_margin_top">24dp</dimen>
+    <dimen name="myhealth_profile_icon_size">24dp</dimen>
+    <dimen name="myhealth_card_top_margin">24dp</dimen>
+    <dimen name="myhealth_card_left_margin">16dp</dimen>
+    <dimen name="myhealth_profile_small_icon_size">15dp</dimen>
+    <dimen name="myhealth_card_padding">8dp</dimen>
+    <dimen name="myhealth_title_topmargin">20dp</dimen>
+    <dimen name="myhealth_placeholder_margin_top">4dp</dimen>
+    <dimen name="vitality_age_unknown_subheader_bottom">24dp</dimen>
+    <dimen name="vitality_age_unknown_subheader_top">16dp</dimen>
+    <dimen name="vitality_age_explanation_bottom">24dp</dimen>
+    <dimen name="vitality_age_learnmore_top">24dp</dimen>
+    <dimen name="myhealth_placeholder_margin_bottom">42.5dp</dimen>
+    <dimen name="myhealthcard_vitalityage_margin">-8dp</dimen>
+    <dimen name="menu_item_text_margin">72dp</dimen>
+    <dimen name="vitality_age_disclaimer_margin">16dp</dimen>
+    <dimen name="vitality_age_disclaimer_right_margin">32dp</dimen>
+    <dimen name="myhealth_divider">10dp</dimen>
+    <dimen name="myhealth_divider_height">16dp</dimen>
+    <dimen name="default_confetti_size">20dp</dimen>
+    <dimen name="default_velocity_slow">50dp</dimen>
+    <dimen name="default_velocity_normal">100dp</dimen>
+    <dimen name="default_velocity_fast">200dp</dimen>
+    <dimen name="feedbackattribute_vertical_margin_large">32dp</dimen>
+    <dimen name="feedbackattribute_vertical_margin">16dp</dimen>
+    <dimen name="feedbackattribute_horizontal_margin">16dp</dimen>
+    <dimen name="myhealth_feedback_attribute_tips_margin">13dp</dimen>
+    <dimen name="myhealth_feedback_attribute_tips_moretips">18dp</dimen>
+    <dimen name="vitality_age_divider">16dp</dimen>
+    <dimen name="myhealth_profile_card_padding">16dp</dimen>
+    <dimen name="myhealth_tips_divider_view_height">1dp</dimen>
+    <dimen name="myhealth_tips_feeback_content_vertical_margin">21dp</dimen>
+    <dimen name="myhealth_vitality_age_tip_item3">14sp</dimen>
+    <dimen name="feedback_tips_summary_card_border">0dp</dimen>
+    <dimen name="myhealth_vitalityage_profile_item2_bottom_margin">2dp</dimen>
+
+    <dimen name="snv_confirm_submit_total_row_item">128dp</dimen>
+    <dimen name="myhealth_attribute_deatails_divider">10dp</dimen>
+
 </resources>

@@ -1,0 +1,7 @@
+"CardItemStatusType"
+"key","code","name","note",
+"2","Available","Available","Available",
+"5","Done","Done","Done",
+"3","Expired","Expired","Expired",
+"1","Linked","Linked","Linked",
+"4","Redeemed","Redeemed","Redeemed",

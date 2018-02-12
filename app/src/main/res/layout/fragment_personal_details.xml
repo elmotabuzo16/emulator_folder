@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/profile_initials"
+                    android:layout_width="@dimen/profile_image_size"
+                    android:layout_height="@dimen/profile_image_size"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/circle_with_stroke"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="45sp"
+                    android:textStyle="normal"
+                    tools:text="S" />
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="@dimen/profile_image_size"
+                    android:layout_height="@dimen/profile_image_size"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/navigation_drawer_profile_image_content_description"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/navdrawer_profile" />
+
+                <TextView
+                    android:id="@+id/profile_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:gravity="center_horizontal"
+                    android:text="@string/Settings.profile_landing_profile_picture_edit_913"
+                    android:textAppearance="@style/MyHealthMoreResultsButton"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/vitalityOrange"
+                    android:letterSpacing="0.04" />
+
+                <TextView
+                    android:id="@+id/profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:gravity="center"
+                    android:textAppearance="@style/MaterialLightHeadline"
+                    android:textStyle="bold"
+                    tools:text="Sam Cooper"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/button_bar_gray" />
+
+                <TextView
+                    android:id="@+id/personal_details_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:gravity="center"
+                    android:textAppearance="@style/MaterialLightHeadline"
+                    android:textStyle="bold"
+                    android:text="@string/Settings.profile_landing_profile_picture_section_heading_914"/>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="1"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:rowCount="6">
+                    <LinearLayout
+                        android:id="@+id/personal_mobile_container"
+                       android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/personal_mobile_label"
+                            style="@style/MaterialLightCaptionDisabled"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_gravity="fill_horizontal"
+                            android:layout_row="0"
+                            android:text="@string/Settings.profile_landing_mobile_title_915" />
+
+                        <TextView
+                            android:id="@+id/personal_mobile"
+                            style="@style/MaterialLightSubheadDisabled"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_gravity="fill_horizontal"
+                            android:layout_marginTop="@dimen/activity_vertical_margin_small"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            android:layout_row="1"
+                            tools:text="+2771 234 5678" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/personal_dob_label"
+                        style="@style/MaterialLightCaptionDisabled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="fill_horizontal"
+                        android:layout_marginTop="@dimen/activity_vertical_margin"
+                        android:layout_row="2"
+                        android:text="@string/Settings.profile_landing_date_of_birth_916" />
+
+                    <TextView
+                        android:id="@+id/personal_date_of_birth"
+                        style="@style/MaterialLightSubheadDisabled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="fill_horizontal"
+                        android:layout_marginTop="@dimen/activity_vertical_margin_small"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"
+                        android:layout_row="3"
+                        tools:text="02 October 1986" />
+
+                    <TextView
+                        android:id="@+id/personal_gender_label"
+                        style="@style/MaterialLightCaptionDisabled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="fill_horizontal"
+                        android:layout_marginTop="@dimen/activity_vertical_margin"
+                        android:layout_row="4"
+                        android:text="@string/Settings.profile_landing_gender_title_917" />
+
+                    <TextView
+                        android:id="@+id/personal_gender"
+                        style="@style/MaterialLightSubheadDisabled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="fill_horizontal"
+                        android:layout_marginTop="@dimen/activity_vertical_margin_small"
+                        android:layout_row="5"
+                        tools:text="Female" />
+                </GridLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:background="@color/button_bar_gray" />
+
+                <TextView
+                    style="@style/MaterialLightCaptionDisabled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:text="@string/Settings.profile_landing_details_footnote_message_918" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                    android:id="@+id/email_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="@dimen/profile_icon_size"
+                        android:layout_height="@dimen/profile_icon_size"
+                        android:layout_marginEnd="@dimen/email_icon_column_spacing"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_mail"
+                        tools:ignore="ContentDescription"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/personal_email_label"
+                            style="@style/MaterialLightCaptionDisabled"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="fill_horizontal"
+                            android:text="@string/Settings.profile_landing_email_title_919" />
+
+                        <TextView
+                            android:id="@+id/personal_email"
+                            style="@style/MaterialLightSubheadSecondary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="fill_horizontal"
+                            android:layout_marginTop="@dimen/activity_vertical_margin"
+                            android:duplicateParentState="true"
+                            tools:text="samcooper@gmail.com" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:background="@color/button_bar_gray" />
+
+                <TextView
+                    style="@style/MaterialLightCaptionDisabled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/Settings.profile_landing_email_footnote_920" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

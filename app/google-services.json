@@ -1,0 +1,231 @@
+{
+  "project_info": {
+    "project_number": "587137796278",
+    "firebase_url": "https://dpm-vitalityactive-andro-49f7b.firebaseio.com",
+    "project_id": "dpm-vitalityactive-andro-49f7b",
+    "storage_bucket": "dpm-vitalityactive-andro-49f7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587137796278:android:e3533961bfc39f7e",
+        "android_client_info": {
+          "package_name": "com.vitalityactive.va"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587137796278-uds21g9m52mechg18hkjvdoto9a78h88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vitalityactive.va",
+            "certificate_hash": "29c74ead694e9c2982e42352d93d1a28ebc5c9e6"
+          }
+        },
+        {
+          "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi3V3RVD4eqa4vOx29zIYCgzoC0TmQZkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587137796278:android:768112fb302c3346",
+        "android_client_info": {
+          "package_name": "com.vitalityactive.va.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587137796278-igfnjifusuhrmf3lln47m6q1l41vtj29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vitalityactive.va.dev",
+            "certificate_hash": "29c74ead694e9c2982e42352d93d1a28ebc5c9e6"
+          }
+        },
+        {
+          "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi3V3RVD4eqa4vOx29zIYCgzoC0TmQZkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587137796278:android:993065d8d14f366c",
+        "android_client_info": {
+          "package_name": "com.vitalityactive.ukessentials"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587137796278-ipem4p0d1iklol8opt2imtt2bjmedv87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vitalityactive.ukessentials",
+            "certificate_hash": "29c74ead694e9c2982e42352d93d1a28ebc5c9e6"
+          }
+        },
+        {
+          "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi3V3RVD4eqa4vOx29zIYCgzoC0TmQZkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587137796278:android:62d688738839dae1",
+        "android_client_info": {
+          "package_name": "com.vitalityactive.sumitomo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587137796278-4e77e59u9h435g28qr28tjrl1sb5vlmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vitalityactive.sumitomo",
+            "certificate_hash": "29c74ead694e9c2982e42352d93d1a28ebc5c9e6"
+          }
+        },
+        {
+          "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi3V3RVD4eqa4vOx29zIYCgzoC0TmQZkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587137796278:android:94965b730e3bd159",
+        "android_client_info": {
+          "package_name": "com.vitalityactive.igi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587137796278-noink0ukqufugl7iib2kh35jqr6cpjia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vitalityactive.igi",
+            "certificate_hash": "29c74ead694e9c2982e42352d93d1a28ebc5c9e6"
+          }
+        },
+        {
+          "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi3V3RVD4eqa4vOx29zIYCgzoC0TmQZkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587137796278-fm9nfneuphh3dtutggbqbm4886mnbepp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/next_status_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/container_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/Status.increased_status_group_heading_812" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/container_title"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="13dp"
+        tools:src="@drawable/status_badge_gold_small" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/container_title"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/icon"
+        android:textAppearance="@style/MaterialLightSubheadMedium"
+        tools:text="Gold" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/icon"
+        android:textAppearance="@style/MaterialLightBody1Secondary"
+        tools:text="Earn another 10 000 points" />
+
+</RelativeLayout>

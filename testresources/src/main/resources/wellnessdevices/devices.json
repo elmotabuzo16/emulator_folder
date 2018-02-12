@@ -1,0 +1,95 @@
+{
+  "warnings": [{
+    "code": "14301",
+    "message": "user not linked to Polar via GDL"
+  },
+    {
+      "code": "14303",
+      "message": "user not linked to iHealth via GDL"
+    },
+    {
+      "code": "14306",
+      "message": "user not linked to Xiaomi via GDL"
+    },
+    {
+      "code": "14304",
+      "message": "user not linked to MMF via GDL"
+    }],
+  "errors": [],
+  "markets": [{
+      "partner": {
+        "partnerSystem": "Validic",
+        "device": "TomTom",
+        "partnerLink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/auth/tomtom?user_token=rhcnLjRs6yWcorTMqS-v&format_redirect=json&redirect_uri=https://test.vitalityservicing.com/vdp/api/vdp-api/1.0/devices/tenant/25/partnerSystem/{partnerSystem}/response%3Fsuccess={success}%26reason={reason}%26device={device}%26gdlUserId={gdlUserId}%26entityNumber={entityNumber}",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/unsync/tomtom?user_token=rhcnLjRs6yWcorTMqS-v&format_redirect=json&redirect_uri=https://test.vitalityservicing.com/vdp/api/vdp-api/1.0/devices/tenant/25/partnerSystem/{partnerSystem}/response%3Fsuccess={success}%26reason={reason}%26device={device}%26gdlUserId={gdlUserId}%26entityNumber={entityNumber}",
+          "method": "GET"
+        },
+        "partnerSync": {
+          "url": "https://app.validic.com/organizations/548f3db18ee4218f5e00001c/refresh/tomtom?format_redirect=json&user_token=rhcnLjRs6yWcorTMqS-v",
+          "method": "GET"
+        },
+        "partnerLinkedStatus": "ACTIVE",
+        "partnerLastSync": "2017-10-20T08:07:56.445Z",
+        "partnerLastWorkout": "2017-10-20T09:28:24.000+02:00"
+      },
+      "assets": {
+        "partnerLogoUrl": "https://test.vitalityservicing.com/Logo/partner",
+        "partnerDescription": "For your Multi-Sport and Runner, easily upload and access your key activity information without connecting to a computer. For your Golfer, use the MySports app to update course data and review your scorecard history.",
+        "partnerWebsiteUrl": "https://www.tomtom.com",
+        "aboutPartnerContentId": "wda-about-tomtom",
+        "stepsToLinkContentId": "wda-steps-to-link-tomtom"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Polar",
+        "device": "PolarFlow",
+        "partnerLink": {
+          "url": "https://flow.polar.com/oauth2/authorization?response_type=code&client_id=a7008393-b6ad-472e-b538-db2139852a20&state=entityNo=pJCFJwDY-DKmZ0dHiGalLA",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://test.vitalityservicing.com/vdp/api/deviceapi/Device/User?partnerSystem=Polar&tenantId=25&entityNo=pJCFJwDY-DKmZ0dHiGalLA",
+          "method": "DELETE"
+        },
+        "partnerLinkedStatus": "UNLINKED",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "http://www.logo.com",
+        "partnerDescription": "Direct Linking to Polar",
+        "partnerWebsiteUrl": "https://www.polar.com/",
+        "aboutPartnerContentId": "wda-about-polarflow",
+        "stepsToLinkContentId": "wda-steps-to-link-polarflow"
+      }
+    },
+    {
+      "partner": {
+        "partnerSystem": "Garmin",
+        "device": "Garmin Device",
+        "partnerLink": {
+          "url": "http://connect.garmin.com/oauthConfirm?oauth_token=&oauth_callback=https://test.vitalityservicing.com/vdp/api/vdp-api/1.0/devices/tenant/25/partnerSystem/{partnerSystem}/response%3Fsuccess={success}%26reason={reason}%26device={device}%26gdlUserId={gdlUserId}%26entityNumber={entityNumber}?request_token_secret=%26tenantId=25",
+          "method": "GET"
+        },
+        "partnerDelink": {
+          "url": "https://test.vitalityservicing.com/vdp/api/deviceapi/Device/User?partnerSystem=Garmin&tenantId=25&entityNo=pJCFJwDY-DKmZ0dHiGalLA",
+          "method": "DELETE"
+        },
+        "partnerLinkedStatus": "PENDING",
+        "partnerLastSync": "Not Synced",
+        "partnerLastWorkout": "No Workouts"
+      },
+      "assets": {
+        "partnerLogoUrl": "http://www.logo.com/Garmin",
+        "partnerDescription": "Direct Linking to Garmin",
+        "partnerWebsiteUrl": "http://www.garmin.com/en-US/",
+        "aboutPartnerContentId": "wda-about-garmindevice",
+        "stepsToLinkContentId": "wda-steps-to-link-garmindevice"
+      }
+    }]
+}

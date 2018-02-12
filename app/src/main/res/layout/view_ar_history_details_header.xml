@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/ar_padding_medium"
+    android:paddingBottom="@dimen/ar_padding_medium"
+    android:paddingLeft="@dimen/ar_padding_medium"
+    android:paddingRight="@dimen/ar_padding_medium">
+
+    <ImageView
+        android:id="@+id/iv_ar_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/learn_more_icon_content_description" />
+
+    <TextView
+        android:id="@+id/tv_ar_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="@style/MaterialLightSubheadMedium"
+        />
+
+    <TextView
+        android:id="@+id/tv_ar_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBaseline="@+id/tv_ar_status"
+        android:textAppearance="@style/MaterialLightBody1Disabled" />
+
+    <TextView
+        android:id="@+id/tv_ar_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/tv_ar_status"
+        android:layout_below="@id/tv_ar_status"
+        android:textAppearance="@style/MaterialLightBody1Secondary" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/ar_padding_regular"
+        android:layout_marginBottom="@dimen/ar_padding_regular"
+        android:layout_below="@id/tv_ar_points"
+        android:background="@color/light_divider_12"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_ar_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/iv_ar_icon"
+        android:layout_below="@id/divider"
+        android:text="@string/AR.goal_history.not_achieved_message_846"
+        android:textAppearance="@style/MaterialLightSubhead"
+        android:visibility="gone" />
+
+</RelativeLayout>

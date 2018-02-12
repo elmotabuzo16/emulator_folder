@@ -1,0 +1,338 @@
+{
+  "application": {
+    "configurationVersion": {
+      "applicationFeatures": [
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "gradientColor1",
+              "value": "ffff00ff"
+            },
+            {
+              "name": "gradientColor2",
+              "value": "ff00ff00"
+            },
+            {
+              "name": "liferayGroupId",
+              "value": "34799"
+            },
+            {
+              "name": "defaultLanguage",
+              "value": "en"
+            },
+            {
+              "name": "globalTintColor",
+              "value": "ff00ff00"
+            }
+          ],
+          "name": "Insurer Configuration",
+          "toggle": true,
+          "typeCode": "InsConfig",
+          "typeKey": 1
+        },
+        {
+          "applicationFeatureParameters": [],
+          "name": "Non-smoker's Declaration Journey",
+          "toggle": true,
+          "typeCode": "NonsmokersDclrtnJrny",
+          "typeKey": 2
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "lifeRayContentId",
+              "value": "non-smokers-privacy-policy"
+            }
+          ],
+          "name": "Non-smoker's declaration privacy policy",
+          "toggle": true,
+          "typeCode": "NonsmokersDclrtnPrvPolicy",
+          "typeKey": 3
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "lifeRayContentId",
+              "value": "non-smokers-declaration"
+            }
+          ],
+          "name": "Non-smoker's Declaration",
+          "toggle": true,
+          "typeCode": "NonsmokersDclrtn",
+          "typeKey": 4
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "nonsmokersdeclaration_en_US",
+              "value": "nonsmokersdeclaration_en_US.json"
+            },
+            {
+              "name": "nonsmokersdeclaration_jp_JP",
+              "value": "nonsmokersdeclaration_jp_JP.json"
+            },
+            {
+              "name": "nonsmokersdeclaration_en",
+              "value": "nonsmokersdeclaration_en.json"
+            }
+          ],
+          "name": "Non-smoker's Declaration Resource Files",
+          "toggle": true,
+          "typeCode": "NonsmokersDclrtnResFiles",
+          "typeKey": 5
+        },
+        {
+          "applicationFeatureParameters": [],
+          "name": "Vitality Health Check Journey",
+          "toggle": true,
+          "typeCode": "vhcJrny",
+          "typeKey": 6
+        },
+        {
+          "applicationFeatureParameters": [
+            {
+              "name": "vhc_en_US",
+              "value": "vhc_en_US.json"
+            },
+            {
+              "name": "vhc_jp_JP",
+              "value": "vhc_jp_JP.json"
+            },
+            {
+              "name": "vhc_en",
+              "value": "vhc_en.json"
+            }
+          ],
+          "name": "Vitality Health Check Resource Files",
+          "toggle": true,
+          "typeCode": "vhcResFiles",
+          "typeKey": 7
+        }
+      ],
+      "effectiveFrom": "2017-12-18",
+      "effectiveTo": "9999-01-01",
+      "releaseVersion": "1.0"
+    },
+    "name": "Sumitomo Active",
+    "typeCode": "Sumitomo",
+    "typeKey": 1
+  },
+  "userInstructions": [
+    {
+      "id": 123,
+      "typeKey": 1,
+      "effectiveFrom": "2016-11-30"
+    }
+  ],
+  "partyDetails": {
+    "references": [
+      {
+        "effectiveTo": "9999-12-31",
+        "comments": "Some random text",
+        "issuedBy": 1,
+        "type": 3425645,
+        "value": "Value",
+        "effectiveFrom": "2016-11-21"
+      },
+      {
+        "effectiveTo": "9999-12-31",
+        "comments": "Lorem ipsum dolor sit amet",
+        "issuedBy": 2,
+        "type": 7856523,
+        "value": "valuE",
+        "effectiveFrom": "2016-10-11"
+      }
+    ],
+    "generalPreferences": {
+      "effectiveTo": "3145-05-06",
+      "typeKey": 78564,
+      "value": "42",
+      "effectiveFrom": "1648-05-15"
+    },
+    "measurementSystemPreference": {
+      "typeKey": 12,
+      "name": "Stop changing everything constantly"
+    },
+    "telephones": [
+      {
+        "effectiveTo": "9999-10-01",
+        "extension": 567,
+        "contactNumber": "5551234",
+        "contactRoles": [
+          {
+            "availabilityFrom": "2016-01-01",
+            "availabilityTo": "2112-02-29",
+            "rolePurposeType": 895465,
+            "roleType": 1235334
+          }
+        ],
+        "countryDialCode": "+44",
+        "effectiveFrom": "2016-03-12",
+        "areaDialCode": 21
+      },
+      {
+        "effectiveTo": "9999-11-21",
+        "extension": 2468,
+        "contactNumber": "3454912",
+        "contactRoles": [
+          {
+            "availabilityFrom": "2016-11-12",
+            "availabilityTo": "9999-12-31",
+            "rolePurposeType": 96634,
+            "roleType": 57844
+          }
+        ],
+        "countryDialCode": "+27",
+        "effectiveFrom": "2016-11-21",
+        "areaDialCode": 12
+      }
+    ],
+    "accessToken": "1e2e8620-8ba4-3842-9de7-d7ed0a761c20",
+    "timeZonePreference": {
+      "code": "en_ZA",
+      "daylightSavings": 123,
+      "value": "Africa/Johannesburg"
+    },
+    "webAddresses": [
+      {
+        "effectiveTo": "2016-12-31",
+        "contactRoles": {
+          "availabilityFrom": "2016-11-11",
+          "availabilityTo": "2916-12-31",
+          "rolePurposeType": 89435,
+          "roleType": 6366734
+        },
+        "effectiveFrom": "2016-05-14",
+        "uRL": "https://www.google.co.za"
+      },
+      {
+        "effectiveTo": "9999-12-31",
+        "contactRoles": {
+          "availabilityFrom": "2016-03-12",
+          "availabilityTo": "2018-12-13",
+          "rolePurposeType": 2343567,
+          "roleType": 7944434
+        },
+        "effectiveFrom": "1905-12-31",
+        "uRL": "https://www.microsoft.com"
+      },
+      {
+        "effectiveTo": "9999-04-05",
+        "contactRoles": [
+          {
+            "availabilityFrom": "2015-08-08",
+            "availabilityTo": "2017-09-01",
+            "rolePurposeType": 895534,
+            "roleType": 234644
+          }
+        ],
+        "effectiveFrom": "1986-03-12",
+        "uRL": "https://www.myhomepage.com"
+      }
+    ],
+    "geographicalAreaPreference": {
+      "effectiveTo": "2016-11-21",
+      "type": 906554,
+      "value": "Mars",
+      "effectiveFrom": "2016-11-21"
+    },
+    "languagePreference": {
+      "iSOCode": "en_ZA",
+      "value": "English/South_Africa"
+    },
+    "person": {
+      "middleNames": "Petrus",
+      "genderTypeKey": 1,
+      "genderTypeCode": "MALE",
+      "bornOn": "2016-11-21",
+      "givenName": "Frikkie",
+      "familyName": "Poggenpoel",
+      "language": "ENG",
+      "preferredName": "Janneman",
+      "titleTypeKey": 1,
+      "titleTypeCode": "MR",
+      "suffix": "Jr."
+    },
+    "physicalAddresses": [
+      {
+        "effectiveTo": "2016-11-21",
+        "country": "South Africa",
+        "pOBox": true,
+        "complex": "N/A",
+        "postalCode": 181,
+        "streetAddress1": "559 Felsiet Street",
+        "unitNumber": 0,
+        "streetAddress2": "Elardus Park",
+        "contactRoles": [
+          {
+            "availabilityFrom": "2013-12-03",
+            "availabilityTo": "2019-12-31",
+            "rolePurposeType": 7777,
+            "roleType": 45366777
+          }
+        ],
+        "streetAddress3": "string",
+        "place": "Pretoria",
+        "effectiveFrom": "2016-11-21"
+      }
+    ],
+    "partyId": 100002,
+    "tenantId": 2
+  },
+  "vitalityMembership": [
+    {
+      "id": 100001,
+      "memberReferences": [],
+      "membershipProducts": [
+        {
+          "effectiveFrom": "2017-01-01",
+          "effectiveTo": "2030-12-31",
+          "productAssociations": [],
+          "productAttributes": [],
+          "productFeatureApplicabilities": [],
+          "typeCode": "VITALITYACTIVEV1",
+          "typeKey": 3,
+          "typeName": "Vitality Active V1"
+        }
+      ],
+      "parties": [
+        {
+          "effectiveFrom": "2017-01-01",
+          "effectiveTo": "2017-12-31",
+          "id": 100002,
+          "typeCode": "MAINMEMBER",
+          "typeKey": 2,
+          "typeName": "Main Member"
+        }
+      ],
+      "renewalPeriods": [
+        {
+          "effectiveFrom": "2006-07-19",
+          "effectiveTo": "2018-07-19",
+          "period": 12,
+          "unit": "2"
+        }
+      ],
+      "stateCategory": [
+        {
+          "state": [
+            {
+              "effectiveFrom": "2006-07-19",
+              "effectiveTo": "2018-07-19",
+              "statusTypeCode": "ACTIVE",
+              "statusTypeKey": 1,
+              "statusTypeName": "Active"
+            }
+          ],
+          "typeCode": "CONTRACT",
+          "typeKey": 1,
+          "typeName": "Contract"
+        }
+      ],
+      "currentVitalityMembershipPeriod": {
+        "effectiveTo": "2017-12-31",
+        "effectiveFrom": "2017-01-01"
+      }
+    }
+  ]
+}

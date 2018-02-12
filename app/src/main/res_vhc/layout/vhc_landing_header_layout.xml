@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/activity_vhc_landing"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/landing_screen.health_measurements_title_132"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:textColor="@color/secondary_54"
+            android:text="@string/landing_screen.health_measurement_message_133" />
+
+        <Button
+            android:id="@+id/vhc_capture_results_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:onClick="onVHCCaptureResultsTapped"
+            android:text="@string/onboarding.section_2_title_128"
+            android:textSize="@dimen/onboarding_subtitle_text_size"
+            android:theme="@style/VHCOnboardingButton" />
+
+        <include
+            android:id="@+id/vhc_measurements_divider"
+            layout="@layout/horizontal_rule"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="24dp" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="33dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center_vertical"
+            android:textAppearance="@style/MaterialLightBody2SectionHeaders"
+            android:text="@string/landing_screen.health_measurements_title_132" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

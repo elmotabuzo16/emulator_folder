@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ar_empty_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_active_rewards_monthly_activity">
+
+    <ImageView
+        android:id="@+id/empty_state_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/active_reward"
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/empty_state_title"
+        style="@style/MaterialLightTitleH2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/AR.history.no_activity_heading_title_694"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/empty_state_subtitle"
+        style="@style/MaterialLightBody1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/AR.history.no_activity_heading_message_727"
+        android:textAlignment="center" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/empty_state_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="152dp"
+        android:onClick="onEmptyStateButtonClicked"
+        android:text="@string/help_button_141" />
+
+</LinearLayout>

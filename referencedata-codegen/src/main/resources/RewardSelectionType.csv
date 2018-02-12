@@ -1,0 +1,5 @@
+"RewardSelectionType"
+"key","code","name","note","sortOrderType",
+"2","Choice","Choice","This selection type depicts a group of Rewards that are available for a Choice  reward option. This could be used for the Swap/Substitution options as well.","null",
+"3","RewardSelection","Reward Selection","This selection type depicts a group of Rewards that are available for a Choice  reward option. This could be used for the Swap/Substitution options as well.","null",
+"1","WheelSpin","WheelSpin","This selection type depicts a group of Rewards that are available for a WheelSpin probabilistic reward option.","null",

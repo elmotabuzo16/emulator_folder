@@ -1,0 +1,69 @@
+{
+  "pointsAccounts": [
+    {
+      "pointsEntries": [
+        {
+          "metadatas": [],
+          "reasons": [
+            {
+              "categoryCode": "Conditions",
+              "categoryKey": 1,
+              "categoryName": "Conditions",
+              "reasonCode": "Maximum points",
+              "reasonKey": 200,
+              "reasonName": "You earned the maximum points available for this activity"
+            }
+          ],
+          "categoryCode": "Assessment",
+          "categoryKey": 5,
+          "categoryName": "Assessment",
+          "earnedValue": 1000,
+          "effectiveDate": "2017-04-10T09:02:41.800000000Z[UTC]",
+          "eventId": 5744781,
+          "id": 3477102,
+          "potentialValue": 1000,
+          "prelimitValue": 1000,
+          "typeCode": "VHRAssmntCompleted",
+          "typeKey": 1,
+          "typeName": "VHR Assessment Completed"
+        },
+        {
+          "metadatas": [],
+          "reasons": [
+            {
+              "categoryCode": "Conditions",
+              "categoryKey": 1,
+              "categoryName": "Conditions",
+              "reasonCode": "Too soon",
+              "reasonKey": 208,
+              "reasonName": "Too soon since last event"
+            }
+          ],
+          "categoryCode": "Fitness",
+          "categoryKey": 3,
+          "categoryName": "Fitness",
+          "earnedValue": 0,
+          "effectiveDate": "2017-04-10T09:02:43.397000000Z[UTC]",
+          "eventId": 5744782,
+          "id": 3477101,
+          "potentialValue": 956,
+          "prelimitValue": 0,
+          "typeCode": "Speed",
+          "typeKey": 6,
+          "typeName": "Speed"
+        }
+      ],
+      "carryOverPoints": 0,
+      "effectiveFrom": "2017-01-01",
+      "effectiveTo": "2017-12-31",
+      "pointsTotal": 1000
+    },
+    {
+      "pointsEntries": [],
+      "carryOverPoints": 1210,
+      "effectiveFrom": "2018-01-01",
+      "effectiveTo": "2018-12-31",
+      "pointsTotal": 1210
+    }
+  ]
+}
