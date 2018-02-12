@@ -1,3 +1,5 @@
 <resources>
-  <string name="app_name">List View</string>
+  <string name="app_name">ZXing Intento</string>
+  <string name="scan">Scan</string>
+  <string name="not_supported">Barcode Scanner missing</string>
 </resources>
