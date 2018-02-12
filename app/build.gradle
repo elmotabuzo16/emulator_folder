@@ -314,6 +314,11 @@ android {
 
         manifestPlaceholders = [pushwooshAppId: "FA9CF-A897F", fcm_sender_id: "587137796278"]
     }
+	
+	compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
 
     buildTypes {
