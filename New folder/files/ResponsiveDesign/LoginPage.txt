@@ -1,0 +1,74 @@
+@objects
+	Login-screen	//*[@id="portlet_za_co_vitality_portal_members_user_login_UserLoginPortlet"]/div
+	Register-text	//*[@id="portlet_za_co_vitality_portal_members_user_login_UserLoginPortlet"]/div/div/div/div[1]/div[1]/div/div[1]/div/a[1]
+	Register-link	//*[@id="portlet_za_co_vitality_portal_members_user_login_UserLoginPortlet"]/div/div/div/div[1]/div[1]/div/div[1]
+	Logo-section	//*[@id="portlet_za_co_vitality_portal_members_user_login_UserLoginPortlet"]/div/div/div/div[1]/div[1]/div/div[2]
+	Login-section	//*[@id="portlet_za_co_vitality_portal_members_user_login_UserLoginPortlet"]/div/div/div/div[1]/div[2]/div/div[1]
+	Content-section	//*[@id="portlet_za_co_vitality_portal_members_user_login_UserLoginPortlet"]/div/div/div/div[1]/div[2]/div/div[2]
+	Content-caption	//*[@id="portlet_za_co_vitality_portal_members_user_login_UserLoginPortlet"]/div/div/div/div[1]/div[2]/div/div[2]/div[1]/p
+	EmailAdd-label	//*[@id="login-form"]/div[1]/label
+	EmailAdd-field	//*[@id="email"]
+	Password-label	//*[@id="login-form"]/div[2]/label
+	Password-field	//*[@id="password"]
+	Login-button	//*[@id="login-form"]/div[3]/div[1]
+	Forgot-link	//*[@id="login-form"]/div[3]/div[2]/p
+	
+= Register-link =
+	Register-link:
+		above Logo-section 0 to 1 px
+		centered horizontally inside Login-screen
+		
+= Register-text =
+	Register-text:
+		inside Login-screen 10 to 20 px top, 30 to 40 px right
+		
+= Logo-section =
+	Logo-section:
+		above Login-section 5 to 15 px
+		centered horizontally inside Login-screen
+		image file Vitality_Logo.PNG, error 5%
+		
+= Login-section =
+	Login-section:
+		above Content-section ~0 px
+		centered horizontally inside Login-screen
+		
+= Content-section =
+	Content-section:
+		below Login-section ~0 px
+		centered horizontally inside Login-screen
+		
+= Content-caption =
+	Content-caption:
+		above EmailAdd-label 20 to 30 px
+		centered horizontally inside Content-section
+		
+= EmailAdd-label =
+	EmailAdd-label:
+		above EmailAdd-field ~4 px
+		centered horizontally inside Content-section
+		
+= EmailAdd-field =
+	EmailAdd-field:
+		above Password-label 10 to 15 px
+		centered horizontally inside Content-section
+		
+= Password-label =
+	Password-label:
+		above Password-field ~4 px
+		centered horizontally inside Content-section
+
+= Password-field =
+	Password-field:
+		above Login-button 30 to 40 px
+		centered horizontally inside Content-section
+
+= Login-button =
+	Login-button:
+		above Forgot-link 10 to 20 px
+		centered horizontally inside Content-section
+
+= Forgot-link =
+	Forgot-link:
+		below Login-button 10 to 20 px
+		centered horizontally inside Content-section		

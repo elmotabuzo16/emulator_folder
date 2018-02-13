@@ -1,0 +1,210 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+      "status" : "error",
+      "time" : 1517298392979,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "NSD-header",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+          "lineNumber" : 10
+        },
+        "objects" : [ {
+          "name" : "NSD-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 12
+            },
+            "name" : "above NSD-body ~20 px",
+            "errors" : [ "\"NSD-header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 13
+            },
+            "name" : "on top left edge NSD-screen 15 px right, 0 to 10 px bottom",
+            "errors" : [ "\"NSD-header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 14
+            },
+            "name" : "css font-size is \"28px\"",
+            "errors" : [ "\"NSD-header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 15
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"NSD-header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 16
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"NSD-header\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "NSD-body",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+          "lineNumber" : 17
+        },
+        "objects" : [ {
+          "name" : "NSD-body",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 19
+            },
+            "name" : "above View-points ~30 px",
+            "errors" : [ "\"NSD-body\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 20
+            },
+            "name" : "centered horizontally inside NSD-screen",
+            "errors" : [ "\"NSD-body\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "NSD-body-content",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+          "lineNumber" : 22
+        },
+        "objects" : [ {
+          "name" : "NSD-body-content",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 24
+            },
+            "name" : "centered horizontally inside NSD-screen",
+            "errors" : [ "\"NSD-body-content\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 25
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"NSD-body-content\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 26
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"NSD-body-content\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"NSD-body-content\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "View-points",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+          "lineNumber" : 29
+        },
+        "objects" : [ {
+          "name" : "View-points",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 31
+            },
+            "name" : "below NSD-body ~30 px",
+            "errors" : [ "\"View-points\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 32
+            },
+            "name" : "on bottom right edge NSD-screen ~150 px left, ~70 px top",
+            "errors" : [ "\"View-points\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 33
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"View-points\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 34
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"View-points\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"View-points\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css background-color is \"rgba(43, 202, 109, 1)\"",
+            "errors" : [ "\"View-points\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

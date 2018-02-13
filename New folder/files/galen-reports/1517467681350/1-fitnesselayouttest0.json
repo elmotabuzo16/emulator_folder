@@ -1,0 +1,215 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+      "status" : "error",
+      "time" : 1517467682760,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "NSD-header",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+          "lineNumber" : 10
+        },
+        "objects" : [ {
+          "name" : "NSD-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 12
+            },
+            "name" : "above NSD-body ~20 px",
+            "errors" : [ "\"NSD-header\" is 200px above \"NSD-body\" which is not in range of 18 to 22px" ],
+            "highlight" : [ "NSD-header", "NSD-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 13
+            },
+            "name" : "on top left edge NSD-screen 15 px right, 0 to 10 px bottom",
+            "highlight" : [ "NSD-header", "NSD-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 14
+            },
+            "name" : "css font-size is \"28px\"",
+            "highlight" : [ "NSD-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 15
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "NSD-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 16
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "NSD-header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "NSD-body",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+          "lineNumber" : 17
+        },
+        "objects" : [ {
+          "name" : "NSD-body",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 19
+            },
+            "name" : "above View-points ~30 px",
+            "errors" : [ "\"View-points\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 20
+            },
+            "name" : "centered horizontally inside NSD-screen",
+            "highlight" : [ "NSD-body", "NSD-screen" ]
+          } ]
+        } ]
+      }, {
+        "name" : "NSD-body-content",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+          "lineNumber" : 22
+        },
+        "objects" : [ {
+          "name" : "NSD-body-content",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 24
+            },
+            "name" : "centered horizontally inside NSD-screen",
+            "errors" : [ "\"NSD-body-content\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 25
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"NSD-body-content\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 26
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"NSD-body-content\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"NSD-body-content\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "View-points",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+          "lineNumber" : 29
+        },
+        "objects" : [ {
+          "name" : "View-points",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 31
+            },
+            "name" : "below NSD-body ~30 px",
+            "errors" : [ "\"View-points\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 32
+            },
+            "name" : "on bottom right edge NSD-screen ~150 px left, ~70 px top",
+            "errors" : [ "\"View-points\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 33
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"View-points\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 34
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"View-points\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"View-points\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\NonSmokersDeclaration\\NSDCompletedPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css background-color is \"rgba(43, 202, 109, 1)\"",
+            "errors" : [ "\"View-points\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "NSD-body" : {
+          "area" : [ 30, 440, 273, 647 ]
+        },
+        "NSD-screen" : {
+          "area" : [ 15, 205, 303, 912 ]
+        },
+        "NSD-header" : {
+          "area" : [ 30, 205, 273, 35 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

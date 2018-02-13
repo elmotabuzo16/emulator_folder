@@ -1,0 +1,36 @@
+@objects
+	NSD-screen			//*[@id="smokingContent1"]
+	NSD-header			//*[@id="smokingContent1"]/h1
+	NSD-body			//*[@id="smokingContent1"]/div[2]/div
+	NSD-body-content	//*[@id="smokingConfirmation"]/p
+	View-points			//*[@id="nsd-view-points"]
+	
+
+	
+= NSD-header =
+	NSD-header:
+		above NSD-body ~20 px
+		on top left edge NSD-screen 15 px right, 0 to 10 px bottom
+		css font-size is "28px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(197, 0, 24, 1)"
+= NSD-body =
+	NSD-body:
+		above View-points ~30 px
+		centered horizontally inside NSD-screen
+		
+= NSD-body-content =
+	NSD-body-content:
+		centered horizontally inside NSD-screen
+		css color is "rgba(51, 51, 51, 1)"
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		
+= View-points =
+	View-points:
+		below NSD-body ~30 px
+		on bottom right edge NSD-screen ~150 px left, ~70 px top
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(255, 255, 255, 1)"
+		css background-color is "rgba(43, 202, 109, 1)"

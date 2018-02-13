@@ -1,0 +1,987 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+      "status" : "error",
+      "time" : 1518007016695,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Progress-bar",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 23
+        },
+        "objects" : [ {
+          "name" : "Progress-bar0",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 26
+            },
+            "name" : "aligned horizontally all Progress-bar0 ~1px",
+            "highlight" : [ "Progress-bar0", "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width ~36px",
+            "highlight" : [ "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height ~20px",
+            "highlight" : [ "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 29
+            },
+            "name" : "below header 60px",
+            "highlight" : [ "Progress-bar0", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 30
+            },
+            "name" : "above Overall-section ~50px",
+            "highlight" : [ "Progress-bar0", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 34
+            },
+            "name" : "aligned vertically left Overall-section",
+            "highlight" : [ "Progress-bar0", "Overall-section" ]
+          } ]
+        }, {
+          "name" : "Progress-bar1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 26
+            },
+            "name" : "aligned horizontally all Progress-bar0 ~1px",
+            "highlight" : [ "Progress-bar1", "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width ~36px",
+            "highlight" : [ "Progress-bar1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height ~20px",
+            "highlight" : [ "Progress-bar1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 29
+            },
+            "name" : "below header 60px",
+            "highlight" : [ "Progress-bar1", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 30
+            },
+            "name" : "above Overall-section ~50px",
+            "highlight" : [ "Progress-bar1", "Overall-section" ]
+          } ]
+        }, {
+          "name" : "Progress-bar2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 26
+            },
+            "name" : "aligned horizontally all Progress-bar0 ~1px",
+            "highlight" : [ "Progress-bar2", "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width ~36px",
+            "highlight" : [ "Progress-bar2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height ~20px",
+            "highlight" : [ "Progress-bar2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 29
+            },
+            "name" : "below header 60px",
+            "highlight" : [ "Progress-bar2", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 30
+            },
+            "name" : "above Overall-section ~50px",
+            "highlight" : [ "Progress-bar2", "Overall-section" ]
+          } ]
+        }, {
+          "name" : "Progress-bar3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 26
+            },
+            "name" : "aligned horizontally all Progress-bar0 ~1px",
+            "highlight" : [ "Progress-bar3", "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width ~36px",
+            "highlight" : [ "Progress-bar3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height ~20px",
+            "highlight" : [ "Progress-bar3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 29
+            },
+            "name" : "below header 60px",
+            "highlight" : [ "Progress-bar3", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 30
+            },
+            "name" : "above Overall-section ~50px",
+            "highlight" : [ "Progress-bar3", "Overall-section" ]
+          } ]
+        }, {
+          "name" : "Progress-bar4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 26
+            },
+            "name" : "aligned horizontally all Progress-bar0 ~1px",
+            "highlight" : [ "Progress-bar4", "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width ~36px",
+            "highlight" : [ "Progress-bar4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height ~20px",
+            "highlight" : [ "Progress-bar4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 29
+            },
+            "name" : "below header 60px",
+            "highlight" : [ "Progress-bar4", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 30
+            },
+            "name" : "above Overall-section ~50px",
+            "highlight" : [ "Progress-bar4", "Overall-section" ]
+          } ]
+        }, {
+          "name" : "Progress-bar5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 26
+            },
+            "name" : "aligned horizontally all Progress-bar0 ~1px",
+            "highlight" : [ "Progress-bar5", "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width ~36px",
+            "highlight" : [ "Progress-bar5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height ~20px",
+            "highlight" : [ "Progress-bar5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 29
+            },
+            "name" : "below header 60px",
+            "highlight" : [ "Progress-bar5", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 30
+            },
+            "name" : "above Overall-section ~50px",
+            "highlight" : [ "Progress-bar5", "Overall-section" ]
+          } ]
+        }, {
+          "name" : "Progress-bar6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 26
+            },
+            "name" : "aligned horizontally all Progress-bar0 ~1px",
+            "highlight" : [ "Progress-bar6", "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width ~36px",
+            "highlight" : [ "Progress-bar6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height ~20px",
+            "highlight" : [ "Progress-bar6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 29
+            },
+            "name" : "below header 60px",
+            "highlight" : [ "Progress-bar6", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 30
+            },
+            "name" : "above Overall-section ~50px",
+            "highlight" : [ "Progress-bar6", "Overall-section" ]
+          } ]
+        }, {
+          "name" : "Progress-bar7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 26
+            },
+            "name" : "aligned horizontally all Progress-bar0 ~1px",
+            "highlight" : [ "Progress-bar7", "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width ~36px",
+            "highlight" : [ "Progress-bar7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height ~20px",
+            "highlight" : [ "Progress-bar7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 29
+            },
+            "name" : "below header 60px",
+            "highlight" : [ "Progress-bar7", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 30
+            },
+            "name" : "above Overall-section ~50px",
+            "highlight" : [ "Progress-bar7", "Overall-section" ]
+          } ]
+        }, {
+          "name" : "Progress-bar8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 26
+            },
+            "name" : "aligned horizontally all Progress-bar0 ~1px",
+            "highlight" : [ "Progress-bar8", "Progress-bar0" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width ~36px",
+            "highlight" : [ "Progress-bar8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height ~20px",
+            "highlight" : [ "Progress-bar8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 29
+            },
+            "name" : "below header 60px",
+            "highlight" : [ "Progress-bar8", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 30
+            },
+            "name" : "above Overall-section ~50px",
+            "highlight" : [ "Progress-bar8", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 38
+            },
+            "name" : "aligned vertically right Overall-section",
+            "highlight" : [ "Progress-bar8", "Overall-section" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Indicator-overall",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 40
+        },
+        "objects" : [ {
+          "name" : "Indicator-overall",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 42
+            },
+            "name" : "aligned vertically left Progress-bar0",
+            "highlight" : [ "Indicator-overall", "Progress-bar0" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Overall-section",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 44
+        },
+        "objects" : [ {
+          "name" : "Overall-section",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 46
+            },
+            "name" : "centered horizontally inside viewport",
+            "highlight" : [ "Overall-section", "viewport" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 47
+            },
+            "name" : "inside screen 70px bottom",
+            "errors" : [ "\"Overall-section\" is 844px bottom instead of 70px" ],
+            "highlight" : [ "Overall-section", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 48
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 49
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 50
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 51
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "Overall-section" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Overall-icon",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 53
+        },
+        "objects" : [ {
+          "name" : "Overall-icon",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 55
+            },
+            "name" : "inside Overall-section 16px left, 234px right",
+            "highlight" : [ "Overall-icon", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 56
+            },
+            "name" : "width 59px",
+            "highlight" : [ "Overall-icon" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 57
+            },
+            "name" : "height 32px",
+            "highlight" : [ "Overall-icon" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Overall-header",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 59
+        },
+        "objects" : [ {
+          "name" : "Overall-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 61
+            },
+            "name" : "near Overall-icon 15px right",
+            "highlight" : [ "Overall-header", "Overall-icon" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 62
+            },
+            "name" : "inside Overall-section 19px top",
+            "highlight" : [ "Overall-header", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 63
+            },
+            "name" : "css font-size is \"19px\"",
+            "highlight" : [ "Overall-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 64
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "Overall-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 65
+            },
+            "name" : "css color is \"rgba(43, 202, 109, 1)\"",
+            "highlight" : [ "Overall-header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Body-content",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 67
+        },
+        "objects" : [ {
+          "name" : "Body-content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 69
+            },
+            "name" : "centered horizontally inside Overall-section",
+            "highlight" : [ "Body-content", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "Body-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "Body-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "Body-content" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Overall-slider",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 74
+        },
+        "objects" : [ {
+          "name" : "Overall-slider",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 76
+            },
+            "name" : "centered horizontally inside Overall-section",
+            "highlight" : [ "Overall-slider", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 77
+            },
+            "name" : "width 237px",
+            "highlight" : [ "Overall-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 78
+            },
+            "name" : "height\t20px",
+            "highlight" : [ "Overall-slider" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Poor-text",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 80
+        },
+        "objects" : [ {
+          "name" : "Poor-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 82
+            },
+            "name" : "inside Overall-section 39px left",
+            "highlight" : [ "Poor-text", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 83
+            },
+            "name" : "below Overall-slider 5px",
+            "highlight" : [ "Poor-text", "Overall-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "Poor-text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "Poor-text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "Poor-text" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Excellent-text",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 88
+        },
+        "objects" : [ {
+          "name" : "Excellent-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 90
+            },
+            "name" : "inside Overall-section 39px right",
+            "highlight" : [ "Excellent-text", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 91
+            },
+            "name" : "below Overall-slider 5px",
+            "highlight" : [ "Excellent-text", "Overall-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 92
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "Excellent-text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "Excellent-text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "Excellent-text" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Exit-link",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 96
+        },
+        "objects" : [ {
+          "name" : "Exit-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 98
+            },
+            "name" : "inside Overall-section 16px left",
+            "highlight" : [ "Exit-link", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 99
+            },
+            "name" : "above Next-button ~0px",
+            "highlight" : [ "Exit-link", "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 100
+            },
+            "name" : "aligned vertically left Next-button",
+            "highlight" : [ "Exit-link", "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "Exit-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 102
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "Exit-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 103
+            },
+            "name" : "css color is \"rgba(43, 202, 109, 1)\"",
+            "highlight" : [ "Exit-link" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Next-button",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+          "lineNumber" : 105
+        },
+        "objects" : [ {
+          "name" : "Next-button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 107
+            },
+            "name" : "centered horizontally inside Overall-section",
+            "highlight" : [ "Next-button", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 108
+            },
+            "name" : "inside Overall-section 17px bottom",
+            "highlight" : [ "Next-button", "Overall-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 109
+            },
+            "name" : "width 277px",
+            "highlight" : [ "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 110
+            },
+            "name" : "height 44px",
+            "highlight" : [ "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 112
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 113
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 114
+            },
+            "name" : "css padding-top is \"10px\"",
+            "highlight" : [ "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 115
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "highlight" : [ "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 116
+            },
+            "name" : "css padding-right is \"30px\"",
+            "highlight" : [ "Next-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHROverall.txt",
+              "lineNumber" : 117
+            },
+            "name" : "css padding-left is \"30px\"",
+            "highlight" : [ "Next-button" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "Progress-bar8" : {
+          "area" : [ 289, 333, 35, 20 ]
+        },
+        "Overall-icon" : {
+          "area" : [ 31, 418, 59, 32 ]
+        },
+        "Overall-section" : {
+          "area" : [ 15, 402, 309, 388 ]
+        },
+        "Progress-bar7" : {
+          "area" : [ 255, 333, 34, 20 ]
+        },
+        "Progress-bar4" : {
+          "area" : [ 152, 333, 34, 20 ]
+        },
+        "Body-content" : {
+          "area" : [ 51, 501, 237, 40 ]
+        },
+        "Progress-bar3" : {
+          "area" : [ 117, 333, 34, 20 ]
+        },
+        "Excellent-text" : {
+          "area" : [ 231, 606, 54, 20 ]
+        },
+        "Exit-link" : {
+          "area" : [ 31, 685, 28, 44 ]
+        },
+        "Progress-bar6" : {
+          "area" : [ 220, 333, 34, 20 ]
+        },
+        "Progress-bar5" : {
+          "area" : [ 186, 333, 35, 20 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 354, 1634 ]
+        },
+        "Poor-text" : {
+          "area" : [ 54, 606, 29, 20 ]
+        },
+        "Indicator-overall" : {
+          "area" : [ 15, 310, 77, 21 ]
+        },
+        "Overall-header" : {
+          "area" : [ 105, 421, 69, 25 ]
+        },
+        "Overall-slider" : {
+          "area" : [ 51, 581, 237, 20 ]
+        },
+        "Next-button" : {
+          "area" : [ 31, 729, 277, 44 ]
+        },
+        "viewport" : {
+          "area" : [ 0, 0, 339, 638 ]
+        },
+        "Progress-bar0" : {
+          "area" : [ 15, 333, 34, 19 ]
+        },
+        "header" : {
+          "area" : [ 15, 238, 309, 35 ]
+        },
+        "Progress-bar2" : {
+          "area" : [ 83, 333, 34, 20 ]
+        },
+        "Progress-bar1" : {
+          "area" : [ 49, 333, 35, 20 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

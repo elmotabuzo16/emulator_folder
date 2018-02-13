@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.03-KnowYourHealth.4-VitalityHealthCheck</rootPath>
+  <pageHistoryReference>
+    <name>liferay.SuiteSetUp</name>
+    <date>2018-02-02T16:15:09+08:00</date>
+    <pageHistoryLink>liferay.SuiteSetUp?pageHistory&amp;resultDate=20180202161509</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>5279</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.03-KnowYourHealth.4-VitalityHealthCheck.VHCClaimPointsStep1</name>
+    <date>2018-02-02T16:15:14+08:00</date>
+    <pageHistoryLink>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.03-KnowYourHealth.4-VitalityHealthCheck.VHCClaimPointsStep1?pageHistory&amp;resultDate=20180202161514</pageHistoryLink>
+    <counts>
+      <right>21</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>72022</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.03-KnowYourHealth.4-VitalityHealthCheck.VHCClaimPointsStep2</name>
+    <date>2018-02-02T16:16:26+08:00</date>
+    <pageHistoryLink>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.03-KnowYourHealth.4-VitalityHealthCheck.VHCClaimPointsStep2?pageHistory&amp;resultDate=20180202161626</pageHistoryLink>
+    <counts>
+      <right>27</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>72766</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.03-KnowYourHealth.4-VitalityHealthCheck.VHCClaimPointsStep3</name>
+    <date>2018-02-02T16:17:39+08:00</date>
+    <pageHistoryLink>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.03-KnowYourHealth.4-VitalityHealthCheck.VHCClaimPointsStep3?pageHistory&amp;resultDate=20180202161739</pageHistoryLink>
+    <counts>
+      <right>36</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>69333</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.03-KnowYourHealth.4-VitalityHealthCheck.VHCLandingPage</name>
+    <date>2018-02-02T16:18:48+08:00</date>
+    <pageHistoryLink>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.03-KnowYourHealth.4-VitalityHealthCheck.VHCLandingPage?pageHistory&amp;resultDate=20180202161848</pageHistoryLink>
+    <counts>
+      <right>17</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>52093</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>liferay.SuiteTearDown</name>
+    <date>2018-02-02T16:19:40+08:00</date>
+    <pageHistoryLink>liferay.SuiteTearDown?pageHistory&amp;resultDate=20180202161940</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>873</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_121\bin\java" -cp C:\Fhoeben\fitnesse-standalone.jar;fixtures;C:\Fhoeben\fixtures\accessors-smart-1.2.jar;C:\Fhoeben\fixtures\animal-sniffer-annotations-1.14.jar;C:\Fhoeben\fixtures\asm-5.0.4.jar;C:\Fhoeben\fixtures\cglib-nodep-3.2.5.jar;C:\Fhoeben\fixtures\commons-cli-1.2.jar;C:\Fhoeben\fixtures\commons-codec-1.9.jar;C:\Fhoeben\fixtures\commons-exec-1.3.jar;C:\Fhoeben\fixtures\commons-io-2.5.jar;C:\Fhoeben\fixtures\commons-lang3-3.5.jar;C:\Fhoeben\fixtures\commons-logging-1.2.jar;C:\Fhoeben\fixtures\commons-net-3.6.jar;C:\Fhoeben\fixtures\cssparser-0.9.23.jar;C:\Fhoeben\fixtures\diff-1.1.11.jar;C:\Fhoeben\fixtures\error_prone_annotations-2.0.18.jar;C:\Fhoeben\fixtures\freemarker-2.3.23.jar;C:\Fhoeben\fixtures\galen-core-2.3.4.jar;C:\Fhoeben\fixtures\galen-rainbow4j-2.3.4.jar;C:\Fhoeben\fixtures\gson-2.8.0.jar;C:\Fhoeben\fixtures\guava-23.0.jar;C:\Fhoeben\fixtures\hamcrest-core-1.3.jar;C:\Fhoeben\fixtures\htmlunit-2.27.jar;C:\Fhoeben\fixtures\htmlunit-core-js-2.27.jar;C:\Fhoeben\fixtures\httpclient-4.5.3.jar;C:\Fhoeben\fixtures\httpcore-4.4.6.jar;C:\Fhoeben\fixtures\httpmime-4.5.3.jar;C:\Fhoeben\fixtures\j2objc-annotations-1.1.jar;C:\Fhoeben\fixtures\jackson-annotations-2.4.0.jar;C:\Fhoeben\fixtures\jackson-core-2.4.2.jar;C:\Fhoeben\fixtures\jackson-databind-2.4.2.jar;C:\Fhoeben\fixtures\javax.servlet-api-3.1.0.jar;C:\Fhoeben\fixtures\jcl-over-slf4j-1.7.25.jar;C:\Fhoeben\fixtures\jetty-client-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jetty-http-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jetty-io-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jetty-util-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jna-4.1.0.jar;C:\Fhoeben\fixtures\jna-platform-4.1.0.jar;C:\Fhoeben\fixtures\json-path-2.4.0.jar;C:\Fhoeben\fixtures\json-smart-2.3.jar;C:\Fhoeben\fixtures\jsr305-1.3.9.jar;C:\Fhoeben\fixtures\neko-htmlunit-2.27.jar;C:\Fhoeben\fixtures\phantomjsdriver-1.4.3.jar;C:\Fhoeben\fixtures\rhino-1.7R5.jar;C:\Fhoeben\fixtures\sac-1.3.jar;C:\Fhoeben\fixtures\selenium-api-3.5.1.jar;C:\Fhoeben\fixtures\selenium-chrome-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-edge-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-firefox-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-ie-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-java-3.5.1.jar;C:\Fhoeben\fixtures\selenium-opera-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-remote-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-safari-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-support-3.5.1.jar;C:\Fhoeben\fixtures\serializer-2.7.2.jar;C:\Fhoeben\fixtures\slf4j-api-1.7.25.jar;C:\Fhoeben\fixtures\slf4j-simple-1.7.25.jar;C:\Fhoeben\fixtures\websocket-api-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\websocket-client-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\websocket-common-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\xalan-2.7.2.jar;C:\Fhoeben\fixtures\xercesImpl-2.11.0.jar;C:\Fhoeben\fixtures\xml-apis-1.4.01.jar;plugins/jdbcslim/jdbcslim.jar;plugins/jdbcslim/ojdbc6.jar;plugins/jdbcslim/commons-codec-1.10.jar;plugins/jdbcslim/dbfit-core-3.2.0.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 5516
+
+Only local connections are allowed.
+
+Feb 02, 2018 4:15:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>6</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>272816</totalRunTimeInMillis>
+</suiteResults>
+

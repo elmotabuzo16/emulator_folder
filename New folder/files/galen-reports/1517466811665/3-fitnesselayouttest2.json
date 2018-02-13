@@ -1,0 +1,958 @@
+{
+  "testId" : "3-fitnesselayouttest2",
+  "name" : "FitNesseLayoutTest2",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+      "status" : "info",
+      "time" : 1517466826670,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "vhc-claim-title",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+          "lineNumber" : 69
+        },
+        "objects" : [ {
+          "name" : "vhc-claim-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 71
+            },
+            "name" : "centered horizontally inside vhc-claim-screen",
+            "highlight" : [ "vhc-claim-title", "vhc-claim-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "vhc-claim-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 73
+            },
+            "name" : "css font-size is \"28px\"",
+            "highlight" : [ "vhc-claim-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 74
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "vhc-claim-title" ]
+          } ]
+        } ]
+      }, {
+        "name" : "slider",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+          "lineNumber" : 76
+        },
+        "objects" : [ {
+          "name" : "slider",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css margin-bottom is \"11px\"",
+            "highlight" : [ "slider" ]
+          } ]
+        }, {
+          "name" : "slider-step-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 82
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "slider-step-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 83
+            },
+            "name" : "css background-color is \"rgba(208, 51, 70, 1)\"",
+            "highlight" : [ "slider-step-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css font-size is \"12px\"",
+            "highlight" : [ "slider-step-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css padding-top is \"0px\"",
+            "highlight" : [ "slider-step-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "highlight" : [ "slider-step-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"0px\"",
+            "highlight" : [ "slider-step-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-left is \"16px\"",
+            "highlight" : [ "slider-step-1" ]
+          } ]
+        }, {
+          "name" : "slider-step-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 91
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "slider-step-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 92
+            },
+            "name" : "css background-color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "slider-step-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css font-size is \"12px\"",
+            "highlight" : [ "slider-step-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "highlight" : [ "slider-step-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "highlight" : [ "slider-step-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-right is \"0px\"",
+            "highlight" : [ "slider-step-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-left is \"16px\"",
+            "highlight" : [ "slider-step-2" ]
+          } ]
+        }, {
+          "name" : "slider-step-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css color is \"rgba(0, 0, 0, 1)\"",
+            "highlight" : [ "slider-step-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css background-color is \"rgba(155, 155, 155, 1)\"",
+            "highlight" : [ "slider-step-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 102
+            },
+            "name" : "css font-size is \"12px\"",
+            "highlight" : [ "slider-step-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 103
+            },
+            "name" : "css padding-top is \"0px\"",
+            "highlight" : [ "slider-step-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 104
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "highlight" : [ "slider-step-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-right is \"0px\"",
+            "highlight" : [ "slider-step-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-left is \"16px\"",
+            "highlight" : [ "slider-step-3" ]
+          } ]
+        } ]
+      }, {
+        "name" : "vhc-claim-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+          "lineNumber" : 107
+        },
+        "objects" : [ {
+          "name" : "vhc-claim-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 109
+            },
+            "name" : "centered horizontally inside vhc-claim-screen",
+            "highlight" : [ "vhc-claim-container", "vhc-claim-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 112
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 113
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 114
+            },
+            "name" : "css margin-bottom is \"30px\"",
+            "highlight" : [ "vhc-claim-container" ]
+          } ]
+        }, {
+          "name" : "vhc-claim-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 117
+            },
+            "name" : "centered horizontally inside vhc-claim-container",
+            "highlight" : [ "vhc-claim-header", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 118
+            },
+            "name" : "css font-size is \"17px\"",
+            "highlight" : [ "vhc-claim-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 119
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "vhc-claim-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 120
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "vhc-claim-header" ]
+          } ]
+        }, {
+          "name" : "vhc-header-content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 123
+            },
+            "name" : "centered horizontally inside vhc-claim-container",
+            "highlight" : [ "vhc-header-content", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 124
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "vhc-header-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 125
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "vhc-header-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 126
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "vhc-header-content" ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "highlight" : [ "health-attr-logo-1", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "highlight" : [ "health-attr-logo-1", "vhc-claim-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "highlight" : [ "health-attr-logo-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "highlight" : [ "health-attr-logo-1" ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "highlight" : [ "health-attr-logo-2", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "highlight" : [ "health-attr-logo-2", "vhc-claim-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "highlight" : [ "health-attr-logo-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "highlight" : [ "health-attr-logo-2" ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "highlight" : [ "health-attr-logo-3", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "highlight" : [ "health-attr-logo-3", "vhc-claim-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "highlight" : [ "health-attr-logo-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "highlight" : [ "health-attr-logo-3" ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "highlight" : [ "health-attr-logo-4", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "highlight" : [ "health-attr-logo-4", "vhc-claim-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "highlight" : [ "health-attr-logo-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "highlight" : [ "health-attr-logo-4" ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "highlight" : [ "health-attr-logo-5", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "highlight" : [ "health-attr-logo-5", "vhc-claim-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "highlight" : [ "health-attr-logo-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "highlight" : [ "health-attr-logo-5" ]
+          } ]
+        }, {
+          "name" : "health-attr-title-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "highlight" : [ "health-attr-title-1", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "health-attr-title-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "health-attr-title-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "health-attr-title-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "highlight" : [ "health-attr-title-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "highlight" : [ "health-attr-title-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "highlight" : [ "health-attr-title-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "highlight" : [ "health-attr-title-1" ]
+          } ]
+        }, {
+          "name" : "health-attr-title-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "highlight" : [ "health-attr-title-2", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "health-attr-title-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "health-attr-title-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "health-attr-title-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "highlight" : [ "health-attr-title-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "highlight" : [ "health-attr-title-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "highlight" : [ "health-attr-title-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "highlight" : [ "health-attr-title-2" ]
+          } ]
+        }, {
+          "name" : "health-attr-title-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "highlight" : [ "health-attr-title-3", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "health-attr-title-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "health-attr-title-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "health-attr-title-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "highlight" : [ "health-attr-title-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "highlight" : [ "health-attr-title-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "highlight" : [ "health-attr-title-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "highlight" : [ "health-attr-title-3" ]
+          } ]
+        }, {
+          "name" : "health-attr-title-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "highlight" : [ "health-attr-title-4", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "health-attr-title-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "health-attr-title-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "health-attr-title-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "highlight" : [ "health-attr-title-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "highlight" : [ "health-attr-title-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "highlight" : [ "health-attr-title-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "highlight" : [ "health-attr-title-4" ]
+          } ]
+        }, {
+          "name" : "health-attr-title-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "highlight" : [ "health-attr-title-5", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "health-attr-title-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "health-attr-title-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "health-attr-title-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "highlight" : [ "health-attr-title-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "highlight" : [ "health-attr-title-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "highlight" : [ "health-attr-title-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "highlight" : [ "health-attr-title-5" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "health-attr-logo-1" : {
+          "area" : [ 46, 475, 39, 36 ]
+        },
+        "slider" : {
+          "area" : [ 30, 301, 273, 27 ]
+        },
+        "health-attr-logo-2" : {
+          "area" : [ 46, 895, 35, 40 ]
+        },
+        "health-attr-title-4" : {
+          "area" : [ 70, 1361, 195, 32 ]
+        },
+        "health-attr-title-5" : {
+          "area" : [ 72, 1778, 105, 32 ]
+        },
+        "slider-step-1" : {
+          "area" : [ 30, 302, 52, 26 ]
+        },
+        "health-attr-logo-5" : {
+          "area" : [ 46, 1782, 23, 30 ]
+        },
+        "health-attr-title-2" : {
+          "area" : [ 84, 896, 127, 32 ]
+        },
+        "slider-step-2" : {
+          "area" : [ 86, 302, 52, 26 ]
+        },
+        "health-attr-title-3" : {
+          "area" : [ 75, 1128, 99, 32 ]
+        },
+        "slider-step-3" : {
+          "area" : [ 142, 302, 52, 26 ]
+        },
+        "health-attr-logo-3" : {
+          "area" : [ 46, 1134, 26, 26 ]
+        },
+        "vhc-claim-screen" : {
+          "area" : [ 15, 205, 303, 2093 ]
+        },
+        "health-attr-logo-4" : {
+          "area" : [ 46, 1362, 21, 36 ]
+        },
+        "health-attr-title-1" : {
+          "area" : [ 88, 474, 140, 32 ]
+        },
+        "vhc-claim-container" : {
+          "area" : [ 30, 339, 273, 1929 ]
+        },
+        "vhc-claim-title" : {
+          "area" : [ 30, 205, 273, 66 ]
+        },
+        "vhc-claim-header" : {
+          "area" : [ 46, 355, 241, 25 ]
+        },
+        "vhc-header-content" : {
+          "area" : [ 46, 411, 241, 38 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

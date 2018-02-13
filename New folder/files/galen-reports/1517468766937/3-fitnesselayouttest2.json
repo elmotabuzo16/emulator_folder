@@ -1,0 +1,2927 @@
+{
+  "testId" : "3-fitnesselayouttest2",
+  "name" : "FitNesseLayoutTest2",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+      "status" : "error",
+      "time" : 1517468850789,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "vhc-claim-title",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+          "lineNumber" : 69
+        },
+        "objects" : [ {
+          "name" : "vhc-claim-title",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 71
+            },
+            "name" : "centered horizontally inside vhc-claim-screen",
+            "errors" : [ "\"vhc-claim-title\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"vhc-claim-title\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 73
+            },
+            "name" : "css font-size is \"28px\"",
+            "errors" : [ "\"vhc-claim-title\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 74
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"vhc-claim-title\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "slider",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+          "lineNumber" : 76
+        },
+        "objects" : [ {
+          "name" : "slider",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"slider\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css margin-bottom is \"11px\"",
+            "errors" : [ "\"slider\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "slider-step-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 82
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"slider-step-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 83
+            },
+            "name" : "css background-color is \"rgba(208, 51, 70, 1)\"",
+            "errors" : [ "\"slider-step-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"slider-step-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"slider-step-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"slider-step-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"slider-step-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-left is \"16px\"",
+            "errors" : [ "\"slider-step-1\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "slider-step-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 91
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"slider-step-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 92
+            },
+            "name" : "css background-color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"slider-step-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"slider-step-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"slider-step-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"slider-step-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"slider-step-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-left is \"16px\"",
+            "errors" : [ "\"slider-step-2\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "slider-step-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css color is \"rgba(0, 0, 0, 1)\"",
+            "errors" : [ "\"slider-step-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css background-color is \"rgba(155, 155, 155, 1)\"",
+            "errors" : [ "\"slider-step-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 102
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"slider-step-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 103
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"slider-step-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 104
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"slider-step-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"slider-step-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-left is \"16px\"",
+            "errors" : [ "\"slider-step-3\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "vhc-claim-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+          "lineNumber" : 107
+        },
+        "objects" : [ {
+          "name" : "vhc-claim-container",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 109
+            },
+            "name" : "centered horizontally inside vhc-claim-screen",
+            "errors" : [ "\"vhc-claim-container\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"vhc-claim-container\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"vhc-claim-container\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 112
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"vhc-claim-container\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 113
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"vhc-claim-container\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 114
+            },
+            "name" : "css margin-bottom is \"30px\"",
+            "errors" : [ "\"vhc-claim-container\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "vhc-claim-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 117
+            },
+            "name" : "centered horizontally inside vhc-claim-container",
+            "errors" : [ "\"vhc-claim-header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 118
+            },
+            "name" : "css font-size is \"17px\"",
+            "errors" : [ "\"vhc-claim-header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 119
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"vhc-claim-header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 120
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"vhc-claim-header\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "vhc-header-content",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 123
+            },
+            "name" : "centered horizontally inside vhc-claim-container",
+            "errors" : [ "\"vhc-header-content\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 124
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"vhc-header-content\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 125
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"vhc-header-content\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 126
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"vhc-header-content\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "errors" : [ "\"health-attr-logo-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "errors" : [ "\"health-attr-logo-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "errors" : [ "\"health-attr-logo-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "errors" : [ "\"health-attr-logo-1\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "errors" : [ "\"health-attr-logo-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "errors" : [ "\"health-attr-logo-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "errors" : [ "\"health-attr-logo-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "errors" : [ "\"health-attr-logo-2\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "errors" : [ "\"health-attr-logo-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "errors" : [ "\"health-attr-logo-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "errors" : [ "\"health-attr-logo-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "errors" : [ "\"health-attr-logo-3\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "errors" : [ "\"health-attr-logo-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "errors" : [ "\"health-attr-logo-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "errors" : [ "\"health-attr-logo-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "errors" : [ "\"health-attr-logo-4\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-logo-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "inside vhc-claim-container 16px left",
+            "errors" : [ "\"health-attr-logo-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "inside vhc-claim-screen 31px left",
+            "errors" : [ "\"health-attr-logo-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "css padding is \"0px\"",
+            "errors" : [ "\"health-attr-logo-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css margin is \"0px\"",
+            "errors" : [ "\"health-attr-logo-5\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-title-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"health-attr-title-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "errors" : [ "\"health-attr-title-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"health-attr-title-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-title-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "errors" : [ "\"health-attr-title-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "errors" : [ "\"health-attr-title-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"health-attr-title-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"health-attr-title-1\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-title-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"health-attr-title-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "errors" : [ "\"health-attr-title-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"health-attr-title-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-title-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "errors" : [ "\"health-attr-title-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "errors" : [ "\"health-attr-title-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"health-attr-title-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"health-attr-title-2\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-title-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"health-attr-title-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "errors" : [ "\"health-attr-title-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"health-attr-title-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-title-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "errors" : [ "\"health-attr-title-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "errors" : [ "\"health-attr-title-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"health-attr-title-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"health-attr-title-3\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-title-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"health-attr-title-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "errors" : [ "\"health-attr-title-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"health-attr-title-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-title-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "errors" : [ "\"health-attr-title-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "errors" : [ "\"health-attr-title-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"health-attr-title-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"health-attr-title-4\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-title-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 139
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"health-attr-title-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"16px\"",
+            "errors" : [ "\"health-attr-title-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 141
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"health-attr-title-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 142
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-title-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 143
+            },
+            "name" : "css padding-top is \"5px\"",
+            "errors" : [ "\"health-attr-title-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 144
+            },
+            "name" : "css padding-bottom is \"5px\"",
+            "errors" : [ "\"health-attr-title-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 145
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"health-attr-title-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 146
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"health-attr-title-5\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-1\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-2\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-3\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-4\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-5\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-6\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-7\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-8\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-9",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-9\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-10",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-10\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-11",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-11\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-12",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-12\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "healt-attr-content-13",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 151
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-weight is \"600\"",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 155
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 156
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 157
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css margin-bottom is \"10px\"",
+            "errors" : [ "\"healt-attr-content-13\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "date-text-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 165
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-text-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 166
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"date-text-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 167
+            },
+            "name" : "css background-color is \"rgba(238, 238, 238, 1)\"",
+            "errors" : [ "\"date-text-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 168
+            },
+            "name" : "css color is \"rgba(85, 85, 85, 1)\"",
+            "errors" : [ "\"date-text-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 169
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"date-text-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 170
+            },
+            "name" : "css padding-top is \"6px\"",
+            "errors" : [ "\"date-text-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 171
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "errors" : [ "\"date-text-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 172
+            },
+            "name" : "css padding-right is \"12px\"",
+            "errors" : [ "\"date-text-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 173
+            },
+            "name" : "css padding-left is \"12px\"",
+            "errors" : [ "\"date-text-1\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "date-text-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 165
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-text-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 166
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"date-text-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 167
+            },
+            "name" : "css background-color is \"rgba(238, 238, 238, 1)\"",
+            "errors" : [ "\"date-text-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 168
+            },
+            "name" : "css color is \"rgba(85, 85, 85, 1)\"",
+            "errors" : [ "\"date-text-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 169
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"date-text-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 170
+            },
+            "name" : "css padding-top is \"6px\"",
+            "errors" : [ "\"date-text-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 171
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "errors" : [ "\"date-text-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 172
+            },
+            "name" : "css padding-right is \"12px\"",
+            "errors" : [ "\"date-text-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 173
+            },
+            "name" : "css padding-left is \"12px\"",
+            "errors" : [ "\"date-text-2\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "date-text-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 165
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-text-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 166
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"date-text-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 167
+            },
+            "name" : "css background-color is \"rgba(238, 238, 238, 1)\"",
+            "errors" : [ "\"date-text-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 168
+            },
+            "name" : "css color is \"rgba(85, 85, 85, 1)\"",
+            "errors" : [ "\"date-text-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 169
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"date-text-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 170
+            },
+            "name" : "css padding-top is \"6px\"",
+            "errors" : [ "\"date-text-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 171
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "errors" : [ "\"date-text-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 172
+            },
+            "name" : "css padding-right is \"12px\"",
+            "errors" : [ "\"date-text-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 173
+            },
+            "name" : "css padding-left is \"12px\"",
+            "errors" : [ "\"date-text-3\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "date-text-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 165
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-text-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 166
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"date-text-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 167
+            },
+            "name" : "css background-color is \"rgba(238, 238, 238, 1)\"",
+            "errors" : [ "\"date-text-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 168
+            },
+            "name" : "css color is \"rgba(85, 85, 85, 1)\"",
+            "errors" : [ "\"date-text-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 169
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"date-text-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 170
+            },
+            "name" : "css padding-top is \"6px\"",
+            "errors" : [ "\"date-text-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 171
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "errors" : [ "\"date-text-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 172
+            },
+            "name" : "css padding-right is \"12px\"",
+            "errors" : [ "\"date-text-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 173
+            },
+            "name" : "css padding-left is \"12px\"",
+            "errors" : [ "\"date-text-4\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "date-text-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 165
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-text-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 166
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"date-text-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 167
+            },
+            "name" : "css background-color is \"rgba(238, 238, 238, 1)\"",
+            "errors" : [ "\"date-text-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 168
+            },
+            "name" : "css color is \"rgba(85, 85, 85, 1)\"",
+            "errors" : [ "\"date-text-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 169
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"date-text-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 170
+            },
+            "name" : "css padding-top is \"6px\"",
+            "errors" : [ "\"date-text-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 171
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "errors" : [ "\"date-text-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 172
+            },
+            "name" : "css padding-right is \"12px\"",
+            "errors" : [ "\"date-text-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 173
+            },
+            "name" : "css padding-left is \"12px\"",
+            "errors" : [ "\"date-text-5\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "date-text-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 165
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-text-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 166
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"date-text-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 167
+            },
+            "name" : "css background-color is \"rgba(238, 238, 238, 1)\"",
+            "errors" : [ "\"date-text-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 168
+            },
+            "name" : "css color is \"rgba(85, 85, 85, 1)\"",
+            "errors" : [ "\"date-text-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 169
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"date-text-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 170
+            },
+            "name" : "css padding-top is \"6px\"",
+            "errors" : [ "\"date-text-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 171
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "errors" : [ "\"date-text-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 172
+            },
+            "name" : "css padding-right is \"12px\"",
+            "errors" : [ "\"date-text-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 173
+            },
+            "name" : "css padding-left is \"12px\"",
+            "errors" : [ "\"date-text-6\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "date-text-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 165
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-text-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 166
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"date-text-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 167
+            },
+            "name" : "css background-color is \"rgba(238, 238, 238, 1)\"",
+            "errors" : [ "\"date-text-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 168
+            },
+            "name" : "css color is \"rgba(85, 85, 85, 1)\"",
+            "errors" : [ "\"date-text-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 169
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"date-text-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 170
+            },
+            "name" : "css padding-top is \"6px\"",
+            "errors" : [ "\"date-text-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 171
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "errors" : [ "\"date-text-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 172
+            },
+            "name" : "css padding-right is \"12px\"",
+            "errors" : [ "\"date-text-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 173
+            },
+            "name" : "css padding-left is \"12px\"",
+            "errors" : [ "\"date-text-7\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "date-picker-icon",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 178
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 179
+            },
+            "name" : "right-of date-text-1 10px",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 178
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 179
+            },
+            "name" : "right-of date-text-2 10px",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 178
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 179
+            },
+            "name" : "right-of date-text-3 10px",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 178
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 179
+            },
+            "name" : "right-of date-text-4 10px",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 178
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 179
+            },
+            "name" : "right-of date-text-5 10px",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 178
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 179
+            },
+            "name" : "right-of date-text-6 10px",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 178
+            },
+            "name" : "inside vhc-claim-container",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPageStep2.txt",
+              "lineNumber" : 179
+            },
+            "name" : "right-of date-text-7 10px",
+            "errors" : [ "\"date-picker-icon\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

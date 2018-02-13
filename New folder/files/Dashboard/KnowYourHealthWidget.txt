@@ -1,0 +1,103 @@
+@objects
+	dashboard-screen			//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]
+	kyh-container				//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]/div[2]/div[1]/div/div[3]/div
+	kyh-title					//*[@id="know_your_health_assessments"]/div[1]
+	assessment-container-1		//*[@id="know_your_health_assessments"]/div[2]
+	assessment-container-2		//*[@id="know_your_health_assessments"]/div[3]
+	assessment-container-3		//*[@id="know_your_health_assessments"]/div[4]
+	assessment-container-4		//*[@id="know_your_health_assessments"]/div[5]
+	assessment-icon-1			//*[@id="know_your_health_assessments"]/div[2]/div[1]/div[1]
+	assessment-icon-2			//*[@id="know_your_health_assessments"]/div[3]/div[1]/div[1]
+	assessment-icon-3			//*[@id="know_your_health_assessments"]/div[4]/div[1]/div[1]
+	assessment-icon-4			//*[@id="know_your_health_assessments"]/div[5]/div[1]/div[1]
+	assessment-title-1			//*[@id="know_your_health_assessments"]/div[2]/div[1]/div[2]/div[1]
+	assessment-title-2			//*[@id="know_your_health_assessments"]/div[3]/div[1]/div[2]/div[1]
+	assessment-title-3			//*[@id="know_your_health_assessments"]/div[4]/div[1]/div[2]/div[1]
+	assessment-title-4			//*[@id="know_your_health_assessments"]/div[5]/div[1]/div[2]/div[1]
+	assessment-content-1		//*[@id="know_your_health_assessments"]/div[2]/div[1]/div[2]/div[2]
+	assessment-content-2		//*[@id="know_your_health_assessments"]/div[3]/div[1]/div[2]/div[2]
+	assessment-content-3		//*[@id="know_your_health_assessments"]/div[4]/div[1]/div[2]/div[2]
+	assessment-content-4		//*[@id="know_your_health_assessments"]/div[5]/div[1]/div[2]/div[2]
+	assessment-button-1			//*[@id="know_your_health_assessments"]/div[2]/div[2]/div/a
+	assessment-button-2			//*[@id="know_your_health_assessments"]/div[3]/div[2]/div/a
+	assessment-button-3			//*[@id="know_your_health_assessments"]/div[4]/div[2]/div/a
+	assessment-button-4			//*[@id="know_your_health_assessments"]/div[5]/div[2]/div/a
+	view-assessement-link		//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]/div[2]/div[1]/div/div[3]/div/div[2]/div[2]/a
+
+= kyh-container =
+	kyh-container:
+		centered horizontally inside dashboard-screen
+		
+	kyh-title:
+			centered horizontally inside kyh-container
+			css color is "rgba(102, 102, 102, 1)"
+			css font-size is "14px"
+			css font-family matches ".*Open Sans.*"
+			css padding-top is "0px"
+			css padding-bottom is "0px"
+			css padding-left is "0px"
+			css padding-right is "0px"
+			
+= kyh-container =			
+	@for [1-4] as index
+		assessment-container-${index}:
+			inside kyh-container 16px right 
+			centered horizontally inside kyh-container
+			css background-color is "rgba(250, 250, 250, 1)"
+			css padding-top is "0px"
+			css padding-bottom is "0px"
+			css padding-left is "15px"
+			css padding-right is "15px"
+
+= kyh-container =			
+	@for [1-4] as index			
+		assessment-icon-${index}:
+			inside assessment-container-${index} 15px left
+			css padding-top is "0px"
+			css padding-bottom is "0px"
+			css padding-left is "0px"
+			css padding-right is "20px"
+
+= kyh-container =			
+	@for [1-4] as index			
+		assessment-title-${index}:
+			inside assessment-container-${index} 15px right
+			css background-color is "rgba(0, 0, 0, 0)"
+			css padding-top is "0px"
+			css padding-bottom is "0px"
+			css padding-left is "0px"
+			css padding-right is "0px"
+			css font-size is "14px"
+			css font-family matches ".*Open Sans.*"
+			
+= kyh-container =			
+	@for [1-4] as index			
+		assessment-content-${index}:
+			inside assessment-container-${index} 15px right
+			css background-color is "rgba(0, 0, 0, 0)"
+			css padding-top is "0px"
+			css padding-bottom is "0px"
+			css padding-left is "0px"
+			css padding-right is "0px"
+			css font-size is "14px"
+			css font-family matches ".*Open Sans.*"
+
+= kyh-container =			
+	@for [1-4] as index			
+		assessment-button-${index}:
+			inside assessment-container-${index} 15px left
+			css padding-top is "10px"
+			css padding-bottom is "10px"
+			css padding-left is "20px"
+			css padding-right is "20px"
+			css background-color is "rgba(197, 0, 24, 1)"
+			css font-size is "14px"
+			css font-family matches ".*Open Sans.*"
+			css color is "rgba(255, 255, 255, 1)" 
+			
+= kyh-container =
+	view-assessement-link:
+		css font-size is "14px"
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(194, 27, 23, 1)"
+		inside kyh-container 17px right

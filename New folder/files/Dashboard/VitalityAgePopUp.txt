@@ -1,0 +1,69 @@
+@objects
+	modal-header		//*[@id="vitalityAgeInfoModal"]/div/div/div[1]
+	x-button			//*[@id="vitalityAgeInfoModal"]/div/div/div[1]/button/i
+	content-container	//*[@id="vitalityAgeInfoModal"]/div/div/div[2]
+	content				//*[@id="vitalityAgeInfoModal"]/div/div/div[2]/div
+	modal-footer		//*[@id="vitalityAgeInfoModal"]/div/div/div[3]
+	ok-button			//*[@id="vitalityAgeInfoModal"]/div/div/div[3]/div/button
+	
+= modal-header =
+	modal-header:
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-left is "15px"
+		css padding-right is "15px"
+		css color is "rgba(197, 0, 24, 1)"
+		css font-size is "20px"
+		css font-family matches ".*Open Sans.*"
+		above content-container 0 to 5 px
+	
+	x-button:
+		css padding-top is "0px"
+		css padding-bottom is "0px"
+		css padding-left is "0px"
+		css padding-right is "0px"
+		above content-container ~24px
+		width ~16px
+		height ~21px
+		
+= content-container =
+	content-container:
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-left is "15px"
+		css padding-right is "15px"
+		above modal-footer 0 to 5 px
+		
+	content:
+		css padding-top is "0px"
+		css padding-bottom is "0px"
+		css padding-left is "0px"
+		css padding-right is "0px"
+		centered horizontally inside content-container
+		above modal-footer ~15 px
+		css font-size is "14px"
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(51, 51, 51, 1)"
+		
+= modal-footer =
+	modal-footer:
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-left is "15px"
+		css padding-right is "15px"
+		below content ~15 px
+		below content-container 0 to 5 px
+		
+	ok-button:
+		centered horizontally inside modal-footer
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-left is "30px"
+		css padding-right is "30px"
+		css margin-bottom is "5px"
+		css background-color is "rgba(197, 0, 24, 1)"
+		css color is "rgba(255, 255, 255, 1)"
+		css font-size is "14px"
+		css font-family matches ".*Open Sans.*"
+		css text-align is "center"
+		

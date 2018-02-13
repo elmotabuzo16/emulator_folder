@@ -1,0 +1,49 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\galenExamples\\menuHighlight.gspec; including [usual, hovered]",
+      "status" : "error",
+      "time" : 1516867087317,
+      "includedTags" : [ "usual", "hovered" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Menu highlight",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\galenExamples\\menuHighlight.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "menu_item-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\galenExamples\\menuHighlight.gspec",
+              "lineNumber" : 8
+            },
+            "name" : "color-scheme 90 to 96 % #2d6ca2, 1 to 4 % white",
+            "errors" : [ "color #2d6ca2 on \"menu_item-1\" is 0% which is not in range of 90 to 96%", "color white on \"menu_item-1\" is 0% which is not in range of 1 to 4%" ],
+            "highlight" : [ "menu_item-1" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\galenExamples\\menuHighlight.gspec",
+              "lineNumber" : 14
+            },
+            "name" : "color-scheme 90 to 96 % #205380, 1 to 4 % white",
+            "errors" : [ "color #205380 on \"menu_item-1\" is 0% which is not in range of 90 to 96%", "color white on \"menu_item-1\" is 0% which is not in range of 1 to 4%" ],
+            "highlight" : [ "menu_item-1" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "menu_item-1" : {
+          "area" : [ 58, 70, 100, 63 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

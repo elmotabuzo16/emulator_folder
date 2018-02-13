@@ -1,0 +1,49 @@
+@objects
+	dashboard-screen			//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]
+	dashboard-header-2			//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]/div[2]/div[1]/div/div[1]/div/div[3]/div/div[1]/h1
+	your-points-container		//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]/div[2]/div[1]/div/div[1]/div/div[3]/div
+	status-icon					//*[@id="dash_current_icon"]
+	status-indicator			//*[@id="dash_current_status"]
+	status-content-1			//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]/div[2]/div[1]/div/div[1]/div/div[3]/div/div[2]/div/div/div[2]/div[2]
+	status-content-2			//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]/div[2]/div[1]/div/div[1]/div/div[3]/div/div[2]/div/div/div[2]/div[3]
+	status-mini-icon			//*[@id="reach_feedback"]/div[1]
+	status-message				//*[@id="reach_feedback"]/div[2]
+	
+= your-points-container =
+	your-points-container:
+		centered horizontally inside dashboard-screen
+		
+	dashboard-header-2:
+		inside your-points-container 16px left
+		
+	status-icon:
+		left-of status-indicator 11px
+		
+	status-indicator:
+		right-of status-icon 11px
+		css color is "rgba(0, 0, 0, 1)"
+		css margin is "0px"
+		css font-family matches ".*Open Sans.*"
+		css font-size is "24px"
+		
+	status-content-1:
+		right-of status-icon 11px
+		css color is "rgba(51, 51, 51, 1)"
+		css font-family matches ".*Open Sans.*"
+		css font-size is "14px"
+		
+	status-content-2:
+		right-of status-icon 11px
+		css color is "rgba(51, 51, 51, 1)"
+		css font-family matches ".*Open Sans.*"
+		css font-size is "14px"
+				
+	status-mini-icon:
+		inside your-points-container 16px left
+	
+	status-message:
+		right-of status-mini-icon 0px
+		css text-align is "start"
+		css color is "rgba(51, 51, 51, 1)"
+		css font-family matches ".*Open Sans.*"
+		css font-size is "14px"

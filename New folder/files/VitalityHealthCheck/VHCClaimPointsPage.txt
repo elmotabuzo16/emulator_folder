@@ -1,0 +1,98 @@
+@objects
+	VHC-main-screen		//*[@id="page-wrapper"]/div
+	VHC-claim-screen	//*[@id="vhc-container"]
+	VHC-claim-title		//*[@id="vhc-container"]/div/h1
+	step-slider			//*[@id="pointsSubmissionPageOne"]/div[1]
+	step-1				//*[@id="pointsSubmissionPageOne"]/div[1]/div[1]/span
+	step-2				//*[@id="pointsSubmissionPageOne"]/div[1]/div[2]/span
+	step-3 				//*[@id="pointsSubmissionPageOne"]/div[1]/div[3]/span
+	vhc-claim-container	//*[@id="pointsSubmissionPageOne"]/div[2]
+	vhc-claim-header	//*[@id="pointsSubmissionPageOne"]/div[2]/div[1]/h5
+	vhc-claim-content1	//*[@id="pointsSubmissionPageOne"]/div[2]/div[2]/div/p
+	vhc-claim-content2	//*[@id="pointsSubmissionPageOne"]/div[2]/div[2]/p
+	vhc-claim-content3	//*[@id="pointsSubmissionPageOne"]/div[2]/div[3]/div[1]/div/span
+	vhc-checkbox-div-1	//*[@id="pointsSubmissionFormPageOne"]/div/div[1]/div
+	vhc-checkbox-div-2	//*[@id="pointsSubmissionFormPageOne"]/div/div[2]/div
+	vhc-checkbox-div-3	//*[@id="pointsSubmissionFormPageOne"]/div/div[3]/div
+	vhc-checkbox-div-4	//*[@id="pointsSubmissionFormPageOne"]/div/div[4]/div
+	vhc-checkbox-div-5	//*[@id="pointsSubmissionFormPageOne"]/div/div[5]/div
+	vhc-checkbox-1		//*[@id="vhc_BloodPressure"]
+	vhc-checkbox-2		//*[@id="vhc_BMI"]
+	vhc-checkbox-3		//*[@id="vhc_Cholesterol"]
+	vhc-checkbox-4		//*[@id="vhc_Urinary"]
+	vhc-checkbox-5		//*[@id="vhc_BloodGlucose"]
+	vhc-checkbox-text-1	//*[@id="BloodPressure"]
+	vhc-checkbox-text-2	//*[@id="BMI"]
+	vhc-checkbox-text-3	//*[@id="Cholesterol"]
+	vhc-checkbox-text-4	//*[@id="Urinary"]
+	vhc-checkbox-text-5	//*[@id="BloodGlucose"]
+	vhc-footer			//*[@id="pointsSubmissionPageOne"]/div[2]/div[3]/div[2]
+	vhc-next-button		//*[@id="nextBtnPageOne"]
+	
+= VHC-claim-screen =
+	VHC-claim-screen:
+		centered horizontally inside VHC-main-screen
+		
+= VHC-claim-title =
+	VHC-claim-title:
+		centered horizontally inside VHC-claim-screen
+		css color is "rgba(197, 0, 24, 1)"
+		css font-size is "28px"
+		css font-family matches ".*Open Sans.*"
+		
+= step-slider =
+	step-slider:
+		css padding-top is "0px"
+		css padding-bottom is "0px"
+		css padding-left is "0px"
+		css padding-right is "0px"
+		css margin-bottom is "11px"
+		
+	step-1:
+		css color is "rgba(255, 255, 255, 1)"
+		css background-color is "rgba(197, 0, 24, 1)"
+		css padding-top is "0px"
+		css padding-bottom is "0px"
+		css padding-left is "16px"
+		css padding-right is "0px"
+		css font-size is "12px"
+		
+	step-2:
+		css font-size is "12px"
+		css color is "rgba(0, 0, 0, 1)"
+		css background-color is "rgba(155, 155, 155, 1)"
+		css padding-top is "0px"
+		css padding-bottom is "0px"
+		css padding-left is "16px"
+		css padding-right is "0px"
+		
+	step-3:
+		css font-size is "12px"
+		css color is "rgba(0, 0, 0, 1)"
+		css background-color is "rgba(155, 155, 155, 1)"
+		css padding-top is "0px"
+		css padding-bottom is "0px"
+		css padding-left is "16px"
+		css padding-right is "0px"
+
+= vhc-claim-container =
+	vhc-claim-container:
+		centered horizontally inside VHC-claim-screen
+		
+	vhc-claim-header: 
+		centered horizontally inside vhc-claim-container
+		css color is "rgba(197, 0, 24, 1)"
+		css padding-bottom is "0px"
+		
+	@for [1-2] as index
+		vhc-claim-content${index}:
+			css color is "rgba(51, 51, 51, 1)"
+			css display is "block"
+			css font-family matches ".*Open Sans.*"
+			css font-size is "13px"
+			
+	vhc-claim-content3:
+			css color is "rgba(51, 51, 51, 1)"
+			css display is "inline"
+			css font-family matches ".*Open Sans.*"
+			css font-size is "14px"	

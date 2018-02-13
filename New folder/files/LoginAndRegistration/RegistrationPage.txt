@@ -1,0 +1,165 @@
+@objects
+	Registration-screen	//*[@id="portlet_za_co_vitality_portal_members_registration_UserRegistrationPortlet_INSTANCE_S9XWWCI9U9bI"]/div
+	Login-link			//*[@id="portlet_za_co_vitality_portal_members_registration_UserRegistrationPortlet_INSTANCE_S9XWWCI9U9bI"]/div/div/div/div[1]/div[1]/div/div[1]/a						
+	Vitality-logo		//*[@id="portlet_za_co_vitality_portal_members_registration_UserRegistrationPortlet_INSTANCE_S9XWWCI9U9bI"]/div/div/div/div[1]/div[1]/div/div[2]/img
+	Registration-div	//*[@id="portlet_za_co_vitality_portal_members_registration_UserRegistrationPortlet_INSTANCE_S9XWWCI9U9bI"]/div/div/div/div[1]/div[2]/div/div[1]
+	Registration-text	//*[@id="portlet_za_co_vitality_portal_members_registration_UserRegistrationPortlet_INSTANCE_S9XWWCI9U9bI"]/div/div/div/div[1]/div[2]/div/div[1]/h2
+	Content-div			//*[@id="portlet_za_co_vitality_portal_members_registration_UserRegistrationPortlet_INSTANCE_S9XWWCI9U9bI"]/div/div/div/div[1]/div[2]/div/div[2]
+	Content-text		//*[@id="portlet_za_co_vitality_portal_members_registration_UserRegistrationPortlet_INSTANCE_S9XWWCI9U9bI"]/div/div/div/div[1]/div[2]/div/div[2]/div[1]/p
+	EmailAdd-label		//*[@id="registration-form"]/div[1]/label
+	EmailAdd-field		#email
+	Password-label		//*[@id="registration-form"]/div[2]/label
+	Password-field		#password
+	ConfirmPwd-label	//*[@id="registration-form"]/div[3]/label
+	ConfirmPwd-field	#confirm_password
+	InsurerCode-label	//*[@id="registration-form"]/div[4]/label
+	InsurerCode-field	#insurer_code
+	Register-button		#submitRegForm
+	Question-text		//*[@id="registration-form"]/div[5]/div[2]/p/label
+	Login-here-link		//*[@id="registration-form"]/div[5]/div[2]/p/a
+	
+= Login-link =
+	Login-link:
+		above Vitality-logo 0 to 2 px
+		inside Registration-screen 10 to 15 px top, 30 to 35 px right
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans Regular.*"
+		css color is "rgba(197, 0, 24, 1)"
+		
+= Vitality-logo =
+	Vitality-logo:
+		above Registration-div 10 to 15 px
+		inside Registration-screen 30 to 35 px top, 30 to 35 px left
+		width 275 px
+		height 85 px
+		
+= Registration-div =
+	Registration-div:
+		above Content-div ~0 px
+		centered horizontally inside Registration-screen
+			
+= Registration-text =
+	Registration-text:
+		inside Registration-div 15 to 20 px top, 20 to 25 px left
+		css font-size is "18px" 
+		css font-family matches ".*Open Sans Regular.*"
+		css color is "rgba(197, 0, 24, 1)"
+		
+= Content-div =
+	Content-div:
+		below Registration-div ~0 px
+		centered horizontally inside Registration-screen
+		inside Registration-screen 60 to 65 px bottom
+		
+= Content-text =
+	Content-text:
+		centered horizontally inside Content-div
+		inside Content-div 20 to 25 px top
+		above EmailAdd-label 20 to 25 px
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans Regular.*"
+		css color is "rgba(51, 51, 51, 1)"
+		width 235 px
+		height 100 px
+		
+= EmailAdd-label =
+	EmailAdd-label:
+		centered horizontally inside Content-div
+		above EmailAdd-field 2 to 6 px
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans Regular.*"
+		css color is "rgba(51, 51, 51, 1)"
+		width 265 px
+		height 18 px
+		
+		
+= EmailAdd-field =
+	EmailAdd-field:
+		centered horizontally inside Content-div
+		above Password-label 10 to 15 px
+		width 235 px
+		height 34 px
+		
+		
+= Password-label =
+	Password-label:
+		centered horizontally inside Content-div
+		above Password-field 2 to 6 px
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans Regular.*"
+		css color is "rgba(51, 51, 51, 1)"
+		width 265 px
+		height 18 px
+		
+= Password-field =
+	Password-field:
+		centered horizontally inside Content-div
+		above ConfirmPwd-label 10 to 15 px
+		width 235 px
+		height 34 px
+		
+= ConfirmPwd-label =
+	ConfirmPwd-label:
+		centered horizontally inside Content-div
+		above ConfirmPwd-field 2 to 6 px
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans Regular.*"
+		css color is "rgba(51, 51, 51, 1)"
+		width 265 px
+		height 18 px
+		
+= ConfirmPwd-field =
+	ConfirmPwd-field:
+		centered horizontally inside Content-div
+		above InsurerCode-label 10 to 15 px
+		width 235 px
+		height 34 px
+		
+= InsurerCode-label =
+	InsurerCode-label:
+		centered horizontally inside Content-div
+		above InsurerCode-field 2 to 6 px
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans Regular.*"
+		css color is "rgba(51, 51, 51, 1)"
+		width 265 px
+		height 18 px
+		
+= InsurerCode-field =
+	InsurerCode-field:
+		centered horizontally inside Content-div
+		above Register-button 30 to 35 px
+		width 235 px
+		height 34 px
+		
+= Register-button =
+	Register-button:
+		centered horizontally inside Content-div
+		above Question-text 10 to 15 px
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans Regular.*"
+		css color is "rgba(255, 255, 255, 1)"
+		width 235 px
+		height 41 px
+		
+= Question-text = 
+	Question-text:
+		inside Content-div 20 to 25 px left, 28 to 32 px bottom
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans Regular.*"
+		css color is "rgba(51, 51, 51, 1)"
+		width ~161 px
+		height 18 px
+		
+= Login-here-link =
+	Login-here-link:
+		inside Content-div 20 to 25 px right, 30 to 35 px bottom
+		aligned horizontally top Question-text ~2 px
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans Regular.*"	
+		css color is "rgba(197, 0, 24, 1)"
+		
+
+
+
+	

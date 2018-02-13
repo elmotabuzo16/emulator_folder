@@ -1,0 +1,1170 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+      "status" : "error",
+      "time" : 1517976648755,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "dashboard-screen",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+          "lineNumber" : 24
+        },
+        "objects" : [ {
+          "name" : "dashboard-container-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-1\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-2\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-3\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-4\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-5\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-6\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-7\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-8\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-9",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-9\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-10",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-10\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-10\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 42
+            },
+            "name" : "left-of dashboard-screen 293px",
+            "errors" : [ "\"dashboard-header-1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-1\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 42
+            },
+            "name" : "left-of dashboard-screen 293px",
+            "errors" : [ "\"dashboard-header-2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-2\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 42
+            },
+            "name" : "left-of dashboard-screen 293px",
+            "errors" : [ "\"dashboard-header-3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-3\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 42
+            },
+            "name" : "left-of dashboard-screen 293px",
+            "errors" : [ "\"dashboard-header-4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-4\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 42
+            },
+            "name" : "left-of dashboard-screen 293px",
+            "errors" : [ "\"dashboard-header-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-5\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 42
+            },
+            "name" : "left-of dashboard-screen 293px",
+            "errors" : [ "\"dashboard-header-6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-6\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 42
+            },
+            "name" : "left-of dashboard-screen 293px",
+            "errors" : [ "\"dashboard-header-7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-7\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 42
+            },
+            "name" : "left-of dashboard-screen 293px",
+            "errors" : [ "\"dashboard-header-8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-8\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-9",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 42
+            },
+            "name" : "left-of dashboard-screen 293px",
+            "errors" : [ "\"dashboard-header-9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-9\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

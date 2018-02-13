@@ -1,0 +1,72 @@
+@objects
+	Cancer-popup-header			//*[@id="additionalInformation_19"]/div/div/div[1]
+	Cancer-popup-title			//*[@id="additionalInformation_19"]/div/div/div[1]/h4
+	Cancer-popup-xbutton			//*[@id="additionalInformation_19"]/div/div/div[1]/button
+	Cancer-popup-body			//*[@id="additionalInformation_19"]/div/div/div[2]
+	Cancer-popup-content			//*[@id="additionalInformation_19"]/div/div/div[2]/p
+	Cancer-popup-footer			//*[@id="additionalInformation_19"]/div/div/div[3]
+	Cancer-popup-button			//*[@id="additionalInformation_19"]/div/div/div[3]/div/button
+	
+= Cancer-popup-header =
+	Cancer-popup-header:
+		centered horizontally inside viewport
+		above Cancer-popup-body 0px
+		width 269px
+		height 59px
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-right is "15px"
+		css padding-left is "15px"
+		
+= Cancer-popup-title =
+	Cancer-popup-title:
+		css font-size is "20px"
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(197, 0, 24, 1)"
+		inside Cancer-popup-header 15px top, 16px bottom, 26px right, 15px left	
+		
+= Cancer-popup-xbutton =
+	Cancer-popup-xbutton:
+		inside Cancer-popup-header 13px top, 15px right
+		
+= Cancer-popup-body =
+	Cancer-popup-body:
+		centered horizontally inside viewport
+		above Cancer-popup-footer 0px
+		width 269px
+		height 208px
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-right is "15px"
+		css padding-left is "15px"
+		
+= Cancer-popup-content =
+	Cancer-popup-content:
+		centered horizontally inside Cancer-popup-body
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(51, 51, 51, 1)"
+		
+= Cancer-popup-footer =
+	Cancer-popup-footer:
+		centered horizontally inside viewport
+		width 269px
+		height 78px
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-right is "15px"
+		css padding-left is "15px"
+		
+= Cancer-popup-button =
+	Cancer-popup-button:
+		centered horizontally inside Cancer-popup-footer
+		width 239px
+		height 42px
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(255, 255, 255, 1)"
+		

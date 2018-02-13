@@ -1,0 +1,847 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+      "status" : "error",
+      "time" : 1518089770580,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Register-link",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 17
+        },
+        "objects" : [ {
+          "name" : "Register-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 19
+            },
+            "name" : "inside Login-screen 10 to 15 px top, 30 to 35 px right",
+            "highlight" : [ "Register-link", "Login-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 20
+            },
+            "name" : "above Logo-section 0 to 1 px",
+            "highlight" : [ "Register-link", "Logo-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 21
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "Register-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 22
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "Register-link" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 23
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"Register-link\" css property \"color\" is \"rgb(197, 0, 24)\" but should be \"rgba(197, 0, 24, 1)\"" ],
+            "highlight" : [ "Register-link" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Logo-section",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 26
+        },
+        "objects" : [ {
+          "name" : "Logo-section",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 28
+            },
+            "name" : "above Login-section 5 to 15 px",
+            "highlight" : [ "Logo-section", "Login-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 29
+            },
+            "name" : "centered horizontally inside Login-screen",
+            "highlight" : [ "Logo-section", "Login-screen" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 30
+            },
+            "name" : "width 277 px",
+            "errors" : [ "\"Logo-section\" width is 688px instead of 277px" ],
+            "highlight" : [ "Logo-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 31
+            },
+            "name" : "height 85 px",
+            "highlight" : [ "Logo-section" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Login-section",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 33
+        },
+        "objects" : [ {
+          "name" : "Login-section",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 35
+            },
+            "name" : "above Content-section ~0 px",
+            "highlight" : [ "Login-section", "Content-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 36
+            },
+            "name" : "centered horizontally inside Login-screen",
+            "highlight" : [ "Login-section", "Login-screen" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Login-title",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 38
+        },
+        "objects" : [ {
+          "name" : "Login-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 40
+            },
+            "name" : "inside Login-section 15 to 20 px top, 20 to 25 px left",
+            "highlight" : [ "Login-title", "Login-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css font-size is \"18px\"",
+            "highlight" : [ "Login-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 42
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "Login-title" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"Login-title\" css property \"color\" is \"rgb(197, 0, 24)\" but should be \"rgba(197, 0, 24, 1)\"" ],
+            "highlight" : [ "Login-title" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Content-section",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 45
+        },
+        "objects" : [ {
+          "name" : "Content-section",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 47
+            },
+            "name" : "below Login-section ~0 px",
+            "highlight" : [ "Content-section", "Login-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 48
+            },
+            "name" : "centered horizontally inside Login-screen",
+            "highlight" : [ "Content-section", "Login-screen" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 49
+            },
+            "name" : "inside Login-screen 68 to 72 px bottom",
+            "errors" : [ "\"Content-section\" is 56px bottom which is not in range of 68 to 72px" ],
+            "highlight" : [ "Content-section", "Login-screen" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Content-caption",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 51
+        },
+        "objects" : [ {
+          "name" : "Content-caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 53
+            },
+            "name" : "inside Content-section 20 to 25 px top",
+            "highlight" : [ "Content-caption", "Content-section" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 54
+            },
+            "name" : "above EmailAdd-label 20 to 25 px",
+            "errors" : [ "\"Content-caption\" is 30px above \"EmailAdd-label\" which is not in range of 20 to 25px" ],
+            "highlight" : [ "Content-caption", "EmailAdd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 55
+            },
+            "name" : "centered horizontally inside Content-section",
+            "highlight" : [ "Content-caption", "Content-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 56
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "Content-caption" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 57
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "Content-caption" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 58
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"Content-caption\" css property \"color\" is \"rgb(51, 51, 51)\" but should be \"rgba(51, 51, 51, 1)\"" ],
+            "highlight" : [ "Content-caption" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 59
+            },
+            "name" : "width 235 px",
+            "errors" : [ "\"Content-caption\" width is 646px instead of 235px" ],
+            "highlight" : [ "Content-caption" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 60
+            },
+            "name" : "height 60 px",
+            "errors" : [ "\"Content-caption\" height is 20px instead of 60px" ],
+            "highlight" : [ "Content-caption" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Register-here",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 62
+        },
+        "objects" : [ {
+          "name" : "Register-here",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 64
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "Register-here" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 65
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "Register-here" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 66
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"Register-here\" css property \"color\" is \"rgb(197, 0, 24)\" but should be \"rgba(197, 0, 24, 1)\"" ],
+            "highlight" : [ "Register-here" ]
+          } ]
+        } ]
+      }, {
+        "name" : "EmailAdd-label",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 68
+        },
+        "objects" : [ {
+          "name" : "EmailAdd-label",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 70
+            },
+            "name" : "above EmailAdd-field ~4 px",
+            "errors" : [ "\"EmailAdd-label\" is -28px above \"EmailAdd-field\" which is not in range of 2 to 6px" ],
+            "highlight" : [ "EmailAdd-label", "EmailAdd-field" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 71
+            },
+            "name" : "centered horizontally inside Content-section",
+            "errors" : [ "\"EmailAdd-label\" is not centered horizontally inside \"Content-section\". Offset is 451px" ],
+            "highlight" : [ "EmailAdd-label", "Content-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "EmailAdd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 73
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "EmailAdd-label" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 74
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"EmailAdd-label\" css property \"color\" is \"rgb(51, 51, 51)\" but should be \"rgba(51, 51, 51, 1)\"" ],
+            "highlight" : [ "EmailAdd-label" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 75
+            },
+            "name" : "width 265 px",
+            "errors" : [ "\"EmailAdd-label\" width is 225px instead of 265px" ],
+            "highlight" : [ "EmailAdd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 76
+            },
+            "name" : "height 18 px",
+            "highlight" : [ "EmailAdd-label" ]
+          } ]
+        } ]
+      }, {
+        "name" : "EmailAdd-field",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 78
+        },
+        "objects" : [ {
+          "name" : "EmailAdd-field",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 80
+            },
+            "name" : "above Password-label 10 to 15 px",
+            "errors" : [ "\"EmailAdd-field\" is 35px above \"Password-label\" which is not in range of 10 to 15px" ],
+            "highlight" : [ "EmailAdd-field", "Password-label" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 81
+            },
+            "name" : "centered horizontally inside Content-section",
+            "errors" : [ "\"EmailAdd-field\" is not centered horizontally inside \"Content-section\". Offset is 224px" ],
+            "highlight" : [ "EmailAdd-field", "Content-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 82
+            },
+            "name" : "css padding-top is \"6px\"",
+            "highlight" : [ "EmailAdd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 83
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "highlight" : [ "EmailAdd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css padding-right is \"12px\"",
+            "highlight" : [ "EmailAdd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css padding-left is \"12px\"",
+            "highlight" : [ "EmailAdd-field" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 86
+            },
+            "name" : "width 235 px",
+            "errors" : [ "\"EmailAdd-field\" width is 420px instead of 235px" ],
+            "highlight" : [ "EmailAdd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 87
+            },
+            "name" : "height 34 px",
+            "highlight" : [ "EmailAdd-field" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Password-label",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 89
+        },
+        "objects" : [ {
+          "name" : "Password-label",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 91
+            },
+            "name" : "above Password-field ~4 px",
+            "errors" : [ "\"Password-label\" is -28px above \"Password-field\" which is not in range of 2 to 6px" ],
+            "highlight" : [ "Password-label", "Password-field" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 92
+            },
+            "name" : "centered horizontally inside Content-section",
+            "errors" : [ "\"Password-label\" is not centered horizontally inside \"Content-section\". Offset is 451px" ],
+            "highlight" : [ "Password-label", "Content-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "Password-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "Password-label" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"Password-label\" css property \"color\" is \"rgb(51, 51, 51)\" but should be \"rgba(51, 51, 51, 1)\"" ],
+            "highlight" : [ "Password-label" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 96
+            },
+            "name" : "width 265 px",
+            "errors" : [ "\"Password-label\" width is 225px instead of 265px" ],
+            "highlight" : [ "Password-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 97
+            },
+            "name" : "height 18 px",
+            "highlight" : [ "Password-label" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Password-field",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 99
+        },
+        "objects" : [ {
+          "name" : "Password-field",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 101
+            },
+            "name" : "above Login-button 30 to 35 px",
+            "errors" : [ "\"Password-field\" is 25px above \"Login-button\" which is not in range of 30 to 35px" ],
+            "highlight" : [ "Password-field", "Login-button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 102
+            },
+            "name" : "centered horizontally inside Content-section",
+            "errors" : [ "\"Password-field\" is not centered horizontally inside \"Content-section\". Offset is 224px" ],
+            "highlight" : [ "Password-field", "Content-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 103
+            },
+            "name" : "css padding-top is \"6px\"",
+            "highlight" : [ "Password-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 104
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "highlight" : [ "Password-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-right is \"12px\"",
+            "highlight" : [ "Password-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-left is \"12px\"",
+            "highlight" : [ "Password-field" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 107
+            },
+            "name" : "width 235 px",
+            "errors" : [ "\"Password-field\" width is 420px instead of 235px" ],
+            "highlight" : [ "Password-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 108
+            },
+            "name" : "height 34 px",
+            "highlight" : [ "Password-field" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Login-button",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 110
+        },
+        "objects" : [ {
+          "name" : "Login-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 112
+            },
+            "name" : "above Forgot-link 10 to 15 px",
+            "errors" : [ "\"Login-button\" is -32px above \"Forgot-link\" which is not in range of 10 to 15px" ],
+            "highlight" : [ "Login-button", "Forgot-link" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 113
+            },
+            "name" : "centered horizontally inside Content-section",
+            "errors" : [ "\"Login-button\" is not centered horizontally inside \"Content-section\". Offset is 547px" ],
+            "highlight" : [ "Login-button", "Content-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 114
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "Login-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 115
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "Login-button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 116
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"Login-button\" css property \"color\" is \"rgb(255, 255, 255)\" but should be \"rgba(255, 255, 255, 1)\"" ],
+            "highlight" : [ "Login-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 117
+            },
+            "name" : "css padding-top is \"10px\"",
+            "highlight" : [ "Login-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 118
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "highlight" : [ "Login-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 119
+            },
+            "name" : "css padding-right is \"30px\"",
+            "highlight" : [ "Login-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 120
+            },
+            "name" : "css padding-left is \"30px\"",
+            "highlight" : [ "Login-button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 121
+            },
+            "name" : "width 235 px",
+            "errors" : [ "\"Login-button\" width is 97px instead of 235px" ],
+            "highlight" : [ "Login-button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 122
+            },
+            "name" : "height 41 px",
+            "errors" : [ "\"Login-button\" height is 42px instead of 41px" ],
+            "highlight" : [ "Login-button" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Forgot-link",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+          "lineNumber" : 124
+        },
+        "objects" : [ {
+          "name" : "Forgot-link",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 126
+            },
+            "name" : "below Login-button 8 to 12 px",
+            "errors" : [ "\"Forgot-link\" is -32px below \"Login-button\" which is not in range of 8 to 12px" ],
+            "highlight" : [ "Forgot-link", "Login-button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 127
+            },
+            "name" : "inside Content-section 25 to 30 px bottom",
+            "errors" : [ "\"Forgot-link\" is 48px bottom which is not in range of 25 to 30px" ],
+            "highlight" : [ "Forgot-link", "Content-section" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 128
+            },
+            "name" : "centered horizontally inside Content-section",
+            "errors" : [ "\"Forgot-link\" is not centered horizontally inside \"Content-section\". Offset is 538px" ],
+            "highlight" : [ "Forgot-link", "Content-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 129
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "Forgot-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 130
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "Forgot-link" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 131
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"Forgot-link\" css property \"color\" is \"rgb(197, 0, 24)\" but should be \"rgba(197, 0, 24, 1)\"" ],
+            "highlight" : [ "Forgot-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 132
+            },
+            "name" : "width ~109 px",
+            "highlight" : [ "Forgot-link" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\LoginPagev2.txt",
+              "lineNumber" : 133
+            },
+            "name" : "height 19 px",
+            "errors" : [ "\"Forgot-link\" height is 20px instead of 19px" ],
+            "highlight" : [ "Forgot-link" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "Logo-section" : {
+          "area" : [ 281, 119, 688, 85 ]
+        },
+        "Content-caption" : {
+          "area" : [ 302, 285, 646, 20 ]
+        },
+        "Forgot-link" : {
+          "area" : [ 302, 453, 108, 20 ]
+        },
+        "Content-section" : {
+          "area" : [ 281, 264, 688, 257 ]
+        },
+        "Register-link" : {
+          "area" : [ 916, 99, 52, 20 ]
+        },
+        "Password-label" : {
+          "area" : [ 287, 394, 225, 18 ]
+        },
+        "Password-field" : {
+          "area" : [ 527, 384, 420, 34 ]
+        },
+        "Login-screen" : {
+          "area" : [ 250, 86, 750, 491 ]
+        },
+        "EmailAdd-label" : {
+          "area" : [ 287, 335, 225, 18 ]
+        },
+        "EmailAdd-field" : {
+          "area" : [ 527, 325, 420, 34 ]
+        },
+        "Login-button" : {
+          "area" : [ 850, 443, 97, 42 ]
+        },
+        "Login-title" : {
+          "area" : [ 302, 230, 666, 19 ]
+        },
+        "Register-here" : {
+          "area" : [ 470, 286, 83, 18 ]
+        },
+        "Login-section" : {
+          "area" : [ 281, 214, 688, 51 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

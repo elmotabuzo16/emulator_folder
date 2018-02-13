@@ -1,0 +1,120 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+      "status" : "error",
+      "time" : 1516868239213,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "NSD-header",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+          "lineNumber" : 10
+        },
+        "objects" : [ {
+          "name" : "NSD-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 12
+            },
+            "name" : "above NSD-body ~20 px",
+            "errors" : [ "\"NSD-header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 13
+            },
+            "name" : "on top left edge NSD-screen 0 to 10 px right, 0 to 10 px bottom",
+            "errors" : [ "\"NSD-header\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "NSD-body",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+          "lineNumber" : 15
+        },
+        "objects" : [ {
+          "name" : "NSD-body",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 17
+            },
+            "name" : "above View-points ~30 px",
+            "errors" : [ "\"NSD-body\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside NSD-screen",
+            "errors" : [ "\"NSD-body\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "NSD-body-content",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+          "lineNumber" : 20
+        },
+        "objects" : [ {
+          "name" : "NSD-body-content",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 22
+            },
+            "name" : "centered horizontally inside NSD-screen",
+            "errors" : [ "\"NSD-body-content\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "View-points",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+          "lineNumber" : 24
+        },
+        "objects" : [ {
+          "name" : "View-points",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 26
+            },
+            "name" : "below NSD-body ~20 px",
+            "errors" : [ "\"View-points\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\ResponsiveDesign\\NSDCompletedPage.txt",
+              "lineNumber" : 27
+            },
+            "name" : "on bottom right edge NSD-screen ~15 px left, ~30 px top",
+            "errors" : [ "\"View-points\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+      "status" : "info",
+      "time" : 1518154200086,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "eyr-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+          "lineNumber" : 23
+        },
+        "objects" : [ {
+          "name" : "eyr-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 25
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "eyr-container", "dashboard-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 26
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "eyr-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "eyr-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "eyr-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "eyr-container" ]
+          } ]
+        }, {
+          "name" : "eyr-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 32
+            },
+            "name" : "css padding-top is \"0px\"",
+            "highlight" : [ "eyr-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 33
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "eyr-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 34
+            },
+            "name" : "css padding-right is \"5px\"",
+            "highlight" : [ "eyr-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 35
+            },
+            "name" : "css padding-left is \"5px\"",
+            "highlight" : [ "eyr-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 36
+            },
+            "name" : "css font-size is \"18px\"",
+            "highlight" : [ "eyr-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css float is \"left\"",
+            "highlight" : [ "eyr-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "eyr-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 39
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "highlight" : [ "eyr-header", "dashboard-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\EnjoyYourRewards.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "eyr-header" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "dashboard-screen" : {
+          "area" : [ 0, 218, 339, 4893 ]
+        },
+        "eyr-container" : {
+          "area" : [ 15, 2267, 309, 342 ]
+        },
+        "eyr-header" : {
+          "area" : [ 31, 2283, 175, 36 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

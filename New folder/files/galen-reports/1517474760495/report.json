@@ -1,0 +1,45 @@
+{
+  "tests" : [ {
+    "name" : "FitNesseLayoutTest0",
+    "startedAt" : 1517474760518,
+    "endedAt" : 1517474760518,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 47,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 47
+    },
+    "testId" : "1-fitnesselayouttest0",
+    "failed" : false,
+    "duration" : 0
+  }, {
+    "name" : "FitNesseLayoutTest1",
+    "startedAt" : 1517474764082,
+    "endedAt" : 1517474764082,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 65,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 65
+    },
+    "testId" : "2-fitnesselayouttest1",
+    "failed" : false,
+    "duration" : 0
+  }, {
+    "name" : "FitNesseLayoutTest2",
+    "startedAt" : 1517474772960,
+    "endedAt" : 1517474772960,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 368,
+      "errors" : 18,
+      "warnings" : 0,
+      "total" : 386
+    },
+    "testId" : "3-fitnesselayouttest2",
+    "failed" : true,
+    "duration" : 0
+  } ]
+}

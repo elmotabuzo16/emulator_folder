@@ -1,0 +1,197 @@
+@objects
+	Progress-bar0			#progress0
+	Medical-history-section			//*[@id="tab1"]/div
+	Medical-history-icon			//*[@id="tab1"]/div/div[1]/div[1]/img
+	Medical-history-title			//*[@id="tab1"]/div/div[1]/div[2]/h4
+	Header			//*[@id="tab1"]/div/div[1]
+	Main-body			//*[@id="listQuestions"]/div/strong
+	
+	#Allergies
+	selection1			//*[@id="box-7"]/div[1]
+	description1			#textnote-7
+	
+	#Arthritis
+	selection2			//*[@id="box-10"]/div
+	description2			#textnote-10
+	
+	#Asthma
+	selection3			//*[@id="box-13"]/div
+	description3			#textnote-13
+	
+	#Back Pain
+	selection4			//*[@id="box-16"]/div[1]
+	description4			#textnote-16
+	
+	#Cancer
+	selection5			//*[@id="box-19"]/div[1]
+	description5			#textnote-19
+	
+	#COPD
+	selection6			//*[@id="box-22"]/div[1]
+	description6			#textnote-22
+	
+	#Chronic Pain
+	selection7			//*[@id="box-25"]/div
+	description7			#textnote-25
+	
+	#Depression
+	selection8			//*[@id="box-28"]/div[1]
+	description8			#textnote-28
+	
+	#Diabetes
+	selection9			//*[@id="box-31"]/div
+	description9			#textnote-31
+	
+	#Heart burn
+	selection10			//*[@id="box-35"]/div[1]
+	description10			#textnote-35
+	
+	#Heart disease
+	selection11			//*[@id="box-38"]/div
+	description11			#textnote-38
+	
+	#High blood Pressure
+	selection12			//*[@id="box-41"]/div[1]
+	description12			#textnote-41
+	
+	#High Cholesterol
+	selection13			//*[@id="box-44"]/div
+	description13			#textnote-44
+	
+	#Migraine
+	selection14			//*[@id="box-50"]/div[1]
+	description14			#textnote-50
+	
+	#Osteoporosis
+	selection15			//*[@id="box-53"]/div[1]
+	description15			#textnote-53
+	
+	#Sleep disorder
+	selection16			//*[@id="box-56"]/div
+	description16			#textnote-56
+	
+	#Stroke
+	selection17			//*[@id="box-59"]/div[1]
+	description17			#textnote-59
+	
+	#Thyroid disease
+	selection18			//*[@id="box-62"]/div[1]
+	description18			#textnote-62
+	
+	#No Applicable disease
+	selection19			//*[@id="box-143"]/div
+	
+	Exit-link			//*[@id="tab1"]/div/div[3]/div/a[1]
+	Back-button			#previous-0
+	Next-button			#next-2
+	
+= Medical-history-section =
+	Medical-history-section:
+		centered horizontally inside viewport
+		below Progress-bar0 50px
+	
+= Medical-history-icon =
+	Medical-history-icon:
+		inside Medical-history-section 16px left, 264px right
+		width 29px
+		height 32px
+		
+= Medical-history-title =
+	Medical-history-title:
+		near Medical-history-icon 15px right
+		inside Medical-history-section 19px top
+		css font-size is "19px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(43, 202, 109, 1)"
+		
+= Header =
+	Header:
+		centered horizontally inside Medical-history-section
+		css padding-bottom is "15px"
+		
+= Main-body =
+	Main-body:
+		centered horizontally inside Medical-history-section
+		below Header 25px
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(51, 51, 51, 1)"
+		
+= selection =
+	@for [1-5,7-19] as index
+		selection${index}:
+			inside Medical-history-section 26px left, 56px right
+			css padding-top is "7px"
+			css padding-bottom is "7px"
+			css padding-right is "7px"
+			css padding-left is "7px"
+			css font-size is "13px" 
+			css font-family matches ".*Open Sans.*"
+			css color is "rgba(51, 51, 51, 1)"
+			width 227px
+			height 34px
+			
+= selection6 =
+	selection6:
+		inside Medical-history-section 26px left, 56px right
+		css padding-top is "7px"
+		css padding-bottom is "7px"
+		css padding-right is "7px"
+		css padding-left is "7px"
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(51, 51, 51, 1)"
+		width 227px
+		height 54px
+			
+= description =
+	@for [1-18] as index
+		description${index}:
+			inside Medical-history-section 26px left, 56px right
+			aligned vertically all selection1
+			css padding-top is "10px"
+			css font-size is "13px" 
+			css font-family matches ".*Open Sans.*"
+			css color is "rgba(155, 155, 155, 1)"
+		
+= Exit-link =
+	Exit-link:
+		inside Medical-history-section 16px left
+		aligned vertically left Back-button
+		css font-size is "14px"
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(43, 202, 109, 1)"
+
+= Back-button =
+	Back-button:
+		centered horizontally inside Medical-history-section
+		width 277px
+		height 44px
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(43, 202, 109, 1)"
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+		
+= Next-button =
+	Next-button:
+		centered horizontally inside Medical-history-section
+		width 277px
+		height 44px
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(255, 255, 255, 1)"
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+		inside Medical-history-section 16px bottom
+			
+			
+	
+		
+
+	
+	

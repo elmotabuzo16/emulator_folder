@@ -1,0 +1,2870 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+      "status" : "error",
+      "time" : 1518096017726,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "key-measurement-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+          "lineNumber" : 46
+        },
+        "objects" : [ {
+          "name" : "key-measurement-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 48
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "key-measurement-container", "dashboard-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 49
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 50
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 51
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 52
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "key-measurement-container" ]
+          } ]
+        }, {
+          "name" : "key-measurement-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 55
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"key-measurement-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 56
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"key-measurement-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 57
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"key-measurement-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 58
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"key-measurement-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 59
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"key-measurement-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 60
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"key-measurement-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 61
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"key-measurement-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 62
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"key-measurement-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 63
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"key-measurement-header\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-container-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "errors" : [ "\"measurement-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"measurement-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"measurement-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"measurement-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"measurement-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-container-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 75
+            },
+            "name" : "centered horizontally inside measurement-container-1",
+            "errors" : [ "\"measurement-img-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 76
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 77
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"measurement-img-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"measurement-img-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 80
+            },
+            "name" : "css margin-bottom is \"20px\"",
+            "errors" : [ "\"measurement-img-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 83
+            },
+            "name" : "centered horizontally inside measurement-img-container-1",
+            "errors" : [ "\"measurement-img-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css width is \"70px\"",
+            "errors" : [ "\"measurement-img-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css height is \"66px\"",
+            "errors" : [ "\"measurement-img-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css vertical-align is \"middle\"",
+            "errors" : [ "\"measurement-img-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 89
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"measurement-img-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 90
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"measurement-img-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-name-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 93
+            },
+            "name" : "centered horizontally inside measurement-container-1",
+            "errors" : [ "\"health-attr-name-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-name-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-name-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-name-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-name-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"health-attr-name-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-name-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css font-size is \"15px\"",
+            "errors" : [ "\"health-attr-name-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-name-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-value-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 104
+            },
+            "name" : "centered horizontally inside measurement-container-1",
+            "errors" : [ "\"health-attr-value-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-value-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-value-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 107
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-value-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 108
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-value-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 109
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-value-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css font-size is \"25px\"",
+            "errors" : [ "\"health-attr-value-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-value-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-container-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "errors" : [ "\"measurement-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"measurement-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"measurement-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"measurement-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"measurement-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-container-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 75
+            },
+            "name" : "centered horizontally inside measurement-container-2",
+            "errors" : [ "\"measurement-img-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 76
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 77
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"measurement-img-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"measurement-img-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 80
+            },
+            "name" : "css margin-bottom is \"20px\"",
+            "errors" : [ "\"measurement-img-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 83
+            },
+            "name" : "centered horizontally inside measurement-img-container-2",
+            "errors" : [ "\"measurement-img-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css width is \"70px\"",
+            "errors" : [ "\"measurement-img-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css height is \"66px\"",
+            "errors" : [ "\"measurement-img-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css vertical-align is \"middle\"",
+            "errors" : [ "\"measurement-img-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 89
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"measurement-img-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 90
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"measurement-img-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-name-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 93
+            },
+            "name" : "centered horizontally inside measurement-container-2",
+            "errors" : [ "\"health-attr-name-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-name-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-name-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-name-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-name-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"health-attr-name-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-name-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css font-size is \"15px\"",
+            "errors" : [ "\"health-attr-name-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-name-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-value-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 104
+            },
+            "name" : "centered horizontally inside measurement-container-2",
+            "errors" : [ "\"health-attr-value-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-value-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-value-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 107
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-value-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 108
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-value-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 109
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-value-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css font-size is \"25px\"",
+            "errors" : [ "\"health-attr-value-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-value-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-container-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "errors" : [ "\"measurement-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"measurement-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"measurement-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"measurement-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"measurement-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-container-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 75
+            },
+            "name" : "centered horizontally inside measurement-container-3",
+            "errors" : [ "\"measurement-img-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 76
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 77
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"measurement-img-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"measurement-img-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 80
+            },
+            "name" : "css margin-bottom is \"20px\"",
+            "errors" : [ "\"measurement-img-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 83
+            },
+            "name" : "centered horizontally inside measurement-img-container-3",
+            "errors" : [ "\"measurement-img-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css width is \"70px\"",
+            "errors" : [ "\"measurement-img-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css height is \"66px\"",
+            "errors" : [ "\"measurement-img-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css vertical-align is \"middle\"",
+            "errors" : [ "\"measurement-img-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 89
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"measurement-img-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 90
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"measurement-img-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-name-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 93
+            },
+            "name" : "centered horizontally inside measurement-container-3",
+            "errors" : [ "\"health-attr-name-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-name-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-name-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-name-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-name-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"health-attr-name-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-name-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css font-size is \"15px\"",
+            "errors" : [ "\"health-attr-name-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-name-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-value-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 104
+            },
+            "name" : "centered horizontally inside measurement-container-3",
+            "errors" : [ "\"health-attr-value-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-value-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-value-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 107
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-value-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 108
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-value-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 109
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-value-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css font-size is \"25px\"",
+            "errors" : [ "\"health-attr-value-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-value-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-container-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "errors" : [ "\"measurement-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"measurement-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"measurement-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"measurement-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"measurement-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-container-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 75
+            },
+            "name" : "centered horizontally inside measurement-container-4",
+            "errors" : [ "\"measurement-img-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 76
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 77
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"measurement-img-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"measurement-img-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 80
+            },
+            "name" : "css margin-bottom is \"20px\"",
+            "errors" : [ "\"measurement-img-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 83
+            },
+            "name" : "centered horizontally inside measurement-img-container-4",
+            "errors" : [ "\"measurement-img-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css width is \"70px\"",
+            "errors" : [ "\"measurement-img-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css height is \"66px\"",
+            "errors" : [ "\"measurement-img-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css vertical-align is \"middle\"",
+            "errors" : [ "\"measurement-img-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 89
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"measurement-img-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 90
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"measurement-img-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-name-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 93
+            },
+            "name" : "centered horizontally inside measurement-container-4",
+            "errors" : [ "\"health-attr-name-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-name-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-name-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-name-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-name-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"health-attr-name-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-name-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css font-size is \"15px\"",
+            "errors" : [ "\"health-attr-name-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-name-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-value-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 104
+            },
+            "name" : "centered horizontally inside measurement-container-4",
+            "errors" : [ "\"health-attr-value-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-value-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-value-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 107
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-value-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 108
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-value-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 109
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-value-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css font-size is \"25px\"",
+            "errors" : [ "\"health-attr-value-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-value-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-container-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "errors" : [ "\"measurement-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"measurement-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"measurement-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"measurement-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"measurement-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-container-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 75
+            },
+            "name" : "centered horizontally inside measurement-container-5",
+            "errors" : [ "\"measurement-img-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 76
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 77
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"measurement-img-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"measurement-img-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 80
+            },
+            "name" : "css margin-bottom is \"20px\"",
+            "errors" : [ "\"measurement-img-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 83
+            },
+            "name" : "centered horizontally inside measurement-img-container-5",
+            "errors" : [ "\"measurement-img-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css width is \"70px\"",
+            "errors" : [ "\"measurement-img-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css height is \"66px\"",
+            "errors" : [ "\"measurement-img-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css vertical-align is \"middle\"",
+            "errors" : [ "\"measurement-img-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 89
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"measurement-img-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 90
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"measurement-img-5\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-name-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 93
+            },
+            "name" : "centered horizontally inside measurement-container-5",
+            "errors" : [ "\"health-attr-name-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-name-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-name-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-name-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-name-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"health-attr-name-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-name-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css font-size is \"15px\"",
+            "errors" : [ "\"health-attr-name-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-name-5\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-value-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 104
+            },
+            "name" : "centered horizontally inside measurement-container-5",
+            "errors" : [ "\"health-attr-value-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-value-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-value-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 107
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-value-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 108
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-value-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 109
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-value-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css font-size is \"25px\"",
+            "errors" : [ "\"health-attr-value-5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-value-5\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-container-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "errors" : [ "\"measurement-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"measurement-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"measurement-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"measurement-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"measurement-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-container-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 75
+            },
+            "name" : "centered horizontally inside measurement-container-6",
+            "errors" : [ "\"measurement-img-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 76
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 77
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"measurement-img-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"measurement-img-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 80
+            },
+            "name" : "css margin-bottom is \"20px\"",
+            "errors" : [ "\"measurement-img-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 83
+            },
+            "name" : "centered horizontally inside measurement-img-container-6",
+            "errors" : [ "\"measurement-img-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css width is \"70px\"",
+            "errors" : [ "\"measurement-img-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css height is \"66px\"",
+            "errors" : [ "\"measurement-img-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css vertical-align is \"middle\"",
+            "errors" : [ "\"measurement-img-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 89
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"measurement-img-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 90
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"measurement-img-6\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-name-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 93
+            },
+            "name" : "centered horizontally inside measurement-container-6",
+            "errors" : [ "\"health-attr-name-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-name-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-name-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-name-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-name-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"health-attr-name-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-name-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css font-size is \"15px\"",
+            "errors" : [ "\"health-attr-name-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-name-6\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-value-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 104
+            },
+            "name" : "centered horizontally inside measurement-container-6",
+            "errors" : [ "\"health-attr-value-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-value-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-value-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 107
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-value-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 108
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-value-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 109
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-value-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css font-size is \"25px\"",
+            "errors" : [ "\"health-attr-value-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-value-6\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-container-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "errors" : [ "\"measurement-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"measurement-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"measurement-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"measurement-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"measurement-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-container-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 75
+            },
+            "name" : "centered horizontally inside measurement-container-7",
+            "errors" : [ "\"measurement-img-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 76
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 77
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"measurement-img-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"measurement-img-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 80
+            },
+            "name" : "css margin-bottom is \"20px\"",
+            "errors" : [ "\"measurement-img-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 83
+            },
+            "name" : "centered horizontally inside measurement-img-container-7",
+            "errors" : [ "\"measurement-img-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css width is \"70px\"",
+            "errors" : [ "\"measurement-img-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css height is \"66px\"",
+            "errors" : [ "\"measurement-img-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css vertical-align is \"middle\"",
+            "errors" : [ "\"measurement-img-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 89
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"measurement-img-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 90
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"measurement-img-7\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-name-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 93
+            },
+            "name" : "centered horizontally inside measurement-container-7",
+            "errors" : [ "\"health-attr-name-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-name-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-name-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-name-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-name-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"health-attr-name-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-name-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css font-size is \"15px\"",
+            "errors" : [ "\"health-attr-name-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-name-7\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-value-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 104
+            },
+            "name" : "centered horizontally inside measurement-container-7",
+            "errors" : [ "\"health-attr-value-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-value-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-value-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 107
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-value-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 108
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-value-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 109
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-value-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css font-size is \"25px\"",
+            "errors" : [ "\"health-attr-value-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-value-7\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-container-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "errors" : [ "\"measurement-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"measurement-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"measurement-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"measurement-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"measurement-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-container-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 75
+            },
+            "name" : "centered horizontally inside measurement-container-8",
+            "errors" : [ "\"measurement-img-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 76
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 77
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"measurement-img-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 79
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"measurement-img-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 80
+            },
+            "name" : "css margin-bottom is \"20px\"",
+            "errors" : [ "\"measurement-img-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "measurement-img-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 83
+            },
+            "name" : "centered horizontally inside measurement-img-container-8",
+            "errors" : [ "\"measurement-img-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 84
+            },
+            "name" : "css width is \"70px\"",
+            "errors" : [ "\"measurement-img-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css height is \"66px\"",
+            "errors" : [ "\"measurement-img-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css vertical-align is \"middle\"",
+            "errors" : [ "\"measurement-img-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"measurement-img-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"measurement-img-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 89
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"measurement-img-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 90
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"measurement-img-8\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-name-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 93
+            },
+            "name" : "centered horizontally inside measurement-container-8",
+            "errors" : [ "\"health-attr-name-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-name-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-name-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-name-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-name-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"health-attr-name-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-name-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 100
+            },
+            "name" : "css font-size is \"15px\"",
+            "errors" : [ "\"health-attr-name-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-name-8\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "health-attr-value-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 104
+            },
+            "name" : "centered horizontally inside measurement-container-8",
+            "errors" : [ "\"health-attr-value-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 105
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"health-attr-value-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 106
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"health-attr-value-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 107
+            },
+            "name" : "css padding-left is \"0x\"",
+            "errors" : [ "\"health-attr-value-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 108
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"health-attr-value-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 109
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"health-attr-value-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 110
+            },
+            "name" : "css font-size is \"25px\"",
+            "errors" : [ "\"health-attr-value-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 111
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"health-attr-value-8\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "dashboard-screen" : {
+          "area" : [ 0, 218, 339, 4893 ]
+        },
+        "key-measurement-container" : {
+          "area" : [ 15, 3066, 309, 1601 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

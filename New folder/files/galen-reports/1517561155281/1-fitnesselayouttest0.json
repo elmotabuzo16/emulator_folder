@@ -1,0 +1,168 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+      "status" : "info",
+      "time" : 1517561206510,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "dashboard-screen",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+          "lineNumber" : 15
+        },
+        "objects" : [ {
+          "name" : "dashboard-container-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-1", "dashboard-screen" ]
+          } ]
+        }, {
+          "name" : "dashboard-container-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-2", "dashboard-screen" ]
+          } ]
+        }, {
+          "name" : "dashboard-container-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-3", "dashboard-screen" ]
+          } ]
+        }, {
+          "name" : "dashboard-container-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-4", "dashboard-screen" ]
+          } ]
+        }, {
+          "name" : "dashboard-container-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-5", "dashboard-screen" ]
+          } ]
+        }, {
+          "name" : "dashboard-container-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-6", "dashboard-screen" ]
+          } ]
+        }, {
+          "name" : "dashboard-container-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-7", "dashboard-screen" ]
+          } ]
+        }, {
+          "name" : "dashboard-container-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-8", "dashboard-screen" ]
+          } ]
+        }, {
+          "name" : "dashboard-container-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-9", "dashboard-screen" ]
+          } ]
+        }, {
+          "name" : "dashboard-container-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "dashboard-container-10", "dashboard-screen" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "dashboard-screen" : {
+          "area" : [ 0, 185, 339, 4931 ]
+        },
+        "dashboard-container-9" : {
+          "area" : [ 15, 3081, 309, 1631 ]
+        },
+        "dashboard-container-6" : {
+          "area" : [ 15, 2282, 309, 342 ]
+        },
+        "dashboard-container-5" : {
+          "area" : [ 15, 2163, 309, 89 ]
+        },
+        "dashboard-container-8" : {
+          "area" : [ 15, 2773, 309, 278 ]
+        },
+        "dashboard-container-7" : {
+          "area" : [ 15, 2654, 309, 119 ]
+        },
+        "dashboard-container-2" : {
+          "area" : [ 15, 535, 309, 303 ]
+        },
+        "dashboard-container-1" : {
+          "area" : [ 15, 229, 309, 276 ]
+        },
+        "dashboard-container-4" : {
+          "area" : [ 15, 1352, 309, 781 ]
+        },
+        "dashboard-container-3" : {
+          "area" : [ 15, 868, 309, 454 ]
+        },
+        "dashboard-container-10" : {
+          "area" : [ 15, 4861, 309, 254 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

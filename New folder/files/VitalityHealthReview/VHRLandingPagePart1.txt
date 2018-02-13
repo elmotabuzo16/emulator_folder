@@ -1,0 +1,110 @@
+@objects
+	breadcrumb-div			//*[@id="content"]/div[1]
+	breadcrumb1			//*[@id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_breadcrumbs-defaultScreen"]/ul/li[1]/a
+	breadcrumb2			//*[@id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_breadcrumbs-defaultScreen"]/ul/li[2]/a
+	breadcrumb3			//*[@id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_breadcrumbs-defaultScreen"]/ul/li[3]/a
+	breadcrumb-all			//*[@id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_breadcrumbs-defaultScreen"]/ul
+	header				#vhr-header
+	start-button			//*[@id="vhr-header-col"]/div/div[2]/button
+	welcome-section			//*[@id="vhrMainContent"]/div/div[1]/div[2]/div/div
+	VHR-icon			//*[@id="vhrMainContent"]/div/div[1]/div[2]/div/div/img
+	message1			//*[@id="vhrMainContent"]/div/div[1]/div[2]/div/div/p[1]
+	message2			//*[@id="vhrMainContent"]/div/div[1]/div[2]/div/div/p[2]
+	message3			//*[@id="vhrMainContent"]/div/div[1]/div[2]/div/div/p[3]
+	message4			//*[@id="vhrMainContent"]/div/div[1]/div[2]/div/div/p[4]
+	message5			//*[@id="vhrMainContent"]/div/div[1]/div[2]/div/div/div/p[2]				
+	message6			//*[@id="vhrMainContent"]/div/div[1]/div[2]/div/div/div/div
+	message7			//*[@id="vhr-content-lists"]/li[1]
+	message8			//*[@id="vhr-content-lists"]/li[2]
+	message9			//*[@id="vhr-content-lists"]/li[3]
+	BMI-section			//*[@id="vhrMainContent"]/div/div[1]/div[3]/div/div
+
+= breadcrumb-div =
+	breadcrumb-div:
+		css padding-right is "15px"
+		css padding-left is "15px"
+	
+= breadcrumb =
+	@for [1-2] as index
+		breadcrumb${index}:
+			css font-size is "12px" 
+			css font-family matches ".*Open Sans.*"
+			css color is "rgba(153, 153, 153, 1)"
+		
+= body-content3 =
+	breadcrumb3:
+		css font-size is "12px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(197, 0, 24, 1)"
+		
+= breadcrumb-all =
+	breadcrumb-all:
+		centered horizontally inside breadcrumb-div
+		css padding-top is "20px"
+		css padding-bottom is "20px"
+		
+= header =
+	header:
+		aligned vertically left start-button
+		above start-button 10px
+		inside screen 30px left, 124px right
+		css font-size is "28px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(197, 0, 24, 1)"
+		
+= start-button =
+	start-button:
+		centered horizontally inside screen
+		above welcome-section 20px
+		width 279px
+		height	44px
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(255, 255, 255, 1)"
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+
+= welcome-section =
+	welcome-section:
+		centered horizontally inside screen
+		above BMI-section 30px
+		
+= VHR-icon =
+	VHR-icon:
+		width 90px
+		height 90px
+		inside welcome-section 16px top, 36px left
+		
+= message =
+	@for [1-4] as index
+		message${index}:
+			centered horizontally inside welcome-section
+			css font-size is "13px" 
+			css font-family matches ".*Open Sans.*"
+			css color is "rgba(51, 51, 51, 1)"
+			
+= message =
+	@for [5-6] as index
+		message${index}:
+			centered horizontally inside welcome-section
+			css font-size is "14px" 
+			css font-family matches ".*Open Sans.*"
+			css color is "rgba(51, 51, 51, 1)"
+			
+= message =
+	@for [7-9] as index
+		message${index}:
+			aligned vertically right message4
+			css font-size is "13px" 
+			css font-family matches ".*Open Sans.*"
+			css color is "rgba(51, 51, 51, 1)"
+			inside welcome-section 56px left
+			
+			
+	
+		
+		
+		
+		

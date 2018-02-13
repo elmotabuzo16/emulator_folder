@@ -1,0 +1,812 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+      "status" : "error",
+      "time" : 1517554732357,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "breadcrumb-div",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+          "lineNumber" : 23
+        },
+        "objects" : [ {
+          "name" : "breadcrumb-div",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 25
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "breadcrumb-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 26
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "breadcrumb-div" ]
+          } ]
+        } ]
+      }, {
+        "name" : "breadcrumb",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+          "lineNumber" : 28
+        },
+        "objects" : [ {
+          "name" : "breadcrumb1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 31
+            },
+            "name" : "css font-size is \"12px\"",
+            "highlight" : [ "breadcrumb1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 32
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "breadcrumb1" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 33
+            },
+            "name" : "css color is \"rgba(153, 153, 153, 1)\"",
+            "errors" : [ "\"breadcrumb1\" css property \"color\" is \"rgba(197, 0, 24, 1)\" but should be \"rgba(153, 153, 153, 1)\"" ],
+            "highlight" : [ "breadcrumb1" ]
+          } ]
+        }, {
+          "name" : "breadcrumb2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 31
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"breadcrumb2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 32
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"breadcrumb2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 33
+            },
+            "name" : "css color is \"rgba(153, 153, 153, 1)\"",
+            "errors" : [ "\"breadcrumb2\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "body-content3",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+          "lineNumber" : 35
+        },
+        "objects" : [ {
+          "name" : "breadcrumb3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 37
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"breadcrumb3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"breadcrumb3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"breadcrumb3\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "breadcrumb-all",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+          "lineNumber" : 41
+        },
+        "objects" : [ {
+          "name" : "breadcrumb-all",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 43
+            },
+            "name" : "centered horizontally inside breadcrumb-div",
+            "highlight" : [ "breadcrumb-all", "breadcrumb-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 44
+            },
+            "name" : "css padding-top is \"20px\"",
+            "highlight" : [ "breadcrumb-all" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 45
+            },
+            "name" : "css padding-bottom is \"20px\"",
+            "highlight" : [ "breadcrumb-all" ]
+          } ]
+        } ]
+      }, {
+        "name" : "header",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+          "lineNumber" : 47
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 49
+            },
+            "name" : "aligned vertically left start-button",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 50
+            },
+            "name" : "above start-button 10px",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 51
+            },
+            "name" : "inside body-div 30px left, 124px right",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 52
+            },
+            "name" : "css font-size is \"28px\"",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 53
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 54
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "start-button",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+          "lineNumber" : 56
+        },
+        "objects" : [ {
+          "name" : "start-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 58
+            },
+            "name" : "centered horizontally inside body-div",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 59
+            },
+            "name" : "above welcome-section 20px",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 60
+            },
+            "name" : "width 279px",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 61
+            },
+            "name" : "height\t44px",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 62
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 63
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 64
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 65
+            },
+            "name" : "css padding-top is \"10px\"",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 66
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 67
+            },
+            "name" : "css padding-right is \"30px\"",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 68
+            },
+            "name" : "css padding-left is \"30px\"",
+            "errors" : [ "\"start-button\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "welcome-section",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+          "lineNumber" : 70
+        },
+        "objects" : [ {
+          "name" : "welcome-section",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 72
+            },
+            "name" : "centered horizontally inside body-div",
+            "errors" : [ "\"welcome-section\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 73
+            },
+            "name" : "above BMI-section 30px",
+            "errors" : [ "\"welcome-section\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "VHR-icon",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+          "lineNumber" : 75
+        },
+        "objects" : [ {
+          "name" : "VHR-icon",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 77
+            },
+            "name" : "width 90px",
+            "errors" : [ "\"VHR-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 78
+            },
+            "name" : "height 90px",
+            "errors" : [ "\"VHR-icon\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 79
+            },
+            "name" : "inside welcome-section 16px top, 36px left",
+            "errors" : [ "\"VHR-icon\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "message",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+          "lineNumber" : 81
+        },
+        "objects" : [ {
+          "name" : "message1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 84
+            },
+            "name" : "centered horizontally inside welcome-section",
+            "errors" : [ "\"message1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"message1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"message1\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"message1\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "message2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 84
+            },
+            "name" : "centered horizontally inside welcome-section",
+            "errors" : [ "\"message2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"message2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"message2\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"message2\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "message3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 84
+            },
+            "name" : "centered horizontally inside welcome-section",
+            "errors" : [ "\"message3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"message3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"message3\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"message3\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "message4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 84
+            },
+            "name" : "centered horizontally inside welcome-section",
+            "errors" : [ "\"message4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 85
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"message4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"message4\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"message4\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "message5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 92
+            },
+            "name" : "centered horizontally inside welcome-section",
+            "errors" : [ "\"message5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"message5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"message5\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"message5\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "message6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 92
+            },
+            "name" : "centered horizontally inside welcome-section",
+            "errors" : [ "\"message6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"message6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"message6\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"message6\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "message7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 100
+            },
+            "name" : "aligned vertically right message4",
+            "errors" : [ "\"message7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"message7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 102
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"message7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 103
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"message7\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 104
+            },
+            "name" : "inside welcome-section 56px left",
+            "errors" : [ "\"message7\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "message8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 100
+            },
+            "name" : "aligned vertically right message4",
+            "errors" : [ "\"message8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"message8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 102
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"message8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 103
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"message8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 104
+            },
+            "name" : "inside welcome-section 56px left",
+            "errors" : [ "\"message8\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "message9",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 100
+            },
+            "name" : "aligned vertically right message4",
+            "errors" : [ "\"message9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-size is \"13px\"",
+            "errors" : [ "\"message9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 102
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"message9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 103
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"message9\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart1.txt",
+              "lineNumber" : 104
+            },
+            "name" : "inside welcome-section 56px left",
+            "errors" : [ "\"message9\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "breadcrumb1" : {
+          "area" : [ 49, 125, 34, 20 ]
+        },
+        "breadcrumb-div" : {
+          "area" : [ 0, 105, 339, 80 ]
+        },
+        "breadcrumb-all" : {
+          "area" : [ 30, 105, 279, 60 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

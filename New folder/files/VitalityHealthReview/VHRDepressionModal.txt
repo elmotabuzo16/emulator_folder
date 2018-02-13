@@ -1,0 +1,72 @@
+@objects
+	Depression-popup-header			//*[@id="additionalInformation_28"]/div/div/div[1]
+	Depression-popup-title			//*[@id="additionalInformation_28"]/div/div/div[1]/h4
+	Depression-popup-xbutton			//*[@id="additionalInformation_28"]/div/div/div[1]/button
+	Depression-popup-body			//*[@id="additionalInformation_28"]/div/div/div[2]
+	Depression-popup-content			//*[@id="additionalInformation_28"]/div/div/div[2]/p
+	Depression-popup-footer			//*[@id="additionalInformation_28"]/div/div/div[3]
+	Depression-popup-button			//*[@id="additionalInformation_28"]/div/div/div[3]/div/button
+	
+= Depression-popup-header =
+	Depression-popup-header:
+		centered horizontally inside viewport
+		above Depression-popup-body 0px
+		width 269px
+		height 59px
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-right is "15px"
+		css padding-left is "15px"
+		
+= Depression-popup-title =
+	Depression-popup-title:
+		css font-size is "20px"
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(197, 0, 24, 1)"
+		inside Depression-popup-header 15px top, 16px bottom, 26px right, 15px left	
+		
+= Depression-popup-xbutton =
+	Depression-popup-xbutton:
+		inside Depression-popup-header 13px top, 15px right
+		
+= Depression-popup-body =
+	Depression-popup-body:
+		centered horizontally inside viewport
+		above Depression-popup-footer 0px
+		width 269px
+		height 231px
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-right is "15px"
+		css padding-left is "15px"
+		
+= Depression-popup-content =
+	Depression-popup-content:
+		centered horizontally inside Depression-popup-body
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(51, 51, 51, 1)"
+		
+= Depression-popup-footer =
+	Depression-popup-footer:
+		centered horizontally inside viewport
+		width 269px
+		height 78px
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-right is "15px"
+		css padding-left is "15px"
+		
+= Depression-popup-button =
+	Depression-popup-button:
+		centered horizontally inside Depression-popup-footer
+		width 239px
+		height 42px
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(255, 255, 255, 1)"
+		

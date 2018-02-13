@@ -1,0 +1,182 @@
+@objects
+	vhc-claim-screen		//*[@id="vhc-container"]
+	vhc-claim-title			//*[@id="vhc-container"]/div/h1
+	vhc-slider				//*[@id="pointsSubmissionPageThree"]/div[1]
+	slider-step-1			//*[@id="pointsSubmissionPageThree"]/div[1]/div[1]/span
+	slider-step-2			//*[@id="pointsSubmissionPageThree"]/div[1]/div[2]/span
+	slider-step-3			//*[@id="pointsSubmissionPageThree"]/div[1]/div[3]/span
+	vhc-container			//*[@id="pointsSubmissionPageThree"]/div[2]
+	vhc-header				//*[@id="pointsSubmissionPageThree"]/div[2]/div[1]/h5
+	vhc-header-content		//*[@id="pointsSubmissionPageThree"]/div[2]/div[2]/p
+	vhc-table				//*[@id="healthScreensDiv"]
+	vhc-table-header-1		//*[@id="claimPointsHealthTable"]/thead/tr/td[1]
+	vhc-table-header-2		//*[@id="claimPointsHealthTable"]/thead/tr/td[2]
+	vhc-table-header-3		//*[@id="claimPointsHealthTable"]/thead/tr/td[3]
+	vhc-table-content-1		//*[@id="pageThree_Height"]/td[1]
+	vhc-table-content-2		//*[@id="pageThree_Height"]/td[2]
+	vhc-table-content-3		//*[@id="pageThree_Height"]/td[3]
+	vhc-table-content-4		//*[@id="pageThree_Weight"]/td[1]
+	vhc-table-content-5		//*[@id="pageThree_Weight"]/td[2]
+	vhc-table-content-6		//*[@id="pageThree_Weight"]/td[3]
+	vhc-table-content-7		//*[@id="pageThree_FastingGlucose"]/td[1]
+	vhc-table-content-8		//*[@id="pageThree_FastingGlucose"]/td[2]
+	vhc-table-content-9		//*[@id="pageThree_FastingGlucose"]/td[3]
+	vhc-table-content-10	//*[@id="pageThree_BloodPressureDiasto"]/td[1]
+	vhc-table-content-11	//*[@id="pageThree_BloodPressureDiasto"]/td[2]
+	vhc-table-content-12	//*[@id="pageThree_BloodPressureDiasto"]/td[3]
+	vhc-table-content-13	//*[@id="pageThree_LDLCholesterol"]/td[1]
+	vhc-table-content-14	//*[@id="pageThree_LDLCholesterol"]/td[2]
+	vhc-table-content-15	//*[@id="pageThree_LDLCholesterol"]/td[3]
+	vhc-table-content-16	//*[@id="pageThree_HbA1c"]/td[1]
+	vhc-table-content-17	//*[@id="pageThree_HbA1c"]/td[2]
+	vhc-table-content-18	//*[@id="pageThree_HbA1c"]/td[3]
+	vhc-table-content-19	//*[@id="pageThree_UrinaryProtein"]/td[1]
+	vhc-table-content-20	//*[@id="pageThree_UrinaryProtein"]/td[2]
+	vhc-table-content-21	//*[@id="pageThree_UrinaryProtein"]/td[3]
+	vhc-attach-title		//*[@id="dateAndAttachments"]/table/tbody/tr/td[1]
+	vhc-attach-content		//*[@id="assessmentFiles"]
+	back-button				//*[@id="backBtnPageThree"]
+	upload-button			//*[@id="uploadFileBtn"]
+	confirm-button			//*[@id="nextBtnPageThreeShowDataSharing"]
+
+= vhc-claim-screen =
+	vhc-claim-title:
+		centered horizontally inside vhc-claim-screen
+		css color is "rgba(197, 0, 24, 1)"
+		css font-size is "28px"
+		css font-family matches ".*Open Sans.*"
+	
+= vhc-slider = 
+	vhc-slider:
+		css color is "rgba(51, 51, 51, 1)"
+		css margin-bottom is "11px"
+
+	slider-step-1:
+		css color is "rgba(255, 255, 255, 1)"
+		css background-color is "rgba(208, 51, 70, 1)"
+		css font-size is "12px"
+		css padding-top is "0px"
+		css padding-bottom is "0px"
+		css padding-right is "0px"
+		css padding-left is "16px"
+		
+	slider-step-2:
+		css color is "rgba(255, 255, 255, 1)"
+		css background-color is "rgba(208, 51, 70, 1)"
+		css font-size is "12px"
+		css padding-top is "0px"
+		css padding-bottom is "0px"
+		css padding-right is "0px"
+		css padding-left is "16px
+		
+	slider-step-3:
+		css color is "rgba(255, 255, 255, 1)"
+		css background-color is "rgba(197, 0, 24, 1)"
+		css font-size is "12px"
+		css padding-top is "0px"
+		css padding-bottom is "0px"
+		css padding-right is "0px"
+		css padding-left is "16px"
+
+= vhc-container =
+	vhc-container:
+		centered horizontally inside vhc-claim-screen
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-right is "15px"
+		css padding-left is "15px"
+		css margin-bottom is "30px"
+	
+	vhc-header:
+		centered horizontally inside vhc-container
+		css font-size is "17px"
+		css color is "rgba(197, 0, 24, 1)"
+		css font-family matches ".*Open Sans.*"
+		
+	vhc-header-content:
+		centered horizontally inside vhc-container
+		css font-size is "14px"
+		css color is "rgba(51, 51, 51, 1)"
+		
+= vhc-container =	
+	@for [1-3] as index
+		vhc-table-header-${index}:
+			inside vhc-table
+			css padding-top is "8px"
+			css padding-bottom is "8px"
+			css padding-right is "8px"
+			css padding-left is "8px"
+			css vertical-align is "top"
+			css color is "rgba(255, 255, 255, 1)"
+			css font-size is "13px"
+			
+= vhc-container =	
+	@for [1-21] as index
+		vhc-table-content-${index}:
+			inside vhc-table
+			css padding-top is "8px"
+			css padding-bottom is "8px"
+			css padding-right is "8px"
+			css padding-left is "8px"
+			css vertical-align is "top"
+			css color is "rgba(51, 51, 51, 1)"
+			css font-size is "13px"
+
+= vhc-container =
+	vhc-table:
+		centered horizontally inside vhc-claim-screen
+	
+	vhc-attach-title:
+		below vhc-table 0px
+		css margin-bottom is "0px"
+		css font-size is "14px"
+		css color is "rgba(51, 51, 51, 1)"
+		css font-family matches ".*Open Sans.*"
+		
+	vhc-attach-content:
+		below vhc-table 0px
+		css padding-top is "8px"
+		css padding-bottom is "8px"
+		css padding-right is "8px"
+		css padding-left is "8px"
+		css color is "rgba(51, 51, 51, 1)"
+		
+	back-button:
+		below vhc-attach-content 40px
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+		css color is "rgba(197, 0, 24, 1)"
+		css vertical-align is "middle"
+		css margin-bottom is "10px"
+		css font-size is "14px"
+		css font-family matches ".*Open Sans.*"
+		
+	upload-button:
+		below vhc-attach-content ~95px
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+		css color is "rgba(197, 0, 24, 1)"
+		css vertical-align is "middle"
+		css margin-bottom is "10px"
+		css font-size is "14px"
+		css font-family matches ".*Open Sans.*"
+	
+	confirm-button:
+		below upload-button 10px
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+		css background-color is "rgba(197, 0, 24, 1)"
+		css color is "rgba(255, 255, 255, 1)"
+		css vertical-align is "middle"
+		css margin-bottom is "0px"
+		css font-size is "14px"
+		css font-family matches ".*Open Sans.*"
+	
+		
+	

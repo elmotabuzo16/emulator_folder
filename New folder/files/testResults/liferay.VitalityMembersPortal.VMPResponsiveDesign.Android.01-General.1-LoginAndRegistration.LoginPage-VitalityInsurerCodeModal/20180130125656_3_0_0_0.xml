@@ -1,0 +1,3449 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>liferay.VitalityMembersPortal.VMPResponsiveDesign.Android.01-General.1-LoginAndRegistration.LoginPage-VitalityInsurerCodeModal</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-01-30T12:56:57+08:00</date>
+    <runTimeInMillis>5214</runTimeInMillis>
+    <content></content>
+    <relativePageName>SuiteSetUp</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='six42.fitnesse.jdbcslim'}</instruction>
+        <slimResult>pass(six42.fitnesse.jdbcslim)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>six42.fitnesse.jdbcslim</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_21_0', instruction='import', path='nl.hsac.fitnesse.fixture'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_21_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_21_1', instruction='import', path='nl.hsac.fitnesse.fixture.slim'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture.slim)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_21_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture.slim</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_22_0', instruction='import', path='nl.hsac.fitnesse.fixture.slim.web'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture.slim.web)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_22_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture.slim.web</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_22_1', instruction='import', path='nl.hsac.fitnesse.fixture.FixtureDebugTest'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture.FixtureDebugTest)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_22_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture.FixtureDebugTest</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_23_0', instruction='make', instanceName='scriptTableActor', className='SeleniumDriverSetup', args=[]}</instruction>
+        <slimResult>pass(selenium driver setup)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_23_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>selenium driver setup</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_23_1', instruction='call', instanceName='scriptTableActor', methodName='startDriverFor', args=[chrome]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_23_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <result>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-01-30T12:57:02+08:00</date>
+    <runTimeInMillis>18884</runTimeInMillis>
+    <content></content>
+    <relativePageName>LoginPage-VitalityInsurerCodeModal</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='six42.fitnesse.jdbcslim'}</instruction>
+        <slimResult>pass(six42.fitnesse.jdbcslim)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>six42.fitnesse.jdbcslim</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_0', instruction='make', instanceName='scriptTableActor', className='BrowserTest', args=[]}</instruction>
+        <slimResult>pass(browser test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_72_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>browser test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_1/scriptTable_1_0/scriptTable_22_0', instruction='call', instanceName='scriptTableActor', methodName='deleteAllCookies', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_72_1/scriptTable_1_0/scriptTable_22_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_1/scriptTable_1_0/scriptTable_22_1', instruction='call', instanceName='scriptTableActor', methodName='waitSeconds', args=[3]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_72_1/scriptTable_1_0/scriptTable_22_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_1/scriptTable_1_0/scriptTable_22_2', instruction='call', instanceName='scriptTableActor', methodName='secondsBeforePageLoadTimeout', args=[40]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_72_1/scriptTable_1_0/scriptTable_22_2</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_1/scriptTable_1_0/scriptTable_22_3', instruction='call', instanceName='scriptTableActor', methodName='secondsBeforeTimeout', args=[40]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_72_1/scriptTable_1_0/scriptTable_22_3</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_1/scriptTable_1_0/scriptTable_22_4', instruction='call', instanceName='scriptTableActor', methodName='setBrowserWidth', args=[366]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_72_1/scriptTable_1_0/scriptTable_22_4</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_1/scriptTable_1_0/scriptTable_22_5', instruction='call', instanceName='scriptTableActor', methodName='setBrowserHeight', args=[640]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_72_1/scriptTable_1_0/scriptTable_22_5</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_1/scriptTable_1_0/scriptTable_22_6', instruction='call', instanceName='scriptTableActor', methodName='open', args=[https://www.test.vitality.sumitomolife.co.jp/en/web/vitality-member-portal]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_72_1/scriptTable_1_0/scriptTable_22_6</instructionId>
+                    <col>0</col>
+                              <row>7</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_1/scriptTable_1_0/scriptTable_22_7', instruction='call', instanceName='scriptTableActor', methodName='waitSeconds', args=[3]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_72_1/scriptTable_1_0/scriptTable_22_7</instructionId>
+                    <col>0</col>
+                              <row>8</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_2/scriptTable_4_0/scriptTable_54_0', instruction='call', instanceName='scriptTableActor', methodName='click', args=[xpath=//*[@id="insurerCodeToggle"]/i]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_72_2/scriptTable_4_0/scriptTable_54_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_2/scriptTable_4_0/scriptTable_54_1', instruction='call', instanceName='scriptTableActor', methodName='waitSeconds', args=[1]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_72_2/scriptTable_4_0/scriptTable_54_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_3/scriptTable_4_0/scriptTable_23_0', instruction='call', instanceName='scriptTableActor', methodName='setBrowserWidth', args=[366]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_72_3/scriptTable_4_0/scriptTable_23_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_3/scriptTable_4_0/scriptTable_23_1', instruction='call', instanceName='scriptTableActor', methodName='setBrowserHeight', args=[640]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_72_3/scriptTable_4_0/scriptTable_23_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_3/scriptTable_4_0/scriptTable_23_2', instruction='call', instanceName='scriptTableActor', methodName='waitSeconds', args=[2]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_72_3/scriptTable_4_0/scriptTable_23_2</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_72_3/scriptTable_4_0/scriptTable_23_3', instruction='call', instanceName='scriptTableActor', methodName='takeScreenshot', args=[Captured-screenshot]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_72_3/scriptTable_4_0/scriptTable_23_3</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-01-30T12:57:21+08:00</date>
+    <runTimeInMillis>728</runTimeInMillis>
+    <content>&lt;a href="Liferay.ScenarioLibrary"&gt;Liferay Scenario Libraries&lt;/a&gt; | &lt;a href="HsacExamples.SlimTests.BrowserTests"&gt;Selenium Plugin Documentation and Examples&lt;/a&gt; | &lt;a href="HsacAcceptanceTests.SlimTests.BrowserTest"&gt;Selenium Plugin Acceptance Test Examples&lt;/a&gt; | More Examples...&lt;a title="create page" href="PetClinicFitnesseSamples.SeleniumBrowserSuite?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="liferay.ScenarioLibrary"&gt;.liferay.ScenarioLibrary&lt;/a&gt; &lt;a href="liferay.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;six42.fitnesse.jdbcslim&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;define table type&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;SQLCommand&lt;/td&gt;
+		&lt;td&gt;as Table&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: BAD_REQUEST=400&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: INTERNAL_SERVER_ERROR=500&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: NOT_FOUND=404&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SUCCESS_CREATED=201&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SUCCESS_OK=200&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: PARTY_ID=UNDEFINED&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: PRODUCT_KEY=UNDEFINED&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: MEMBERSHIP_ID=UNDEFINED&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Given&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;When&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Then&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;And&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the current page url should be&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;@{url}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user can see&lt;/td&gt;
+		&lt;td&gt;item&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible on page&lt;/td&gt;
+		&lt;td&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user can click&lt;/td&gt;
+		&lt;td&gt;item&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is enabled&lt;/td&gt;
+		&lt;td&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user see and can click&lt;/td&gt;
+		&lt;td&gt;item&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;user can see&lt;/td&gt;
+		&lt;td colspan="2"&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;user can click&lt;/td&gt;
+		&lt;td colspan="2"&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;footer&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a page url&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td colspan="3"&gt;set browser size to maximum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td colspan="3"&gt;delete all cookies&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;seconds before page load timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;30&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td colspan="2"&gt;@{url}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;sign in with username&lt;/td&gt;
+		&lt;td&gt;username&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="6"&gt;Sign In&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="6"&gt;Sign In&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="6"&gt;Email Address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{username}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;Email Address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{password}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;loginScreen&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="6"&gt;enter&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="6"&gt;@{user}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;loginSuccess&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user signs in&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td colspan="2"&gt;user &lt;span class="meta"&gt;undefined variable: TEST_USER_FIRSTNAME&lt;/span&gt; sign in with username supervisor and password Test123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a supervisor signs in&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td colspan="2"&gt;user ruel sign in with username &lt;a href="mailto:ruel@discovery.co.za"&gt;ruel@discovery.co.za&lt;/a&gt; and password test1&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;hover over&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;hover over&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="5"&gt;activate product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="6"&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="5"&gt;We have to simulate with precision as selenium tends to run the click too fast that prevents clicking of the side bar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="4"&gt;sideBar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;value of attribute&lt;/td&gt;
+		&lt;td&gt;class&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+		&lt;td&gt;control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="5"&gt;close product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="6"&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="5"&gt;We have to simulate with precision as selenium tends to run the click too fast that prevents clicking of the side bar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="4"&gt;sideBar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;check not&lt;/td&gt;
+		&lt;td&gt;value of attribute&lt;/td&gt;
+		&lt;td&gt;class&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+		&lt;td&gt;control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;all VSP sites should be visible&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="2"&gt;A user must be signed in first&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="3"&gt;activate product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;10&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="2"&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_manageSitesLink&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;loadingAnimation&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Select Site&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Vitality Group&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Vitality Service Portal - France&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Vitality Service Portal - Germany&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;availableSites&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user clicks Member Search and search using party id&lt;/td&gt;
+		&lt;td colspan="2"&gt;partyID&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="portlet_za_co_discovery_vitality_member_quick_search_portlet_MemberQuickSearchPortlet"]/div/div/div/a&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{partyID}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="partyID"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="portlet_za_co_discovery_vitality_member_quick_search_portlet_MemberQuickSearchPortlet"]/div/div/div/ul/li/form/div[1]/span/button/span&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user search a member with first name&lt;/td&gt;
+		&lt;td&gt;firstName&lt;/td&gt;
+		&lt;td&gt;and surname&lt;/td&gt;
+		&lt;td&gt;Surname&lt;/td&gt;
+		&lt;td&gt;and birthdate&lt;/td&gt;
+		&lt;td&gt;birthdate&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{firstName}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="first-name"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{surname}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="sur-name"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{birthdate}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="birth-date"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="6"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="6"&gt;xpath=//*[@id="first-name"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;Party details is populated&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;scroll to&lt;/td&gt;
+		&lt;td colspan="6"&gt;xpath=//*[@id="searchButton"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="6"&gt;xpath=//*[@id="searchButton"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="6"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Member Search Result&lt;/td&gt;
+		&lt;td colspan="4"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;Search Result by Party details&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="3"&gt;user search a member by reference	Member Number with a value 123456&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;select&lt;/td&gt;
+		&lt;td&gt;Member Number&lt;/td&gt;
+		&lt;td&gt;for&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="referenceType"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;123456&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="referenceValue"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="memberSearchButton"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture.slim&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture.slim.web&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture.FixtureDebugTest&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;selenium driver setup&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;start driver for&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;chrome&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="Liferay.ScenarioLibrary"&gt;Liferay Scenario Libraries&lt;/a&gt; | &lt;a href="HsacExamples.SlimTests.BrowserTests"&gt;Selenium Plugin Documentation and Examples&lt;/a&gt; | &lt;a href="HsacAcceptanceTests.SlimTests.BrowserTest"&gt;Selenium Plugin Acceptance Test Examples&lt;/a&gt; | More Examples...&lt;a title="create page" href="PetClinicFitnesseSamples.SeleniumBrowserSuite?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario Libraries&lt;/p&gt;
+	&lt;div&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="liferay.ScenarioLibrary"&gt;.liferay.ScenarioLibrary&lt;/a&gt; &lt;a href="liferay.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;six42.fitnesse.jdbcslim&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;define table type&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;SQLCommand&lt;/td&gt;
+		&lt;td&gt;as Table&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: BAD_REQUEST=400&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: INTERNAL_SERVER_ERROR=500&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: NOT_FOUND=404&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SUCCESS_CREATED=201&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SUCCESS_OK=200&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: PARTY_ID=UNDEFINED&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: PRODUCT_KEY=UNDEFINED&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: MEMBERSHIP_ID=UNDEFINED&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Given&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;When&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Then&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;And&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the current page url should be&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;@{url}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user can see&lt;/td&gt;
+		&lt;td&gt;item&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible on page&lt;/td&gt;
+		&lt;td&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user can click&lt;/td&gt;
+		&lt;td&gt;item&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is enabled&lt;/td&gt;
+		&lt;td&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user see and can click&lt;/td&gt;
+		&lt;td&gt;item&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;user can see&lt;/td&gt;
+		&lt;td colspan="2"&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;user can click&lt;/td&gt;
+		&lt;td colspan="2"&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;footer&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a page url&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td colspan="3"&gt;set browser size to maximum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td colspan="3"&gt;delete all cookies&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;seconds before page load timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;30&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td colspan="2"&gt;@{url}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;sign in with username&lt;/td&gt;
+		&lt;td&gt;username&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="6"&gt;Sign In&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="6"&gt;Sign In&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="6"&gt;Email Address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{username}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;Email Address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{password}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;loginScreen&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="6"&gt;enter&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="6"&gt;@{user}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;loginSuccess&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user signs in&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td colspan="2"&gt;user &lt;span class="meta"&gt;undefined variable: TEST_USER_FIRSTNAME&lt;/span&gt; sign in with username supervisor and password Test123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a supervisor signs in&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td colspan="2"&gt;user ruel sign in with username &lt;a href="mailto:ruel@discovery.co.za"&gt;ruel@discovery.co.za&lt;/a&gt; and password test1&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;hover over&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;hover over&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="5"&gt;activate product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="6"&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="5"&gt;We have to simulate with precision as selenium tends to run the click too fast that prevents clicking of the side bar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="4"&gt;sideBar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;value of attribute&lt;/td&gt;
+		&lt;td&gt;class&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+		&lt;td&gt;control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="5"&gt;close product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="6"&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="5"&gt;We have to simulate with precision as selenium tends to run the click too fast that prevents clicking of the side bar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="4"&gt;sideBar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;check not&lt;/td&gt;
+		&lt;td&gt;value of attribute&lt;/td&gt;
+		&lt;td&gt;class&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+		&lt;td&gt;control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;all VSP sites should be visible&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="2"&gt;A user must be signed in first&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="3"&gt;activate product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;10&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="2"&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_manageSitesLink&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;loadingAnimation&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Select Site&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Vitality Group&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Vitality Service Portal - France&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Vitality Service Portal - Germany&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;availableSites&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user clicks Member Search and search using party id&lt;/td&gt;
+		&lt;td colspan="2"&gt;partyID&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="portlet_za_co_discovery_vitality_member_quick_search_portlet_MemberQuickSearchPortlet"]/div/div/div/a&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{partyID}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="partyID"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="portlet_za_co_discovery_vitality_member_quick_search_portlet_MemberQuickSearchPortlet"]/div/div/div/ul/li/form/div[1]/span/button/span&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user search a member with first name&lt;/td&gt;
+		&lt;td&gt;firstName&lt;/td&gt;
+		&lt;td&gt;and surname&lt;/td&gt;
+		&lt;td&gt;Surname&lt;/td&gt;
+		&lt;td&gt;and birthdate&lt;/td&gt;
+		&lt;td&gt;birthdate&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{firstName}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="first-name"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{surname}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="sur-name"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{birthdate}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="birth-date"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="6"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="6"&gt;xpath=//*[@id="first-name"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;Party details is populated&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;scroll to&lt;/td&gt;
+		&lt;td colspan="6"&gt;xpath=//*[@id="searchButton"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="6"&gt;xpath=//*[@id="searchButton"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="6"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Member Search Result&lt;/td&gt;
+		&lt;td colspan="4"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;Search Result by Party details&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="3"&gt;user search a member by reference	Member Number with a value 123456&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;select&lt;/td&gt;
+		&lt;td&gt;Member Number&lt;/td&gt;
+		&lt;td&gt;for&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="referenceType"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;123456&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="referenceValue"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="memberSearchButton"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="liferay.VitalityMembersPortal.ScenarioLibrary"&gt;.liferay.VitalityMembersPortal.ScenarioLibrary&lt;/a&gt; &lt;a href="liferay.VitalityMembersPortal.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;a user access to vitality Member Portal&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td colspan="3"&gt;delete all cookies&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="2"&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;seconds before page load timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td colspan="3"&gt;set browser size to maximum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td colspan="2"&gt;https://www.test.vitality.sumitomolife.co.jp/en/web/vitality-member-portal&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="2"&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;open url&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user access VMP site&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td colspan="2"&gt;delete all cookies&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;seconds before page load timeout&lt;/td&gt;
+		&lt;td&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set browser width&lt;/td&gt;
+		&lt;td&gt;366&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set browser height&lt;/td&gt;
+		&lt;td&gt;640&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td&gt;https://www.test.vitality.sumitomolife.co.jp/en/web/vitality-member-portal&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user resize the browser to android version&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set browser width&lt;/td&gt;
+		&lt;td colspan="2"&gt;366&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set browser height&lt;/td&gt;
+		&lt;td colspan="2"&gt;640&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="2"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Captured-screenshot&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;login using email address&lt;/td&gt;
+		&lt;td&gt;email&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td colspan="4"&gt;https://www.test.vitality.sumitomolife.co.jp/en/web/vitality-member-portal/login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="4"&gt;Email Address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="4"&gt;Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{email}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="email"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="4"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{password}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="password"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="4"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="3"&gt;enter login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="4"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//button[@id="login"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="4"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td colspan="2"&gt;login using email address Weldon_McAlbert@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;an existing user login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td colspan="2"&gt;login using email address Rosendo_McBurdick@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;NSD&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user login to VMP for NSD submission&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td colspan="2"&gt;login using email address Doria_McBills@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user login to VMP but will not submit NSD&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="2"&gt;login using email address &lt;span class="meta"&gt;undefined variable: FOR_NSD2&lt;/span&gt; and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user access VMP NSD site&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;seconds before page load timeout&lt;/td&gt;
+		&lt;td&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set browser width&lt;/td&gt;
+		&lt;td&gt;366&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set browser height&lt;/td&gt;
+		&lt;td&gt;708&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td&gt;https://www.test.vitality.sumitomolife.co.jp/en/web/vitality-member-portal/stop-smoking&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;VHR&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user without vhr login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td colspan="2"&gt;login using email address Timothy_McBouchard@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user with vhr login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td colspan="2"&gt;login using email address Benny_McCavanaugh@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Gender&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;male user login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td colspan="2"&gt;login using email address Weldon_McAlbert@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;female user login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td colspan="2"&gt;login using email address Denese_McDaugherty@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Vitality Member Status&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a blue member login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td colspan="2"&gt;login using email address Camellia_McConover@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a bronze member login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td colspan="2"&gt;login using email address Elizabeth_McBaines@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a silver member login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td colspan="2"&gt;login using email address Eric_McBaker@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a gold member login to VMP&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td colspan="2"&gt;login using email address Deb_McChamberlin@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="3"&gt;user agree on the terms and condition&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;scroll to&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="agreeTermsAndCond"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="checkTermsAndCond"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;is enabled&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="agreeTermsAndCond"]&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="agreeTermsAndCond"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="2"&gt;terms&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="liferay.VitalityMembersPortal.VMPCentralAsset.01-General.1-LoginAndRegistration.2-UserLoginWeb.ScenarioLibrary"&gt;.liferay.VitalityMembersPortal.VMPCentralAsset.01-General.1-LoginAndRegistration.2-UserLoginWeb.ScenarioLibrary&lt;/a&gt; &lt;a href="liferay.VitalityMembersPortal.VMPCentralAsset.01-General.1-LoginAndRegistration.2-UserLoginWeb.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="Liferay.Configuration.VitalityMemberPortal.01-General.01-LoginAndRegistration.01-Registration"&gt;.Liferay.Configuration.VitalityMemberPortal.01-General.01-LoginAndRegistration.01-Registration&lt;/a&gt; &lt;a href="Liferay.Configuration.VitalityMemberPortal.01-General.01-LoginAndRegistration.01-Registration?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Note: This is configuration setting for ALL Registration related items. &lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Registration Page - Content&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_LOG_LINKNAME=!-Login-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_HEADER=!-Registration-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_NOTE1=!-Before registering with Vitality, you should have received an email from your insurer with your insurer code.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_NOTE2=!-Please contact your insurer if you have not received a code.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_EMAIL_LABEL=!-Email Address-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_PASS_LABEL=!-Password-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_CONFIRMPASS_LABEL=!-Confirm Password-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_INSURER_LABEL=!-Insurer Code-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_VITMEM_QUESTION=!-Already a Vitality member?-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_LOGHERE_LINKNAME=!-Login here-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_REG_BUTTON=!-Register-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Registration - Terms and Condition Content&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_TC_HEADER=!-Terms and Conditions-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_TC_AGREEBUTTON=!-I Agree-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Registration - Disagree&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_DISAGREE_HEADER=!-Disagree-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_DISAGREE_NOTE1=!-You have been successfully logged in, but have not accepted the terms and conditions.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_DISAGREE_NOTE2=!-If you disagree, you will be logged out and unable to continue until you accept by selecting Agree.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_DISAGREE_NOTE2=!-Select "Back" to go to the terms and conditions, or "Ok" to log out.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_DISAGREE_OKBUTTON=!-OK-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_REGISTER_DISAGREE_BACKBUTTON=!-Back-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="Liferay.Configuration.VitalityMemberPortal.01-General.01-LoginAndRegistration.02-Login"&gt;.Liferay.Configuration.VitalityMemberPortal.01-General.01-LoginAndRegistration.02-Login&lt;/a&gt; &lt;a href="Liferay.Configuration.VitalityMemberPortal.01-General.01-LoginAndRegistration.02-Login?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Note: This is configuration setting for ALL Login related items. &lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Login Page - Content&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_REG_LINKNAME=!-Register-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_HEADER=!-Login-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_LOG_BUTTON=!-Login-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_REGHERE_LINKNAME=!-Register here-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_NOTE1=!-Not yet a Vitality Member?-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_NOTE2=!-(Vitality Insurer Code Required)-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_EMAIL_LABEL=!-Email Address-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_PASS_LABEL=!-Password-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_FORGOTPASS_LINKNAME=!-Forgot Password-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_LOG_BUTTON=!-Login-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Login - Terms and Condition Content&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_TC_HEADER=!-Terms and Conditions-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_TC_AGREEBUTTON=!-I Agree-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Login - Unable to Login Content&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_UNABLELOGIN_HEADER=!-Unable to login-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_UNABLE_NOTE1=!-We were unable to authenticate your details.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_UNABLE_NOTE2=!-Please ensure you enter the correct login details and try again.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_UNABLE_OKBUTTON=!-OK-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Login - Unable to Login Locked Account Content&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_LOCKEDLOGIN_HEADER=!-Unable to login-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_LOCKEDLOGIN_NOTE1=!-Your account has been locked due to exceeding the account lockout threshold.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_LOCKEDLOGIN_NOTE2=!-Before you can continue, please follow the instructions on the “Forgot Password” page to reset your password.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_UNABLE_CLOSEBUTTON=!-Close-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_UNABLE_FORGOTPASSBUTTON=!-Forgot Password-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Logout&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_LOGIN_LOGOUTBUTTON=!-Logout-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="Liferay.Configuration.VitalityMemberPortal.01-General.01-LoginAndRegistration.03-ForgotPassword"&gt;.Liferay.Configuration.VitalityMemberPortal.01-General.01-LoginAndRegistration.03-ForgotPassword&lt;/a&gt; &lt;a href="Liferay.Configuration.VitalityMemberPortal.01-General.01-LoginAndRegistration.03-ForgotPassword?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Note: This is configuration setting for ALL Forgot Password related items. &lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Forgot Password - Content&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_HEADER=!-Forgot Password-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_REG_LINKNAME=!-Register-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_NOTE1=!-Forgotten your password?-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_NOTE2=!-Enter the email address you’ve chosen to use for communication with Vitality and we’ll send you instruction to reset your password.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_EMAIL_LABEL=!-Email Address-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_BACK_BUTTON=!-Back to Vitality Login-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_SEND_BUTTON=!-Send-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Forgot Password - Success Message&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_SUCCESSMSG1=!-If a Vitality Active account exists for-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_SUCCESSMSG2=!-an e-mail will be sent with further instructions on how to reset your password.-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Forgot Password - Validation Message&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_ENTERVALID=!-Enter a valid email address.-!&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: VMP_FORGOT_NOTEXIST=!-User does not exist.-!&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user login with username&lt;/td&gt;
+		&lt;td&gt;username&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="4"&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;Register&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;Not yet a Vitality Member?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;Register here&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;(Vitality Insurer Code Required)&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="insurerCodeToggle"]/i&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;Email Address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;Forgot Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td colspan="3"&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="3"&gt;Login Landing Page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{username}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="email"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{password}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="password"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="login"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td colspan="3"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;login page is displayed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Register&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Not yet a Vitality Member?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Register here&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;(Vitality Insurer Code Required)&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="insurerCodeToggle"]/i&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Email Address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Forgot Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Login Landing Page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user logins successful&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td colspan="3"&gt;user login with username Weldon_McAlbert@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user is logged in and directed to VMP homepage&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Logout&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Logout&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Logged In&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks logout button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Logout&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;Logout&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user is logged out and directed to login page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;a user login using blank email address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="3"&gt;user login with username  and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;error message displayed for invalid email address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Enter a valid email address.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Invalid email address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;a user login using incorrect password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td colspan="3"&gt;user login with username cpruehjofw@sample.com and password TestPass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;unable to login popup message is displayed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Unable to login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;We were unable to authenticate your details.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Please ensure you enter the correct login details and try again.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="invalid_credential"]/div/div/div[1]/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;OK&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Unable to Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks x button in unable to login popup&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_credential"]/div/div/div[1]/div[2]/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks ok button in unable to login popup&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_credential"]/div/div/div[3]/div/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user directed back to login page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Login Page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user login using non-member email&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td colspan="3"&gt;user login with username trgkhhcqmz@sample.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user login using invalid email address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td colspan="3"&gt;user login with username Not_Valid_Email and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks vitality insurer code information icon&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="insurerCodeToggle"]/i&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;vitality insurer code popup is displayed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Vitality Insurer Code&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Note: Before registering with Vitality, you should have received an email from your insurer with your insurer code.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Please contact your insurer if you have not received a code.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="insurerModal"]/div/div/div[1]/div[2]/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="insurerModal"]/div/div/div[3]/div/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Vitality Insurer Code&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks ok button in vitality insurer code information&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="insurerModal"]/div/div/div[3]/div/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks x button in vitality insurer code information&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="insurerModal"]/div/div/div[1]/div[2]/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;a user login locked email address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td colspan="3"&gt;user login with username Adelaide_McDietrich@mailinator.com and password TestPass123&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;unable to login popup message for locked account is displayed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Unable to login&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Your account has been locked due to exceeding the account lockout threshold.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Before you can continue, please follow the instructions on the “Forgot Password” page to reset your password.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="invalid_login"]/div/div/div[1]/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Close&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Forgot Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Unable to Login - Locked Account&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks x button in locked account popup&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_login"]/div/div/div[1]/div[2]/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks ok button in locked account popup&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_login"]/div/div/div[1]/div[2]/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks forgot password button in locked account popup&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_login"]/div/div/div[3]/div/ul/li[1]/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user directed to forgot password page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Forgot Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Forgot Password Page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;a user failed to login for the 1st time&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td colspan="3"&gt;user login with username &lt;span class="meta"&gt;undefined variable: FOR_LOGIN_M&lt;/span&gt; and password TestPass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td colspan="3"&gt;unable to login popup message is displayed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Login Failed - 1st&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_credential"]/div/div/div[3]/div/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;failed to login for the 2nd time&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="login"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td colspan="3"&gt;unable to login popup message is displayed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Login Failed - 2nd&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_credential"]/div/div/div[3]/div/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;failed to login for the 3rd time&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="login"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td colspan="3"&gt;unable to login popup message is displayed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Login Failed - 3rd&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_credential"]/div/div/div[3]/div/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;failed to login for the 4th time&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="login"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td colspan="3"&gt;unable to login popup message is displayed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Login Failed - 4th&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_credential"]/div/div/div[3]/div/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;failed to login for the 5th time&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="login"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td colspan="3"&gt;unable to login popup message is displayed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Login Failed - 5th&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="invalid_credential"]/div/div/div[3]/div/button&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user tried to failed to login for the 6th time&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="login"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user enters credential with username&lt;/td&gt;
+		&lt;td&gt;username&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{username}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="email"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{password}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="password"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="login"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td colspan="3"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;a user login using incorrect credentials&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="3"&gt;user enters credential with username iaftxgewja@sample.com and password TestPass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Incorrect Credentials Modal&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;browser test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td colspan="2" class="pass"&gt;Given a user access VMP site&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Given&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td colspan="3" class="pass"&gt;a user access VMP site&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user access VMP site&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td colspan="2"&gt;delete all cookies&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;wait seconds&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;seconds before page load timeout&lt;/td&gt;
+		&lt;td&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set browser width&lt;/td&gt;
+		&lt;td&gt;366&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set browser height&lt;/td&gt;
+		&lt;td&gt;640&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;open&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;https://www.test.vitality.sumitomolife.co.jp/en/web/vitality-member-portal&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;wait seconds&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td colspan="2" class="pass"&gt;And user clicks vitality insurer code information icon&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;And&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td colspan="3" class="pass"&gt;user clicks vitality insurer code information icon&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user clicks vitality insurer code information icon&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;click&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;xpath=//*[@id="insurerCodeToggle"]/i&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;wait&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td colspan="2" class="pass"&gt;And user resize the browser to android version&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;And&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td colspan="3" class="pass"&gt;user resize the browser to android version&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;user resize the browser to android version&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set browser width&lt;/td&gt;
+		&lt;td colspan="2"&gt;366&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set browser height&lt;/td&gt;
+		&lt;td colspan="2"&gt;640&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;wait seconds&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;Captured-screenshot&lt;/td&gt;
+	&lt;td&gt;&lt;a href="files/screenshots/Captured-screenshot_9.png"&gt;&lt;img src="files/screenshots/Captured-screenshot_9.png" title="C:\Fhoeben\FitNesseRoot\files\screenshots\Captured-screenshot_9.png" height="200"/&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;a href="Liferay.ScenarioLibrary"&gt;Liferay Scenario Libraries&lt;/a&gt; | &lt;a href="HsacExamples.SlimTests.BrowserTests"&gt;Selenium Plugin Documentation and Examples&lt;/a&gt; | &lt;a href="HsacAcceptanceTests.SlimTests.BrowserTest"&gt;Selenium Plugin Acceptance Test Examples&lt;/a&gt; | More Examples...&lt;a title="create page" href="PetClinicFitnesseSamples.SeleniumBrowserSuite?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="liferay.ScenarioLibrary"&gt;.liferay.ScenarioLibrary&lt;/a&gt; &lt;a href="liferay.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;six42.fitnesse.jdbcslim&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;define table type&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;SQLCommand&lt;/td&gt;
+		&lt;td&gt;as Table&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: BAD_REQUEST=400&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: INTERNAL_SERVER_ERROR=500&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: NOT_FOUND=404&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SUCCESS_CREATED=201&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SUCCESS_OK=200&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: PARTY_ID=UNDEFINED&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: PRODUCT_KEY=UNDEFINED&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: MEMBERSHIP_ID=UNDEFINED&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Given&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;When&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Then&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;And&lt;/td&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="3"&gt;@{scenario}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the current page url should be&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;@{url}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user can see&lt;/td&gt;
+		&lt;td&gt;item&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is visible on page&lt;/td&gt;
+		&lt;td&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user can click&lt;/td&gt;
+		&lt;td&gt;item&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;is enabled&lt;/td&gt;
+		&lt;td&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user see and can click&lt;/td&gt;
+		&lt;td&gt;item&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;user can see&lt;/td&gt;
+		&lt;td colspan="2"&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;user can click&lt;/td&gt;
+		&lt;td colspan="2"&gt;@{item}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;footer&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a page url&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td colspan="3"&gt;set browser size to maximum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td colspan="3"&gt;delete all cookies&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;seconds before page load timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;30&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td colspan="2"&gt;@{url}&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;sign in with username&lt;/td&gt;
+		&lt;td&gt;username&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="6"&gt;Sign In&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="6"&gt;Sign In&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="6"&gt;Email Address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{username}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;Email Address&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{password}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;Password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;loginScreen&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="6"&gt;enter&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="6"&gt;@{user}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;loginSuccess&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a user signs in&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td colspan="2"&gt;user &lt;span class="meta"&gt;undefined variable: TEST_USER_FIRSTNAME&lt;/span&gt; sign in with username supervisor and password Test123&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;a supervisor signs in&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td colspan="2"&gt;user ruel sign in with username &lt;a href="mailto:ruel@discovery.co.za"&gt;ruel@discovery.co.za&lt;/a&gt; and password test1&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;hover over&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;hover over&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="5"&gt;activate product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="6"&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="5"&gt;We have to simulate with precision as selenium tends to run the click too fast that prevents clicking of the side bar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="4"&gt;sideBar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;value of attribute&lt;/td&gt;
+		&lt;td&gt;class&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+		&lt;td&gt;control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="5"&gt;close product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="6"&gt;hover over product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="5"&gt;We have to simulate with precision as selenium tends to run the click too fast that prevents clicking of the side bar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="4"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="4"&gt;sideBar&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;check not&lt;/td&gt;
+		&lt;td&gt;value of attribute&lt;/td&gt;
+		&lt;td&gt;class&lt;/td&gt;
+		&lt;td&gt;on&lt;/td&gt;
+		&lt;td&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId&lt;/td&gt;
+		&lt;td&gt;control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler active open&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;all VSP sites should be visible&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="2"&gt;A user must be signed in first&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="3"&gt;activate product menu&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;seconds before timeout&lt;/td&gt;
+		&lt;td colspan="2"&gt;10&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click if available&lt;/td&gt;
+		&lt;td colspan="2"&gt;id=_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_manageSitesLink&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;loadingAnimation&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Select Site&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Vitality Group&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Vitality Service Portal - France&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;wait for visible&lt;/td&gt;
+		&lt;td colspan="2"&gt;Vitality Service Portal - Germany&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td&gt;availableSites&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user clicks Member Search and search using party id&lt;/td&gt;
+		&lt;td colspan="2"&gt;partyID&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="portlet_za_co_discovery_vitality_member_quick_search_portlet_MemberQuickSearchPortlet"]/div/div/div/a&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{partyID}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="partyID"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="portlet_za_co_discovery_vitality_member_quick_search_portlet_MemberQuickSearchPortlet"]/div/div/div/ul/li/form/div[1]/span/button/span&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;user search a member with first name&lt;/td&gt;
+		&lt;td&gt;firstName&lt;/td&gt;
+		&lt;td&gt;and surname&lt;/td&gt;
+		&lt;td&gt;Surname&lt;/td&gt;
+		&lt;td&gt;and birthdate&lt;/td&gt;
+		&lt;td&gt;birthdate&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{firstName}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="first-name"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{surname}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="sur-name"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;@{birthdate}&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td colspan="4"&gt;xpath=//*[@id="birth-date"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="6"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="6"&gt;xpath=//*[@id="first-name"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;Party details is populated&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;scroll to&lt;/td&gt;
+		&lt;td colspan="6"&gt;xpath=//*[@id="searchButton"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="6"&gt;xpath=//*[@id="searchButton"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;wait seconds&lt;/td&gt;
+		&lt;td colspan="6"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;is visible&lt;/td&gt;
+		&lt;td&gt;Member Search Result&lt;/td&gt;
+		&lt;td colspan="4"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;take screenshot&lt;/td&gt;
+		&lt;td colspan="5"&gt;Search Result by Party details&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="3"&gt;user search a member by reference	Member Number with a value 123456&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;select&lt;/td&gt;
+		&lt;td&gt;Member Number&lt;/td&gt;
+		&lt;td&gt;for&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="referenceType"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;123456&lt;/td&gt;
+		&lt;td&gt;as&lt;/td&gt;
+		&lt;td&gt;xpath=//*[@id="referenceValue"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;click&lt;/td&gt;
+		&lt;td colspan="3"&gt;xpath=//*[@id="memberSearchButton"]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;wait&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td colspan="2"&gt;seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;selenium driver setup&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;run summary&lt;/td&gt;
+	&lt;td&gt;null&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;stop driver&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SuiteTearDown</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='six42.fitnesse.jdbcslim'}</instruction>
+        <slimResult>pass(six42.fitnesse.jdbcslim)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>six42.fitnesse.jdbcslim</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_21_0', instruction='make', instanceName='scriptTableActor', className='SeleniumDriverSetup', args=[]}</instruction>
+        <slimResult>pass(selenium driver setup)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_21_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>selenium driver setup</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_21_1', instruction='call', instanceName='scriptTableActor', methodName='runSummary', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_21_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_21_2', instruction='call', instanceName='scriptTableActor', methodName='stopDriver', args=[]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_21_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_121\bin\java" -cp C:\Fhoeben\fitnesse-standalone.jar;fixtures;C:\Fhoeben\fixtures\accessors-smart-1.2.jar;C:\Fhoeben\fixtures\animal-sniffer-annotations-1.14.jar;C:\Fhoeben\fixtures\asm-5.0.4.jar;C:\Fhoeben\fixtures\cglib-nodep-3.2.5.jar;C:\Fhoeben\fixtures\commons-cli-1.2.jar;C:\Fhoeben\fixtures\commons-codec-1.9.jar;C:\Fhoeben\fixtures\commons-exec-1.3.jar;C:\Fhoeben\fixtures\commons-io-2.5.jar;C:\Fhoeben\fixtures\commons-lang3-3.5.jar;C:\Fhoeben\fixtures\commons-logging-1.2.jar;C:\Fhoeben\fixtures\commons-net-3.6.jar;C:\Fhoeben\fixtures\cssparser-0.9.23.jar;C:\Fhoeben\fixtures\diff-1.1.11.jar;C:\Fhoeben\fixtures\error_prone_annotations-2.0.18.jar;C:\Fhoeben\fixtures\freemarker-2.3.23.jar;C:\Fhoeben\fixtures\galen-core-2.3.4.jar;C:\Fhoeben\fixtures\galen-rainbow4j-2.3.4.jar;C:\Fhoeben\fixtures\gson-2.8.0.jar;C:\Fhoeben\fixtures\guava-23.0.jar;C:\Fhoeben\fixtures\hamcrest-core-1.3.jar;C:\Fhoeben\fixtures\htmlunit-2.27.jar;C:\Fhoeben\fixtures\htmlunit-core-js-2.27.jar;C:\Fhoeben\fixtures\httpclient-4.5.3.jar;C:\Fhoeben\fixtures\httpcore-4.4.6.jar;C:\Fhoeben\fixtures\httpmime-4.5.3.jar;C:\Fhoeben\fixtures\j2objc-annotations-1.1.jar;C:\Fhoeben\fixtures\jackson-annotations-2.4.0.jar;C:\Fhoeben\fixtures\jackson-core-2.4.2.jar;C:\Fhoeben\fixtures\jackson-databind-2.4.2.jar;C:\Fhoeben\fixtures\javax.servlet-api-3.1.0.jar;C:\Fhoeben\fixtures\jcl-over-slf4j-1.7.25.jar;C:\Fhoeben\fixtures\jetty-client-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jetty-http-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jetty-io-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jetty-util-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jna-4.1.0.jar;C:\Fhoeben\fixtures\jna-platform-4.1.0.jar;C:\Fhoeben\fixtures\json-path-2.4.0.jar;C:\Fhoeben\fixtures\json-smart-2.3.jar;C:\Fhoeben\fixtures\jsr305-1.3.9.jar;C:\Fhoeben\fixtures\neko-htmlunit-2.27.jar;C:\Fhoeben\fixtures\phantomjsdriver-1.4.3.jar;C:\Fhoeben\fixtures\rhino-1.7R5.jar;C:\Fhoeben\fixtures\sac-1.3.jar;C:\Fhoeben\fixtures\selenium-api-3.5.1.jar;C:\Fhoeben\fixtures\selenium-chrome-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-edge-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-firefox-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-ie-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-java-3.5.1.jar;C:\Fhoeben\fixtures\selenium-opera-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-remote-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-safari-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-support-3.5.1.jar;C:\Fhoeben\fixtures\serializer-2.7.2.jar;C:\Fhoeben\fixtures\slf4j-api-1.7.25.jar;C:\Fhoeben\fixtures\slf4j-simple-1.7.25.jar;C:\Fhoeben\fixtures\websocket-api-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\websocket-client-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\websocket-common-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\xalan-2.7.2.jar;C:\Fhoeben\fixtures\xercesImpl-2.11.0.jar;C:\Fhoeben\fixtures\xml-apis-1.4.01.jar;plugins/jdbcslim/jdbcslim.jar;plugins/jdbcslim/ojdbc6.jar;plugins/jdbcslim/commons-codec-1.10.jar;plugins/jdbcslim/dbfit-core-3.2.0.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 45277
+
+Only local connections are allowed.
+
+Jan 30, 2018 12:57:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>3</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>25260</totalRunTimeInMillis>
+</testResults>
+

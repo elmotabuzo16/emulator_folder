@@ -1,0 +1,520 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+      "status" : "info",
+      "time" : 1518088805827,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "key-measurement-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+          "lineNumber" : 46
+        },
+        "objects" : [ {
+          "name" : "key-measurement-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 48
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "key-measurement-container", "dashboard-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 49
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 50
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 51
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 52
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "key-measurement-container" ]
+          } ]
+        }, {
+          "name" : "key-measurement-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 55
+            },
+            "name" : "css padding-top is \"0px\"",
+            "highlight" : [ "key-measurement-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 56
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "key-measurement-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 57
+            },
+            "name" : "css padding-right is \"5px\"",
+            "highlight" : [ "key-measurement-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 58
+            },
+            "name" : "css padding-left is \"5px\"",
+            "highlight" : [ "key-measurement-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 59
+            },
+            "name" : "css font-size is \"18px\"",
+            "highlight" : [ "key-measurement-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 60
+            },
+            "name" : "css float is \"left\"",
+            "highlight" : [ "key-measurement-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 61
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "key-measurement-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 62
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "highlight" : [ "key-measurement-header", "dashboard-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 63
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "key-measurement-header" ]
+          } ]
+        }, {
+          "name" : "measurement-container-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "highlight" : [ "measurement-container-1", "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "measurement-container-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "measurement-container-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "measurement-container-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "measurement-container-1" ]
+          } ]
+        }, {
+          "name" : "measurement-container-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "highlight" : [ "measurement-container-2", "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "measurement-container-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "measurement-container-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "measurement-container-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "measurement-container-2" ]
+          } ]
+        }, {
+          "name" : "measurement-container-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "highlight" : [ "measurement-container-3", "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "measurement-container-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "measurement-container-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "measurement-container-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "measurement-container-3" ]
+          } ]
+        }, {
+          "name" : "measurement-container-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "highlight" : [ "measurement-container-4", "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "measurement-container-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "measurement-container-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "measurement-container-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "measurement-container-4" ]
+          } ]
+        }, {
+          "name" : "measurement-container-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "highlight" : [ "measurement-container-5", "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "measurement-container-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "measurement-container-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "measurement-container-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "measurement-container-5" ]
+          } ]
+        }, {
+          "name" : "measurement-container-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "highlight" : [ "measurement-container-6", "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "measurement-container-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "measurement-container-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "measurement-container-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "measurement-container-6" ]
+          } ]
+        }, {
+          "name" : "measurement-container-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "highlight" : [ "measurement-container-7", "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "measurement-container-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "measurement-container-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "measurement-container-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "measurement-container-7" ]
+          } ]
+        }, {
+          "name" : "measurement-container-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 68
+            },
+            "name" : "centered horizontally inside key-measurement-container",
+            "highlight" : [ "measurement-container-8", "key-measurement-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "measurement-container-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "measurement-container-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "measurement-container-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\YourKeyMeasurement.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "measurement-container-8" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "dashboard-screen" : {
+          "area" : [ 0, 218, 339, 4893 ]
+        },
+        "measurement-container-2" : {
+          "area" : [ 46, 3328, 247, 189 ]
+        },
+        "measurement-container-1" : {
+          "area" : [ 46, 3139, 247, 189 ]
+        },
+        "measurement-container-4" : {
+          "area" : [ 46, 3706, 247, 189 ]
+        },
+        "measurement-container-3" : {
+          "area" : [ 46, 3517, 247, 189 ]
+        },
+        "key-measurement-header" : {
+          "area" : [ 31, 3082, 214, 36 ]
+        },
+        "key-measurement-container" : {
+          "area" : [ 15, 3066, 309, 1601 ]
+        },
+        "measurement-container-6" : {
+          "area" : [ 46, 4084, 247, 189 ]
+        },
+        "measurement-container-5" : {
+          "area" : [ 46, 3895, 247, 189 ]
+        },
+        "measurement-container-8" : {
+          "area" : [ 46, 4462, 247, 189 ]
+        },
+        "measurement-container-7" : {
+          "area" : [ 46, 4273, 247, 189 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

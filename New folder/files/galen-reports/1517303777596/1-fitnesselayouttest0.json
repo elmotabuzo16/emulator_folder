@@ -1,0 +1,646 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+      "status" : "error",
+      "time" : 1517303781769,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Login-link",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 14
+        },
+        "objects" : [ {
+          "name" : "Login-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 16
+            },
+            "name" : "above Vitality-logo 0 to 2 px",
+            "highlight" : [ "Login-link", "Vitality-logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 17
+            },
+            "name" : "inside ResetPwd-screen 10 to 15 px top, 30 to 35 px right",
+            "highlight" : [ "Login-link", "ResetPwd-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 18
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "Login-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 19
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "Login-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 20
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "Login-link" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Vitality-logo",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 22
+        },
+        "objects" : [ {
+          "name" : "Vitality-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 24
+            },
+            "name" : "above ResetPwd-div 23 to 27 px",
+            "highlight" : [ "Vitality-logo", "ResetPwd-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 25
+            },
+            "name" : "inside ResetPwd-screen 30 to 35 px top, 30 to 35 px left",
+            "highlight" : [ "Vitality-logo", "ResetPwd-screen" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 26
+            },
+            "name" : "image file Vitality_Logo.PNG, error 5%",
+            "errors" : [ "Element does not look like \"C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\Vitality_Logo.PNG\". There are 31.08% mismatching pixels but max allowed is 5%" ],
+            "highlight" : [ "Vitality-logo" ],
+            "imageComparison" : {
+              "actualImage" : "layout-2-Vitality-logo-actual.png",
+              "expectedImage" : "layout-3-Vitality-logo-expected.png",
+              "comparisonMapImage" : "layout-4-Vitality-logo-map.png"
+            }
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 27
+            },
+            "name" : "width 275 px",
+            "highlight" : [ "Vitality-logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 28
+            },
+            "name" : "height 85 px",
+            "highlight" : [ "Vitality-logo" ]
+          } ]
+        } ]
+      }, {
+        "name" : "ResetPwd-div",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 30
+        },
+        "objects" : [ {
+          "name" : "ResetPwd-div",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 32
+            },
+            "name" : "above Content-div ~0 px",
+            "highlight" : [ "ResetPwd-div", "Content-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 33
+            },
+            "name" : "centered horizontally inside ResetPwd-screen",
+            "highlight" : [ "ResetPwd-div", "ResetPwd-screen" ]
+          } ]
+        } ]
+      }, {
+        "name" : "ResetPwd-title",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 35
+        },
+        "objects" : [ {
+          "name" : "ResetPwd-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 37
+            },
+            "name" : "inside ResetPwd-div 15 to 20 px top, 20 to 25 px left",
+            "highlight" : [ "ResetPwd-title", "ResetPwd-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 38
+            },
+            "name" : "css font-size is \"18px\"",
+            "highlight" : [ "ResetPwd-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 39
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "ResetPwd-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "ResetPwd-title" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Content-div",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 42
+        },
+        "objects" : [ {
+          "name" : "Content-div",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 44
+            },
+            "name" : "below ResetPwd-div ~0 px",
+            "highlight" : [ "Content-div", "ResetPwd-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 45
+            },
+            "name" : "centered horizontally inside ResetPwd-screen",
+            "highlight" : [ "Content-div", "ResetPwd-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 46
+            },
+            "name" : "inside ResetPwd-screen 90 to 95 px bottom",
+            "highlight" : [ "Content-div", "ResetPwd-screen" ]
+          } ]
+        } ]
+      }, {
+        "name" : "NewPwd-label",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 48
+        },
+        "objects" : [ {
+          "name" : "NewPwd-label",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 50
+            },
+            "name" : "inside Content-div 20 to 25 px top, 5 to 10 px left",
+            "highlight" : [ "NewPwd-label", "Content-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 51
+            },
+            "name" : "above NewPwd-field 2 to 6 px",
+            "highlight" : [ "NewPwd-label", "NewPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 52
+            },
+            "name" : "width 130 px",
+            "highlight" : [ "NewPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 53
+            },
+            "name" : "height 17 px",
+            "highlight" : [ "NewPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 54
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "NewPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 55
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "NewPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 56
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "NewPwd-label" ]
+          } ]
+        } ]
+      }, {
+        "name" : "NewPwd-field",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 58
+        },
+        "objects" : [ {
+          "name" : "NewPwd-field",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 60
+            },
+            "name" : "centered horizontally inside Content-div",
+            "highlight" : [ "NewPwd-field", "Content-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 61
+            },
+            "name" : "above ConfirmPwd-label 25 to 30 px",
+            "highlight" : [ "NewPwd-field", "ConfirmPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 62
+            },
+            "name" : "width 229 px",
+            "highlight" : [ "NewPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 63
+            },
+            "name" : "height 34 px",
+            "highlight" : [ "NewPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 64
+            },
+            "name" : "css padding-top is \"6px\"",
+            "highlight" : [ "NewPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 65
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "highlight" : [ "NewPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 66
+            },
+            "name" : "css padding-right is \"12px\"",
+            "highlight" : [ "NewPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 67
+            },
+            "name" : "css padding-left is \"12px\"",
+            "highlight" : [ "NewPwd-field" ]
+          } ]
+        } ]
+      }, {
+        "name" : "ConfirmPwd-label",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 69
+        },
+        "objects" : [ {
+          "name" : "ConfirmPwd-label",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 71
+            },
+            "name" : "above ConfirmPwd-field 2 to 6 px",
+            "highlight" : [ "ConfirmPwd-label", "ConfirmPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 72
+            },
+            "name" : "width 130 px",
+            "highlight" : [ "ConfirmPwd-label" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 73
+            },
+            "name" : "height 17 px",
+            "errors" : [ "\"ConfirmPwd-label\" height is 34px instead of 17px" ],
+            "highlight" : [ "ConfirmPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 74
+            },
+            "name" : "css font-size is \"13px\"",
+            "highlight" : [ "ConfirmPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 75
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "ConfirmPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 76
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "ConfirmPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 77
+            },
+            "name" : "css padding-top is \"0px\"",
+            "highlight" : [ "ConfirmPwd-label" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 78
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "highlight" : [ "ConfirmPwd-label" ]
+          } ]
+        } ]
+      }, {
+        "name" : "ConfirmPwd-field",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 81
+        },
+        "objects" : [ {
+          "name" : "ConfirmPwd-field",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 83
+            },
+            "name" : "centered horizontally inside Content-div",
+            "highlight" : [ "ConfirmPwd-field", "Content-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 84
+            },
+            "name" : "above Reset-button 30 to 35 px",
+            "highlight" : [ "ConfirmPwd-field", "Reset-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 85
+            },
+            "name" : "width 229 px",
+            "highlight" : [ "ConfirmPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 86
+            },
+            "name" : "height 34 px",
+            "highlight" : [ "ConfirmPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-top is \"6px\"",
+            "highlight" : [ "ConfirmPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css padding-bottom is \"6px\"",
+            "highlight" : [ "ConfirmPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 89
+            },
+            "name" : "css padding-right is \"12px\"",
+            "highlight" : [ "ConfirmPwd-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 90
+            },
+            "name" : "css padding-left is \"12px\"",
+            "highlight" : [ "ConfirmPwd-field" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Reset-button",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+          "lineNumber" : 92
+        },
+        "objects" : [ {
+          "name" : "Reset-button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 94
+            },
+            "name" : "centered horizontally inside Content-div",
+            "highlight" : [ "Reset-button", "Content-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 95
+            },
+            "name" : "inside Content-div 40 to 45 px bottom",
+            "highlight" : [ "Reset-button", "Content-div" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "Reset-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-family matches \".*Open Sans Regular.*\"",
+            "highlight" : [ "Reset-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "Reset-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 99
+            },
+            "name" : "width 229 px",
+            "highlight" : [ "Reset-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 100
+            },
+            "name" : "height 41 px",
+            "highlight" : [ "Reset-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css padding-top is \"10px\"",
+            "highlight" : [ "Reset-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 102
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "highlight" : [ "Reset-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 103
+            },
+            "name" : "css padding-right is \"30px\"",
+            "highlight" : [ "Reset-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\LoginAndRegistration\\ResetPassword.txt",
+              "lineNumber" : 104
+            },
+            "name" : "css padding-left is \"30px\"",
+            "highlight" : [ "Reset-button" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "NewPwd-label" : {
+          "area" : [ 37, 222, 130, 17 ]
+        },
+        "Reset-button" : {
+          "area" : [ 52, 411, 229, 41 ]
+        },
+        "ResetPwd-div" : {
+          "area" : [ 31, 148, 271, 51 ]
+        },
+        "ConfirmPwd-label" : {
+          "area" : [ 37, 306, 130, 34 ]
+        },
+        "Content-div" : {
+          "area" : [ 31, 198, 271, 296 ]
+        },
+        "ResetPwd-screen" : {
+          "area" : [ 0, 6, 333, 579 ]
+        },
+        "ConfirmPwd-field" : {
+          "area" : [ 52, 344, 229, 34 ]
+        },
+        "Login-link" : {
+          "area" : [ 266, 19, 36, 19 ]
+        },
+        "Vitality-logo" : {
+          "area" : [ 31, 38, 275, 85 ]
+        },
+        "ResetPwd-title" : {
+          "area" : [ 52, 164, 249, 19 ]
+        },
+        "NewPwd-field" : {
+          "area" : [ 52, 243, 229, 34 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

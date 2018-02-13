@@ -1,0 +1,56 @@
+@objects
+	complete-later-button			//*[@id="vhrMainContent"]/div/div[1]/div[5]/div/button[1]
+	start-assessment-button			//*[@id="vhrMainContent"]/div/div[1]/div[5]/div/button[2]
+	disclaimer			//*[@id="vhrMainContent"]/div/div[1]/div[6]/div/div/div/div[1]
+	VHR-landing-page-logo			//*[@id="vhrMainContent"]/div/div[2]/div/div/a/img
+	
+= complete-later-button =
+	complete-later-button:
+		centered horizontally inside screen
+		above start-assessment-button 10px
+		width 279px
+		height 44px
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(43, 202, 109, 1)"
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+		
+= start-assessment-button =
+	start-assessment-button:
+		centered horizontally inside screen
+		above disclaimer 30px
+		width 279px
+		height 44px
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(255, 255, 255, 1)"
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+
+= disclaimer =
+	disclaimer:
+		centered horizontally inside screen
+		above VHR-landing-page-logo 20px
+		width 279px
+		height 47px
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(197, 0, 24, 1)"
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "42px"
+		css padding-left is "10px"
+		
+= VHR-landing-page-logo =
+	VHR-landing-page-logo:
+		centered horizontally inside screen
+		width 279px
+		height 116px
+		
+	
+	

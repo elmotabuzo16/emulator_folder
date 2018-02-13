@@ -1,0 +1,91 @@
+@objects
+	dashboard-screen				//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]
+	key-measurement-container		//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]/div[2]/div[2]/div/div[2]/div
+	key-measurement-header			//*[@id="portlet_za_co_vitality_portal_members_vmp_dashboard_VmpDashboardPortlet_INSTANCE_D2nXVJbf0moU"]/div/div/div/div/div[1]/div[2]/div[2]/div/div[2]/div/div[1]/h1
+	measurement-container-5			//*[@id="your_key_measures"]/a/div[5]/div
+	measurement-container-6			//*[@id="your_key_measures"]/a/div[6]/div
+	measurement-container-7			//*[@id="your_key_measures"]/a/div[7]/div
+	measurement-container-8			//*[@id="your_key_measures"]/a/div[8]/div
+	measurement-img-container-5		//*[@id="your_key_measures"]/a/div[5]/div/div[2]/div[1]
+	measurement-img-container-6		//*[@id="your_key_measures"]/a/div[6]/div/div[2]
+	measurement-img-container-7		//*[@id="your_key_measures"]/a/div[7]/div/div[2]
+	measurement-img-container-8		//*[@id="your_key_measures"]/a/div[8]/div/div[2]
+	measurement-img-5				//*[@id="ldl-cholesterol-icon"]
+	measurement-img-6				//*[@id="ldl-cholesterol-icon"]
+	measurement-img-7				//*[@id="hba1c-icon"]
+	measurement-img-8				//*[@id="urine-protein-icon"]
+	health-attr-name-5				//*[@id="your_key_measures"]/a/div[5]/div/div[2]/div[2]
+	health-attr-name-6				//*[@id="your_key_measures"]/a/div[6]/div/div[3]
+	health-attr-name-7				//*[@id="your_key_measures"]/a/div[7]/div/div[3]
+	health-attr-name-8				//*[@id="your_key_measures"]/a/div[8]/div/div[3]
+	health-attr-value-5				//*[@id="your_key_measures"]/a/div[5]/div/div[2]/div[3]
+	health-attr-value-6				//*[@id="your_key_measures"]/a/div[6]/div/div[4]
+	health-attr-value-7				//*[@id="your_key_measures"]/a/div[7]/div/div[4]
+	health-attr-value-8				//*[@id="your_key_measures"]/a/div[8]/div/div[4]
+	
+= key-measurement-container =
+	key-measurement-container:
+		centered horizontally inside dashboard-screen
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-left is "15px"
+		css padding-right is "15px"
+		
+	key-measurement-header:
+		css padding-top is "0px"
+		css padding-bottom is "15px"
+		css padding-right is "5px"
+		css padding-left is "5px"
+		css font-size is "18px"
+		css float is "left"
+		css color is "rgba(197, 0, 24, 1)"
+		inside dashboard-screen 31px left
+		css font-family matches ".*Open Sans.*"
+	
+= key-measurement-container =
+		@for [5-8] as index
+			measurement-container-${index}:
+				centered horizontally inside key-measurement-container
+				css padding-top is "15px"
+				css padding-bottom is "15px"
+				css padding-left is "15px"
+				css padding-right is "15px"
+				
+			measurement-img-container-${index}:
+				centered horizontally inside measurement-container-${index}
+				css padding-top is "0px"
+				css padding-bottom is "0px"
+				css padding-left is "5px"
+				css padding-right is "5px"
+				css margin-bottom is "20px"
+			
+			measurement-img-${index}:
+				centered horizontally inside measurement-img-container-${index}
+				css width is "70px"
+				css height is "66px"
+				css vertical-align is "middle"
+				css padding-top is "0px"
+				css padding-bottom is "0px"
+				css padding-left is "0px"
+				css padding-right is "0px"
+				
+			health-attr-name-${index}:
+				centered horizontally inside measurement-container-${index}
+				css padding-top is "0px"
+				css padding-bottom is "0px"
+				css padding-left is "0px"
+				css padding-right is "0px"
+				css color is "rgba(102, 102, 102, 1)"
+				css font-family matches ".*Open Sans.*"
+				css font-size is "15px"
+				css text-align is "center"
+				
+			health-attr-value-${index}:
+				centered horizontally inside measurement-container-${index}
+				css padding-top is "0px"
+				css padding-bottom is "0px"
+				css padding-left is "0px"
+				css padding-right is "0px"
+				css font-family matches ".*Open Sans.*"
+				css font-size is "25px"
+				css text-align is "center"

@@ -1,0 +1,152 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+      "status" : "info",
+      "time" : 1518079803361,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "vitality-video-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+          "lineNumber" : 6
+        },
+        "objects" : [ {
+          "name" : "vitality-video-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 8
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "highlight" : [ "vitality-video-container", "dashboard-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 9
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "vitality-video-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 10
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "vitality-video-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 11
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "vitality-video-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 12
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "vitality-video-container" ]
+          } ]
+        }, {
+          "name" : "vitality-video-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 15
+            },
+            "name" : "css padding-top is \"0px\"",
+            "highlight" : [ "vitality-video-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 16
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "vitality-video-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 17
+            },
+            "name" : "css padding-right is \"5px\"",
+            "highlight" : [ "vitality-video-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 18
+            },
+            "name" : "css padding-left is \"5px\"",
+            "highlight" : [ "vitality-video-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 19
+            },
+            "name" : "css font-size is \"18px\"",
+            "highlight" : [ "vitality-video-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 20
+            },
+            "name" : "css float is \"left\"",
+            "highlight" : [ "vitality-video-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 21
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "vitality-video-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 22
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "highlight" : [ "vitality-video-header", "dashboard-screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\VitalityVideoWidget.txt",
+              "lineNumber" : 23
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "vitality-video-header" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "dashboard-screen" : {
+          "area" : [ 0, 218, 339, 4893 ]
+        },
+        "vitality-video-container" : {
+          "area" : [ 15, 2639, 309, 89 ]
+        },
+        "vitality-video-header" : {
+          "area" : [ 31, 2655, 118, 36 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

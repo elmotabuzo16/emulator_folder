@@ -1,0 +1,483 @@
+{
+  "testId" : "11-fitnesselayouttest10",
+  "name" : "FitNesseLayoutTest10",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+      "status" : "error",
+      "time" : 1518013064793,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Thyroid-popup-header",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+          "lineNumber" : 10
+        },
+        "objects" : [ {
+          "name" : "Thyroid-popup-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 12
+            },
+            "name" : "centered horizontally inside viewport",
+            "errors" : [ "\"Thyroid-popup-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 13
+            },
+            "name" : "above Thyroid-popup-body 0px",
+            "errors" : [ "\"Thyroid-popup-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 14
+            },
+            "name" : "width 338px",
+            "errors" : [ "\"Thyroid-popup-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 15
+            },
+            "name" : "height 56px",
+            "errors" : [ "\"Thyroid-popup-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 16
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 17
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 18
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 19
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-header\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "Thyroid-popup-title",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+          "lineNumber" : 21
+        },
+        "objects" : [ {
+          "name" : "Thyroid-popup-title",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 23
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"Thyroid-popup-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 24
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"Thyroid-popup-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 25
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"Thyroid-popup-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 26
+            },
+            "name" : "inside Thyroid-popup-header 15px top, 15px bottom, 15px right, 15px left",
+            "errors" : [ "\"Thyroid-popup-title\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "Thyroid-popup-xbutton",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+          "lineNumber" : 28
+        },
+        "objects" : [ {
+          "name" : "Thyroid-popup-xbutton",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 30
+            },
+            "name" : "aligned horizontally top Thyroid-popup-title 2px",
+            "errors" : [ "\"Thyroid-popup-xbutton\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally bottom Thyroid-popup-title",
+            "errors" : [ "\"Thyroid-popup-xbutton\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 32
+            },
+            "name" : "inside Thyroid-popup-header 12px top, 16px right",
+            "errors" : [ "\"Thyroid-popup-xbutton\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "Thyroid-popup-body",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+          "lineNumber" : 34
+        },
+        "objects" : [ {
+          "name" : "Thyroid-popup-body",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 36
+            },
+            "name" : "centered horizontally inside viewport",
+            "errors" : [ "\"Thyroid-popup-body\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 37
+            },
+            "name" : "above Thyroid-popup-footer 0px",
+            "errors" : [ "\"Thyroid-popup-body\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 38
+            },
+            "name" : "width 338px",
+            "errors" : [ "\"Thyroid-popup-body\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 39
+            },
+            "name" : "height 109px",
+            "errors" : [ "\"Thyroid-popup-body\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 40
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-body\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-body\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 42
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-body\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-body\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "Thyroid-popup-content",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+          "lineNumber" : 45
+        },
+        "objects" : [ {
+          "name" : "Thyroid-popup-content",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 47
+            },
+            "name" : "centered horizontally inside Thyroid-popup-body",
+            "errors" : [ "\"Thyroid-popup-content\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 48
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"Thyroid-popup-content\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 49
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"Thyroid-popup-content\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 50
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"Thyroid-popup-content\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "Thyroid-popup-footer",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+          "lineNumber" : 52
+        },
+        "objects" : [ {
+          "name" : "Thyroid-popup-footer",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 54
+            },
+            "name" : "centered horizontally inside viewport",
+            "errors" : [ "\"Thyroid-popup-footer\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 55
+            },
+            "name" : "width 338px",
+            "errors" : [ "\"Thyroid-popup-footer\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 56
+            },
+            "name" : "height 80px",
+            "errors" : [ "\"Thyroid-popup-footer\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 57
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-footer\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 58
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-footer\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 59
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-footer\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 60
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"Thyroid-popup-footer\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "Thyroid-popup-button",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+          "lineNumber" : 62
+        },
+        "objects" : [ {
+          "name" : "Thyroid-popup-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 64
+            },
+            "name" : "centered horizontally inside Thyroid-popup-footer",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 65
+            },
+            "name" : "width 308px",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 66
+            },
+            "name" : "height 41px",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 67
+            },
+            "name" : "css padding-top is \"10px\"",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 68
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-right is \"30px\"",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-left is \"30px\"",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRThyroidModal.txt",
+              "lineNumber" : 73
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"Thyroid-popup-button\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-11-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

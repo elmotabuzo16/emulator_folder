@@ -1,0 +1,4267 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+      "status" : "error",
+      "time" : 1518010109851,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "dashboard-screen",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+          "lineNumber" : 82
+        },
+        "objects" : [ {
+          "name" : "dashboard-container-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-5\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-6\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-7\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-8\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-9",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-9\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-container-10",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-10\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 86
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"dashboard-container-10\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 87
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"dashboard-container-10\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 88
+            },
+            "name" : "css position is \"relative\"",
+            "errors" : [ "\"dashboard-container-10\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 100
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 100
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 100
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 100
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"dashboard-header-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-5",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 100
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"dashboard-header-5\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-5\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-6",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 100
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"dashboard-header-6\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-6\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-7",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 100
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"dashboard-header-7\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-7\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 100
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"dashboard-header-8\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-8\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-9",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 93
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"dashboard-header-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 94
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"dashboard-header-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 95
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"dashboard-header-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 96
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"dashboard-header-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 97
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"dashboard-header-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 98
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"dashboard-header-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 99
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"dashboard-header-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 100
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"dashboard-header-9\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 101
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"dashboard-header-9\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "vitality-age-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+          "lineNumber" : 103
+        },
+        "objects" : [ {
+          "name" : "vitality-age-container",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 105
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"vitality-age-container\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 108
+            },
+            "name" : "inside vitality-age-container 16px left",
+            "errors" : [ "\"dashboard-header-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "vitality-age-logo",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 111
+            },
+            "name" : "centered horizontally inside vitality-age-container",
+            "errors" : [ "\"vitality-age-logo\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 112
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"vitality-age-logo\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 113
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"vitality-age-logo\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 114
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"vitality-age-logo\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "vitality-age-label",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 117
+            },
+            "name" : "centered horizontally inside vitality-age-container",
+            "errors" : [ "\"vitality-age-label\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 118
+            },
+            "name" : "css font-size is \"28px\"",
+            "errors" : [ "\"vitality-age-label\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 119
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"vitality-age-label\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 120
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"vitality-age-label\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 121
+            },
+            "name" : "css text-align is \"center\"",
+            "errors" : [ "\"vitality-age-label\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "vitality-age-label1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 124
+            },
+            "name" : "centered horizontally inside vitality-age-container",
+            "errors" : [ "\"vitality-age-label1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 125
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"vitality-age-label1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 126
+            },
+            "name" : "css font-size is \"110px\"",
+            "errors" : [ "\"vitality-age-label1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 127
+            },
+            "name" : "css color is \"rgba(23, 169, 214, 1)\"",
+            "errors" : [ "\"vitality-age-label1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "vitality-age-icon",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 130
+            },
+            "name" : "inside vitality-age-container 16px left",
+            "errors" : [ "\"vitality-age-icon\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "vitality-age-message",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 133
+            },
+            "name" : "right-of vitality-age-icon 8px",
+            "errors" : [ "\"vitality-age-message\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 134
+            },
+            "name" : "css text-align is \"left\"",
+            "errors" : [ "\"vitality-age-message\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 135
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"vitality-age-message\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 136
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"vitality-age-message\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 137
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"vitality-age-message\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "your-points-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+          "lineNumber" : 139
+        },
+        "objects" : [ {
+          "name" : "your-points-container",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 141
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"your-points-container\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 144
+            },
+            "name" : "inside your-points-container 16px left",
+            "errors" : [ "\"dashboard-header-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "status-icon",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 147
+            },
+            "name" : "left-of status-indicator 11px",
+            "errors" : [ "\"status-icon\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "status-indicator",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 150
+            },
+            "name" : "right-of status-icon 11px",
+            "errors" : [ "\"status-indicator\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 151
+            },
+            "name" : "css color is \"rgba(0, 0, 0, 1)\"",
+            "errors" : [ "\"status-indicator\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 152
+            },
+            "name" : "css margin is \"0px\"",
+            "errors" : [ "\"status-indicator\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 153
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"status-indicator\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 154
+            },
+            "name" : "css font-size is \"24px\"",
+            "errors" : [ "\"status-indicator\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "status-content-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 157
+            },
+            "name" : "right-of status-icon 11px",
+            "errors" : [ "\"status-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 158
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"status-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 159
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"status-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 160
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"status-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "status-content-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 163
+            },
+            "name" : "right-of status-icon 11px",
+            "errors" : [ "\"status-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 164
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"status-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 165
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"status-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 166
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"status-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "status-mini-icon",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 169
+            },
+            "name" : "inside your-points-container 16px left",
+            "errors" : [ "\"status-mini-icon\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "status-message",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 172
+            },
+            "name" : "right-of status-mini-icon 0px",
+            "errors" : [ "\"status-message\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 173
+            },
+            "name" : "css text-align is \"start\"",
+            "errors" : [ "\"status-message\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 174
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"status-message\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 175
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"status-message\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 176
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"status-message\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "recent-points-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+          "lineNumber" : 178
+        },
+        "objects" : [ {
+          "name" : "recent-points-container",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 180
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"recent-points-container\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "dashboard-header-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 183
+            },
+            "name" : "inside recent-points-container 16px left",
+            "errors" : [ "\"dashboard-header-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "cell-icon-container-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 188
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"cell-icon-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 189
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"cell-icon-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 190
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"cell-icon-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 191
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"cell-icon-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 192
+            },
+            "name" : "inside recent-points-container 16px left",
+            "errors" : [ "\"cell-icon-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "recent-points-image-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 195
+            },
+            "name" : "css height is \"40px\"",
+            "errors" : [ "\"recent-points-image-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 196
+            },
+            "name" : "css width is \"40px\"",
+            "errors" : [ "\"recent-points-image-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 197
+            },
+            "name" : "inside recent-points-container 21px left",
+            "errors" : [ "\"recent-points-image-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-event-container-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 200
+            },
+            "name" : "right-of recent-points-image-1 5px",
+            "errors" : [ "\"points-event-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 201
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"points-event-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 202
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"points-event-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 203
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"points-event-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 204
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"points-event-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-event-content-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 207
+            },
+            "name" : "right-of recent-points-image-1 10px",
+            "errors" : [ "\"points-event-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 208
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"points-event-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 209
+            },
+            "name" : "css text-decoration is \"none solid rgb(197, 0, 24)\"",
+            "errors" : [ "\"points-event-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 210
+            },
+            "name" : "css background-color is \"rgba(0, 0, 0, 0)\"",
+            "errors" : [ "\"points-event-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 211
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"points-event-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 212
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"points-event-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-earned-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 215
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"points-earned-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 216
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"points-earned-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 217
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"points-earned-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 218
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"points-earned-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 219
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"points-earned-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 220
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"points-earned-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 221
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"points-earned-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 222
+            },
+            "name" : "right-of recent-points-image-1 117px",
+            "errors" : [ "\"points-earned-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-date-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 225
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"points-date-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 226
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"points-date-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 227
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"points-date-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 228
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"points-date-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 229
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"points-date-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 230
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"points-date-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 231
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"points-date-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 232
+            },
+            "name" : "right-of recent-points-image-1 162px",
+            "errors" : [ "\"points-date-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "cell-icon-container-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 188
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"cell-icon-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 189
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"cell-icon-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 190
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"cell-icon-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 191
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"cell-icon-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 192
+            },
+            "name" : "inside recent-points-container 16px left",
+            "errors" : [ "\"cell-icon-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "recent-points-image-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 195
+            },
+            "name" : "css height is \"40px\"",
+            "errors" : [ "\"recent-points-image-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 196
+            },
+            "name" : "css width is \"40px\"",
+            "errors" : [ "\"recent-points-image-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 197
+            },
+            "name" : "inside recent-points-container 21px left",
+            "errors" : [ "\"recent-points-image-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-event-container-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 200
+            },
+            "name" : "right-of recent-points-image-2 5px",
+            "errors" : [ "\"points-event-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 201
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"points-event-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 202
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"points-event-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 203
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"points-event-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 204
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"points-event-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-event-content-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 207
+            },
+            "name" : "right-of recent-points-image-2 10px",
+            "errors" : [ "\"points-event-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 208
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"points-event-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 209
+            },
+            "name" : "css text-decoration is \"none solid rgb(197, 0, 24)\"",
+            "errors" : [ "\"points-event-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 210
+            },
+            "name" : "css background-color is \"rgba(0, 0, 0, 0)\"",
+            "errors" : [ "\"points-event-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 211
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"points-event-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 212
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"points-event-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-earned-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 215
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"points-earned-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 216
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"points-earned-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 217
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"points-earned-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 218
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"points-earned-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 219
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"points-earned-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 220
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"points-earned-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 221
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"points-earned-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 222
+            },
+            "name" : "right-of recent-points-image-2 117px",
+            "errors" : [ "\"points-earned-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-date-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 225
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"points-date-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 226
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"points-date-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 227
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"points-date-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 228
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"points-date-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 229
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"points-date-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 230
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"points-date-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 231
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"points-date-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 232
+            },
+            "name" : "right-of recent-points-image-2 162px",
+            "errors" : [ "\"points-date-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "cell-icon-container-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 188
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"cell-icon-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 189
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"cell-icon-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 190
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"cell-icon-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 191
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"cell-icon-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 192
+            },
+            "name" : "inside recent-points-container 16px left",
+            "errors" : [ "\"cell-icon-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "recent-points-image-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 195
+            },
+            "name" : "css height is \"40px\"",
+            "errors" : [ "\"recent-points-image-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 196
+            },
+            "name" : "css width is \"40px\"",
+            "errors" : [ "\"recent-points-image-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 197
+            },
+            "name" : "inside recent-points-container 21px left",
+            "errors" : [ "\"recent-points-image-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-event-container-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 200
+            },
+            "name" : "right-of recent-points-image-3 5px",
+            "errors" : [ "\"points-event-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 201
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"points-event-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 202
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"points-event-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 203
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"points-event-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 204
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"points-event-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-event-content-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 207
+            },
+            "name" : "right-of recent-points-image-3 10px",
+            "errors" : [ "\"points-event-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 208
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"points-event-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 209
+            },
+            "name" : "css text-decoration is \"none solid rgb(197, 0, 24)\"",
+            "errors" : [ "\"points-event-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 210
+            },
+            "name" : "css background-color is \"rgba(0, 0, 0, 0)\"",
+            "errors" : [ "\"points-event-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 211
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"points-event-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 212
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"points-event-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-earned-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 215
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"points-earned-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 216
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"points-earned-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 217
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"points-earned-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 218
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"points-earned-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 219
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"points-earned-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 220
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"points-earned-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 221
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"points-earned-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 222
+            },
+            "name" : "right-of recent-points-image-3 117px",
+            "errors" : [ "\"points-earned-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "points-date-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 225
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"points-date-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 226
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"points-date-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 227
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"points-date-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 228
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"points-date-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 229
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"points-date-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 230
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"points-date-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 231
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"points-date-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 232
+            },
+            "name" : "right-of recent-points-image-3 162px",
+            "errors" : [ "\"points-date-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "view-points-link",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 236
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"view-points-link\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 237
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"view-points-link\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 238
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"view-points-link\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 239
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"view-points-link\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 240
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"view-points-link\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "find-out-link",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 243
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"find-out-link\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 244
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"find-out-link\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 245
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"find-out-link\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 246
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"find-out-link\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 247
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"find-out-link\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "kyh-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+          "lineNumber" : 249
+        },
+        "objects" : [ {
+          "name" : "kyh-container",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 251
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"kyh-container\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "kyh-title",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 254
+            },
+            "name" : "centered horizontally inside kyh-container",
+            "errors" : [ "\"kyh-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 255
+            },
+            "name" : "css color is \"rgba(102, 102, 102, 1)\"",
+            "errors" : [ "\"kyh-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 256
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"kyh-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 257
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"kyh-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 258
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"kyh-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 259
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"kyh-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 260
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"kyh-title\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 261
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"kyh-title\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-container-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 265
+            },
+            "name" : "inside kyh-container 16px right",
+            "errors" : [ "\"assessment-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 266
+            },
+            "name" : "centered horizontally inside kyh-container",
+            "errors" : [ "\"assessment-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 267
+            },
+            "name" : "css background-color is \"rgba(250, 250, 250, 1)\"",
+            "errors" : [ "\"assessment-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 268
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 269
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 270
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"assessment-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 271
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"assessment-container-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-icon-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 274
+            },
+            "name" : "inside assessment-container-1 15px left",
+            "errors" : [ "\"assessment-icon-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 275
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-icon-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 276
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-icon-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 277
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-icon-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 278
+            },
+            "name" : "css padding-right is \"20px\"",
+            "errors" : [ "\"assessment-icon-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-title-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 281
+            },
+            "name" : "inside assessment-container-1 15px right",
+            "errors" : [ "\"assessment-title-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 282
+            },
+            "name" : "css background-color is \"rgba(0, 0, 0, 0)\"",
+            "errors" : [ "\"assessment-title-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 283
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-title-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 284
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-title-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 285
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-title-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 286
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"assessment-title-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 287
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-title-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 288
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-title-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-content-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 291
+            },
+            "name" : "inside assessment-container-1 15px right",
+            "errors" : [ "\"assessment-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 292
+            },
+            "name" : "css background-color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"assessment-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 293
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 294
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 295
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 296
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"assessment-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 297
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 298
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-content-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-button-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 301
+            },
+            "name" : "inside assessment-container-1 15px left",
+            "errors" : [ "\"assessment-button-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 302
+            },
+            "name" : "css padding-top is \"10px\"",
+            "errors" : [ "\"assessment-button-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 303
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "errors" : [ "\"assessment-button-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 304
+            },
+            "name" : "css padding-left is \"20px\"",
+            "errors" : [ "\"assessment-button-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 305
+            },
+            "name" : "css padding-right is \"20px\"",
+            "errors" : [ "\"assessment-button-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 306
+            },
+            "name" : "css background-color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"assessment-button-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 307
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-button-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 308
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-button-1\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 309
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"assessment-button-1\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-container-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 265
+            },
+            "name" : "inside kyh-container 16px right",
+            "errors" : [ "\"assessment-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 266
+            },
+            "name" : "centered horizontally inside kyh-container",
+            "errors" : [ "\"assessment-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 267
+            },
+            "name" : "css background-color is \"rgba(250, 250, 250, 1)\"",
+            "errors" : [ "\"assessment-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 268
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 269
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 270
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"assessment-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 271
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"assessment-container-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-icon-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 274
+            },
+            "name" : "inside assessment-container-2 15px left",
+            "errors" : [ "\"assessment-icon-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 275
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-icon-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 276
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-icon-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 277
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-icon-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 278
+            },
+            "name" : "css padding-right is \"20px\"",
+            "errors" : [ "\"assessment-icon-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-title-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 281
+            },
+            "name" : "inside assessment-container-2 15px right",
+            "errors" : [ "\"assessment-title-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 282
+            },
+            "name" : "css background-color is \"rgba(0, 0, 0, 0)\"",
+            "errors" : [ "\"assessment-title-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 283
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-title-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 284
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-title-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 285
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-title-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 286
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"assessment-title-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 287
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-title-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 288
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-title-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-content-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 291
+            },
+            "name" : "inside assessment-container-2 15px right",
+            "errors" : [ "\"assessment-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 292
+            },
+            "name" : "css background-color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"assessment-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 293
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 294
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 295
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 296
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"assessment-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 297
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 298
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-content-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-button-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 301
+            },
+            "name" : "inside assessment-container-2 15px left",
+            "errors" : [ "\"assessment-button-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 302
+            },
+            "name" : "css padding-top is \"10px\"",
+            "errors" : [ "\"assessment-button-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 303
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "errors" : [ "\"assessment-button-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 304
+            },
+            "name" : "css padding-left is \"20px\"",
+            "errors" : [ "\"assessment-button-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 305
+            },
+            "name" : "css padding-right is \"20px\"",
+            "errors" : [ "\"assessment-button-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 306
+            },
+            "name" : "css background-color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"assessment-button-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 307
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-button-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 308
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-button-2\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 309
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"assessment-button-2\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-container-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 265
+            },
+            "name" : "inside kyh-container 16px right",
+            "errors" : [ "\"assessment-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 266
+            },
+            "name" : "centered horizontally inside kyh-container",
+            "errors" : [ "\"assessment-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 267
+            },
+            "name" : "css background-color is \"rgba(250, 250, 250, 1)\"",
+            "errors" : [ "\"assessment-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 268
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 269
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 270
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"assessment-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 271
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"assessment-container-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-icon-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 274
+            },
+            "name" : "inside assessment-container-3 15px left",
+            "errors" : [ "\"assessment-icon-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 275
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-icon-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 276
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-icon-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 277
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-icon-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 278
+            },
+            "name" : "css padding-right is \"20px\"",
+            "errors" : [ "\"assessment-icon-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-title-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 281
+            },
+            "name" : "inside assessment-container-3 15px right",
+            "errors" : [ "\"assessment-title-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 282
+            },
+            "name" : "css background-color is \"rgba(0, 0, 0, 0)\"",
+            "errors" : [ "\"assessment-title-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 283
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-title-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 284
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-title-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 285
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-title-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 286
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"assessment-title-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 287
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-title-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 288
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-title-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-content-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 291
+            },
+            "name" : "inside assessment-container-3 15px right",
+            "errors" : [ "\"assessment-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 292
+            },
+            "name" : "css background-color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"assessment-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 293
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 294
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 295
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 296
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"assessment-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 297
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 298
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-content-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-button-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 301
+            },
+            "name" : "inside assessment-container-3 15px left",
+            "errors" : [ "\"assessment-button-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 302
+            },
+            "name" : "css padding-top is \"10px\"",
+            "errors" : [ "\"assessment-button-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 303
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "errors" : [ "\"assessment-button-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 304
+            },
+            "name" : "css padding-left is \"20px\"",
+            "errors" : [ "\"assessment-button-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 305
+            },
+            "name" : "css padding-right is \"20px\"",
+            "errors" : [ "\"assessment-button-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 306
+            },
+            "name" : "css background-color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"assessment-button-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 307
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-button-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 308
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-button-3\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 309
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"assessment-button-3\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-container-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 265
+            },
+            "name" : "inside kyh-container 16px right",
+            "errors" : [ "\"assessment-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 266
+            },
+            "name" : "centered horizontally inside kyh-container",
+            "errors" : [ "\"assessment-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 267
+            },
+            "name" : "css background-color is \"rgba(250, 250, 250, 1)\"",
+            "errors" : [ "\"assessment-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 268
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 269
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 270
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"assessment-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 271
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"assessment-container-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-icon-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 274
+            },
+            "name" : "inside assessment-container-4 15px left",
+            "errors" : [ "\"assessment-icon-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 275
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-icon-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 276
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-icon-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 277
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-icon-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 278
+            },
+            "name" : "css padding-right is \"20px\"",
+            "errors" : [ "\"assessment-icon-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-title-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 281
+            },
+            "name" : "inside assessment-container-4 15px right",
+            "errors" : [ "\"assessment-title-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 282
+            },
+            "name" : "css background-color is \"rgba(0, 0, 0, 0)\"",
+            "errors" : [ "\"assessment-title-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 283
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-title-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 284
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-title-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 285
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-title-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 286
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"assessment-title-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 287
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-title-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 288
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-title-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-content-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 291
+            },
+            "name" : "inside assessment-container-4 15px right",
+            "errors" : [ "\"assessment-content-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 292
+            },
+            "name" : "css background-color is \"rgba(51, 51, 51, 1)\"",
+            "errors" : [ "\"assessment-content-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 293
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"assessment-content-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 294
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"assessment-content-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 295
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"assessment-content-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 296
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"assessment-content-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 297
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-content-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 298
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-content-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "assessment-button-4",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 301
+            },
+            "name" : "inside assessment-container-4 15px left",
+            "errors" : [ "\"assessment-button-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 302
+            },
+            "name" : "css padding-top is \"10px\"",
+            "errors" : [ "\"assessment-button-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 303
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "errors" : [ "\"assessment-button-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 304
+            },
+            "name" : "css padding-left is \"20px\"",
+            "errors" : [ "\"assessment-button-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 305
+            },
+            "name" : "css padding-right is \"20px\"",
+            "errors" : [ "\"assessment-button-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 306
+            },
+            "name" : "css background-color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"assessment-button-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 307
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"assessment-button-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 308
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"assessment-button-4\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 309
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"assessment-button-4\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "vew-assessement-link",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 313
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "Cannot find locator for \"vew-assessement-link\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 314
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "Cannot find locator for \"vew-assessement-link\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 315
+            },
+            "name" : "css color is \"rgba(194,27,23,1)\"",
+            "errors" : [ "Cannot find locator for \"vew-assessement-link\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 316
+            },
+            "name" : "inside kyh-container 15px right",
+            "errors" : [ "Cannot find locator for \"vew-assessement-link\" in page spec" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

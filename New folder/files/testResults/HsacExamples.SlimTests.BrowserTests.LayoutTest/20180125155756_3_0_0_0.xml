@@ -1,0 +1,844 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>HsacExamples.SlimTests.BrowserTests.LayoutTest</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-01-25T15:57:57+08:00</date>
+    <runTimeInMillis>4978</runTimeInMillis>
+    <content></content>
+    <relativePageName>SuiteSetUp</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='nl.hsac.fitnesse.fixture'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_0_1', instruction='import', path='nl.hsac.fitnesse.fixture.slim'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture.slim)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture.slim</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_1_0', instruction='import', path='nl.hsac.fitnesse.fixture.slim.web'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture.slim.web)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_1_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture.slim.web</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_1_1', instruction='import', path='nl.hsac.fitnesse.fixture.FixtureDebugTest'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture.FixtureDebugTest)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_1_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture.FixtureDebugTest</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_0', instruction='make', instanceName='scriptTableActor', className='MapFixture', args=[]}</instruction>
+        <slimResult>pass(map fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_2_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>map fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_1', instruction='call', instanceName='scriptTableActor', methodName='setValueFor', args=[Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19, userAgent]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_2', instruction='call', instanceName='scriptTableActor', methodName='setIntValueFor', args=[360, deviceMetrics.width]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_3', instruction='call', instanceName='scriptTableActor', methodName='setIntValueFor', args=[640, deviceMetrics.height]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_3</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_4', instruction='call', instanceName='scriptTableActor', methodName='setDoubleValueFor', args=[3.0, deviceMetrics.pixelRatio]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_4</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_5', instruction='callAndAssign', symbolName='mobileEmulation', instanceName='scriptTableActor', methodName='copyMap', args=[]}</instruction>
+        <slimResult>$mobileEmulation&lt;-[&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;userAgent&lt;/td&gt;
+		&lt;td class="hash_value"&gt;Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;deviceMetrics&lt;/td&gt;
+		&lt;td class="hash_value"&gt;&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;width&lt;/td&gt;
+		&lt;td class="hash_value"&gt;360&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;height&lt;/td&gt;
+		&lt;td class="hash_value"&gt;640&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;pixelRatio&lt;/td&gt;
+		&lt;td class="hash_value"&gt;3.0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;]</slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_5</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>SymbolAssignmentExpectation</type>
+                                        <evaluationMessage>$mobileEmulation&lt;-[&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;userAgent&lt;/td&gt;
+		&lt;td class="hash_value"&gt;Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;deviceMetrics&lt;/td&gt;
+		&lt;td class="hash_value"&gt;&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;width&lt;/td&gt;
+		&lt;td class="hash_value"&gt;360&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;height&lt;/td&gt;
+		&lt;td class="hash_value"&gt;640&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;pixelRatio&lt;/td&gt;
+		&lt;td class="hash_value"&gt;3.0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_0', instruction='make', instanceName='scriptTableActor', className='MapFixture', args=[]}</instruction>
+        <slimResult>pass(map fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_3_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>map fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_1', instruction='call', instanceName='scriptTableActor', methodName='setValueFor', args=[headless, args[0]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_2', instruction='call', instanceName='scriptTableActor', methodName='setValueFor', args=[disable-gpu, args[1]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_3', instruction='callAndAssign', symbolName='chromeHeadlessProfile', instanceName='scriptTableActor', methodName='copyMap', args=[]}</instruction>
+        <slimResult>$chromeHeadlessProfile&lt;-[&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;args&lt;/td&gt;
+		&lt;td class="hash_value"&gt;[headless, disable-gpu]&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;]</slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_3</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>SymbolAssignmentExpectation</type>
+                                        <evaluationMessage>$chromeHeadlessProfile&lt;-[&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;args&lt;/td&gt;
+		&lt;td class="hash_value"&gt;[headless, disable-gpu]&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_0', instruction='make', instanceName='scriptTableActor', className='SeleniumDriverSetup', args=[]}</instruction>
+        <slimResult>pass(selenium driver setup)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_4_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>selenium driver setup</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_1', instruction='call', instanceName='scriptTableActor', methodName='startDriverFor', args=[chrome]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_4_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_2', instruction='call', instanceName='scriptTableActor', methodName='driverDescription', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_2</instructionId>
+                    <col>0</col>
+                              <row>15</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <result>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-01-25T15:58:02+08:00</date>
+    <runTimeInMillis>7103</runTimeInMillis>
+    <content></content>
+    <relativePageName>LayoutTest</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_0', instruction='make', instanceName='scriptTableActor', className='BrowserTest', args=[]}</instruction>
+        <slimResult>pass(browser test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_0_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>browser test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_1', instruction='call', instanceName='scriptTableActor', methodName='open', args=[&lt;a href="http://testapp.galenframework.com"&gt;http://testapp.galenframework.com&lt;/a&gt;]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_0_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='LayoutTest', args=[]}</instruction>
+        <slimResult>pass(layout test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>layout test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='call', instanceName='scriptTableActor', methodName='setIncludedTags', args=[usual,hovered]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='call', instanceName='scriptTableActor', methodName='verifyLayoutUsing', args=[&lt;a href="files/galenExamples/menuHighlight.gspec"&gt;http://files/galenExamples/menuHighlight.gspec&lt;/a&gt;]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_3', instruction='call', instanceName='scriptTableActor', methodName='verifiedSpecCount', args=[]}</instruction>
+        <slimResult>pass(2&gt;0)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_3</instructionId>
+                    <col>2</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>2&gt;0</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_4', instruction='call', instanceName='scriptTableActor', methodName='passedSpecCount', args=[]}</instruction>
+        <slimResult>pass(0)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_4</instructionId>
+                    <col>2</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_5', instruction='call', instanceName='scriptTableActor', methodName='specErrorCount', args=[]}</instruction>
+        <slimResult>pass(2)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_5</instructionId>
+                    <col>2</col>
+                              <row>5</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>2</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_6', instruction='call', instanceName='scriptTableActor', methodName='specWarningCount', args=[]}</instruction>
+        <slimResult>pass(0)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_6</instructionId>
+                    <col>2</col>
+                              <row>6</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_7', instruction='call', instanceName='scriptTableActor', methodName='layoutCheckMessages', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_7</instructionId>
+                    <col>0</col>
+                              <row>7</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_8', instruction='call', instanceName='scriptTableActor', methodName='setIncludedTags', args=[usual]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_8</instructionId>
+                    <col>0</col>
+                              <row>8</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_9', instruction='call', instanceName='scriptTableActor', methodName='setLayoutCheckName', args=[Menu with usual highlight]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_9</instructionId>
+                    <col>0</col>
+                              <row>9</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_10', instruction='call', instanceName='scriptTableActor', methodName='verifyLayoutUsing', args=[&lt;a href="files/galenExamples/menuHighlight.gspec"&gt;http://files/galenExamples/menuHighlight.gspec&lt;/a&gt;]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_10</instructionId>
+                    <col>0</col>
+                              <row>10</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_11', instruction='call', instanceName='scriptTableActor', methodName='specErrorCount', args=[]}</instruction>
+        <slimResult>pass(1)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_11</instructionId>
+                    <col>2</col>
+                              <row>11</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>1</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_12', instruction='call', instanceName='scriptTableActor', methodName='specWarningCount', args=[]}</instruction>
+        <slimResult>pass(0)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_12</instructionId>
+                    <col>2</col>
+                              <row>12</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-01-25T15:58:09+08:00</date>
+    <runTimeInMillis>691</runTimeInMillis>
+    <content>&lt;br/&gt;This set up page is executed once, before any tests in this suite.&lt;br/&gt;In it we configure which Java packages contain the logic for our fixtures, which browser we want to use for Selenium tests and we start this browser.&lt;br/&gt;This means we do not have to do this in every test, which means easier maintenance and better performance.&lt;br/&gt;&lt;br/&gt;Stopping the browser is done in &lt;a href="HsacExamples.SlimTests.BrowserTests.SuiteTearDown"&gt;SuiteTearDown&lt;/a&gt;, which is done after all tests in this suite are completed.&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Fixture code locations&lt;/p&gt;
+	&lt;div&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="HsacExamples.SlimTests.SuiteSetUp"&gt;.HsacExamples.SlimTests.SuiteSetUp&lt;/a&gt; &lt;a href="HsacExamples.SlimTests.SuiteSetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;An &lt;a href="FitNesse.UserGuide.WritingAcceptanceTests.SliM.ImportTable"&gt;import table&lt;/a&gt; defines which Java packages may contain fixture classes. &lt;br/&gt;&lt;br/&gt;For these examples the following packages are required:&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture.slim&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture.slim.web&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture.FixtureDebugTest&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;The Selenium configuration below uses lines starting with &lt;i&gt;|note&lt;/i&gt; to have configuration values present that are not currently used.&lt;br/&gt;This allows us to switch to another browser by just adding &lt;i&gt;|note&lt;/i&gt; to one line and removing it from another, instead of typing the entire line.&lt;br/&gt;&lt;br/&gt;Furthermore this configuration is prepared for both running the browser on the same (development) machine running Fitnesse (with &lt;i&gt;start driver for&lt;/i&gt;), as remotely on a node in a Selenium Grid (with &lt;i&gt;connect to driver for&lt;/i&gt;). &lt;br/&gt;The latter allows tests to be executed on different operating systems. This is also very useful to run tests as part of a continuous integration server (i.e. build server), when no browsers are installed on the server running the tests. &lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: GRID_HUB=http://remote-selenium.local:4444/wd/hub&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Define $mobileEmulation device attributes&lt;/p&gt;
+	&lt;div&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;map fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;set value&lt;/td&gt;
+		&lt;td&gt;Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19&lt;/td&gt;
+		&lt;td&gt;for&lt;/td&gt;
+		&lt;td&gt;userAgent&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;set int value&lt;/td&gt;
+		&lt;td&gt;360&lt;/td&gt;
+		&lt;td&gt;for&lt;/td&gt;
+		&lt;td&gt;deviceMetrics.width&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;set int value&lt;/td&gt;
+		&lt;td&gt;640&lt;/td&gt;
+		&lt;td&gt;for&lt;/td&gt;
+		&lt;td&gt;deviceMetrics.height&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set double value&lt;/td&gt;
+		&lt;td&gt;3.0&lt;/td&gt;
+		&lt;td&gt;for&lt;/td&gt;
+		&lt;td&gt;deviceMetrics.pixelRatio&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$mobileEmulation&amp;lt;-[&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;userAgent&lt;/td&gt;
+		&lt;td class="hash_value"&gt;Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;deviceMetrics&lt;/td&gt;
+		&lt;td class="hash_value"&gt;&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;width&lt;/td&gt;
+		&lt;td class="hash_value"&gt;360&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;height&lt;/td&gt;
+		&lt;td class="hash_value"&gt;640&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;pixelRatio&lt;/td&gt;
+		&lt;td class="hash_value"&gt;3.0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;]&lt;/td&gt;
+		&lt;td colspan="3"&gt;copy map&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Define $chromeHeadlessProfile chrome profile&lt;/p&gt;
+	&lt;div&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;map fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;set value&lt;/td&gt;
+		&lt;td&gt;headless&lt;/td&gt;
+		&lt;td&gt;for&lt;/td&gt;
+		&lt;td&gt;args[0]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;set value&lt;/td&gt;
+		&lt;td&gt;disable-gpu&lt;/td&gt;
+		&lt;td&gt;for&lt;/td&gt;
+		&lt;td&gt;args[1]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;$chromeHeadlessProfile&amp;lt;-[&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;args&lt;/td&gt;
+		&lt;td class="hash_value"&gt;[headless, disable-gpu]&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;]&lt;/td&gt;
+		&lt;td colspan="3"&gt;copy map&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;span class="pass"&gt;selenium driver setup&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;start driver for&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;chrome&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;start driver for&lt;/td&gt;
+		&lt;td colspan="3"&gt;MicrosoftEdge&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;start driver for&lt;/td&gt;
+		&lt;td colspan="3"&gt;internet explorer&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;start driver for&lt;/td&gt;
+		&lt;td colspan="3"&gt;firefox&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;start driver for&lt;/td&gt;
+		&lt;td colspan="3"&gt;safari&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;start driver for&lt;/td&gt;
+		&lt;td&gt;chrome mobile emulation&lt;/td&gt;
+		&lt;td&gt;with profile&lt;/td&gt;
+		&lt;td&gt;&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;deviceName&lt;/td&gt;
+		&lt;td class="hash_value"&gt;Apple iPhone 6&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;start driver for&lt;/td&gt;
+		&lt;td&gt;chrome mobile emulation&lt;/td&gt;
+		&lt;td&gt;with profile&lt;/td&gt;
+		&lt;td&gt;$mobileEmulation&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;start driver for&lt;/td&gt;
+		&lt;td&gt;chrome&lt;/td&gt;
+		&lt;td&gt;with profile&lt;/td&gt;
+		&lt;td&gt;$chromeHeadlessProfile&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;connect to driver for&lt;/td&gt;
+		&lt;td&gt;chrome&lt;/td&gt;
+		&lt;td&gt;at&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://remote-selenium.local:4444/wd/hub"&gt;http://remote-selenium.local:4444/wd/hub&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;connect to driver for&lt;/td&gt;
+		&lt;td&gt;MicrosoftEdge&lt;/td&gt;
+		&lt;td&gt;at&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://remote-selenium.local:4444/wd/hub"&gt;http://remote-selenium.local:4444/wd/hub&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;connect to driver for&lt;/td&gt;
+		&lt;td&gt;internet explorer&lt;/td&gt;
+		&lt;td&gt;at&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://remote-selenium.local:4444/wd/hub"&gt;http://remote-selenium.local:4444/wd/hub&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;connect to driver for&lt;/td&gt;
+		&lt;td&gt;firefox&lt;/td&gt;
+		&lt;td&gt;at&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://remote-selenium.local:4444/wd/hub"&gt;http://remote-selenium.local:4444/wd/hub&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;connect to driver at&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://remote-selenium.local:4444/wd/hub"&gt;http://remote-selenium.local:4444/wd/hub&lt;/a&gt;&lt;/td&gt;
+		&lt;td&gt;with capabilities&lt;/td&gt;
+		&lt;td&gt;&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;browserName&lt;/td&gt;
+		&lt;td class="hash_value"&gt;internet explorer&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;platform&lt;/td&gt;
+		&lt;td class="hash_value"&gt;Windows 8.1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;version&lt;/td&gt;
+		&lt;td class="hash_value"&gt;11&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;connect to driver at&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://remote-selenium.local:4444/wd/hub"&gt;http://remote-selenium.local:4444/wd/hub&lt;/a&gt;&lt;/td&gt;
+		&lt;td&gt;with json capabilities&lt;/td&gt;
+		&lt;td&gt;{aut:"io.selendroid.testapp", emulator: true}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;driver description&lt;/td&gt;
+	&lt;td&gt;&lt;div&gt;&lt;pre&gt;org.openqa.selenium.chrome.ChromeDriver&lt;/pre&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;mobileEmulationEnabled&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;hasTouchScreen&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;platform&lt;/th&gt;&lt;td&gt;XP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;acceptSslCerts&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;acceptInsecureCerts&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;webStorageEnabled&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;browserName&lt;/th&gt;&lt;td&gt;chrome&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;takesScreenshot&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;javascriptEnabled&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;setWindowRect&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;unexpectedAlertBehaviour&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;applicationCacheEnabled&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;rotatable&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;networkConnectionEnabled&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;chrome&lt;/th&gt;&lt;td&gt;{chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\RYANG~1.FER\AppData\Local\Temp\scoped_dir1132_1698}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;takesHeapSnapshot&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;pageLoadStrategy&lt;/th&gt;&lt;td&gt;normal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;unhandledPromptBehavior&lt;/th&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;databaseEnabled&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;handlesAlerts&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;version&lt;/th&gt;&lt;td&gt;63.0.3239.132&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;browserConnectionEnabled&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;nativeEvents&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;locationContextEnabled&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;cssSelectorsEnabled&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;h1&gt;Page Layout Testing using LayoutTest&lt;/h1&gt;
+&lt;br/&gt;On this page we check whether a page, opened using BrowserTest, meets the look and feel criteria described in a 'spec file'.&lt;br/&gt;This is done by using LayoutTest (so not by BrowserTest itself) which enables the use of the &lt;a href="http://galenframework.com"&gt;Galen Framework&lt;/a&gt;.&lt;br/&gt;A 'spec file' is a file containing a specification, written in &lt;a href="http://galenframework.com/docs/reference-galen-spec-language-guide/"&gt;Galen Spec Language&lt;/a&gt;, which allows the location of objects relatively to each other on a page to be checked.&lt;br/&gt;This file is loaded from the wiki's &lt;a href="FitNesse.FullReferenceGuide.UserGuide.FitNesseWiki.FilesSection"&gt;files section&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Since two different fixtures are used this test page uses two separate script tables: one to open the right page, and another to perform the layout check.&lt;br/&gt;Depending on the focus of the test script one could consider whether it makes sense to use either BrowserTest (when the focus is no layout checking) or LayoutTest (when the focus of the script is browser actions) as a &lt;a href="FitNesse.FullReferenceGuide.UserGuide.WritingAcceptanceTests.SliM.LibraryTable"&gt;library&lt;/a&gt;. This removes the need to explicitly switch between the two fixtures.&lt;br/&gt;One can then just have a single script (using methods from both fixtures) manipuating the browser and checking the resulting pages' layout.&lt;br/&gt;&lt;br/&gt;&lt;p class="note"&gt;The configuration of Selenium (i.e. which browser to use) and starting the browser session is done in the &lt;a href="HsacExamples.SlimTests.BrowserTests.SuiteSetup"&gt;SuiteSetup&lt;/a&gt;. Which allows this configuration to be shared between tests. Closing the browser is done in &lt;a href="HsacExamples.SlimTests.BrowserTests.SuiteTearDown"&gt;SuiteTearDown&lt;/a&gt;, which happens after all tests are completed.&lt;/p&gt;&lt;br/&gt;We start by opening the page to be checked.&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;browser test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;open&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://testapp.galenframework.com"&gt;http://testapp.galenframework.com&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Then we trigger layout verification, and check its results. Note that the full (HTML) report generated by Galen will be made available as part of the test result.&lt;br/&gt;That full report will contain all details on any issues found. In the wiki test we just check: that the spec file used contained specs to be used, and how many specs caused errors/warnings.&lt;br/&gt;(This test is a bit strange in that it expects errors, which you normally would not.)&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;layout test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set included tags&lt;/td&gt;
+		&lt;td colspan="2"&gt;usual,hovered&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;verify layout using&lt;/td&gt;
+		&lt;td&gt;&lt;a href="files/galenExamples/menuHighlight.gspec"&gt;http://files/galenExamples/menuHighlight.gspec&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="files/galen-reports/1516867085500/1-fitnesselayouttest0.HTML"&gt;1-fitnesselayouttest0.HTML&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;verified spec count&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;2&amp;gt;0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;passed spec count&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;spec error count&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;2&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;spec warning count&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;layout check messages&lt;/td&gt;
+	&lt;td&gt;&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;[menu_item-1]&lt;/td&gt;
+		&lt;td class="hash_value"&gt;&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;error on: color-scheme 90 to 96 % #205380, 1 to 4 % white&lt;/td&gt;
+		&lt;td class="hash_value"&gt;[color #205380 on "menu_item-1" is 0% which is not in range of 90 to 96%, color white on "menu_item-1" is 0% which is not in range of 1 to 4%]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;error on: color-scheme 90 to 96 % #2d6ca2, 1 to 4 % white&lt;/td&gt;
+		&lt;td class="hash_value"&gt;[color #2d6ca2 on "menu_item-1" is 0% which is not in range of 90 to 96%, color white on "menu_item-1" is 0% which is not in range of 1 to 4%]&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set included tags&lt;/td&gt;
+		&lt;td colspan="2"&gt;usual&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;set layout check name&lt;/td&gt;
+		&lt;td colspan="2"&gt;Menu with usual highlight&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;verify layout using&lt;/td&gt;
+		&lt;td&gt;&lt;a href="files/galenExamples/menuHighlight.gspec"&gt;http://files/galenExamples/menuHighlight.gspec&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a href="files/galen-reports/1516867085500/2-menu-with-usual-highlight.HTML"&gt;2-menu-with-usual-highlight.HTML&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;spec error count&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;1&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;spec warning count&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;selenium driver setup&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;run summary&lt;/td&gt;
+	&lt;td&gt;null&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;stop driver&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SuiteTearDown</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_0', instruction='make', instanceName='scriptTableActor', className='SeleniumDriverSetup', args=[]}</instruction>
+        <slimResult>pass(selenium driver setup)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_0_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>selenium driver setup</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_1', instruction='call', instanceName='scriptTableActor', methodName='runSummary', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_0_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_0_2', instruction='call', instanceName='scriptTableActor', methodName='stopDriver', args=[]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_0_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_121\bin\java" -cp C:\Fhoeben\fitnesse-standalone.jar;fixtures;C:\Fhoeben\fixtures\accessors-smart-1.2.jar;C:\Fhoeben\fixtures\animal-sniffer-annotations-1.14.jar;C:\Fhoeben\fixtures\asm-5.0.4.jar;C:\Fhoeben\fixtures\cglib-nodep-3.2.5.jar;C:\Fhoeben\fixtures\commons-cli-1.2.jar;C:\Fhoeben\fixtures\commons-codec-1.9.jar;C:\Fhoeben\fixtures\commons-exec-1.3.jar;C:\Fhoeben\fixtures\commons-io-2.5.jar;C:\Fhoeben\fixtures\commons-lang3-3.5.jar;C:\Fhoeben\fixtures\commons-logging-1.2.jar;C:\Fhoeben\fixtures\commons-net-3.6.jar;C:\Fhoeben\fixtures\cssparser-0.9.23.jar;C:\Fhoeben\fixtures\diff-1.1.11.jar;C:\Fhoeben\fixtures\error_prone_annotations-2.0.18.jar;C:\Fhoeben\fixtures\freemarker-2.3.23.jar;C:\Fhoeben\fixtures\galen-core-2.3.4.jar;C:\Fhoeben\fixtures\galen-rainbow4j-2.3.4.jar;C:\Fhoeben\fixtures\gson-2.8.0.jar;C:\Fhoeben\fixtures\guava-23.0.jar;C:\Fhoeben\fixtures\hamcrest-core-1.3.jar;C:\Fhoeben\fixtures\htmlunit-2.27.jar;C:\Fhoeben\fixtures\htmlunit-core-js-2.27.jar;C:\Fhoeben\fixtures\httpclient-4.5.3.jar;C:\Fhoeben\fixtures\httpcore-4.4.6.jar;C:\Fhoeben\fixtures\httpmime-4.5.3.jar;C:\Fhoeben\fixtures\j2objc-annotations-1.1.jar;C:\Fhoeben\fixtures\jackson-annotations-2.4.0.jar;C:\Fhoeben\fixtures\jackson-core-2.4.2.jar;C:\Fhoeben\fixtures\jackson-databind-2.4.2.jar;C:\Fhoeben\fixtures\javax.servlet-api-3.1.0.jar;C:\Fhoeben\fixtures\jcl-over-slf4j-1.7.25.jar;C:\Fhoeben\fixtures\jetty-client-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jetty-http-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jetty-io-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jetty-util-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\jna-4.1.0.jar;C:\Fhoeben\fixtures\jna-platform-4.1.0.jar;C:\Fhoeben\fixtures\json-path-2.4.0.jar;C:\Fhoeben\fixtures\json-smart-2.3.jar;C:\Fhoeben\fixtures\jsr305-1.3.9.jar;C:\Fhoeben\fixtures\neko-htmlunit-2.27.jar;C:\Fhoeben\fixtures\phantomjsdriver-1.4.3.jar;C:\Fhoeben\fixtures\rhino-1.7R5.jar;C:\Fhoeben\fixtures\sac-1.3.jar;C:\Fhoeben\fixtures\selenium-api-3.5.1.jar;C:\Fhoeben\fixtures\selenium-chrome-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-edge-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-firefox-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-ie-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-java-3.5.1.jar;C:\Fhoeben\fixtures\selenium-opera-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-remote-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-safari-driver-3.5.1.jar;C:\Fhoeben\fixtures\selenium-support-3.5.1.jar;C:\Fhoeben\fixtures\serializer-2.7.2.jar;C:\Fhoeben\fixtures\slf4j-api-1.7.25.jar;C:\Fhoeben\fixtures\slf4j-simple-1.7.25.jar;C:\Fhoeben\fixtures\websocket-api-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\websocket-client-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\websocket-common-9.4.5.v20170502.jar;C:\Fhoeben\fixtures\xalan-2.7.2.jar;C:\Fhoeben\fixtures\xercesImpl-2.11.0.jar;C:\Fhoeben\fixtures\xml-apis-1.4.01.jar fitnesse.slim.SlimService 56022</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 5300
+Only local connections are allowed.
+Jan 25, 2018 3:58:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>3</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>13528</totalRunTimeInMillis>
+</testResults>
+

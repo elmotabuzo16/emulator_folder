@@ -1,0 +1,43 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+      "status" : "error",
+      "time" : 1517560431079,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "dashboard-screen",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+          "lineNumber" : 15
+        },
+        "objects" : [ {
+          "name" : "dashboard-container-10",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\DashboardPage.txt",
+              "lineNumber" : 18
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"dashboard-container-10\" is not centered horizontally inside \"dashboard-screen\". Offset is 658px" ],
+            "highlight" : [ "dashboard-container-10", "dashboard-screen" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "dashboard-screen" : {
+          "area" : [ 0, 235, 1017, 2404 ]
+        },
+        "dashboard-container-10" : {
+          "area" : [ 673, 2418, 329, 221 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

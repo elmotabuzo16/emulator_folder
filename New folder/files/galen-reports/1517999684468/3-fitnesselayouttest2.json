@@ -1,0 +1,367 @@
+{
+  "testId" : "3-fitnesselayouttest2",
+  "name" : "FitNesseLayoutTest2",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+      "status" : "error",
+      "time" : 1517999694262,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "complete-later-button",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+          "lineNumber" : 8
+        },
+        "objects" : [ {
+          "name" : "complete-later-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 10
+            },
+            "name" : "centered horizontally inside body-div",
+            "errors" : [ "\"body-div\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 11
+            },
+            "name" : "above start-assessment-button 10px",
+            "highlight" : [ "complete-later-button", "start-assessment-button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 12
+            },
+            "name" : "width 279px",
+            "errors" : [ "\"complete-later-button\" width is 369px instead of 279px" ],
+            "highlight" : [ "complete-later-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 13
+            },
+            "name" : "height 44px",
+            "highlight" : [ "complete-later-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 14
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "complete-later-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 15
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "complete-later-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 16
+            },
+            "name" : "css color is \"rgba(43, 202, 109, 1)\"",
+            "highlight" : [ "complete-later-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 17
+            },
+            "name" : "css padding-top is \"10px\"",
+            "highlight" : [ "complete-later-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 18
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "highlight" : [ "complete-later-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 19
+            },
+            "name" : "css padding-right is \"30px\"",
+            "highlight" : [ "complete-later-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 20
+            },
+            "name" : "css padding-left is \"30px\"",
+            "highlight" : [ "complete-later-button" ]
+          } ]
+        } ]
+      }, {
+        "name" : "start-assessment-button",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+          "lineNumber" : 22
+        },
+        "objects" : [ {
+          "name" : "start-assessment-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 24
+            },
+            "name" : "centered horizontally inside body-div",
+            "errors" : [ "\"body-div\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 25
+            },
+            "name" : "above disclaimer 30px",
+            "highlight" : [ "start-assessment-button", "disclaimer" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 26
+            },
+            "name" : "width 279px",
+            "errors" : [ "\"start-assessment-button\" width is 369px instead of 279px" ],
+            "highlight" : [ "start-assessment-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 27
+            },
+            "name" : "height 44px",
+            "highlight" : [ "start-assessment-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "start-assessment-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "start-assessment-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "start-assessment-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 31
+            },
+            "name" : "css padding-top is \"10px\"",
+            "highlight" : [ "start-assessment-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 32
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "highlight" : [ "start-assessment-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 33
+            },
+            "name" : "css padding-right is \"30px\"",
+            "highlight" : [ "start-assessment-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 34
+            },
+            "name" : "css padding-left is \"30px\"",
+            "highlight" : [ "start-assessment-button" ]
+          } ]
+        } ]
+      }, {
+        "name" : "disclaimer",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+          "lineNumber" : 36
+        },
+        "objects" : [ {
+          "name" : "disclaimer",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 38
+            },
+            "name" : "centered horizontally inside body-div",
+            "errors" : [ "\"body-div\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 39
+            },
+            "name" : "above VHR-landing-page-logo 20px",
+            "highlight" : [ "disclaimer", "VHR-landing-page-logo" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 40
+            },
+            "name" : "width 279px",
+            "errors" : [ "\"disclaimer\" width is 369px instead of 279px" ],
+            "highlight" : [ "disclaimer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 41
+            },
+            "name" : "height 47px",
+            "highlight" : [ "disclaimer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 42
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "disclaimer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "disclaimer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 44
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "disclaimer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 45
+            },
+            "name" : "css padding-top is \"10px\"",
+            "highlight" : [ "disclaimer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 46
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "highlight" : [ "disclaimer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 47
+            },
+            "name" : "css padding-right is \"42px\"",
+            "highlight" : [ "disclaimer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 48
+            },
+            "name" : "css padding-left is \"10px\"",
+            "highlight" : [ "disclaimer" ]
+          } ]
+        } ]
+      }, {
+        "name" : "VHR-landing-page-logo",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+          "lineNumber" : 50
+        },
+        "objects" : [ {
+          "name" : "VHR-landing-page-logo",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 52
+            },
+            "name" : "centered horizontally inside body-div",
+            "errors" : [ "\"body-div\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 53
+            },
+            "name" : "width 279px",
+            "errors" : [ "\"VHR-landing-page-logo\" width is 369px instead of 279px" ],
+            "highlight" : [ "VHR-landing-page-logo" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRLandingPagePart3.txt",
+              "lineNumber" : 54
+            },
+            "name" : "height 116px",
+            "errors" : [ "\"VHR-landing-page-logo\" height is 154px instead of 116px" ],
+            "highlight" : [ "VHR-landing-page-logo" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "start-assessment-button" : {
+          "area" : [ -15, 1954, 369, 44 ]
+        },
+        "VHR-landing-page-logo" : {
+          "area" : [ -15, 2095, 369, 154 ]
+        },
+        "complete-later-button" : {
+          "area" : [ -15, 1900, 369, 44 ]
+        },
+        "disclaimer" : {
+          "area" : [ -15, 2028, 369, 47 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

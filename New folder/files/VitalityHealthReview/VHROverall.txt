@@ -1,0 +1,117 @@
+@objects
+	header			//*[@id="msform"]/div[1]/div
+	Progress-bar0			#progress0
+	Progress-bar1			#progress1
+	Progress-bar2			#progress2
+	Progress-bar3			#progress3
+	Progress-bar4			#progress4
+	Progress-bar5			#progress5
+	Progress-bar6			#progress6
+	Progress-bar7			#progress7
+	Progress-bar8			#progress8
+	Indicator-overall			//*[@id="progress0"]/span
+	Overall-section			//*[@id="tab0"]/div
+	Overall-icon			//*[@id="tab0"]/div/div[1]/div[1]/img
+	Overall-header			//*[@id="tab0"]/div/div[1]/div[2]/h4
+	Body-content			//*[@id="listQuestions"]/li/div/div[1]
+	Overall-slider			//*[@id="slider-5"]
+	Poor-text			//*[@id="js-rangeslider-0"]/div[2]/span[1]
+	Excellent-text			//*[@id="js-rangeslider-0"]/div[2]/span[2]
+	Exit-link			//*[@id="tab0"]/div/div[3]/div/a
+	Next-button			#next-1
+	
+= Progress-bar =
+	@for [0-8] as index
+		Progress-bar${index}:
+			aligned horizontally all Progress-bar0 ~1px
+			width ~36px
+			height ~20px
+			below header 60px
+			above Overall-section ~50px
+			
+= Progress-bar =
+	Progress-bar0:
+		aligned vertically left Overall-section
+		
+= Progress-bar =
+	Progress-bar8:
+		aligned vertically right Overall-section
+						
+= Indicator-overall =
+	Indicator-overall:
+		aligned vertically left Progress-bar0
+	
+= Overall-section =
+	Overall-section:
+		centered horizontally inside viewport
+		css padding-top is "15px"
+		css padding-bottom is "15px"
+		css padding-right is "15px"
+		css padding-left is "15px"
+	
+= Overall-icon =
+	Overall-icon:
+		inside Overall-section 16px left, 234px right
+		width 59px
+		height 32px
+	
+= Overall-header =
+	Overall-header:
+		near Overall-icon 15px right
+		inside Overall-section 19px top
+		css font-size is "19px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(43, 202, 109, 1)"
+			
+= Body-content =
+	Body-content:
+		centered horizontally inside Overall-section
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(51, 51, 51, 1)"
+	
+= Overall-slider =
+	Overall-slider:
+		centered horizontally inside Overall-section
+		width 237px
+		height	20px
+		
+= Poor-text =
+	Poor-text:
+		inside Overall-section 39px left
+		below Overall-slider 5px
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(51, 51, 51, 1)"
+	
+= Excellent-text =
+	Excellent-text:
+		inside Overall-section 39px right
+		below Overall-slider 5px
+		css font-size is "13px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(51, 51, 51, 1)"
+	
+= Exit-link =
+	Exit-link:
+		inside Overall-section 16px left
+		above Next-button ~0px
+		aligned vertically left Next-button
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(43, 202, 109, 1)"
+	
+= Next-button =
+	Next-button:
+		centered horizontally inside Overall-section
+		inside Overall-section 17px bottom
+		width 277px
+		height 44px
+		css font-size is "14px" 
+		css font-family matches ".*Open Sans.*"
+		css color is "rgba(255, 255, 255, 1)"
+		css padding-top is "10px"
+		css padding-bottom is "10px"
+		css padding-right is "30px"
+		css padding-left is "30px"
+	

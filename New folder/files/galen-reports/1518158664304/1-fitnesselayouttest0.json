@@ -1,0 +1,165 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+      "status" : "error",
+      "time" : 1518158699875,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "modal-header",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+          "lineNumber" : 12
+        },
+        "objects" : [ {
+          "name" : "modal-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 14
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"modal-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 15
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"modal-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 16
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"modal-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 17
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"modal-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 18
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"modal-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 19
+            },
+            "name" : "css font-size is \"20px\"",
+            "errors" : [ "\"modal-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 20
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"modal-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 21
+            },
+            "name" : "above total-points-container 0 to 5 px",
+            "errors" : [ "\"modal-header\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "x-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 24
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"x-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 25
+            },
+            "name" : "css padding-bottom is \"0px\"",
+            "errors" : [ "\"x-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 26
+            },
+            "name" : "css padding-left is \"0px\"",
+            "errors" : [ "\"x-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css padding-right is \"0px\"",
+            "errors" : [ "\"x-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 28
+            },
+            "name" : "above total-points-container ~24px",
+            "errors" : [ "\"x-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 29
+            },
+            "name" : "width ~16px",
+            "errors" : [ "\"x-button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\RecentPointsPopUp.txt",
+              "lineNumber" : 30
+            },
+            "name" : "height ~21px",
+            "errors" : [ "\"x-button\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

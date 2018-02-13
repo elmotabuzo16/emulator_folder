@@ -1,0 +1,703 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+      "status" : "error",
+      "time" : 1518077623148,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "BackPain-popup-header",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+          "lineNumber" : 13
+        },
+        "objects" : [ {
+          "name" : "BackPain-popup-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 15
+            },
+            "name" : "centered horizontally inside viewport",
+            "errors" : [ "\"BackPain-popup-header\" is not centered horizontally inside \"viewport\". Offset is 19px" ],
+            "highlight" : [ "BackPain-popup-header", "viewport" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 16
+            },
+            "name" : "above BackPain-popup-body 0px",
+            "highlight" : [ "BackPain-popup-header", "BackPain-popup-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 17
+            },
+            "name" : "width 269px",
+            "highlight" : [ "BackPain-popup-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 18
+            },
+            "name" : "height 59px",
+            "highlight" : [ "BackPain-popup-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 19
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "BackPain-popup-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 20
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "BackPain-popup-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 21
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "BackPain-popup-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 22
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "BackPain-popup-header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BackPain-popup-title",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+          "lineNumber" : 24
+        },
+        "objects" : [ {
+          "name" : "BackPain-popup-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 26
+            },
+            "name" : "css font-size is \"20px\"",
+            "highlight" : [ "BackPain-popup-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "BackPain-popup-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "highlight" : [ "BackPain-popup-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 29
+            },
+            "name" : "inside BackPain-popup-header 15px top, 16px bottom, 26px right, 15px left",
+            "highlight" : [ "BackPain-popup-title", "BackPain-popup-header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BackPain-popup-xbutton",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+          "lineNumber" : 31
+        },
+        "objects" : [ {
+          "name" : "BackPain-popup-xbutton",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 33
+            },
+            "name" : "inside BackPain-popup-header 13px top, 15px right",
+            "highlight" : [ "BackPain-popup-xbutton", "BackPain-popup-header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BackPain-popup-body",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+          "lineNumber" : 35
+        },
+        "objects" : [ {
+          "name" : "BackPain-popup-body",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 37
+            },
+            "name" : "centered horizontally inside viewport",
+            "errors" : [ "\"BackPain-popup-body\" is not centered horizontally inside \"viewport\". Offset is 19px" ],
+            "highlight" : [ "BackPain-popup-body", "viewport" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 38
+            },
+            "name" : "above BackPain-popup-footer 0px",
+            "highlight" : [ "BackPain-popup-body", "BackPain-popup-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 39
+            },
+            "name" : "width 269px",
+            "highlight" : [ "BackPain-popup-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 40
+            },
+            "name" : "height 162px",
+            "highlight" : [ "BackPain-popup-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 41
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "BackPain-popup-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 42
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "BackPain-popup-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 43
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "BackPain-popup-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 44
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "BackPain-popup-body" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BackPain-popup-content",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+          "lineNumber" : 46
+        },
+        "objects" : [ {
+          "name" : "BackPain-popup-content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 48
+            },
+            "name" : "centered horizontally inside BackPain-popup-body",
+            "highlight" : [ "BackPain-popup-content", "BackPain-popup-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 49
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "BackPain-popup-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 50
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "highlight" : [ "BackPain-popup-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 51
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "BackPain-popup-content" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BackPain-popup-footer",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+          "lineNumber" : 53
+        },
+        "objects" : [ {
+          "name" : "BackPain-popup-footer",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 55
+            },
+            "name" : "centered horizontally inside viewport",
+            "errors" : [ "\"BackPain-popup-footer\" is not centered horizontally inside \"viewport\". Offset is 19px" ],
+            "highlight" : [ "BackPain-popup-footer", "viewport" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 56
+            },
+            "name" : "width 269px",
+            "highlight" : [ "BackPain-popup-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 57
+            },
+            "name" : "height 78px",
+            "highlight" : [ "BackPain-popup-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 58
+            },
+            "name" : "css padding-top is \"15px\"",
+            "highlight" : [ "BackPain-popup-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 59
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "highlight" : [ "BackPain-popup-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 60
+            },
+            "name" : "css padding-right is \"15px\"",
+            "highlight" : [ "BackPain-popup-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 61
+            },
+            "name" : "css padding-left is \"15px\"",
+            "highlight" : [ "BackPain-popup-footer" ]
+          } ]
+        } ]
+      }, {
+        "name" : "BackPain-popup-button",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+          "lineNumber" : 63
+        },
+        "objects" : [ {
+          "name" : "BackPain-popup-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 65
+            },
+            "name" : "centered horizontally inside BackPain-popup-footer",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 66
+            },
+            "name" : "width 308px",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 67
+            },
+            "name" : "height 41px",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 68
+            },
+            "name" : "css padding-top is \"10px\"",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 69
+            },
+            "name" : "css padding-bottom is \"10px\"",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 70
+            },
+            "name" : "css padding-right is \"30px\"",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 71
+            },
+            "name" : "css padding-left is \"30px\"",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 72
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 73
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthReview\\VHRBackPainModal.txt",
+              "lineNumber" : 74
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"BackPain-popup-button\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "BackPain-popup-content" : {
+          "area" : [ 49, 1148, 239, 122 ]
+        },
+        "viewport" : {
+          "area" : [ 0, 0, 356, 638 ]
+        },
+        "BackPain-popup-title" : {
+          "area" : [ 49, 1089, 228, 28 ]
+        },
+        "BackPain-popup-header" : {
+          "area" : [ 34, 1074, 269, 59 ]
+        },
+        "BackPain-popup-xbutton" : {
+          "area" : [ 277, 1087, 11, 20 ]
+        },
+        "BackPain-popup-body" : {
+          "area" : [ 34, 1133, 269, 162 ]
+        },
+        "BackPain-popup-footer" : {
+          "area" : [ 34, 1295, 269, 78 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" {{#if screenshot}}data-screenshot="{{screenshot}}"{{/if}}>
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#" title="{{place.filePath}}#{{place.lineNumber}}">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a href="report.HTML">Back to Test Overview</a></li>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>FitNesseLayoutTest0</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>

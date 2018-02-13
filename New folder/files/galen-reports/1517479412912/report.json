@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "FitNesseLayoutTest0",
+    "startedAt" : 1517479412952,
+    "endedAt" : 1517479412952,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 76,
+      "errors" : 12,
+      "warnings" : 0,
+      "total" : 88
+    },
+    "testId" : "1-fitnesselayouttest0",
+    "duration" : 0,
+    "failed" : true
+  } ]
+}

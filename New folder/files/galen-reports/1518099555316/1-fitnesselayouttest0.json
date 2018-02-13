@@ -1,0 +1,156 @@
+{
+  "testId" : "1-fitnesselayouttest0",
+  "name" : "FitNesseLayoutTest0",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+      "status" : "error",
+      "time" : 1518099557109,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "iyh-container",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+          "lineNumber" : 6
+        },
+        "objects" : [ {
+          "name" : "iyh-container",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 8
+            },
+            "name" : "centered horizontally inside dashboard-screen",
+            "errors" : [ "\"iyh-container\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 9
+            },
+            "name" : "css padding-top is \"15px\"",
+            "errors" : [ "\"iyh-container\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 10
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"iyh-container\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 11
+            },
+            "name" : "css padding-left is \"15px\"",
+            "errors" : [ "\"iyh-container\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 12
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"iyh-container\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "iyh-header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 15
+            },
+            "name" : "css padding-top is \"0px\"",
+            "errors" : [ "\"iyh-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 16
+            },
+            "name" : "css padding-bottom is \"15px\"",
+            "errors" : [ "\"iyh-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 17
+            },
+            "name" : "css padding-right is \"5px\"",
+            "errors" : [ "\"iyh-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 18
+            },
+            "name" : "css padding-left is \"5px\"",
+            "errors" : [ "\"iyh-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 19
+            },
+            "name" : "css font-size is \"18px\"",
+            "errors" : [ "\"iyh-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 20
+            },
+            "name" : "css float is \"left\"",
+            "errors" : [ "\"iyh-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 21
+            },
+            "name" : "css color is \"rgba(197, 0, 24, 1)\"",
+            "errors" : [ "\"iyh-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 22
+            },
+            "name" : "inside dashboard-screen 31px left",
+            "errors" : [ "\"iyh-header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\Dashboard\\ImproveYourHealthWidget.txt",
+              "lineNumber" : 23
+            },
+            "name" : "css font-family matches \".*Open Sans.*\"",
+            "errors" : [ "\"iyh-header\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

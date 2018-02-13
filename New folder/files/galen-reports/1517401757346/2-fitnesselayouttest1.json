@@ -1,0 +1,306 @@
+{
+  "testId" : "2-fitnesselayouttest1",
+  "name" : "FitNesseLayoutTest1",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Layout check using: C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+      "status" : "error",
+      "time" : 1517401762161,
+      "includedTags" : [ ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "VHC-claim-screen",
+        "place" : {
+          "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+          "lineNumber" : 22
+        },
+        "objects" : [ {
+          "name" : "vhc-checkbox-div-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 25
+            },
+            "name" : "inside VHC-claim-screen 46px left",
+            "highlight" : [ "vhc-checkbox-div-1", "VHC-claim-screen" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 26
+            },
+            "name" : "inside vhc-claim-container 30px left",
+            "errors" : [ "\"vhc-checkbox-div-1\" is 31px left instead of 30px" ],
+            "highlight" : [ "vhc-checkbox-div-1", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css margin-bottom is \"15px\"",
+            "highlight" : [ "vhc-checkbox-div-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css background-color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding is \"7px\"",
+            "highlight" : [ "vhc-checkbox-div-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-1" ]
+          } ]
+        }, {
+          "name" : "vhc-checkbox-div-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 25
+            },
+            "name" : "inside VHC-claim-screen 46px left",
+            "highlight" : [ "vhc-checkbox-div-2", "VHC-claim-screen" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 26
+            },
+            "name" : "inside vhc-claim-container 30px left",
+            "errors" : [ "\"vhc-checkbox-div-2\" is 31px left instead of 30px" ],
+            "highlight" : [ "vhc-checkbox-div-2", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css margin-bottom is \"15px\"",
+            "highlight" : [ "vhc-checkbox-div-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css background-color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding is \"7px\"",
+            "highlight" : [ "vhc-checkbox-div-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-2" ]
+          } ]
+        }, {
+          "name" : "vhc-checkbox-div-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 25
+            },
+            "name" : "inside VHC-claim-screen 46px left",
+            "highlight" : [ "vhc-checkbox-div-3", "VHC-claim-screen" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 26
+            },
+            "name" : "inside vhc-claim-container 30px left",
+            "errors" : [ "\"vhc-checkbox-div-3\" is 31px left instead of 30px" ],
+            "highlight" : [ "vhc-checkbox-div-3", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css margin-bottom is \"15px\"",
+            "highlight" : [ "vhc-checkbox-div-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css background-color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding is \"7px\"",
+            "highlight" : [ "vhc-checkbox-div-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-3" ]
+          } ]
+        }, {
+          "name" : "vhc-checkbox-div-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 25
+            },
+            "name" : "inside VHC-claim-screen 46px left",
+            "highlight" : [ "vhc-checkbox-div-4", "VHC-claim-screen" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 26
+            },
+            "name" : "inside vhc-claim-container 30px left",
+            "errors" : [ "\"vhc-checkbox-div-4\" is 31px left instead of 30px" ],
+            "highlight" : [ "vhc-checkbox-div-4", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css margin-bottom is \"15px\"",
+            "highlight" : [ "vhc-checkbox-div-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css background-color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding is \"7px\"",
+            "highlight" : [ "vhc-checkbox-div-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-4" ]
+          } ]
+        }, {
+          "name" : "vhc-checkbox-div-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 25
+            },
+            "name" : "inside VHC-claim-screen 46px left",
+            "highlight" : [ "vhc-checkbox-div-5", "VHC-claim-screen" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 26
+            },
+            "name" : "inside vhc-claim-container 30px left",
+            "errors" : [ "\"vhc-checkbox-div-5\" is 31px left instead of 30px" ],
+            "highlight" : [ "vhc-checkbox-div-5", "vhc-claim-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 27
+            },
+            "name" : "css margin-bottom is \"15px\"",
+            "highlight" : [ "vhc-checkbox-div-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 28
+            },
+            "name" : "css background-color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 29
+            },
+            "name" : "css padding is \"7px\"",
+            "highlight" : [ "vhc-checkbox-div-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Fhoeben\\FitNesseRoot\\files\\VitalityHealthCheck\\VHCClaimPointsPage1.txt",
+              "lineNumber" : 30
+            },
+            "name" : "css color is \"rgba(51, 51, 51, 1)\"",
+            "highlight" : [ "vhc-checkbox-div-5" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "VHC-claim-screen" : {
+          "area" : [ 15, 205, 303, 855 ]
+        },
+        "vhc-checkbox-div-1" : {
+          "area" : [ 61, 666, 201, 35 ]
+        },
+        "vhc-checkbox-div-3" : {
+          "area" : [ 61, 766, 201, 35 ]
+        },
+        "vhc-checkbox-div-2" : {
+          "area" : [ 61, 716, 201, 35 ]
+        },
+        "vhc-checkbox-div-5" : {
+          "area" : [ 61, 866, 201, 35 ]
+        },
+        "vhc-checkbox-div-4" : {
+          "area" : [ 61, 816, 201, 35 ]
+        },
+        "vhc-claim-container" : {
+          "area" : [ 30, 339, 273, 691 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
